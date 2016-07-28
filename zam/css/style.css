@@ -1,3 +1,5 @@
 body {
-    background-repeat: url(img/green_kv.png); /* Путь к фоновому изображению */
-   }
+    background: url(/img/green_kv.png);
+    width: 100%;
+    padding: 0;
+  }
