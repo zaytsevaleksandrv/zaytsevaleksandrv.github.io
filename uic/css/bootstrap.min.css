@@ -88,7 +88,7 @@
 	width:120px;
  }
 .pushkin{
-	background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/uic/img/pushkin.png) center no-repeat  ;
+	background: url(https://github.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/tree/master/uic/img/pushkin.png) center no-repeat  ;
 	background-size: cover;
 	 display: block;
 	height: auto;
@@ -386,13 +386,13 @@
 
 .container_9_text:before {
   left: 55px;
-   background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/uic/img/left_kar_foo.png) 0 0 no-repeat;
+   background: url(https://github.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/tree/master/uic/img/left_kar_foo.png) 0 0 no-repeat;
 
 }
 
 .container_9_text:after {
   right: 55px;
-   background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/uic/img/right_kar_foo.png) 0 0 no-repeat;
+   background: url(https://github.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/tree/master/uic/img/right_kar_foo.png) 0 0 no-repeat;
 }
 .container_9_uic {
   font-family: "Noto Sans",sans-serif;
@@ -588,7 +588,7 @@
 
 .history__line {
     width: 360px;
-    background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/uic/img/line_god.png) 0 0 no-repeat;
+    background: url(https://github.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/tree/master/uic/img/line_god.png) 0 0 no-repeat;
     height: 11px;
     margin: 0 auto;
 }
