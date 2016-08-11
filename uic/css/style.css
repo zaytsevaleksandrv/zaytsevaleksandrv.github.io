@@ -748,6 +748,10 @@ width:170px;
 .navbar-nav {
     background: #ebeef1;
 	}
+.head_text {
+    font-size: lagre;
+    color: #202020;
+	}
 .flex-container{
     width: 100%;
     text-align: center;
