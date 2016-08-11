@@ -745,6 +745,9 @@ width:170px;
 .quest_form_3 {
     width: 50%;
 }
+.navbar-nav {
+    background: #363636;
+	}
 .flex-container{
     width: 100%;
     text-align: center;
