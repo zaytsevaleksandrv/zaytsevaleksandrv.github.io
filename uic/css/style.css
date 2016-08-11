@@ -652,6 +652,8 @@ width:170px;
 }
 .img_part_line{
 }
+.img_itog{
+}
 
 
 .flex-container {
@@ -735,6 +737,12 @@ width:170px;
 }
 .semin_container_flex_row {
   display: block;
+}
+.img_itog{
+	float:left;
+}
+.container_6_text1 {
+	float:left;
 }
 .quest_form_1 {
     width: 100%;
