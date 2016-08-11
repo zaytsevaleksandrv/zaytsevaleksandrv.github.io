@@ -654,7 +654,7 @@ width:170px;
 }
 .img_itog{
 }
-
+.pust{}
 
 .flex-container {
   display: flex;
@@ -735,6 +735,8 @@ width:170px;
 .flex-container_footer{
   justify-content: center;
 }
+.pust{
+ padding:10px;}
 .semin_container_flex_row {
   display: block;
 }
