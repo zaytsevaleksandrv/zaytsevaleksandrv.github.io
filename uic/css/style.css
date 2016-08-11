@@ -456,6 +456,15 @@
 	font-weight:100;
 	vertical-align: middle;
 }
+.quest_form_1{
+width:330px;
+}
+.quest_form_2{
+width:150px;
+}
+.quest_form_3{
+width:170px;
+}
 .text_footer_10{
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 14px;
@@ -727,6 +736,14 @@
 .semin_container_flex_row {
   display: block;
 }
+.flex-container{
+    width: 100%;
+    text-align: center;
+	}
+.uic_container_3{
+	    max-width: 100%;
+    overflow: hidden;
+	}
   .text_block2, .text_nomer_block2, .text_uic3_block3,.container_9_text:before,.container_9_text:after {
   display:none;
 }
