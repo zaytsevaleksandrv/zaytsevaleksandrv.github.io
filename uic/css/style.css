@@ -736,6 +736,15 @@ width:170px;
 .semin_container_flex_row {
   display: block;
 }
+.quest_form_1 {
+    width: 100%;
+}
+.quest_form_2 {
+    width: 44%;
+}
+.quest_form_3 {
+    width: 50%;
+}
 .flex-container{
     width: 100%;
     text-align: center;
