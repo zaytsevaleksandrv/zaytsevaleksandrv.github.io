@@ -656,6 +656,9 @@ width:170px;
 }
 .pust{
 padding-left:20px}
+hr {
+    padding: inherit;
+	}
 
 .flex-container {
   display: flex;
