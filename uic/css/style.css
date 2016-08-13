@@ -429,6 +429,13 @@
 	padding: 0px 15px;
 	width: 567px;
 }
+.container_9_rd2{
+	font-size:14px;
+	color: #363636;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight:100;
+	text-transform: none;
+}
 .was {
     display: inline-block;
     vertical-align: top;
