@@ -628,11 +628,6 @@ width:170px;
   border-right: 13px solid transparent
 }
 
-.history__date.selected {
-  color: #fff;
-  background: #ef4036
-}
-
 .history__date.selected:after {
   border-top-color: #ef4036
 }
