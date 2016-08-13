@@ -577,7 +577,9 @@ width:170px;
   color: #fff;
   background: #ef4036;
 }
-
+.history__date:hover .history__date:after {
+  border-top: 10px solid #ef4036;
+}
 
 .history__date_title {
   margin-top: 12px;
