@@ -577,7 +577,7 @@ width:170px;
   color: #fff;
   background: #ef4036;
 }
-.history__date:hover .history__date:after {
+.history__date:hover :after {
   border-top: 10px solid #ef4036;
 }
 
