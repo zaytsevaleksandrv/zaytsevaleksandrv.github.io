@@ -573,6 +573,10 @@ width:170px;
   color: #333;
 }
 
+.history__date:hover {
+  color: #fff;
+  background: #ef4036;
+}
 .history__date:before {
   left: 12px;
   bottom: -10px;
@@ -659,10 +663,7 @@ width:170px;
   border-right: 13px solid transparent;
 }
 
-.history__date.selected {
-  color: #fff;
-  background: #ef4036;
-}
+
 .img_vert_line{
 }
 .img_part_line{
