@@ -440,6 +440,9 @@
 	text-decoration: none;
 	border-bottom: 1px solid #ef4036;
 }
+.container_9_rd2_a:hover, .container_9_rd2_a:focus {
+    text-decoration: none;
+}
 .was {
     display: inline-block;
     vertical-align: top;
