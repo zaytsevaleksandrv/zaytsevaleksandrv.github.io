@@ -576,6 +576,7 @@ width:170px;
 
 .history__date:hover .history__date_title  {
   display: block;
+  width: initial;
 }
 
 .history__date:hover {
@@ -588,15 +589,16 @@ width:170px;
 
 .history__date_title {
   margin-top: 12px;
-  font-weight: 400;
+  font-weight: 700;
   font-style: italic;
   color:#333;
   width: 100%;
-  top: 70px;
+  top: 46px;
   left: 0;
   text-align: center;
   position:absolute;
   display:none;
+  text-transform: none;
 }
 
 
