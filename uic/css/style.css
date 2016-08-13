@@ -757,6 +757,10 @@ hr {
   display:flex;
   flex-direction:row;
 } 
+.container_hist_col{
+  display:flex;
+  flex-direction:column;
+} 
 
  @media (max-width:414px){
 .flex-container_footer{
