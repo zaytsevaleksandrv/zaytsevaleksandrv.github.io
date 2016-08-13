@@ -548,7 +548,7 @@ width:170px;
 
 /*???????*/
 .history {
-  padding-top: 40px;
+  padding-top: 60px;
 }
 
 .history__point {
@@ -577,13 +577,7 @@ width:170px;
   color: #fff;
   background: #ef4036;
 }
-.history__date:before {
-  left: 12px;
-  bottom: -10px;
-  border-top: 10px solid #ef4036;
-  border-right: 13px solid transparent;
-}
-}
+
 
 .history__date_title {
   margin-top: 12px;
@@ -617,14 +611,6 @@ width:170px;
   bottom: -10px;
   border-top: 10px solid #ef4036;
   border-right: 13px solid transparent;
-}
-
-
-.history__date_title {
-  margin-top: 12px;
-  font-weight: 700;
-  font-style: italic;
-  text-align: center
 }
 
 .history__point:first-child {
