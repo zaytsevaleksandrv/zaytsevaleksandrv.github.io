@@ -726,7 +726,7 @@ hr {
   flex-direction:column;
 } 
 
-@media (max-width:768px){
+@media (max-width:769px){
 .flex-container_footer{
   justify-content: center;
 }
