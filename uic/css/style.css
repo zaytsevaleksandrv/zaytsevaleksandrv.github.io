@@ -623,15 +623,6 @@ width:170px;
   border-right: 13px solid transparent
 }
 
-.history__date:after {
-  width: 0;
-  height: 0;
-  left: 13px;
-  bottom: -8px;
-  border-top: 10px solid #fff;
-  border-right: 13px solid transparent
-}
-
 .history__date:hover{
   border-top-color: #ef4036
 }
