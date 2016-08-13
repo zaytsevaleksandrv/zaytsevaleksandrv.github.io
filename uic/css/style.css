@@ -604,17 +604,21 @@ width:170px;
   content: '';
   position: absolute
 }
-
+.history__date:after {
+  width: 0;
+  height: 0;
+  left: 13px;
+  bottom: -8px;
+  border-top: 10px solid #fff;
+  border-right: 13px solid transparent;
+}
 .history__date:before {
   left: 12px;
   bottom: -10px;
   border-top: 10px solid #ef4036;
-  border-right: 13px solid transparent
+  border-right: 13px solid transparent;
 }
 
-.history__date:hover{
-  border-top-color: #ef4036
-}
 
 .history__date_title {
   margin-top: 12px;
@@ -625,30 +629,6 @@ width:170px;
 
 .history__point:first-child {
   margin-left: 25px;
-}
-
-.history__date:before {
-  left: 12px;
-  bottom: -10px;
-  border-top: 10px solid #ef4036;
-  border-right: 13px solid transparent;
-}
-
-.history__date:after {
-  width: 0;
-  height: 0;
-  left: 13px;
-  bottom: -8px;
-  border-top: 10px solid #fff;
-  border-right: 13px solid transparent;
-}
-.history__date:hover {
-  width: 0;
-  height: 0;
-  left: 13px;
-  bottom: -8px;
-  border-top: 10px solid #ef4036;
-  border-right: 13px solid transparent;
 }
 
 .img_vert_line{
