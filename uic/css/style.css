@@ -632,7 +632,7 @@ width:170px;
   border-right: 13px solid transparent
 }
 
-.history__date.selected:after {
+.history__date:hover{
   border-top-color: #ef4036
 }
 
