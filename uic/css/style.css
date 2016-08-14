@@ -726,6 +726,16 @@ hr {
   flex-direction:column;
 } 
 
+@media (max-width:970px){
+
+.flex-container{
+	max-width: 100%;
+	overflow: hidden;
+    	display: block;
+	}
+
+}
+
 @media (max-width:769px){
 .flex-container_footer{
   justify-content: center;
