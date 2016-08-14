@@ -740,6 +740,11 @@ hr {
     flex-direction: row;
     display: inline-block;
 }
+.flex-item {
+    padding-top: 18px;
+    padding-left: 40px;
+    display: inline-table;
+}
 }
 
 @media (max-width:769px){
