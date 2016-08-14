@@ -7,7 +7,8 @@
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-  <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <title>Пятая Удмуртская Интернет-конференция</title>
 </head>
@@ -66,6 +67,11 @@
 
   <!--karusel' pushkin-->
   <div class="container-fluid pushkin" >
+    <div class="uic_container " id="main_slad">
+        <button class="button_slad left" onclick="slider.left();"><</button>
+      <div id="scr"></div>
+        <button class="button_slad right" onclick="slider.right();">></button>
+      </div>
     <div class="uic_container_share">
       <div class="container_flex_share">
         <a href="#" class="share">
@@ -382,7 +388,7 @@
             <div class="history__box">
   <div class="history">
     <div class="history__line clearfix">
-      <div class="history__point"> 
+      <div class="history__point">
       <span class="history__date">2007 <div class="history__date_title">«Первый семинар для клиентов»</div></span> </div>
       <div class="history__point"> <span class="history__date">2009<div class="history__date_title">Первая «Летняя кухня»</div></span> </div>
       <div class="history__point"> <span class="history__date">2010 <div class="history__date_title">Первая Удмуртская интернет-конференция</div></span> </div>
