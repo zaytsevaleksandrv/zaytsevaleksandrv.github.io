@@ -753,7 +753,6 @@ hr {
 @media (max-width:769px){
 .flex-container_footer{
   justify-content: center;
-  display: table;
 }
 .pust{
  padding:10px;}
