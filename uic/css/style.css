@@ -649,6 +649,10 @@ hr {
  flex-flow: row wrap;
  justify-content: center;
 }
+.flex-container_reg {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;}
 .flex-container_footer {
  display: flex;
  flex-flow: row wrap;
