@@ -745,6 +745,9 @@ hr {
     padding-left: 40px;
     display: inline-table;
 }
+.text_uic3_block3{
+	display:none;
+}
 }
 
 @media (max-width:769px){
