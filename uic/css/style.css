@@ -814,13 +814,16 @@ padding:10px;}
 .flex-container{
    max-width: 100%;
    overflow: hidden;
-   display: flex;
+    display: block;
+    text-align: center;
+    width: 100%;
  }
  .text_block2, .text_nomer_block2,.container_hist_col, .text_uic3_block3,.container_9_text:before,.container_9_text:after,.semin_container_flex_row_rd2{
  display:none;
 }
 .text_4_block2, .text_5_block2,.container_4_text_3,.semin_container_flex_1_text,.semin_container_flex_1_text1,.semin_container_flex_1_text2,.sesmin_info_text ,.sesmin_info_text2,.sesmin_info_text4,.semin_container_flex_1_text3{
    font-size: large;
+   display: block;
  }
 .text_uic_block3 {
    font-size: 200%;
@@ -976,6 +979,7 @@ padding:10px;}
 }
 .text_4_block2, .text_5_block2,.container_4_text_3,.semin_container_flex_1_text,.semin_container_flex_1_text1,.semin_container_flex_1_text2,.sesmin_info_text ,.sesmin_info_text2,.sesmin_info_text4,.semin_container_flex_1_text3{
    font-size: large;
+   display: block;
  }
 .text_uic_block3 {
    font-size: 200%;
