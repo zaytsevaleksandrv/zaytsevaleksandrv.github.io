@@ -733,7 +733,9 @@ hr {
 	overflow: hidden;
     	display: block;
 	}
-
+.uic_container_3{
+	padding-bottom:20px;
+}
 }
 
 @media (max-width:769px){
