@@ -780,7 +780,7 @@ padding-top:65px;
 #scr {
 	width: 75%;}
 .flex-container_footer{
- justify-content: center;
+ justify-content: space-around;
 }
 .container_6_text{
 	font-size:small;
