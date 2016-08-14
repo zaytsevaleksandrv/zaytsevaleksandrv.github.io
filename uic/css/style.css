@@ -750,7 +750,9 @@ hr {
 .pust{
  padding:10px;}
 .semin_container_flex_row {
-  display: flex;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
 }
 .img_itog{
 	float:left;
