@@ -763,6 +763,10 @@ padding-top:65px;
    overflow: hidden;
    display: flex;
  }
+ .flex-container_reg {
+     max-width: 100%;
+   overflow: hidden;
+   display: flex;}
 .pust {
    padding: 10px;
 }
@@ -828,6 +832,10 @@ padding:10px;}
     text-align: center;
     width: 100%;
  }
+  .flex-container_reg {
+     max-width: 100%;
+   overflow: hidden;
+   display: block;}
  .text_block2, .text_nomer_block2,.container_hist_col, .text_uic3_block3,.container_9_text:before,.container_9_text:after,.semin_container_flex_row_rd2{
  display:none;
 }
@@ -906,6 +914,9 @@ padding:10px;}
    overflow: hidden;
    text-align: center;
  }
+  .flex-container_reg {
+     max-width: 100%;
+   overflow: hidden;}
  .text_block2, .text_nomer_block2,.container_hist_col, .text_uic3_block3,.container_9_text:before,.container_9_text:after,.semin_container_flex_row_rd2{
  display:none;
 }
