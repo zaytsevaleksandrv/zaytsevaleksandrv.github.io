@@ -729,7 +729,7 @@ padding-top:65px;
 }
 #scr {
 	margin:20px auto;
-	width: 410px;
+	width: 50%;
 	height: 163px;
 	margin-top:115px;
 	background-color: transparent;;
@@ -777,6 +777,8 @@ padding-top:65px;
 }
 
 @media (max-width:769px){
+#scr {
+	width: 75%;}
 .flex-container_footer{
  justify-content: center;
 }
@@ -853,6 +855,8 @@ padding-bottom:30px;
 }
 }
 @media (max-width:581px){
+	#scr {
+	width: 70%;}
 .flex-container_footer{
  justify-content: center;
 }
