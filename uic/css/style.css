@@ -736,6 +736,10 @@ hr {
 .pust {
     padding: 10px;
 }
+.container_4_1_flex {
+    flex-direction: row;
+    display: inline-block;
+}
 }
 
 @media (max-width:769px){
