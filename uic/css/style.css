@@ -740,14 +740,12 @@ hr {
     flex-direction: row;
     display: inline-block;
 }
-.flex-container_footer {
-    justify-content: center;
-}
 }
 
 @media (max-width:769px){
 .flex-container_footer{
   justify-content: center;
+  display: table;
 }
 .pust{
  padding:10px;}
