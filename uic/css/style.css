@@ -826,7 +826,8 @@ padding-bottom:30px;
 .pust{
  padding:10px;}
 .semin_container_flex_row {
-  display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
 }
 .img_itog{
 	float:left;
