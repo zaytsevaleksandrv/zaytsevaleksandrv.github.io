@@ -9,6 +9,7 @@
   <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
   <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/send.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
   <title>Пятая Удмуртская Интернет-конференция</title>
 </head>
@@ -54,7 +55,18 @@
           <hr>
         </div>
         <div class="col-xs-4 col-sm-4 col-md-4 flex-container">
-          <font class="text_block2">Письма направлять:<br><a class="text_mail_block2" href="mailto:uic@picom.ru">uic@picom.ru</a></font>
+          <font class="text_block2">Письма направлять:<br><a class="text_mail_block2" data-toggle="modal" data-target=".bs-example-modal-sm" href="mailto:uic@picom.ru">uic@picom.ru</a></font>
+            <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                 <div class="modal-content">
+                    <form id="form">
+                      <input type="text" name="name" required="required"/>
+                      <input type="text" name="phone" required="required"/>
+                      <input type="submit" value="Отправить письмо"/>
+                    </form>
+                 </div>
+              </div>
+            </div>
         </div>
       </div>
       <div class="row">
