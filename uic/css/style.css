@@ -746,11 +746,11 @@ padding-top:65px;
 	height: 40px;
   color: transparent;
 }
-.left {
+.left_slad {
 	left:5px;
   background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/uic/img/block2_left.png);
 }
-.right {
+.right_slad {
 	right:5px;
   background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/uic/img/block2_right.png);
 }
