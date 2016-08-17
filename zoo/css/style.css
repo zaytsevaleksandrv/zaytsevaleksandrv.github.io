@@ -168,11 +168,11 @@
 /*animals*/
 
 .img_anim {
-    background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/zoo/img/fonts.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/0ff2aa4292556285339741361acf4243af1a267a/zoo/img/fonts.png) center no-repeat;
     background-size: cover;
 }
 .img_anim_f {
-    background: url(C:/Users/zaytsevaleksandrv/zaytsevaleksandrv.github.io/zoo/img/fonts_fot.png) center no-repeat;
+    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/0ff2aa4292556285339741361acf4243af1a267a/zoo/img/fonts_fot.png) center no-repeat;
     background-size: cover;
 }
 .text-anim {
