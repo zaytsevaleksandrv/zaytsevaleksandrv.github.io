@@ -305,3 +305,23 @@
     margin-left: 11px;
     margin-top: 10px;
 }
+.img_anim_tr {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+.img_anim_tr:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.img_anim_tr_1 {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+}
+.img_anim_tr_1:hover {
+    -webkit-transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+}
