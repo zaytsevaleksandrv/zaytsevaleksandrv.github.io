@@ -401,7 +401,7 @@
 .rating {
     unicode-bidi: bidi-override;
     direction: rtl;
-    width: 73%;
+    text-align:center;
     color: rgb( 128, 203, 196);
     font-size: x-large;
 }
