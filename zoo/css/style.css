@@ -31,14 +31,14 @@
 }
 .navbar_fixed_text_in {
     font-size: 15px !important;
-    color: rgb( 255, 88, 35) !important;
+    color: rgb( 128, 203, 196) !important;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif !important;
     font-weight: 100;
     margin-left: 20px;
 }
 .navbar_fixed_text_in:hover {
-    color: rgb( 128, 203, 196) !important;
+    color: rgb( 255, 88, 35) !important;
 }
 
 /*head*/
