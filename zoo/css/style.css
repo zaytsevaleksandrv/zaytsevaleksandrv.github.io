@@ -171,7 +171,6 @@
     background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/zoo/img/fonts1.png) center no-repeat;
     background-size: cover;
 }
-
 .text-anim {
     font-size: 36px;
     margin-top: 70px;
@@ -324,4 +323,168 @@
     -webkit-transform: rotate(-360deg);
     -moz-transform: rotate(-360deg);
     -o-transform: rotate(-360deg);
+}
+
+/*list feed*/
+
+.list_feed {
+    background: #c4c3c3;
+}
+.breadcrumb {
+    background-color: #c4c3c3 !important;
+    color: #333 !important;
+}
+.flex_column {
+    display: block;
+    flex-direction: column;
+    padding-left: 15px;
+}
+.flex_row {
+    display: block;
+    flex-direction: row;
+}
+.block_feed_anim {
+    background: #fff;
+    margin-bottom: 5px;
+}
+.block_feed_tov {
+    background: #fff;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+.img-otstup_feed {
+    width: 20%;
+    margin-right: 12px;
+}
+.feed_text {
+    font-size: 15px !important;
+    color: rgb( 128, 203, 196) !important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+}
+.feed_text:hover {
+    color: rgb( 255, 88, 35) !important;
+}
+.feed_text:active {
+    color: rgb( 255, 88, 35) !important;
+}
+.dropdown-menu_1 {
+    position: static !important;
+    float: none !important;
+    border: 0px solid #ccc !important;
+    border: 0px solid rgba(0, 0, 0, .15) !important;
+    text-align: justify !important;
+    text-decoration: underline;
+}
+.feed_text_li {
+    color: rgb( 128, 203, 196)!important;
+    text-decoration: underline;
+}
+.feed_text_li:hover {
+    color: rgb( 255, 88, 35) !important;
+    text-decoration: none !important;
+}
+.dropdown-menu>li>a {
+    padding: 3px 60px !important;
+}
+.block_block {
+    display: block;
+    border-right: 2px solid #c4c3c3;
+    margin-top: 15px;
+}
+.img_tov {
+    width: 50%;
+    margin: 15px 40px;
+}
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    width: 73%;
+    color: rgb( 128, 203, 196);
+    font-size: x-large;
+}
+.rating> span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
+.rating> span:hover:before, .rating> span:hover~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+.price_text {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif !important;
+    color: #333;
+    margin-bottom: 10px;
+}
+.name_text_tov {
+    font-size: 15px !important;
+    color: rgb( 128, 203, 196) !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+    text-decoration: underline;
+    margin-bottom: 7px;
+}
+.name_text_tov:hover {
+    color: rgb( 255, 88, 35) !important;
+}
+.ves_text_tov {
+    font-size: 15px !important;
+    color: #333 !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.nal_text_tov {
+    font-size: 15px !important;
+    color: #333 !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.opis_text_tov {
+    font-size: 15px !important;
+    color: #333 !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.kroshki {
+    font-size: 14px !important;
+    color: rgb( 255, 88, 35) !important;
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 100;
+}
+.order_b {
+    width: 70%;
+}
+.order_b-block {
+    display: block;
+    text-align: -webkit-center;
+    margin-top: 30px;
+}
+.add_comment {
+    display: block;
+    width: 40px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    top: 250px;
+    z-index: 99999;
+}
+.img_basket_btn {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.btn_basket {
+    background-color: rgb( 128, 203, 196);
+    border: none;
+}
+.btn_basket:hover {
+    background: rgb( 255, 88, 35);
 }
