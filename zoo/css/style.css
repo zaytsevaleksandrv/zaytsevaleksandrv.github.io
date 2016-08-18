@@ -527,3 +527,6 @@
     width: 150px;
     height: 150px;
 }
+.form-control_1 {
+    width: 120% !important;
+}
