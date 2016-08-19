@@ -542,3 +542,18 @@
 .form-control_1 {
     width: 120% !important;
 }
+.img_morda {
+    width: 40%;
+    text-align: center;
+    padding-top: 40px;
+}
+.block_feed_mord {
+    background: #fff;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+}
