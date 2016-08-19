@@ -564,3 +564,10 @@
 .img_stock:hover {
     border: 1px solid rgb( 128, 203, 196);
 }
+.iframe_kart {
+    display: block;
+    text-align: center;
+}
+.iframe_kart:hover {
+    border: 1px solid rgb( 128, 203, 196);
+}
