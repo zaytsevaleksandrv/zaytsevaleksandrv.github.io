@@ -556,3 +556,11 @@
     padding-right: 50px;
     padding-bottom: 80px;
 }
+.img_stock {
+    width: 70%;
+    text-align: center;
+    padding-top: 40px;
+}
+.img_stock:hover {
+    border: 1px solid rgb( 128, 203, 196);
+}
