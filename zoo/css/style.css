@@ -7,14 +7,14 @@
     font-size: 15px !important;
     color: rgb( 128, 203, 196) !important;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif !important;
+   font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 20px;
 }
 .navbar_fixed_text_drop {
     font-size: 15px !important;
     color: rgb( 128, 203, 196) !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
 }
 .navbar_fixed_text_drop:hover {
@@ -33,7 +33,7 @@
     font-size: 15px !important;
     color: rgb( 128, 203, 196) !important;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 20px;
 }
@@ -56,28 +56,28 @@
 .text_logo_o1 {
     font-size: 72px;
     color: #99b4a4;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewaySemiBold";
     font-weight: 500;
     float: left;
 }
 .text_logo_o2 {
     font-size: 72px;
     color: #aea18a;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewaySemiBold";
     font-weight: 500;
     float: left;
 }
 .text_logo_o3 {
     font-size: 72px;
     color: #cc8663;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewaySemiBold";
     font-weight: 500;
     float: left;
 }
 .text_logo_o4 {
     font-size: 72px;
     color: #ff5722;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewaySemiBold";
     font-weight: 500;
     float: left;
 }
@@ -95,14 +95,14 @@
 .text_head {
     font-size: 16px;
     color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
     line-height: 1.5;
 }
 .text_head_20 {
     font-size: 16px;
     color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
     margin-left: 20px;
     line-height: 1.5;
@@ -110,7 +110,7 @@
 .text_head_40 {
     font-size: 16px;
     color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
     margin-left: 40px;
     line-height: 1.5;
@@ -121,7 +121,7 @@
 .text_head_tel {
     font-size: 21px;
     color: #000000;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
 }
 .text_head_tel:hover {
@@ -130,7 +130,7 @@
 .text_head_ad {
     font-size: 21px;
     color: rgb( 128, 203, 196);
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
     border-bottom: 1px dashed rgb( 128, 203, 196);
 }
@@ -149,7 +149,7 @@
 .text_head_bas {
     font-size: 21px;
     color: rgb( 128, 203, 196);
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
     border-bottom: 1px solid rgb( 128, 203, 196);
 }
@@ -168,7 +168,7 @@
 /*animals*/
 
 .img_anim {
-    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/zoo/img/fonts1.png) center no-repeat;
+    background: url(../img/fonts1.png) center no-repeat;
     background-size: cover;
 }
 .text-anim {
@@ -178,7 +178,7 @@
     text-transform: uppercase;
     color: #000;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayBold";
     font-weight: 700;
 }
 .text-anim_1 {
@@ -187,7 +187,7 @@
     text-transform: uppercase;
     color: #000;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayBold";
     font-weight: 700;
 }
 .div_anim {
@@ -223,7 +223,7 @@
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
 }
 .text_anim_block:hover {
@@ -239,7 +239,7 @@
     text-transform: uppercase;
     color: #f1e9e1;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "RalewayMedium";
     font-weight: 300;
 }
 
@@ -252,7 +252,7 @@
     font-size: 16px;
     color: #5b4e4b;
     text-align: center;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayMedium" !important;
     font-weight: 300 !important;
 }
 .img_otz {
@@ -274,7 +274,7 @@
     color: #c7c2c2 !important;
     text-transform: uppercase;
     text-decoration: underline;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 100px;
 }
@@ -285,7 +285,7 @@
     font-size: 15px !important;
     color: #c7c2c2 !important;
     text-transform: uppercase;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 100px;
 }
@@ -295,7 +295,7 @@
 .footer_text_a {
     font-size: 15px !important;
     color: #c7c2c2 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 100px;
     text-align: left;
@@ -303,7 +303,7 @@
 .footer_text_2 {
     font-size: 15px !important;
     color: #c7c2c2 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-left: 100px;
     text-decoration: underline;
@@ -373,7 +373,7 @@
     color: rgb( 128, 203, 196) !important;
     text-transform: uppercase;
     text-decoration: underline;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
 }
 .feed_text:hover {
@@ -452,14 +452,14 @@
 .price_text {
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewaySemiBold" !important;
     color: #333;
     margin-bottom: 10px;
 }
 .name_text_tov {
     font-size: 15px !important;
     color: rgb( 128, 203, 196) !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     text-decoration: underline;
     margin-bottom: 7px;
@@ -470,28 +470,28 @@
 .ves_text_tov {
     font-size: 15px !important;
     color: #333 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-bottom: 7px;
 }
 .nal_text_tov {
     font-size: 15px !important;
     color: #333 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-bottom: 7px;
 }
 .opis_text_tov {
     font-size: 15px !important;
     color: #333 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-bottom: 7px;
 }
 .kroshki {
     font-size: 14px !important;
     color: rgb( 255, 88, 35) !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
 }
 .order_b {
@@ -512,9 +512,57 @@
     z-index: 99999;
 }
 .img_basket_btn {
-    width: 100%;
+    width: 70%;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.fixed_block_right {
+    display: block;
+}
+.fixed_block_right_a {
+    display: block;
+    text-align: center;
+}
+#slideout {
+    position: fixed;
+    top: 250px;
+    right: 0;
+    width: 55px;
+    padding: 12px 0;
+    text-align: center;
+    background: rgb( 128, 203, 196);
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    z-index: 50;
+	transition: 0.5s;
+}
+#slideout_inner {
+    position: fixed;
+    top: 250px;
+    right: -250px;
+    background: #ffffff;
+    width: 250px;
+    padding: 25px;
+    -webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    text-align: right;
+    z-index: 50;
+	transition: 0.5s;
+}
+#slideout_inner textarea {
+    width: 190px;
+    height: 100px;
+    margin-bottom: 6px;
+}
+#slideout:hover {
+    right: 250px;
+}
+#slideout:hover #slideout_inner {
+    right: 0;
 }
 .btn_basket {
     background-color: rgb( 128, 203, 196);
@@ -539,26 +587,26 @@
 .korm_text {
     font-size: 36px !important;
     color: #333 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayBold" !important;
     font-weight: 700;
 }
 .korm_text_s {
     font-size: 20px !important;
     color: #333 !important;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayBold" !important;
     font-weight: 700;
 }
 .order_by_zak {
-    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/zoo/img/order_b.png) center no-repeat;
+    background: url(../img/order_b.png) center no-repeat;
     width: 150px;
     height: 150px;
     display: block;
 }
 .order_by_zak:hover {
-    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/zoo/img/order_b_hover.png) center no-repeat;
+    background: url(../img/order_b_hover.png) center no-repeat;
 }
 .order_by_zak:active {
-    background: url(https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/zoo/img/order_b_act.png) center no-repeat;
+    background: url(../img/order_b_act.png) center no-repeat;
     width: 150px;
     height: 150px;
 }
@@ -688,7 +736,7 @@
     padding-top: 10px;
     margin-left: 20px;
     font-weight: 700;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayBold" !important;
     color: #333;
     margin-bottom: 10px;
 }
@@ -696,7 +744,7 @@
     font-size: 15px !important;
     color: #333 !important;
     padding-top: 10px;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     font-weight: 100;
     margin-bottom: 7px;
 }
@@ -716,7 +764,7 @@
 }
 .text_call {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     color: rgb( 128, 203, 196);
     border-bottom: 1px dashed rgb( 128, 203, 196);
     text-decoration: none !important;
@@ -730,7 +778,7 @@
 }
 .text_in {
     font-size: 16px;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
 }
 .block_ot_op {
     display: block;
@@ -740,7 +788,7 @@
 .btn_op {
     font-size: 24px;
     color: rgb(128, 203, 196);
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     text-decoration: underline;
     border: none;
     background: #fff;
@@ -751,7 +799,7 @@
 .btn_otzv {
     font-size: 24px;
     color: rgb(128, 203, 196);
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     text-decoration: underline;
     border: none;
     background: #fff;
@@ -787,6 +835,15 @@
     border: 4px solid rgb( 128, 203, 196);
     color: rgb( 128, 203, 196);
 }
+.kupit-color:active{
+content:"";
+     font-size: 65px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
 .kupit-color:before {
     position: absolute;
     height: 93%;
@@ -797,7 +854,7 @@
     font-size: 18px;
     font-weight: 100;
     color: #000;
-    font-family: 'Raleway', sans-serif !important;
+    font-family: "RalewayLight" !important;
     margin-top: 20px;
 }
 .form-control_red {
@@ -890,3 +947,19 @@
     color: #000;
     font-family: "RalewayBold" !important;
 }
+.order_b_feed{
+	background: url(../img/order_b.png) center no-repeat;
+	width:75px;
+	height:75px;
+	}
+.order_b_feed:hover{
+	background: url(../img/order_b_hover.png) center no-repeat;
+	
+	transition: 1.5s;
+	}
+.order_b_feed:active{
+	background: url(../img/order_b_act.png) center no-repeat;
+	width:75px;
+	height:75px;
+	transition:0.3s;
+	}
