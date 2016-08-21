@@ -268,7 +268,7 @@
 
                 <ol class="breadcrumb">
                     <li><a class="kroshki" href="../zoo/index.html">Главная</a></li>
-                    <li><a class="kroshki" href="#">Корзина</a></li>
+                    <li><a class="kroshki" href="../zoo/basket-user-true.html">Корзина</a></li>
                     <li class="active" style="color:#333">Оформление заказа</li>
                 </ol>
             </div>
@@ -322,63 +322,229 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-7 block_feed_tov  otstup_10" style="text-align:center; ">
-                <font class="text_basket-user">  Спасибо за покупку! Наш оператор скоро свяжется с Вами!</font>
-                <br>
-                <br>
-                <a href="../zoo/feed.html" class="text_basket-user_1">  Вернуться к списку товаров</a>
+                <table class="table table-hover number-table">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="" alt="" />
+                                <p class="text_basket-user_2">Ссылка</p>
+                                <p class="text_basket-user_3">Вес:</p>
+                            </td>
+                            <td>
+                                <button class="plus">+</button>
+                                <input class="number" style="float:right" type="text" value="1" size="1" />
+                                <button class="minus">&ndash;</button>
+                            </td>
+                            <td>
+                                <p class="text_basket-user_4"> цена</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="dop_in " style="padding-right:40px">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <font class="text_basket-user_3">общая стоимость:</font>
+                                </td>
+                                <td>
+
+                                </td>
+                                <tr>
+                                    <td>
+                                        <font class="text_basket-user_3">общий вес:</font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font class="text_basket-user_4">итого без доставки:</font>
+                                    </td>
+                                </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 dost_block" style="padding-bottom:20px;">
+                    <div class="text_basket-user">
+                        Способ доставки
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 siti_block" style="text-align: -webkit-auto;  padding-top:30px">
+                        <div class="form-group">
+                            <label class="control-label col-xs-2 col-md-2 red_text">Ваш город:</label>
+                            <div class="col-xs-5 col-md-5">
+                                <select class="form-control form-control_red">
+                                    <option disabled>Выберите город</option>
+                                    <option value="izh">Ижевск</option>
+                                    <option value="mog">Можга</option>
+                                    <option value="sar">Сарапул</option>
+                                    <option value="vtk">Воткинск</option>
+                                    <option value="glz">Глазов</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9">
+                        <div style="text-align: -webkit-auto;  padding-top:20px">
+                            <label class="radio-inline">
+                                <input type="radio" name="genderRadios" value="len23"> <font class="text_basket-user_5">Самовывоз с Ленина,23</font>
+                            </label>
+                            <p class="red_text" style="padding-left:20px">
+                                Со склада г. Ижевск, ул. Ленина, 23
+                                <br> Укажите дату и время когда бы Вы хотели забрать свой заказ. Наш менеджер свяжется с Вами, когда Ваш заказ будет готов.</p>
+                        </div>
+                        <div style="text-align: -webkit-auto;  padding-top:20px">
+                            <label class="radio-inline">
+                                <input type="radio" name="genderRadios" value="mailru"><font class="text_basket-user_5"> Почтой РОССИИ (228 руб.)</font>
+                            </label>
+                            <p class="red_text" style="padding-left:20px">
+                                Срок доставки 4-8 дней
+                                <br> Доставка по Росcии</p>
+                        </div>
+                    </div>
+                    <div class=" col-xs-12 col-sm-12 col-md-12 text_basket-user" style=" padding-top:20px;padding-bottom:30px">
+                        Адрес доставки
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-9">
+                        <p class="red_text" style="text-align: -webkit-auto;  padding-top:20px;padding-bottom:20px">
+                            Cамовывоз
+                            <br>Вы сможете забрать товары самостоятельно из нашего магазина (г. Ижевск, ул. Ленина, 23)</p>
+                    </div>
+                    <div class="form-group" style="text-align: -webkit-auto;">
+                        <label class="control-label col-xs-9 col-md-9 red_text">Выберите адрес доставки из списка или введите новый</label>
+                        <div class="col-xs-9 col-md-11">
+                            <select class="form-control form-control_red">
+                                <option>Новый адрес</option>
+                                <option value="izh">Ижевск</option>
+                                <option value="mog">Можга</option>
+                                <option value="sar">Сарапул</option>
+                                <option value="vtk">Воткинск</option>
+                                <option value="glz">Глазов</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div style=" padding-left:90px;padding-bottom:30px">
+                        <form class=" form-horizontal ">
+                            <div class="form-group">
+                                <label class="control-label col-xs-3 red_text" for="postalAdrees" style="padding-right:10px">Адрес*:</label>
+                                <div class="col-xs-8">
+                                    <input type="text" class="form-control form-control_red" id="fatherName" placeholder="Адрес">
+                                </div>
+                            </div>
+
+                            <div class="form-group ">
+                                <label class="control-label col-xs-3 red_text " for="lastName " style="padding-right:10px ">Фамилия:</label>
+                                <div class="col-xs-8 ">
+                                    <input type="text " class="form-control form-control_red " id="lastName " placeholder="Введите фамилию ">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="control-label col-xs-3 red_text " for="firstName " style="padding-right:10px ">Имя:</label>
+                                <div class="col-xs-8 ">
+                                    <input type="text " class="form-control form-control_red " id="firstName " placeholder="Введите имя ">
+                                </div>
+                            </div>
+                            <div class="form-group ">
+                                <label class="control-label col-xs-3 red_text " for="fatherName " style="padding-right:10px ">Отчество:</label>
+                                <div class="col-xs-8 ">
+                                    <input type="text " class="form-control form-control_red " id="fatherName " placeholder="Введите отчество ">
+                                </div>
+                            </div>
+                            <div class="form-group" style="padding-top:30px">
+                                <label class="control-label col-xs-3 red_text" for="inputEmail" style="padding-right:10px">Email*:</label>
+                                <div class="col-xs-8">
+                                    <input type="email" class="form-control form-control_red" id="inputEmail" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label col-xs-3 red_text" for="phoneNumber" style="padding-right:10px">Телефон:</label>
+                                <div class="col-xs-8">
+                                    <input type="tel" class="form-control form-control_red" id="phoneNumber" placeholder="Введите номер телефона">
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-sm-12 col-md-12 text_basket-user" style=" padding-top:20px;padding-bottom:30px">
+                    Способ оплаты
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div style="text-align: -webkit-auto;  padding-left:40px; padding-top:20px">
+                        <img src="img/viza_master.png" style=" padding-right:10px; " alt="" />
+                        <label class="radio-inline">
+
+                            <input type="radio" name="genderRadios" value="visa_master"> <font class="text_basket-user_5">банковской картой на сайте</font>
+                        </label>
+                    </div>
+                    <div style="text-align: -webkit-auto;  padding-left:40px;padding-top:20px">
+                        <img src="img/rub.png" style=" padding-right:20px; " alt="" />
+                        <label class="radio-inline">
+
+                            <input type="radio" name="genderRadios" value="rub"><font class="text_basket-user_5"> наличными при получении</font>
+                        </label>
+
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 " style="padding-top:80px; ">
+                    <a href="../zoo/basket-user-true.html ">
+                        <input type="submit " class="btn btn-primary " value="Подтвердить ">
+                    </a>
+                </div>
             </div>
+
         </div>
     </div>
     <!--footer-->
-    <div id="footer" class="container-fluid bac_footer">
-        <div class="fotter_div">
-            <div class="container_flex_anim_1">
-                <div style="text-align: start;">
-                    <ul class="list-unstyled">
+    <div id="footer " class="container-fluid bac_footer ">
+        <div class="fotter_div ">
+            <div class="container_flex_anim_1 ">
+                <div style="text-align: start; ">
+                    <ul class="list-unstyled ">
                         <li>
-                            <front class="footer_text_13">продукция</front>
+                            <front class="footer_text_13 ">продукция</front>
                         </li>
-                        <li><a href="#" class="footer_text_2">Для кошек</a>
-                            <li><a href="#" class="footer_text_2">Для собак</a></li>
-                            <li><a href="#" class="footer_text_2">Для рыб</a></li>
-                            <li><a href="#" class="footer_text_2">Для птиц</a></li>
-                            <li><a href="#" class="footer_text_2">Для грызунов</a></li>
-                            <li><a href="#" class="footer_text_2">Для хорьков</a></li>
-                            <li><a href="#" class="footer_text_2">Для рептилий</a></li>
+                        <li><a href="# " class="footer_text_2 ">Для кошек</a>
+                            <li><a href="# " class="footer_text_2 ">Для собак</a></li>
+                            <li><a href="# " class="footer_text_2 ">Для рыб</a></li>
+                            <li><a href="# " class="footer_text_2 ">Для птиц</a></li>
+                            <li><a href="# " class="footer_text_2 ">Для грызунов</a></li>
+                            <li><a href="# " class="footer_text_2 ">Для хорьков</a></li>
+                            <li><a href="# " class="footer_text_2 ">Для рептилий</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="container_flex_anim_1 footer_text">
+            <div class="container_flex_anim_1 footer_text ">
                 о нас
             </div>
-            <div class="container_flex_anim_1 footer_text">
+            <div class="container_flex_anim_1 footer_text ">
                 акции
             </div>
-            <div class="container_flex_anim_1 footer_text">
+            <div class="container_flex_anim_1 footer_text ">
                 контакты
             </div>
-            <div class="container_flex_anim_1 footer_text">
+            <div class="container_flex_anim_1 footer_text ">
                 доставка
             </div>
-            <div class="container_flex_anim_1 footer_text_a">
+            <div class="container_flex_anim_1 footer_text_a ">
                 г. Ижевск, ул. Ленина, д.23
                 <br>+7 (912) 464 24 83
             </div>
-            <div class="container_flex_anim_1 footer_text_a">
+            <div class="container_flex_anim_1 footer_text_a ">
                 Присоединяйся к нам
                 <br>
-                <img class="img_soc" src="img/soc_vk.png" alt="Responsive image">
-                <img class="img_soc" src="img/soc_inst.png" alt="Responsive image">
-                <img class="img_soc" src="img/soc_g.png" alt="Responsive image">
+                <img class="img_soc " src="img/soc_vk.png " alt="Responsive image ">
+                <img class="img_soc " src="img/soc_inst.png " alt="Responsive image ">
+                <img class="img_soc " src="img/soc_g.png " alt="Responsive image ">
             </div>
             <br>
-            <div class="container_flex_anim_2 footer_text_a">
+            <div class="container_flex_anim_2 footer_text_a ">
                 Обратная связь
                 <br>
                 <form>
-                    <input type="text" style=" margin: 6px 0;" class="form-control form-control_1" placeholder="Имя">
-                    <input type="text" style=" margin: 6px 0;" class="form-control form-control_1" placeholder="Номер телефона или @email">
-                    <button type="submit" class="btn btn-default">Отправить</button>
+                    <input type="text " style=" margin: 6px 0; " class="form-control form-control_1 " placeholder="Имя ">
+                    <input type="text " style=" margin: 6px 0; " class="form-control form-control_1 " placeholder="Номер телефона или @email ">
+                    <button type="submit " class="btn btn-default ">Отправить</button>
                 </form>
             </div>
         </div>

@@ -828,3 +828,65 @@
     padding-top: 50px;
     padding-bottom: 100px;
 }
+
+/*number-table*/
+
+.number-table {
+    border-collapse: collapse;
+    counter-reset: schetchik;
+    /* счётчик с названием "schetchik" работает в рамках класса .demotable */
+}
+.number-table tr {
+    counter-increment: schetchik;
+    /* при встрече тега tr счётчик с названием "schetchik" увеличивается на единицу */
+}
+.number-table td, .number-table tr:before {
+    padding: .1em .5em;
+    border: 1px solid #ddd;
+}
+.number-table tr:before {
+    content: counter(schetchik);
+    /* значение счётчика с названием "schetchik" записывается в первую клетку строки */
+    display: table-cell;
+    vertical-align: middle;
+    color: #978777;
+}
+.text_basket-user_2 {
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(128, 203, 196);
+    text-decoration: underline;
+    font-family: "RalewayLight" !important;
+    vertical-align: middle;
+}
+.text_basket-user_2:hover {
+    color: rgb( 255, 88, 35);
+}
+.text_basket-user_3 {
+    font-size: 16px;
+    font-weight: 100;
+    color: #000;
+    font-family: "RalewayLight" !important;
+    vertical-align: middle;
+}
+.text_basket-user_4 {
+    font-size: 16px;
+    color: #000;
+    font-family: "RalewayBold" !important;
+    vertical-align: middle;
+}
+.dost_block {
+    display: block;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.siti_block {
+    display: block;
+    float: left;
+}
+.text_basket-user_5 {
+    font-size: 16px;
+    color: #000;
+    font-family: "RalewayBold" !important;
+}
