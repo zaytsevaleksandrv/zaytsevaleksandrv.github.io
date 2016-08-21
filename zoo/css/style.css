@@ -425,12 +425,27 @@
     color: rgb( 128, 203, 196);
     font-size: x-large;
 }
+.rating_1 {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    color: rgb( 128, 203, 196);
+    font-size: x-large;
+}
 .rating> span {
     display: inline-block;
     position: relative;
     width: 1em;
 }
+.rating_1> span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
 .rating> span:hover:before, .rating> span:hover~ span:before {
+    content: "\2605";
+    position: absolute;
+}
+.rating_1> span:hover:before, .rating_1> span:hover~ span:before {
     content: "\2605";
     position: absolute;
 }
