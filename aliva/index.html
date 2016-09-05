@@ -11,10 +11,7 @@
     <script src="js/bootstrap.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript"></script>
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
     <title>Агенство путешествий - "Алива"</title>
 </head>
 
@@ -24,7 +21,7 @@
             <div class="modal-content" style="border: 3px solid #ffb845;">
                 <div class="modal-header" style="border-bottom:1px">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title modal_text" id="myModalLabel">Бронирование тура</h4>
+                    <h4 class="modal-title modal_text" id="myModal_bron">Бронирование тура</h4>
                 </div>
                 <div class="modal-body">
                     <div class="form-group" style="margin-bottom:1px">
@@ -40,7 +37,7 @@
                     <div class="form-group" style="margin-bottom:1px">
                         <label class="control-label" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565;float: left;margin-top: 15px;margin-bottom: 15px;">Количество человек</label>
                         <div class="col-xs-4" style="margin-top: 10px;margin-bottom: 10px; float:right">
-                            <select class="form-control" style="float:right">
+                            <select class="form-control" style="float:right; width: 138%;">
 
 												<option value="t1">01</option>
 												<option value="t2">02</option>
@@ -78,11 +75,11 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1"></label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="E-mail">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
-                        <input type="tel" class="form-control" id="exampleInputEmail1" style="float: right;width: 90%;" placeholder="Телефон">
+                        <label for="exampleInputTel" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
+                        <input type="tel" class="form-control" id="exampleInputTel" style="float: right;width: 90%;" placeholder="Телефон">
                     </div>
 
                 </div>
@@ -122,12 +119,12 @@
                                     </div>
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1"></label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Имя">
+                                            <label for="exampleInputEmail2"></label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Имя">
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputEmail1" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
-                                            <input type="email" class="form-control" id="exampleInputEmail1" style="float: right;width: 90%;" placeholder="Телефон">
+                                            <label for="exampleInputTel1" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
+                                            <input type="email" class="form-control" id="exampleInputTel1" style="float: right;width: 90%;" placeholder="Телефон">
                                         </div>
 
                                     </div>
@@ -283,9 +280,39 @@
     </div>
     <!--slaider2-->
     <div class="container-fluid" style="padding-top:40px; ">
-        <div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" style="color:#333" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+            </ol>
             <div class="carousel-inner">
+
                 <div class="item active">
+                    <div class="container" style="max-width:960px !important">
+                        <div class="row">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_1.png">
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people  otz_people_ot boxShadow" style=" margin-bottom: 10px;">
+                                    <p class=" text_kup_b ">Константин</p>
+                                    <span class="text_kup ">  Мы с семьей поехали отдохнуть и совершитьшопинг в Дубаи, остановились в прекрасномотеле, хороший современный номер,вежливый персонал.
+                              </span> </div>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_2.png ">
+
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people otz_people_ot boxShadow " style=" margin-bottom: 10px; ">
+                                    <p class="text_kup_b ">Сергей</p>
+                                    <span class="text_kup ">  Дубайский зоопарк не очень большой,но увлекательный. Разная живность(особенно много всяких птиц) находитсядовольно-таки близко.
+                                </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item ">
                     <div class="container" style="max-width:960px !important">
                         <div class="row">
                             <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
@@ -312,10 +339,10 @@
                 </div>
 
             </div>
-            <a class="left carousel-control " href="#carousel-example-generic1 " data-slide="prev ">
+            <a class="left carousel-control " href="#myCarousel" data-slide="prev ">
                 <span class="glyphicon glyphicon-chevron-left "></span>
             </a>
-            <a class="right carousel-control " href="#carousel-example-generic1 " data-slide="next ">
+            <a class="right carousel-control " href="#myCarousel" data-slide="next ">
                 <span class="glyphicon glyphicon-chevron-right "></span>
             </a>
         </div>
