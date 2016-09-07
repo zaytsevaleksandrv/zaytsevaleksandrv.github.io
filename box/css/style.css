@@ -42,6 +42,7 @@ body {
 .btn-nav--transparent:hover {
     background: transparent !important;
     color: #f98006;
+    text-decoration: none;
 }
 
 .btn-nav--transparent:focus {
@@ -103,6 +104,8 @@ body {
 .text-nav-2 {
     font-size: 24px;
     color: #333;
+    z-index: 10;
+    position: relative;
 }
 
 .head-nav-2 {
@@ -702,4 +705,82 @@ sub {
     background: #68ae00;
 }
 
-. @media (max-width:414px) {}
+.mega-menu {}
+
+ul.dropdown-1 li {
+    position: relative;
+}
+
+ul.dropdown-1, ul.dropdown-inside-1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.dropdown-inside-1 {
+    display: none;
+    position: absolute;
+}
+
+ul.dropdown-1 li.dropdown-top-1 {
+    display: inline;
+    float: left;
+    margin: 0 1px 0 0;
+    z-index: 18;
+}
+
+ul.dropdown-1 li.dropdown-top-1 a {
+    padding: 0px 10px 0px;
+    display: block;
+}
+
+ul.dropdown-1 li.dropdown-top-1:hover .dropdown-inside-1 {
+    display: block;
+    left: 0;
+    background: #efefef;
+}
+
+ul.dropdown-1 .dropdown-inside-1 {
+    background: #efefef;
+    z-index: 1;
+    width: 960px;
+    text-align: right;
+}
+
+.flex-container-menu-position {
+    display: flex;
+}
+
+.flex-container-menu {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: -65%;
+    background: #ebebeb;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.flex-container-menu-column {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-menu-ebebeb {
+    width: 130px;
+    height: 85px;
+    position: absolute;
+    left: 73%;
+    margin: -97px;
+    /* z-index: -1; */
+    background: #ebebeb;
+}
+
+.block-menu--text-nav {
+    color: #f98006;
+    font-size: 24px;
+}
+
+. @media (max-width: 414px) {}
