@@ -751,7 +751,6 @@ ul.dropdown-1 .dropdown-inside-1 {
 }
 
 .flex-container-menu {
-    justify-content: space-between;
     display: flex;
     flex-direction: row;
     position: absolute;
@@ -763,7 +762,6 @@ ul.dropdown-1 .dropdown-inside-1 {
 }
 
 .flex-container-menu-column {
-    justify-content: space-between;
     display: flex;
     flex-direction: column;
 }
@@ -772,7 +770,7 @@ ul.dropdown-1 .dropdown-inside-1 {
     width: 130px;
     height: 85px;
     position: absolute;
-    left: 73%;
+    left: 70%;
     margin: -97px;
     /* z-index: -1; */
     background: #ebebeb;
