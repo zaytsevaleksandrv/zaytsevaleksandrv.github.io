@@ -1,0 +1,784 @@
+body {
+    font-family: "FbSpoilerHebEngBold";
+    font-size: 18px;
+}
+
+.head-nav {
+    background: #43464a;
+}
+
+.head-container, .slider-block-3, .container-block-4 {
+    display: block;
+    max-width: 960px;
+}
+
+.btn-nav {
+    background: #f98006;
+    padding: 6px 8px !important;
+    margin-right: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 0px !important;
+}
+
+.btn-nav:hover {
+    background: #ff9507 !important;
+    color: #fff8f4;
+}
+
+.btn-nav:focus {
+    background: #ff9507 !important;
+    color: #fff8f4;
+}
+
+.btn-nav--transparent {
+    padding: 6px 8px !important;
+    margin-right: 19px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 0px !important;
+}
+
+.btn-nav--transparent:hover {
+    background: transparent !important;
+    color: #f98006;
+    text-decoration: none;
+}
+
+.btn-nav--transparent:focus {
+    background: transparent !important;
+    color: #f98006;
+}
+
+.text-nav {
+    font-family: "FbSpoilerHebEngRegular";
+    color: #fff8f4;
+}
+
+.hr-nav {
+    height: 27px;
+    width: 1px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+    border-top: none;
+    margin-right: 32px;
+}
+
+.img-question {
+    background: url(../img/question.png) center no-repeat;
+    width: 10px;
+    height: 14px;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.img-question:hover {
+    background: url(../img/question-hover.png) center no-repeat;
+}
+
+.img-i {
+    background: url(../img/i.png) center no-repeat;
+    width: 10px;
+    height: 16px;
+    margin-left: 4px;
+    display: inline-block;
+}
+
+.img-i:hover {
+    background: url(../img/i-hover.png) center no-repeat;
+}
+
+.img-thinks {
+    background: url(../img/thinks.png) center no-repeat;
+    width: 14px;
+    height: 14px;
+    margin-left: 4px;
+    padding-top: 14px;
+    display: inline-block;
+}
+
+.img-thinks:hover {
+    background: url(../img/thinks-hover.png) center no-repeat;
+}
+
+.text-nav-2 {
+    font-size: 24px;
+    color: #333;
+    z-index: 10;
+    position: relative;
+}
+
+.head-nav-2 {
+    display: inline-flex;
+}
+
+.container-fluid-cout {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.slader-block-2--img-1 {
+    background: url(../img/slaider-img-1.png) center no-repeat;
+    height: 461px;
+}
+
+.slader-block-2--img-2 {
+    background: url(../img/slaider-img-2.png) center no-repeat;
+    height: 461px;
+}
+
+.div-fading--registrars {
+    position: absolute;
+    bottom: 277px;
+    left: 30%;
+    z-index: 10;
+    width: 60%;
+    margin-left: -30%;
+    text-align: center;
+}
+
+.div-fading--sticker {
+    position: absolute;
+    bottom: -73px;
+    left: 25%;
+    z-index: 11;
+    width: 60%;
+    margin-left: -30%;
+    text-align: center;
+}
+
+.div-fading--www {
+    position: absolute;
+    bottom: 130px;
+    left: 25.5%;
+    z-index: 12;
+    text-align: center;
+}
+
+.input-group-lg {
+    width: 52%;
+    height: 61px;
+}
+
+.input-group-addon {
+    color: #333;
+    background-color: white;
+}
+
+input {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 0px;
+    position: absolute;
+    width: 162px;
+    height: 61px;
+    background: #f98006;
+    border: 0;
+    color: #fff8f4;
+    font-size: 36px;
+}
+
+.btn:hover {
+    background: #ff9507;
+    color: #fff8f4;
+}
+
+.btn:focus {
+    color: #fff8f4;
+}
+
+.text-slaider {
+    font-family: "FbSpoilerHebEngRegular";
+    color: #333;
+    font-size: 30px !important;
+}
+
+.form-control {
+    border-radius: 0px !important;
+    height: 61px !important;
+    border-left: none;
+    font-size: 30px !important;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.div-fading--ok {
+    position: absolute;
+    bottom: 390px;
+    left: 91.5%;
+    z-index: 13;
+    margin-left: -30%;
+    text-align: center;
+    font-size: 22px;
+    color: #fff8f4;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.div-fading--green {
+    position: absolute;
+    bottom: 348px;
+    left: 85%;
+    z-index: 14;
+    margin-left: -30%;
+    text-align: center;
+    font-size: 41px;
+    color: #8cdd00;
+}
+
+.div-fading--49 {
+    position: absolute;
+    bottom: 170px;
+    left: 95.5%;
+    z-index: 14;
+    margin-left: -30%;
+    text-align: center;
+    font-size: 160px;
+    color: #8cdd00;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.div-fading--foot-49 {
+    position: absolute;
+    bottom: 227px;
+    left: 95.5%;
+    z-index: 14;
+    margin-left: -30%;
+    text-align: center;
+    font-size: 32px;
+    color: #8cdd00;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.div-fading--foot-49-1 {
+    position: absolute;
+    bottom: 246px;
+    left: 66.8%;
+    z-index: 14;
+    margin-left: -30%;
+    width: 50%;
+    text-align: center;
+    font-size: 50px;
+    color: #fff8f4;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.div-fading--foot-49-2 {
+    position: absolute;
+    bottom: 229px;
+    left: 66.8%;
+    z-index: 14;
+    margin-left: -30%;
+    width: 50%;
+    text-align: center;
+    font-size: 28px;
+    color: #fff8f4;
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.text-block-4 {
+    color: #333;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.block-3--inform-block {
+    width: 220px;
+    background: #43464a;
+    margin-right: 20px;
+}
+
+.block-3--inform-block-2 {
+    width: 220px;
+    background: #fff;
+    margin-right: 10px;
+}
+
+.block-3--inform-block-top {
+    margin-top: 20px;
+}
+
+.hr--block-3 {
+    height: 1px;
+    width: 190px;
+    margin-top: 14px;
+    margin-bottom: 11px;
+    border-top: none;
+}
+
+.text-block-3 {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text-block-3-number {
+    font-size: 20px;
+}
+
+.text-block-3-number-green {
+    font-size: 40px;
+    color: #8cdd00;
+}
+
+.block-3--text {
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.block-3--text-b {
+    font-size: 24px
+}
+
+.block-3--btn {
+    width: 188px;
+    height: 52px;
+    background: #f98006;
+    border: 0;
+    color: #fff8f4;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 10px
+}
+
+.block-3--btn:hover {
+    background: #ff9507;
+    color: #fff8f4;
+}
+
+.block-3--block-3 {
+    position: absolute;
+    width: 215px;
+    height: 45px;
+    background: #68ae00;
+    top: -20px;
+    left: -8%;
+    z-index: 5;
+}
+
+.block-3--block-4 {
+    content: '';
+    position: absolute;
+    left: -39px;
+    top: 3px;
+    border: 21px solid transparent;
+    border-right: 16px solid #538b00;
+    z-index: 4;
+}
+
+.block-3--block-1 {
+    position: absolute;
+    width: 66px;
+    height: 45px;
+    background: #68ae00;
+    top: -20px;
+    left: -8%;
+    z-index: 5;
+}
+
+.block-3--block-2 {
+    content: '';
+    position: absolute;
+    left: 34px;
+    top: -34px;
+    border: 14px solid transparent;
+    border-bottom: 20px solid #538b00;
+    z-index: 4;
+}
+
+.boxShadow {
+    -webkit-box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+}
+
+.flex-container--block-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 35px;
+    font-size: 25px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.text--block-4-1 {
+    font-family: "FbSpoilerHebEngRegular";
+}
+
+.flex-container--block-4-2 {
+    display: flex;
+    flex-direction: row;
+}
+
+td {
+    padding-bottom: 20px;
+}
+
+.block-5--background {
+    background: #43464a;
+}
+
+.block-5--flex-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.block-5--flex-container-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-5--text-head {
+    font-size: 45px;
+    color: #8cdd00;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.block-5--text-head {
+    font-size: 45px;
+    color: #8cdd00;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.block-5--text-quote {
+    color: #fff;
+    text-align: center;
+}
+
+.block-5--text-quote-1 {
+    font-size: 50px;
+    color: #fff8f4;
+}
+
+.block-5--text-quote-2 {
+    font-size: 30px;
+    color: #8cdd00;
+    padding-left: 10px;
+}
+
+.block-5--text-quote-3 {
+    font-size: 160px;
+    color: #8cdd00;
+}
+
+sup {
+    top: -1.5em;
+}
+
+sub {
+    bottom: 0em;
+    left: 0.5em;
+}
+
+.block-5--text-top {
+    position: absolute;
+    left: 51.7%;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.block-6--background {
+    background: url(../img/pepole-nigth.png) center no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.block-6--text-head {
+    color: #fff8f4;
+}
+
+.block-6--flex-container-row {
+    justify-content: space-between;
+}
+
+.block-6--flex-container-column {
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.block-6--flex-container-column-foot {
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.block-6--text {
+    font-size: 25px;
+}
+
+.block-6--text-sm {
+    font-size: 20px;
+}
+
+.block-7--background {
+    background: #ededed;
+    padding-bottom: 100px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    width: 73%;
+    color: #f98006;
+    direction: rtl;
+    text-align: left;
+    font-size: x-large;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
+
+.rating>span:hover:before, .rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.rating_text {
+    float: left;
+    margin-right: 20px;
+}
+
+.rating_text_1 {
+    margin-top: 20px;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.block-7--flex-container-column {
+    align-items: flex-start;
+}
+
+.block-7--flex-container-column-1 {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.block-7--circle {
+    content: '';
+    border-radius: 20px;
+    background: #f98006;
+    color: white;
+    padding: 3px 9px;
+    margin-right: 10px;
+}
+
+.block-7--circle:hover {
+    background: #ff9507;
+}
+
+.carousel-indicators-1 {
+    bottom: -59px;
+}
+
+.carousel-indicators-1 .active {
+    background-color: #68ae00;
+}
+
+.carousel-indicators-1 li {
+    border: 1px solid #68ae00;
+}
+
+.glyphicon-chevron-left-1, .glyphicon-chevron-right-1 {
+    width: 138px !important;
+    height: 21px !important;
+    margin-top: 130px !important;
+    font-size: 25px !important;
+}
+
+.carousel-control, .carousel-control:hover, .carousel-control:focus {
+    color: #68ae00;
+}
+
+.block-8--flex-container-row {
+    flex-wrap: wrap;
+}
+
+.block-8--img {
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.block-9--background {
+    background: url(../img/call-center.png) center no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 170px;
+}
+
+.block-9--text-head {
+    padding-bottom: 0px;
+}
+
+.block-9--flex-container-column {
+    align-items: flex-end;
+}
+
+.block-9--text {
+    color: #fff8f4;
+    font-size: 20px;
+}
+
+.block-9--text:hover {
+    color: #8cdd00;
+    text-decoration: none;
+}
+
+.block-9--input {
+    width: 340px;
+    height: 40px;
+}
+
+.block-9--btn {
+    width: 77px;
+    height: 40px;
+    background: #79ca00;
+    color: #fff8f4;
+    border: none;
+}
+
+.block-9--btn:hover {
+    background: #8cdd00;
+    color: #fff8f4;
+}
+
+.block-9--input-text {
+    width: 263px;
+    height: 40px;
+    border: none;
+    background: #ebebeb;
+}
+
+.block-9--google {
+    background: url(../img/google.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.block-9--google:hover {
+    background: url(../img/google-hover.png) no-repeat;
+}
+
+.block-9--in {
+    background: url(../img/in.png) no-repeat;
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.block-9--in:hover {
+    background: url(../img/in-hover.png) no-repeat;
+}
+
+.block-9--youtube {
+    background: url(../img/youtube.png) no-repeat;
+    width: 25px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.block-9--youtube:hover {
+    background: url(../img/youtube-hover.png) no-repeat;
+}
+
+.block-9--facebook {
+    background: url(../img/facebook.png) no-repeat;
+    width: 17px;
+    height: 30px;
+}
+
+.block-9--facebook:hover {
+    background: url(../img/facebook-hover.png) no-repeat;
+}
+
+.block-10--background {
+    background: #68ae00;
+}
+
+.mega-menu {}
+
+ul.dropdown-1 li {
+    position: relative;
+}
+
+ul.dropdown-1, ul.dropdown-inside-1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.dropdown-inside-1 {
+    display: none;
+    position: absolute;
+}
+
+ul.dropdown-1 li.dropdown-top-1 {
+    display: inline;
+    float: left;
+    margin: 0 1px 0 0;
+    z-index: 18;
+}
+
+ul.dropdown-1 li.dropdown-top-1 a {
+    padding: 0px 10px 0px;
+    display: block;
+}
+
+ul.dropdown-1 li.dropdown-top-1:hover .dropdown-inside-1 {
+    display: block;
+    left: 0;
+    background: #efefef;
+}
+
+ul.dropdown-1 .dropdown-inside-1 {
+    background: #efefef;
+    z-index: 1;
+    width: 960px;
+    text-align: right;
+}
+
+.flex-container-menu-position {
+    display: flex;
+}
+
+.flex-container-menu {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: -65%;
+    background: #ebebeb;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+
+.flex-container-menu-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-menu-ebebeb {
+    width: 130px;
+    height: 85px;
+    position: absolute;
+    left: 70%;
+    margin: -97px;
+    /* z-index: -1; */
+    background: #ebebeb;
+}
+
+.block-menu--text-nav {
+    color: #f98006;
+    font-size: 24px;
+}
+
+. @media (max-width: 414px) {}
