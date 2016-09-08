@@ -860,10 +860,6 @@ ul.dropdown-1 .dropdown-inside-1 {
     display: none;
 }
 
-.input-group {
-    display: inline-flex;
-}
-
 @media screen and (max-device-width: 768px) {
     .div-fading--sticker-img, .block-4--media-768, .block-3--block-3, .block-3--block-4, .block-3--block-2, .block-3--block-1, .block-5--text-none {
         display: none;
@@ -1067,5 +1063,9 @@ ul.dropdown-1 .dropdown-inside-1 {
         margin: -132px;
         width: 126px;
         height: 108px;
+    }
+    .padding-block-vps {
+        padding-top: 15px;
+        padding-bottom: 40px;
     }
 }
