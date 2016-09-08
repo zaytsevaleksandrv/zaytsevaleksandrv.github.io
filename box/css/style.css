@@ -502,6 +502,7 @@ sub {
 .block-6--flex-container-column {
     justify-content: flex-start;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 
 .block-6--flex-container-column-foot {
@@ -823,6 +824,188 @@ ul.dropdown-1 .dropdown-inside-1 {
     font-size: 24px;
 }
 
-. @media (max-width: 414px) {}
+.flex-container--block-5-full {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+}
 
-{}
+.flex-container--block-5-full-footer {
+    align-items: center;
+}
+
+.img--diar {
+    width: 88px;
+    height: 72px;
+}
+
+.img--setting {
+    width: 102px;
+    height: 87px;
+}
+
+.img--rating {
+    width: 64px;
+    height: 81px;
+}
+
+.img--close {
+    width: 56px;
+    height: 78px;
+}
+
+.img-wordpress {
+    display: none;
+}
+
+@media screen and (max-device-width: 768px) {
+    .div-fading--sticker-img, .block-4--media-768, .block-3--block-3, .block-3--block-4, .block-3--block-2, .block-3--block-1, .block-5--text-none {
+        display: none;
+    }
+    .text-768-4em {
+        font-size: 4em;
+        text-align: center;
+    }
+    .text-block-3, .text-5--button {
+        font-size: 4em !important;
+    }
+    .text-block-5-white {
+        color: white;
+    }
+    .text-block-4, .block-5--text-head {
+        font-size: 5em;
+    }
+    .block-6--text-green-size {
+        font-size: 15em;
+    }
+    .text-block-3-number {
+        font-size: 1em;
+    }
+    .text-block-3-number-08 {
+        font-size: 0.8em;
+    }
+    .block-3--text-b {
+        font-size: 0.7em;
+    }
+    .text-block-3-number-green {
+        font-size: 3em !important;
+    }
+    .block-7--circle {
+        padding: 6px 31px;
+        margin-right: 14px;
+        border-radius: 50px;
+    }
+    .block-3--btn {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+    .block-5--text-quote {
+        font-size: 2em
+    }
+    .img-20em {
+        height: auto;
+        width: 20em;
+    }
+    .img-6em {
+        height: auto;
+        width: 6em;
+    }
+    .img--diar {
+        width: 15em;
+        height: auto;
+    }
+    .img--setting {
+        width: 15em;
+        height: auto;
+    }
+    .img--rating {
+        width: 10em;
+        height: auto;
+    }
+    .img--close {
+        width: 9em;
+        height: auto;
+    }
+    .block-9--input-text {
+        width: 70%;
+        height: auto;
+    }
+    .block-9--btn {
+        width: 30%;
+        height: auto;
+    }
+    .block-6--background {
+        background: #ebebeb;
+    }
+    .block-6-39-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+    }
+    .block-6-39-flex-main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-block-4-15 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .img-wordpress {
+        display: block;
+    }
+    .center-img-block-wordpress {
+        justify-content: center;
+    }
+    .text-rigth-img-wordpress {
+        color: #68ad00;
+    }
+    .block-6--text-head-fot {
+        color: #333;
+    }
+    .margin-block-6 {
+        margin-top: 40px;
+    }
+    .head-container, .slider-block-3, .container-block-4 {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .text-block-3, .block-3--btn, .hr--block-3 {
+        width: 100%;
+    }
+    .flex-container-block-5--768 {
+        width: 100%;
+        align-items: center;
+        justify-content: inherit;
+        flex-direction: column-reverse;
+    }
+    .flex-container-block-5--768-row {
+        flex-direction: row;
+    }
+    .block-9--flex-container-column {
+        align-items: center;
+    }
+    .flex-container-block-5--768-column-footer {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .flex-container-block-5--768-row-footer {
+        align-items: center;
+        flex-direction: row;
+    }
+    .block-5--flex-container-row-768-footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .div-fading--registrars {
+        left: 111%;
+        width: 1%;
+    }
+    .div-fading--ok {
+        left: 53.5%;
+        font-size: 3em;
+    }
+}
