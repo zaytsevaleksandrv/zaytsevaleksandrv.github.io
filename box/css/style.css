@@ -320,7 +320,7 @@ input {
 }
 
 .text-block-3-number-green {
-    font-size: 40px;
+    font-size: 23px;
     color: #8cdd00;
 }
 
@@ -419,6 +419,8 @@ td {
 
 .block-5--background {
     background: #43464a;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .block-5--flex-container-row {
@@ -858,6 +860,10 @@ ul.dropdown-1 .dropdown-inside-1 {
     display: none;
 }
 
+.input-group {
+    display: inline-flex;
+}
+
 @media screen and (max-device-width: 768px) {
     .div-fading--sticker-img, .block-4--media-768, .block-3--block-3, .block-3--block-4, .block-3--block-2, .block-3--block-1, .block-5--text-none {
         display: none;
@@ -1007,5 +1013,59 @@ ul.dropdown-1 .dropdown-inside-1 {
     .div-fading--ok {
         left: 53.5%;
         font-size: 3em;
+        bottom: 368px;
+    }
+    .div-fading--foot-49-1 {
+        left: 48.8%;
+        font-size: 6em;
+        bottom: 235px;
+    }
+    .div-fading--49 {
+        left: 84.5%;
+        font-size: 12em;
+        bottom: 140px;
+    }
+    .div-fading--green {
+        left: 64%;
+        bottom: 159px;
+        font-size: 3em;
+    }
+    .div-fading--foot-49-2 {
+        left: 48.8%;
+        font-size: 3em;
+        bottom: 207px;
+    }
+    .div-fading--foot-49 {
+        left: 85%;
+        font-size: 3em;
+        bottom: 205px;
+    }
+    .div-fading--www {
+        bottom: 74px;
+    }
+    .block-9--input {
+        width: 100%;
+        height: auto;
+    }
+    .block-1--menu-768 {
+        display: flex;
+        align-items: center;
+    }
+    .flex-container-menu-1 {
+        left: -57%
+    }
+    ul.dropdown-1 .dropdown-inside-1 {
+        width: 100%;
+    }
+    ul.dropdown-1 li.dropdown-top-1:hover .dropdown-inside-1 {
+        left: -59px;
+    }
+    .block-menu-ebebeb-1 {
+        left: 24.5%;
+    }
+    .block-menu-ebebeb {
+        margin: -132px;
+        width: 126px;
+        height: 108px;
     }
 }
