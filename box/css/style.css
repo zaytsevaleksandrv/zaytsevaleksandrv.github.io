@@ -892,6 +892,9 @@ ul.dropdown-1 .dropdown-inside-1 {
     .text-block-3-number-green {
         font-size: 3em !important;
     }
+    .text-block-footer {
+        font-size: 3em;
+    }
     .block-7--circle {
         padding: 6px 31px;
         margin-right: 14px;
@@ -1068,4 +1071,21 @@ ul.dropdown-1 .dropdown-inside-1 {
         padding-top: 15px;
         padding-bottom: 40px;
     }
+    .flex-container-menu-column-h {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .text-nav {
+        font-size: 3em
+    }
+    .btn-nav-h {
+        padding: 6px 90px !important;
+    }
+    .flex-container-menu {
+        flex-direction: column;
+    }
+}
+
+
 }
