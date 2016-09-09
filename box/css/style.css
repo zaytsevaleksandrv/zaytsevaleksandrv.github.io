@@ -1,17 +1,82 @@
 body {
     font-family: "FbSpoilerHebEngBold";
     font-size: 18px;
+    color: #333
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #ff9507;
+    text-decoration: none;
+}
+
+.head-nav-1--margin {
+    margin-right: 38px;
+}
+
+.head-nav-1--margin {
+    margin-right: 13px;
+}
+
+.head-nav-1-container-fluid--padding {
+    padding-top: 10px;
+}
+
+.head-nav-1-flex--padding-left {
+    padding-left: 10px;
+}
+
+.head-nav-1-flex--padding-right {
+    padding-right: 10px;
+}
+
+.head-nav-1-flex--border-right {
+    border-right: 1px solid #b2b2b2;
 }
 
 .head-nav {
     background: #43464a;
 }
-
+.head-nav-1-flex--padding-rigth-left{
+    padding-right:10px;
+    padding-left:10px
+}
+.head-nav-1--margin-left{
+    margin-left: 60px
+}
 .head-container, .slider-block-3, .container-block-4 {
     display: block;
     max-width: 960px;
 }
-
+.container-fluid-cout--margin-top{
+    margin-top: 10px
+}
+.text-slaider--border-radius{
+    border-radius: 0px;
+}
+.pectagramma{
+    color:#8cdd00
+}
+.p-text-end{
+    text-align: end;
+}
+.block-3--block-3-style{
+    color:#fff; 
+    font-size: 25px;
+    padding-top: 5px;
+}
+.block-4--contauner-fluid-back-pdd-btt{
+    background:#ebebeb;
+    padding-bottom:20px;
+}
+.block-3--block-1--color-f-z-pdd-tp{
+    color:#fff; 
+    font-size: 25px;
+    padding-top: 5px;
+}
 .btn-nav {
     background: #f98006;
     padding: 6px 8px !important;
@@ -20,7 +85,6 @@ body {
     margin-bottom: 7px;
     border-radius: 0px !important;
 }
-
 .btn-nav:hover {
     background: #ff9507 !important;
     color: #fff8f4;
@@ -194,12 +258,14 @@ input {
     color: #333;
     font-size: 30px !important;
 }
-
-.form-control {
-    border-radius: 0px !important;
-    height: 61px !important;
+.input-group-lg>.form-control, .input-group-lg>.input-group-addon{
+    border-radius: 0px;
+}
+.input-group-lg>.form-control {
+    border-radius: 0px ;
+    height: 61px ;
     border-left: none;
-    font-size: 30px !important;
+    font-size: 30px ;
     font-family: "FbSpoilerHebEngRegular";
 }
 
@@ -310,7 +376,7 @@ input {
 
 .text-block-3 {
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
     text-align: center;
     padding-top: 20px;
 }
@@ -320,14 +386,16 @@ input {
 }
 
 .text-block-3-number-green {
-    font-size: 23px;
+    font-size: 43px;
     color: #8cdd00;
 }
 
 .block-3--text {
     font-family: "FbSpoilerHebEngRegular";
 }
-
+.text-333{
+    color:#333;
+}
 .block-3--text-b {
     font-size: 24px
 }
@@ -732,7 +800,7 @@ ul.dropdown-1 li.dropdown-top-1 {
 }
 
 ul.dropdown-1 li.dropdown-top-1 a {
-    padding: 0px 10px 0px;
+    padding: 10px 10px 0px;
     display: block;
 }
 
@@ -764,7 +832,10 @@ ul.dropdown-1 .dropdown-inside-1 {
     margin-top: 20px;
     width: 960px;
 }
-
+.block-3--inform-block-2-pdd-tp{
+    padding-top: 40px;
+    color:#333
+}
 .flex-container-menu-1 {
     left: -12%;
 }
@@ -861,6 +932,50 @@ ul.dropdown-1 .dropdown-inside-1 {
 }
 
 @media screen and (max-device-width: 768px) {
+    .block-1--menu-768--padding-right{
+        padding-right: 430px
+    }
+    .block-1--menu-768--dropdown-top-1-6em{
+        width:6em;
+        margin-right: 7px;
+    }
+    .block-1--menu-768--dropdown-top-1-margin-right{
+        margin-right: 10px
+    }
+    .flex-container-menu-column-h--padding-left{
+        padding-left: 10px
+    }
+    .flex-container-menu-column-1-padding-right{
+        padding-right:50px
+    }
+    .flex-container-menu-column--font-size--text{
+        font-size: 3em;
+    }
+    .flex-container-menu-column--width-img{
+        width:1em;
+        margin-left:20px
+    }
+    .flex-container-menu-column--width-img-8em{
+        width:8em;
+    }
+    .flex-container-menu-column--width-img-6em{
+        width:6em;
+    }
+    .flex-container-menu-column--width-img-10em{
+        width:10em;
+    }
+    .slader-block-2--img-1 {
+        background: url(../img/slaider-img-1.png) center no-repeat;
+        height: 800px;
+        width: 102%;
+        background-size: cover;
+    }
+    .slader-block-2--img-2{
+        background: url(../img/slaider-img-2.png) center no-repeat;
+        height: 800px;
+        width: 102%;
+        background-size: cover;
+    }
     .div-fading--sticker-img, .block-4--media-768, .block-3--block-3, .block-3--block-4, .block-3--block-2, .block-3--block-1, .block-5--text-none {
         display: none;
     }
@@ -1006,41 +1121,60 @@ ul.dropdown-1 .dropdown-inside-1 {
         align-items: center;
     }
     .div-fading--registrars {
-        left: 111%;
+        left: 100%;
         width: 1%;
+        bottom: 600px
     }
     .div-fading--ok {
-        left: 53.5%;
-        font-size: 3em;
-        bottom: 368px;
+        left: 48.5%;
+        font-size: 2.6em;
+        bottom: 580px;
+    }
+    .div-fading--ok-img {
+        width: 0.7em;
     }
     .div-fading--foot-49-1 {
-        left: 48.8%;
-        font-size: 6em;
-        bottom: 235px;
+        left: 42%;
+        font-size: 7em;
+        bottom: 373px;
     }
     .div-fading--49 {
-        left: 84.5%;
-        font-size: 12em;
-        bottom: 140px;
+        left: 83.5%;
+        font-size: 15em;
+        bottom: 267px;
+        font-weight: bold;
     }
     .div-fading--green {
-        left: 64%;
-        bottom: 159px;
-        font-size: 3em;
+        left: 55%;
+        bottom: 254px;
+        font-size: 3.8em;
+        color: white;
     }
     .div-fading--foot-49-2 {
-        left: 48.8%;
-        font-size: 3em;
-        bottom: 207px;
+        left: 43.8%;
+        font-size: 4em;
+        bottom: 343px;
     }
     .div-fading--foot-49 {
-        left: 85%;
-        font-size: 3em;
-        bottom: 205px;
+        left: 84%;
+        font-size: 4em;
+        bottom: 345px;
     }
     .div-fading--www {
-        bottom: 74px;
+        bottom: 122px;
+        left: 19.5%
+    }
+    .text-slaider {
+        display: none;
+    }
+    .input-group-lg>.form-control {
+        width: 532px;
+        height: 90px;
+        font-size: 2.5em;
+    }
+    .btn{
+        height: 90px;
+        width: 100px;
     }
     .block-9--input {
         width: 100%;
@@ -1085,7 +1219,8 @@ ul.dropdown-1 .dropdown-inside-1 {
     .flex-container-menu {
         flex-direction: column;
     }
+    .text-block-3-number-green{
+        font-size: 23px
+    }
 }
 
-
-}
