@@ -130,41 +130,76 @@ a:hover, a:focus {
     border-top: none;
     margin-right: 32px;
 }
-
-.img-question {
-    background: url(../img/question.png) center no-repeat;
-    width: 10px;
-    height: 14px;
-    margin-left: 4px;
-    display: inline-block;
+.text-nav13 {
+    position: relative;
 }
-
-.img-question:hover {
+.text-nav13:after {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(../img/question.png) center no-repeat;
+}
+.text-nav13:hover:after {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
     background: url(../img/question-hover.png) center no-repeat;
 }
 
 .img-i {
-    background: url(../img/i.png) center no-repeat;
-    width: 10px;
-    height: 16px;
-    margin-left: 4px;
-    display: inline-block;
+    position: relative;
 }
-
-.img-i:hover {
+.img-i:after {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(../img/i.png) center no-repeat;
+    
+}
+.img-i:hover:after {
+    position: absolute;
+    top: 8px;
+    right: -8px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
     background: url(../img/i-hover.png) center no-repeat;
 }
-
 .img-thinks {
-    background: url(../img/thinks.png) center no-repeat;
-    width: 14px;
-    height: 14px;
-    margin-left: 4px;
-    padding-top: 14px;
-    display: inline-block;
+    position: relative;
 }
-
-.img-thinks:hover {
+.img-thinks:after {
+    position: absolute;
+    top: 8px;
+    right: -11px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(../img/thinks.png) center no-repeat;
+    
+}
+.img-thinks:hover:after {
+    position: absolute;
+    top: 8px;
+    right: -11px;
+    display: block;
+    content: '';
+    width: 20px;
+    height: 20px;
     background: url(../img/thinks-hover.png) center no-repeat;
 }
 
@@ -1362,5 +1397,52 @@ ul.dropdown-1 .dropdown-inside-1 {
         margin-bottom:20px;
         color:#f98006;
     }
+    .img-ok--w-em{
+        width: 11%
+    }
+    .img-ok--w-em-1{
+        width: 11%;
+    }
+    .img-ok--w-em-2{
+        width: 11%;
+    }
+    .block-mobilka-ok{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .block-mobilka-flex{
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-end;
+    }
+    .mobilka-up{
+        left: -2.7em;
+        top: -2.2em;
+        position: relative;
+    }
+    .width-15{
+        width: 15%;
+    }
+    .width-300{
+        width: 300%;
+    }
+    .block-5--flex-container-row-100{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .font-size-block-search{
+     font-size: 6em;
+     color: white;
+     text-decoration: underline;
+ }
+ .height-170{
+     height: 170px;
+ }
+ .width-80{
+     width: 80%;
+ }
 }
 
