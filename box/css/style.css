@@ -935,7 +935,6 @@ ul.dropdown-1 .dropdown-inside-1 {
 .flex-container--block-5-full {
     flex-direction: row;
     display: flex;
-    align-items: flex-end;
 }
 
 .flex-container--block-5-full-footer {
