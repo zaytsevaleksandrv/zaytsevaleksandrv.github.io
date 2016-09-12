@@ -1,0 +1,610 @@
+        @import "compass/css3";
+        @include font-face("FontAwesome", font-files("FontAwesome.otf"));
+        @include font-face("FontAwesomeWebfont", font-files("fontawesome-webfont.svg", "fontawesome-webfont.ttf", "fontawesome-webfont.woff", "fontawesome-webfont.woff2"), "fontawesome-webfont.eot"
+        /* относительный путь к .eot файлу для IE */
+        
+        );
+        @include font-face("GlyphiconsHalflingsRegular", font-files("glyphicons-halflings-regular.svg", "glyphicons-halflings-regular.ttf", "glyphicons-halflings-regular.woff", "glyphicons-halflings-regular.woff2"), "glyphicons-halflings-regular.eot"
+        /* относительный путь к .eot файлу для IE */
+        
+        );
+        $primary-color: white;
+        $primary-color-i: black;
+        $font-size: 12px;
+        $Raleway: 'Raleway',
+        sans-serif;
+        $FontAwesome: "FontAwesome";
+        $FontAwesomeWebfont: "FontAwesomeWebfont";
+        $GlyphiconsHalflingsRegular: "GlyphiconsHalflingsRegular";
+        $backround-transparent: transparent;
+        $width: 100%;
+        $display: flex;
+        $text-transform-ul: uppercase;
+        $text-decoration-li: underline;
+        $background-button: #288db3;
+        $position-logo: absolute;
+        $padding: 10px;
+        body {
+            font-family: $Raleway;
+            font-size: $font-size;
+            color: $primary-color;
+        }
+        
+        .block-1 {
+            background: url("../img/front.png") center no-repeat;
+            background-size: cover;
+            height: ($padding)+735;
+        }
+        
+        .block-1--flex-box--head {
+            background: $backround-transparent;
+            display: $display;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            width: $width;
+            ul {
+                display: $display;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: row;
+                align-content: space-between;
+                text-transform: $text-transform-ul;
+                li {
+                    display: $display;
+                    margin: ($padding)+10;
+                    letter-spacing: 3px;
+                    font-family: sans-serif;
+                    a {
+                        color: $primary-color;
+                    }
+                    button {
+                        background: $background-button;
+                        text-transform: $text-transform-ul;
+                        border: none;
+                        padding-top: $padding;
+                        padding-bottom: $padding;
+                        padding-right: ($padding)+10;
+                        padding-left: ($padding)+10;
+                        letter-spacing: 3px;
+                        font-family: sans-serif;
+                    }
+                    button:hover {
+                        background: $primary-color;
+                        color: $background-button;
+                    }
+                }
+                li:hover {
+                    text-decoration: $text-decoration-li;
+                }
+            }
+        }
+        
+        .block-1--img-logo {
+            display: $display;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .block-1--text-black {
+            display: $display;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: ($padding)+110;
+            i {
+                font-size: ($font-size)+15;
+                color: $primary-color-i;
+                font-family: $FontAwesome;
+            }
+            font {
+                font-size: ($font-size)+60;
+                color: $primary-color-i;
+                text-transform: $text-transform-ul;
+                font-weight: 600;
+                letter-spacing: ($padding)-2;
+            }
+            hr {
+                border: 4px solid $primary-color-i;
+                width: ($padding)+35;
+            }
+            p {
+                font-size: ($font-size)+5;
+                color: $primary-color-i;
+                text-transform: $text-transform-ul;
+                letter-spacing: ($padding)-6;
+                font-weight: 800;
+            }
+            button {
+                width: ($padding)+35;
+                height: ($padding)+35;
+                border-radius: ($padding)+20;
+                background: transparentize($primary-color, .6);
+                border: 1px solid $primary-color;
+                margin-top: ($padding)+94;
+                color: $primary-color;
+                font-size: 16px;
+                padding-top: ($padding)-4
+            }
+            button:hover {
+                background: $primary-color;
+                border: 1px solid transparentize($primary-color-i, .6);
+                color: transparentize($primary-color-i, .6);
+            }
+        }
+        
+        .block-2 {
+            background: url("../img/front_welcome.png") center no-repeat;
+            background-size: cover;
+            height: ($padding)+691;
+        }
+        
+        .block-2--flex-box--main {
+            display: $display;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            p {
+                color: $primary-color-i;
+                text-transform: $text-transform-ul;
+                font-size: ($padding)+13;
+                width: $width;
+                letter-spacing: ($padding)-8;
+                font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                padding-top: ($padding)+110;
+            }
+            b {
+                font-size: ($padding)+30;
+                color: $primary-color-i;
+                font-weight: 400;
+                margin-top: ($padding)-55;
+            }
+            font {
+                color: $primary-color-i;
+                font-size: $font-size;
+                padding-top: ($padding)+15;
+                padding-bottom: ($padding)+15;
+                font-size: medium;
+                font-weight: 200;
+                width: ($width)-38;
+            }
+            a {
+                color: $primary-color;
+                margin-top: ($padding)+35;
+            }
+            button {
+                background: $background-button;
+                text-transform: $text-transform-ul;
+                border: none;
+                padding-top: $padding;
+                padding-bottom: $padding;
+                padding-right: ($padding)+10;
+                padding-left: ($padding)+10;
+                letter-spacing: ($padding)-8;
+                font-size: smaller;
+            }
+            button:hover {
+                background: $primary-color;
+                color: $background-button;
+            }
+        }
+        
+        .block-3 {
+            background: $primary-color;
+            .container {
+                max-width: ($padding)+948;
+            }
+            .block-3--flex-box--main-0 {
+                display: $display;
+                width: $width;
+                background: #eee;
+                margin-top: ($padding)+90;
+                margin-bottom: ($padding)+45;
+                span {
+                    img {
+                        width: $width;
+                        height: auto;
+                    }
+                }
+                div {
+                    display: $display;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        color: $primary-color-i;
+                        text-transform: $text-transform-ul;
+                        font-size: ($padding)+13;
+                        width: $width;
+                        letter-spacing: ($padding)-8;
+                        font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                        text-align: center;
+                    }
+                    b {
+                        font-size: ($padding)+30;
+                        color: $primary-color-i;
+                        font-weight: 400;
+                        margin-top: ($padding)-55;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
+                    a {
+                        color: $primary-color;
+                    }
+                    button {
+                        background: $background-button;
+                        text-transform: $text-transform-ul;
+                        border: none;
+                        padding-top: $padding;
+                        padding-bottom: $padding;
+                        padding-right: ($padding)+20;
+                        padding-left: ($padding)+20;
+                        letter-spacing: ($padding)-8;
+                        font-size: smaller;
+                        margin-top: ($padding)+20;
+                    }
+                    button:hover {
+                        background: $primary-color;
+                        color: $background-button;
+                    }
+                }
+            }
+            .block-3--flex-box--main-1 {
+                display: $display;
+                width: $width;
+                background: #eee;
+                margin-bottom: ($padding)+45;
+                span {
+                    img {
+                        width: $width;
+                        height: auto;
+                    }
+                }
+                div {
+                    display: $display;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        color: $primary-color-i;
+                        text-transform: $text-transform-ul;
+                        font-size: ($padding)+13;
+                        width: $width;
+                        letter-spacing: ($padding)-8;
+                        font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                        text-align: center;
+                    }
+                    b {
+                        font-size: ($padding)+30;
+                        color: $primary-color-i;
+                        font-weight: 400;
+                        margin-top: ($padding)-55;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
+                    a {
+                        color: $primary-color;
+                    }
+                    button {
+                        background: $background-button;
+                        text-transform: $text-transform-ul;
+                        border: none;
+                        padding-top: $padding;
+                        padding-bottom: $padding;
+                        padding-right: ($padding)+20;
+                        padding-left: ($padding)+20;
+                        letter-spacing: ($padding)-8;
+                        font-size: smaller;
+                        margin-top: ($padding)+20;
+                    }
+                    button:hover {
+                        background: $primary-color;
+                        color: $background-button;
+                    }
+                }
+            }
+            .block-3--flex-box--main-2 {
+                display: $display;
+                width: $width;
+                background: #eee;
+                margin-bottom: ($padding)+65;
+                span {
+                    img {
+                        width: $width;
+                        height: auto;
+                    }
+                }
+                div {
+                    display: $display;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    p {
+                        color: $primary-color-i;
+                        text-transform: $text-transform-ul;
+                        font-size: ($padding)+13;
+                        width: $width;
+                        letter-spacing: ($padding)-8;
+                        font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                        text-align: center;
+                    }
+                    b {
+                        font-size: ($padding)+30;
+                        color: $primary-color-i;
+                        font-weight: 400;
+                        margin-top: ($padding)-55;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
+                    a {
+                        color: $primary-color;
+                    }
+                    button {
+                        background: $background-button;
+                        text-transform: $text-transform-ul;
+                        border: none;
+                        padding-top: $padding;
+                        padding-bottom: $padding;
+                        padding-right: ($padding)+20;
+                        padding-left: ($padding)+20;
+                        letter-spacing: ($padding)-8;
+                        font-size: smaller;
+                        margin-top: ($padding)+20;
+                    }
+                    button:hover {
+                        background: $primary-color;
+                        color: $background-button;
+                    }
+                }
+            }
+        }
+        
+        .block-4 {
+            background: url("../img/front-footer.png") center no-repeat;
+            background-size: cover;
+            height: ($padding)+720;
+            display: $display;
+            justify-content: flex-end;
+            padding-left: ($padding)-10;
+            padding-right: ($padding)-10;
+            .column-0 {
+                display: $display;
+                flex-direction: column;
+                align-items: center;
+                height: ($padding)+720;
+                width: (($width)/2)+3.5;
+                background: transparentize($primary-color, .3);
+                p {
+                    color: $primary-color-i;
+                    text-transform: $text-transform-ul;
+                    font-size: ($padding)+13;
+                    width: $width;
+                    letter-spacing: ($padding)-8;
+                    font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                    text-align: center;
+                }
+                b {
+                    font-size: ($padding)+30;
+                    color: $primary-color-i;
+                    font-weight: 400;
+                    margin-top: ($padding)-55;
+                }
+                .row-0 {
+                    display: $display;
+                    flex-direction: row;
+                    width: ($width)-20;
+                    align-items: center;
+                    margin-top: ($padding)+30;
+                    .column-1 {
+                        display: $display;
+                        flex-direction: column;
+                        background: $backround-transparent;
+                        border-left: 1px solid #eee;
+                        width: ($width)-20;
+                        .card {
+                            text-align: center;
+                            padding: ($padding)+20;
+                            p {
+                                font-size: ($padding)+1;
+                                font-weight: 600;
+                            }
+                            font {
+                                color: $primary-color-i;
+                                font-size: $font-size;
+                                font-size: medium;
+                                font-weight: 200;
+                                width: ($width)-35;
+                                text-align: center;
+                            }
+                        }
+                        .man {
+                            border-bottom: 1px solid #eee;
+                            text-align: center;
+                            padding: ($padding)+20;
+                            p {
+                                font-size: ($padding)+1;
+                                font-weight: 600;
+                            }
+                            font {
+                                color: $primary-color-i;
+                                font-size: $font-size;
+                                font-size: medium;
+                                font-weight: 200;
+                                width: ($width)-35;
+                                text-align: center;
+                            }
+                        }
+                    }
+                    .column-2 {
+                        display: $display;
+                        flex-direction: column;
+                        background: $backround-transparent;
+                        width: ($width)-20;
+                        .palma {
+                            text-align: center;
+                            padding: ($padding)+20;
+                            p {
+                                font-size: ($padding)+1;
+                                font-weight: 600;
+                            }
+                            font {
+                                color: $primary-color-i;
+                                font-size: $font-size;
+                                font-size: medium;
+                                font-weight: 200;
+                                width: ($width)-35;
+                                text-align: center;
+                            }
+                        }
+                        .book {
+                            border-bottom: 1px solid #eee;
+                            text-align: center;
+                            padding: ($padding)+20;
+                            p {
+                                font-size: ($padding)+1;
+                                font-weight: 600;
+                            }
+                            font {
+                                color: $primary-color-i;
+                                font-size: $font-size;
+                                font-size: medium;
+                                font-weight: 200;
+                                width: ($width)-35;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+                a {
+                    color: $primary-color;
+                }
+                button {
+                    background: $background-button;
+                    text-transform: $text-transform-ul;
+                    border: none;
+                    padding-top: $padding;
+                    padding-bottom: $padding;
+                    padding-right: ($padding)+40;
+                    padding-left: ($padding)+40;
+                    letter-spacing: ($padding)-8;
+                    font-size: smaller;
+                    margin-top: ($padding)+20;
+                }
+                button:hover {
+                    background: $primary-color;
+                    color: $background-button;
+                }
+            }
+        }
+        
+        .block-5 {
+            display: $display;
+            background: #0a1c2e;
+            height: ($padding)+410;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            .column-0 {
+                display: $display;
+                flex-direction: row;
+                align-items: flex-start;
+                width: ($width)-10;
+                margin-top: ($padding)+40;
+                border-bottom: 0.5px solid #233343;
+                padding-bottom: ($padding)+40;
+                .block-5--ul {
+                    display: $display;
+                    flex-direction: column;
+                    line-height: 2;
+                    margin-right: ($width)-90;
+                    ul {
+                        display: $display;
+                        text-transform: $text-transform-ul;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        a {
+                            color: $primary-color;
+                            li {
+                                font-size: ($padding)+5;
+                                font-weight: 600;
+                                display: table;
+                            }
+                            li:hover {
+                                text-decoration: $text-decoration-li;
+                            }
+                        }
+                    }
+                }
+                img {
+                    margin-right: ($width)-88;
+                }
+                .input-type {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    input {
+                        height: ($padding)+30;
+                        width: ($padding)+240;
+                        background: #0a1c2e;
+                        border-color: $primary-color;
+                        border: 1px solid $primary-color;
+                        padding-left: 10px;
+                    }
+                    button {
+                        position: absolute;
+                        height: ($padding)+30;
+                        width: ($padding)+40;
+                        background: $primary-color;
+                        color: #0a1c2e;
+                        border: 1px solid $primary-color;
+                        border-left: none;
+                    }
+                    button:hover {
+                        background: #288db3
+                    }
+                }
+            }
+            .column-1 {
+                display: $display;
+                flex-direction: row;
+                width: $width;
+                margin-bottom: ($padding)+40;
+                justify-content: flex-end;
+                margin-bottom: 50px;
+                margin-right: ($width)-90;
+                .foot {
+                    .span-1 {
+                        display: $display;
+                        align-items: center;
+                        justify-content: space-around;
+                    }
+                    span {
+                        color: #5b6a79;
+                        font {
+                            color: $primary-color;
+                        }
+                    }
+                }
+            }
+        }
+        
+        .ul-m {
+            margin-left: ($padding)+10;
+        }
