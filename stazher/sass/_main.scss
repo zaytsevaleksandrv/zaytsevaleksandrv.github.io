@@ -56,16 +56,17 @@ body {
     }
     ul {
         display: $display;
-        justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         flex-direction: row;
-        align-content: space-between;
+        margin-top: -4px;
+        margin-left: 4.55%;
         text-transform: $text-transform-ul;
         li {
             display: $display;
             margin: ($padding)+10;
-            letter-spacing: 3px;
-            font-family: sans-serif;
+            letter-spacing: 2px;
+            font-family: "Raleway", sans-serif;
+            font-weight: 700;
             a {
                 color: $primary-color;
             }
@@ -75,10 +76,13 @@ body {
                 border: none;
                 padding-top: $padding;
                 padding-bottom: $padding;
-                padding-right: ($padding)+10;
-                padding-left: ($padding)+10;
+                padding-right: ($padding)+20;
+                padding-left: ($padding)+20;
                 letter-spacing: 3px;
-                font-family: sans-serif;
+                font-family: "Raleway", sans-serif;
+                font-weight: 800;
+                font-size: 13px;
+                margin-top: -11px;
             }
             button:hover {
                 background: $primary-color;
