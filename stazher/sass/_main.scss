@@ -37,7 +37,7 @@ body {
 .block-1 {
     background: url("../img/front.png") center no-repeat;
     background-size: cover;
-    height: 745px;
+    height: 718px;
 }
 
 .block-1--flex-box--head {
@@ -47,9 +47,9 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     img {
-        margin-left: 20px;
-        margin-top: 5px;
-        width: ($width)-12;
+        margin-left: 6%;
+        margin-top: 18%;
+        width: ($width)-6;
     }
     .main-menu {
         display: none;
@@ -58,8 +58,8 @@ body {
         display: $display;
         align-items: flex-start;
         flex-direction: row;
-        margin-top: -4px;
-        margin-left: 4.55%;
+        margin-top: 1.642%;
+        margin-left: 4.78%;
         text-transform: $text-transform-ul;
         li {
             display: $display;
@@ -105,14 +105,14 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: ($width)-90.2;
+    margin-top: ($width)-90.45;
     i {
-        font-size: ($font-size)+19;
+        font-size: ($font-size)+17;
         color: $primary-color-i;
         font-family: $FontAwesome;
     }
     font {
-        font-size: ($font-size)+59;
+        font-size: ($font-size)+57;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
         font-weight: 700;

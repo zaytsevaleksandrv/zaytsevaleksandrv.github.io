@@ -474,7 +474,7 @@ body {
 .block-1 {
   background: url("../img/front.png") center no-repeat;
   background-size: cover;
-  height: 745px;
+  height: 718px;
 }
 
 /* line 43, ../sass/_main.scss */
@@ -487,9 +487,9 @@ body {
 }
 /* line 49, ../sass/_main.scss */
 .block-1--flex-box--head img {
-  margin-left: 20px;
-  margin-top: 5px;
-  width: 88%;
+  margin-left: 6%;
+  margin-top: 18%;
+  width: 94%;
 }
 /* line 54, ../sass/_main.scss */
 .block-1--flex-box--head .main-menu {
@@ -500,8 +500,8 @@ body {
   display: flex;
   align-items: flex-start;
   flex-direction: row;
-  margin-top: -4px;
-  margin-left: 4.55%;
+  margin-top: 1.642%;
+  margin-left: 4.78%;
   text-transform: uppercase;
 }
 /* line 64, ../sass/_main.scss */
@@ -553,17 +553,17 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 9.8%;
+  margin-top: 9.55%;
 }
 /* line 109, ../sass/_main.scss */
 .block-1--text-black i {
-  font-size: 31px;
+  font-size: 29px;
   color: black;
   font-family: "FontAwesome";
 }
 /* line 114, ../sass/_main.scss */
 .block-1--text-black font {
-  font-size: 71px;
+  font-size: 69px;
   color: black;
   text-transform: uppercase;
   font-weight: 700;
