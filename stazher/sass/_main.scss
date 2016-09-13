@@ -105,29 +105,31 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: ($padding)+110;
+    margin-top: ($width)-90.4;
     i {
-        font-size: ($font-size)+15;
+        font-size: ($font-size)+20;
         color: $primary-color-i;
         font-family: $FontAwesome;
     }
     font {
-        font-size: ($font-size)+60;
+        font-size: ($font-size)+61;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
-        font-weight: 600;
-        letter-spacing: ($padding)-2;
+        font-weight: 700;
+        letter-spacing: ($padding)-3.89;
     }
     hr {
-        border: 4px solid $primary-color-i;
-        width: ($padding)+35;
+        border: 3px solid $primary-color-i;
+        width: ($padding)+25;
+        margin-top: 0.18%;
     }
     p {
-        font-size: ($font-size)+5;
+        font-size: ($font-size)+7;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
-        letter-spacing: ($padding)-6;
+        letter-spacing: ($padding)-7;
         font-weight: 800;
+        margin-top: 0.1%;
     }
     button {
         width: ($padding)+35;
