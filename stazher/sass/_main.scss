@@ -311,7 +311,7 @@ body {
         margin-bottom: ($padding)+45;
         span {
             img {
-                width: $width;
+                width: 94.3%;
                 height: auto;
             }
         }
@@ -321,42 +321,49 @@ body {
             align-items: center;
             justify-content: center;
             p {
-                color: $primary-color-i;
-                text-transform: $text-transform-ul;
-                font-size: ($padding)+13;
-                width: $width;
-                letter-spacing: ($padding)-8;
-                font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                color: black;
+                text-transform: uppercase;
+                font-size: 21px;
+                width: 100%;
+                letter-spacing: 4px;
+                font-family: "GlyphiconsHalflingsRegular", sans-serif;
                 text-align: center;
+                margin-left: -7%;
+                font-weight: 600;
+                margin-top: 0.9%;
             }
             b {
-                font-size: ($padding)+30;
-                color: $primary-color-i;
+                font-size: 40px;
+                color: black;
                 font-weight: 400;
-                margin-top: ($padding)-55;
+                margin-top: -39px;
+                margin-left: -7%;
             }
             font {
-                color: $primary-color-i;
-                font-size: $font-size;
+                color: black;
                 font-size: medium;
                 font-weight: 200;
-                width: ($width)-35;
+                width: 65%;
+                line-height: 1.8;
                 text-align: center;
+                margin-left: -4%;
             }
             a {
                 color: $primary-color;
             }
             button {
-                background: $background-button;
-                text-transform: $text-transform-ul;
+                background: #288db3;
+                text-transform: uppercase;
                 border: none;
-                padding-top: $padding;
-                padding-bottom: $padding;
-                padding-right: ($padding)+20;
-                padding-left: ($padding)+20;
-                letter-spacing: ($padding)-8;
-                font-size: smaller;
-                margin-top: ($padding)+20;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                margin-left: -13%;
+                margin-top: 30px;
+                font-weight: bolder;
             }
             button:hover {
                 background: $primary-color;
