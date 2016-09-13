@@ -553,21 +553,21 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-top: 9.6%;
+  margin-top: 9.8%;
 }
 /* line 109, ../sass/_main.scss */
 .block-1--text-black i {
-  font-size: 32px;
+  font-size: 31px;
   color: black;
   font-family: "FontAwesome";
 }
 /* line 114, ../sass/_main.scss */
 .block-1--text-black font {
-  font-size: 73px;
+  font-size: 71px;
   color: black;
   text-transform: uppercase;
   font-weight: 700;
-  letter-spacing: 6.11px;
+  letter-spacing: 9.28px;
 }
 /* line 121, ../sass/_main.scss */
 .block-1--text-black hr {
@@ -577,7 +577,7 @@ body {
 }
 /* line 126, ../sass/_main.scss */
 .block-1--text-black p {
-  font-size: 19px;
+  font-size: 17px;
   color: black;
   text-transform: uppercase;
   letter-spacing: 3px;

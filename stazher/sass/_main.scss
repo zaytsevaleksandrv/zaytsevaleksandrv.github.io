@@ -105,18 +105,18 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: ($width)-90.4;
+    margin-top: ($width)-90.2;
     i {
-        font-size: ($font-size)+20;
+        font-size: ($font-size)+19;
         color: $primary-color-i;
         font-family: $FontAwesome;
     }
     font {
-        font-size: ($font-size)+61;
+        font-size: ($font-size)+59;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
         font-weight: 700;
-        letter-spacing: ($padding)-3.89;
+        letter-spacing: ($padding)-0.72;
     }
     hr {
         border: 3px solid $primary-color-i;
@@ -124,7 +124,7 @@ body {
         margin-top: 0.18%;
     }
     p {
-        font-size: ($font-size)+7;
+        font-size: ($font-size)+5;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
         letter-spacing: ($padding)-7;
