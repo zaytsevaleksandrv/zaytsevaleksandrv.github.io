@@ -37,7 +37,7 @@ body {
 .block-1 {
     background: url("../img/front.png") center no-repeat;
     background-size: cover;
-    height: ($padding)+735;
+    height: 745px;
 }
 
 .block-1--flex-box--head {
@@ -45,9 +45,12 @@ body {
     display: $display;
     flex-wrap: nowrap;
     flex-direction: row;
-    align-items: center;
     justify-content: flex-start;
-    width: $width;
+    img {
+        margin-left: 20px;
+        margin-top: 5px;
+        width: ($width)-12;
+    }
     .main-menu {
         display: none;
     }
@@ -90,7 +93,6 @@ body {
 
 .block-1--img-logo {
     display: $display;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -655,7 +657,6 @@ body {
                 position: absolute;
                 left: -118px;
                 display: none;
-                width: 190px;
                 margin-top: 20px;
                 padding: 0;
                 list-style: none;
