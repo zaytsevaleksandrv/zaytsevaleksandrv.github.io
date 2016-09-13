@@ -234,17 +234,17 @@ body {
 .block-3 {
     background: $primary-color;
     .container {
-        max-width: ($padding)+948;
+        max-width: ($padding)+930;
     }
     .block-3--flex-box--main-0 {
         display: $display;
         width: $width;
         background: #eee;
-        margin-top: ($padding)+90;
+        margin-top: 12.5%;
         margin-bottom: ($padding)+45;
         span {
             img {
-                width: $width;
+                width: 94.3%;
                 height: auto;
             }
         }

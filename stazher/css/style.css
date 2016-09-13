@@ -701,19 +701,19 @@ body {
 }
 /* line 236, ../sass/_main.scss */
 .block-3 .container {
-  max-width: 958px;
+  max-width: 940px;
 }
 /* line 239, ../sass/_main.scss */
 .block-3 .block-3--flex-box--main-0 {
   display: flex;
   width: 100%;
   background: #eee;
-  margin-top: 100px;
+  margin-top: 12.5%;
   margin-bottom: 55px;
 }
 /* line 246, ../sass/_main.scss */
 .block-3 .block-3--flex-box--main-0 span img {
-  width: 100%;
+  width: 94.3%;
   height: auto;
 }
 /* line 251, ../sass/_main.scss */
