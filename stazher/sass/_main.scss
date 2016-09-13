@@ -1,4 +1,4 @@
-    @import "compass/css3";
+@import "compass/css3";
 @include font-face("FontAwesome", font-files("FontAwesome.otf"));
 @include font-face("FontAwesomeWebfont", font-files("fontawesome-webfont.svg", "fontawesome-webfont.ttf", "fontawesome-webfont.woff", "fontawesome-webfont.woff2"), "fontawesome-webfont.eot"
 /* относительный путь к .eot файлу для IE */
@@ -311,70 +311,490 @@ body {
         margin-bottom: ($padding)+45;
         span {
             img {
-                width: 508px;
-                height: 365px;
+                width: 94.3%;
+                height: auto;
             }
-            div {
+        }
+        div {
+            display: $display;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                color: black;
+                text-transform: uppercase;
+                font-size: 21px;
+                width: 100%;
+                letter-spacing: 4px;
+                font-family: "GlyphiconsHalflingsRegular", sans-serif;
+                text-align: center;
+                margin-left: -3%;
+                font-weight: 600;
+                margin-top: 0.9%;
+            }
+            b {
+                font-size: 40px;
+                color: black;
+                font-weight: 400;
+                margin-top: -30px;
+                margin-left: -4%;
+            }
+            font {
+                color: black;
+                font-size: medium;
+                font-weight: 200;
+                width: 67%;
+                line-height: 1.8;
+                text-align: center;
+                margin-left: -4%;
+            }
+            a {
+                color: $primary-color;
+            }
+            button {
+                background: #288db3;
+                text-transform: uppercase;
+                border: none;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                letter-spacing: 2px;
+                font-size: 12px;
+                margin-left: -7%;
+                margin-top: 25px;
+                font-weight: bolder;
+            }
+            button:hover {
+                background: $primary-color;
+                color: $background-button;
+            }
+        }
+    }
+    .block-3--flex-box--main-2 {
+        display: $display;
+        width: $width;
+        background: #eee;
+        margin-bottom: ($padding)+65;
+        span {
+            img {
+                width: $width;
+                height: auto;
+            }
+        }
+        div {
+            display: $display;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            p {
+                color: $primary-color-i;
+                text-transform: $text-transform-ul;
+                font-size: ($padding)+13;
+                width: $width;
+                letter-spacing: ($padding)-8;
+                font-family: $GlyphiconsHalflingsRegular, sans-serif;
+                text-align: center;
+            }
+            b {
+                font-size: ($padding)+30;
+                color: $primary-color-i;
+                font-weight: 400;
+                margin-top: ($padding)-55;
+            }
+            font {
+                color: $primary-color-i;
+                font-size: $font-size;
+                font-size: medium;
+                font-weight: 200;
+                width: ($width)-35;
+                text-align: center;
+            }
+            a {
+                color: $primary-color;
+            }
+            button {
+                background: $background-button;
+                text-transform: $text-transform-ul;
+                border: none;
+                padding-top: $padding;
+                padding-bottom: $padding;
+                padding-right: ($padding)+20;
+                padding-left: ($padding)+20;
+                letter-spacing: ($padding)-8;
+                font-size: smaller;
+                margin-top: ($padding)+20;
+            }
+            button:hover {
+                background: $primary-color;
+                color: $background-button;
+            }
+        }
+    }
+}
+
+.block-4 {
+    background: url("../img/front-footer.png") center no-repeat;
+    background-size: cover;
+    height: ($padding)+720;
+    display: $display;
+    justify-content: flex-end;
+    padding-left: ($padding)-10;
+    padding-right: ($padding)-10;
+    .column-0 {
+        display: $display;
+        flex-direction: column;
+        align-items: center;
+        height: ($padding)+720;
+        width: (($width)/2)+3.5;
+        background: transparentize($primary-color, .3);
+        p {
+            color: $primary-color-i;
+            text-transform: $text-transform-ul;
+            font-size: ($padding)+13;
+            width: $width;
+            letter-spacing: ($padding)-8;
+            font-family: $GlyphiconsHalflingsRegular, sans-serif;
+            text-align: center;
+        }
+        b {
+            font-size: ($padding)+30;
+            color: $primary-color-i;
+            font-weight: 400;
+            margin-top: ($padding)-55;
+        }
+        .row-0 {
+            display: $display;
+            flex-direction: row;
+            width: ($width)-20;
+            align-items: center;
+            margin-top: ($padding)+30;
+            .column-1 {
                 display: $display;
                 flex-direction: column;
-                align-items: center;
-                justify-content: center;
-                p {
-                    color: black;
-                    text-transform: uppercase;
-                    font-size: 21px;
-                    width: 100%;
-                    letter-spacing: 4px;
-                    font-family: "GlyphiconsHalflingsRegular", sans-serif;
+                background: $backround-transparent;
+                border-left: 1px solid #eee;
+                width: ($width)-20;
+                .card {
                     text-align: center;
-                    margin-left: -3%;
-                    font-weight: 600;
-                    margin-top: 0.9%;
+                    padding: ($padding)+20;
+                    p {
+                        font-size: ($padding)+1;
+                        font-weight: 600;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
                 }
-                b {
-                    font-size: 40px;
-                    color: black;
-                    font-weight: 400;
-                    margin-top: -30px;
-                    margin-left: -4%;
-                }
-                font {
-                    color: black;
-                    font-size: medium;
-                    font-weight: 200;
-                    width: 67%;
-                    line-height: 1.8;
+                .man {
+                    border-bottom: 1px solid #eee;
                     text-align: center;
-                    margin-left: -4%;
+                    padding: ($padding)+20;
+                    p {
+                        font-size: ($padding)+1;
+                        font-weight: 600;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
                 }
-                a {
-                    color: $primary-color;
+            }
+            .column-2 {
+                display: $display;
+                flex-direction: column;
+                background: $backround-transparent;
+                width: ($width)-20;
+                .palma {
+                    text-align: center;
+                    padding: ($padding)+20;
+                    p {
+                        font-size: ($padding)+1;
+                        font-weight: 600;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
                 }
-                button {
-                    background: #288db3;
-                    text-transform: uppercase;
-                    border: none;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                    padding-right: 30px;
-                    padding-left: 30px;
-                    letter-spacing: 2px;
-                    font-size: 12px;
-                    margin-left: -7%;
-                    margin-top: 25px;
-                    font-weight: bolder;
-                }
-                button:hover {
-                    background: $primary-color;
-                    color: $background-button;
+                .book {
+                    border-bottom: 1px solid #eee;
+                    text-align: center;
+                    padding: ($padding)+20;
+                    p {
+                        font-size: ($padding)+1;
+                        font-weight: 600;
+                    }
+                    font {
+                        color: $primary-color-i;
+                        font-size: $font-size;
+                        font-size: medium;
+                        font-weight: 200;
+                        width: ($width)-35;
+                        text-align: center;
+                    }
                 }
             }
         }
-        .block-3--flex-box--main-2 {
+        a {
+            color: $primary-color;
+        }
+        button {
+            background: $background-button;
+            text-transform: $text-transform-ul;
+            border: none;
+            padding-top: $padding;
+            padding-bottom: $padding;
+            padding-right: ($padding)+40;
+            padding-left: ($padding)+40;
+            letter-spacing: ($padding)-8;
+            font-size: smaller;
+            margin-top: ($padding)+20;
+        }
+        button:hover {
+            background: $primary-color;
+            color: $background-button;
+        }
+    }
+}
+
+.block-5 {
+    display: $display;
+    background: #0a1c2e;
+    height: ($padding)+410;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    .column-0 {
+        display: $display;
+        flex-direction: row;
+        align-items: flex-start;
+        width: ($width)-10;
+        margin-top: ($padding)+40;
+        border-bottom: 0.5px solid #233343;
+        padding-bottom: ($padding)+40;
+        .block-5--ul {
             display: $display;
-            width: $width;
-            background: #eee;
-            margin-bottom: ($padding)+65;
+            flex-direction: column;
+            line-height: 2;
+            margin-right: ($width)-90;
+            ul {
+                display: $display;
+                text-transform: $text-transform-ul;
+                flex-direction: column;
+                align-items: flex-start;
+                a {
+                    color: $primary-color;
+                    li {
+                        font-size: ($padding)+5;
+                        font-weight: 600;
+                        display: table;
+                    }
+                    li:hover {
+                        text-decoration: $text-decoration-li;
+                    }
+                }
+            }
+        }
+        img {
+            margin-right: ($width)-88;
+        }
+        .input-type {
+            display: flex;
+            flex-direction: row-reverse;
+            input {
+                height: ($padding)+30;
+                width: ($padding)+240;
+                background: #0a1c2e;
+                border-color: $primary-color;
+                border: 1px solid $primary-color;
+                padding-left: 10px;
+            }
+            button {
+                position: absolute;
+                height: ($padding)+30;
+                width: ($padding)+40;
+                background: $primary-color;
+                color: #0a1c2e;
+                border: 1px solid $primary-color;
+                border-left: none;
+            }
+            button:hover {
+                background: #288db3
+            }
+        }
+    }
+    .column-1 {
+        display: $display;
+        flex-direction: row;
+        width: $width;
+        margin-bottom: ($padding)+40;
+        justify-content: flex-end;
+        margin-bottom: 50px;
+        margin-right: ($width)-90;
+        .foot {
+            .span-1 {
+                display: $display;
+                align-items: center;
+                justify-content: space-around;
+            }
+            span {
+                color: #5b6a79;
+                font {
+                    color: $primary-color;
+                }
+            }
+        }
+    }
+}
+
+.ul-m {
+    margin-left: ($padding)+10;
+}
+
+@media screen and (max-device-width: 768px) {
+    .block-1 {
+        background: url("../img/front.png") center no-repeat;
+        background-size: (($width)*2)+42;
+        height: 100em;
+        .block-1--flex-box--head {
+            padding-top: ($padding)+10;
+            padding-left: ($padding)+70;
+            .block-1--img-logo {
+                img {
+                    width: ($width)+40;
+                }
+            }
+            .main-menu {
+                display: $display;
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                border: none;
+            }
+            .main-menu > li {
+                position: relative;
+                display: inline-block;
+                left: ($width)-10;
+            }
+            .main-menu a {
+                display: block;
+                margin-left: -1px;
+                padding: 8px 10px;
+                color: #0088cc;
+                border-left: 1px solid #e5e5e5;
+            }
+            .main-menu a:hover {
+                background: #000;
+            }
+            .main-menu .sub-menu {
+                position: absolute;
+                left: -118px;
+                display: none;
+                margin-top: 20px;
+                padding: 0;
+                list-style: none;
+                background: #000;
+            }
+            .main-menu .sub-menu a {
+                border: none;
+                font-size: medium;
+                color: white;
+            }
+            .main-menu > li:hover .sub-menu {
+                display: block;
+            }
+            ul {
+                display: none;
+            }
+        }
+        .block-1--text-black {
+            i {
+                font-size: ($font-size)+25;
+            }
+            font {
+                font-size: ($font-size)+70;
+            }
+            hr {}
+            p {
+                font-size: ($font-size)+13;
+            }
+            button {
+                margin-top: 15em;
+                width: ($padding)+80;
+                height: ($padding)+80;
+                border-radius: ($padding)+50;
+                font-size: ($padding)+22;
+            }
+        }
+        .block-1--img-logo {
+            display: $display;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+    .img-none {
+        display: $display;
+        width: $width;
+    }
+    .block-2 {
+        background: #eee;
+        height: ($padding)+691;
+        text-align: center;
+        .block-2--flex-box--main {
+            align-items: center;
+            justify-content: center;
+            p {
+                font-size: ($padding)+19;
+                padding-top: 0px;
+                font-weight: 600;
+            }
+            b {
+                display: none;
+            }
+            font {
+                font-size: x-large;
+                width: $width;
+            }
+            a {
+                color: $primary-color;
+                margin-top: ($padding)+35;
+            }
+            button {
+                padding-top: ($padding)+10;
+                padding-bottom: ($padding)+10;
+                padding-right: ($padding)+60;
+                padding-left: ($padding)+60;
+                font-size: large;
+            }
+            button:hover {
+                background: $primary-color;
+                color: $background-button;
+            }
+        }
+    }
+    .block-3 {
+        background: #eee;
+        .container {
+            max-width: ($padding)+948;
+        }
+        .block-3--flex-box--main-0 {
+            margin-top: ($padding)-10;
+            margin-bottom: ($padding)+20;
+            flex-direction: column;
             span {
                 img {
                     width: $width;
@@ -413,16 +833,77 @@ body {
                     color: $primary-color;
                 }
                 button {
-                    background: $background-button;
-                    text-transform: $text-transform-ul;
-                    border: none;
                     padding-top: $padding;
                     padding-bottom: $padding;
-                    padding-right: ($padding)+20;
-                    padding-left: ($padding)+20;
-                    letter-spacing: ($padding)-8;
-                    font-size: smaller;
-                    margin-top: ($padding)+20;
+                    padding-right: ($padding)+40;
+                    padding-left: ($padding)+40;
+                    font-size: large;
+                }
+                button:hover {
+                    background: $primary-color;
+                    color: $background-button;
+                }
+            }
+        }
+        .block-3--flex-box--main-1 {
+            flex-direction: column-reverse;
+            margin-bottom: 0px;
+            padding-bottom: ($padding)+30;
+            span {
+                img {}
+            }
+            div {
+                p {
+                    font-size: ($padding)+13;
+                }
+                b {
+                    font-size: ($padding)+30;
+                }
+                font {
+                    font-size: medium;
+                }
+                a {
+                    color: $primary-color;
+                }
+                button {
+                    padding-top: $padding;
+                    padding-bottom: $padding;
+                    padding-right: ($padding)+40;
+                    padding-left: ($padding)+40;
+                    font-size: large;
+                }
+                button:hover {
+                    background: $primary-color;
+                    color: $background-button;
+                }
+            }
+        }
+        .block-3--flex-box--main-2 {
+            flex-direction: column;
+            margin-bottom: 0px;
+            padding-bottom: ($padding)+30;
+            span {
+                img {}
+            }
+            div {
+                p {
+                    font-size: ($padding)+13;
+                }
+                b {
+                    font-size: ($padding)+30;
+                }
+                font {
+                    font-size: medium;
+                }
+                a {
+                    color: $primary-color;
+                }
+                button {
+                    padding-top: $padding;
+                    padding-bottom: $padding;
+                    padding-right: ($padding)+40;
+                    padding-left: ($padding)+40;
+                    font-size: large;
                 }
                 button:hover {
                     background: $primary-color;
@@ -432,117 +913,53 @@ body {
         }
     }
     .block-4 {
-        background: url("../img/front-footer.png") center no-repeat;
+        background: url("../img/join-bg.jpg") center no-repeat;
         background-size: cover;
-        height: ($padding)+720;
-        display: $display;
-        justify-content: flex-end;
-        padding-left: ($padding)-10;
-        padding-right: ($padding)-10;
+        height: 770px;
         .column-0 {
-            display: $display;
-            flex-direction: column;
-            align-items: center;
-            height: ($padding)+720;
-            width: (($width)/2)+3.5;
-            background: transparentize($primary-color, .3);
+            width: $width;
+            padding-top: ($padding)+20;
+            height: 770px;
             p {
-                color: $primary-color-i;
-                text-transform: $text-transform-ul;
-                font-size: ($padding)+13;
-                width: $width;
-                letter-spacing: ($padding)-8;
-                font-family: $GlyphiconsHalflingsRegular, sans-serif;
-                text-align: center;
+                font-size: ($padding)+19;
+                font-weight: 600;
+                letter-spacing: 5px;
             }
-            b {
-                font-size: ($padding)+30;
-                color: $primary-color-i;
-                font-weight: 400;
-                margin-top: ($padding)-55;
-            }
+            b {}
             .row-0 {
-                display: $display;
-                flex-direction: row;
-                width: ($width)-20;
-                align-items: center;
-                margin-top: ($padding)+30;
                 .column-1 {
-                    display: $display;
-                    flex-direction: column;
-                    background: $backround-transparent;
-                    border-left: 1px solid #eee;
-                    width: ($width)-20;
                     .card {
-                        text-align: center;
-                        padding: ($padding)+20;
                         p {
-                            font-size: ($padding)+1;
-                            font-weight: 600;
+                            font-size: ($padding)+8;
                         }
                         font {
-                            color: $primary-color-i;
-                            font-size: $font-size;
-                            font-size: medium;
-                            font-weight: 200;
-                            width: ($width)-35;
-                            text-align: center;
+                            font-size: x-large;
                         }
                     }
                     .man {
-                        border-bottom: 1px solid #eee;
-                        text-align: center;
-                        padding: ($padding)+20;
                         p {
-                            font-size: ($padding)+1;
-                            font-weight: 600;
+                            font-size: ($padding)+8;
                         }
                         font {
-                            color: $primary-color-i;
-                            font-size: $font-size;
-                            font-size: medium;
-                            font-weight: 200;
-                            width: ($width)-35;
-                            text-align: center;
+                            font-size: x-large;
                         }
                     }
                 }
                 .column-2 {
-                    display: $display;
-                    flex-direction: column;
-                    background: $backround-transparent;
-                    width: ($width)-20;
                     .palma {
-                        text-align: center;
-                        padding: ($padding)+20;
                         p {
-                            font-size: ($padding)+1;
-                            font-weight: 600;
+                            font-size: ($padding)+8;
                         }
                         font {
-                            color: $primary-color-i;
-                            font-size: $font-size;
-                            font-size: medium;
-                            font-weight: 200;
-                            width: ($width)-35;
-                            text-align: center;
+                            font-size: x-large;
                         }
                     }
                     .book {
-                        border-bottom: 1px solid #eee;
-                        text-align: center;
-                        padding: ($padding)+20;
                         p {
-                            font-size: ($padding)+1;
-                            font-weight: 600;
+                            font-size: ($padding)+8;
                         }
                         font {
-                            color: $primary-color-i;
-                            font-size: $font-size;
-                            font-size: medium;
-                            font-weight: 200;
-                            width: ($width)-35;
-                            text-align: center;
+                            font-size: x-large;
                         }
                     }
                 }
@@ -551,16 +968,11 @@ body {
                 color: $primary-color;
             }
             button {
-                background: $background-button;
-                text-transform: $text-transform-ul;
-                border: none;
-                padding-top: $padding;
-                padding-bottom: $padding;
-                padding-right: ($padding)+40;
-                padding-left: ($padding)+40;
-                letter-spacing: ($padding)-8;
-                font-size: smaller;
-                margin-top: ($padding)+20;
+                padding-top: ($padding)+5;
+                padding-bottom: ($padding)+5;
+                padding-right: ($padding)+70;
+                padding-left: ($padding)+70;
+                font-size: large;
             }
             button:hover {
                 background: $primary-color;
@@ -569,36 +981,18 @@ body {
         }
     }
     .block-5 {
-        display: $display;
-        background: #0a1c2e;
-        height: ($padding)+410;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
         .column-0 {
-            display: $display;
-            flex-direction: row;
-            align-items: flex-start;
-            width: ($width)-10;
-            margin-top: ($padding)+40;
-            border-bottom: 0.5px solid #233343;
-            padding-bottom: ($padding)+40;
+            flex-direction: column;
+            align-items: center;
+            margin-top: ($padding);
             .block-5--ul {
-                display: $display;
-                flex-direction: column;
-                line-height: 2;
-                margin-right: ($width)-90;
+                flex-direction: row;
                 ul {
-                    display: $display;
-                    text-transform: $text-transform-ul;
-                    flex-direction: column;
-                    align-items: flex-start;
+                    align-items: center;
                     a {
                         color: $primary-color;
                         li {
-                            font-size: ($padding)+5;
-                            font-weight: 600;
-                            display: table;
+                            font-size: large;
                         }
                         li:hover {
                             text-decoration: $text-decoration-li;
@@ -607,41 +1001,26 @@ body {
                 }
             }
             img {
-                margin-right: ($width)-88;
+                margin-right: ($width)-75;
+                width: ($width)-75;
+                margin-top: ($padding)+40;
+                margin-bottom: ($padding)+40;
             }
             .input-type {
-                display: flex;
-                flex-direction: row-reverse;
                 input {
-                    height: ($padding)+30;
-                    width: ($padding)+240;
-                    background: #0a1c2e;
-                    border-color: $primary-color;
-                    border: 1px solid $primary-color;
-                    padding-left: 10px;
+                    height: ($padding)+50;
+                    font-size: large;
                 }
                 button {
-                    position: absolute;
-                    height: ($padding)+30;
-                    width: ($padding)+40;
-                    background: $primary-color;
-                    color: #0a1c2e;
-                    border: 1px solid $primary-color;
-                    border-left: none;
+                    height: ($padding)+50;
+                    font-size: large;
                 }
-                button:hover {
-                    background: #288db3
-                }
+                button:hover {}
             }
         }
         .column-1 {
-            display: $display;
-            flex-direction: row;
-            width: $width;
-            margin-bottom: ($padding)+40;
-            justify-content: flex-end;
-            margin-bottom: 50px;
-            margin-right: ($width)-90;
+            justify-content: center;
+            margin-right: 0%;
             .foot {
                 .span-1 {
                     display: $display;
@@ -649,6 +1028,7 @@ body {
                     justify-content: space-around;
                 }
                 span {
+                    font-size: large;
                     color: #5b6a79;
                     font {
                         color: $primary-color;
@@ -660,452 +1040,78 @@ body {
     .ul-m {
         margin-left: ($padding)+10;
     }
-    @media screen and (max-device-width: 768px) {
-        .block-1 {
-            background: url("../img/front.png") center no-repeat;
-            background-size: (($width)*2)+42;
-            height: 100em;
-            .block-1--flex-box--head {
-                padding-top: ($padding)+10;
-                padding-left: ($padding)+70;
-                .block-1--img-logo {
-                    img {
-                        width: ($width)+40;
-                    }
-                }
-                .main-menu {
-                    display: $display;
-                    margin: 0;
-                    padding: 0;
-                    list-style: none;
-                    border: none;
-                }
-                .main-menu > li {
-                    position: relative;
-                    display: inline-block;
-                    left: ($width)-10;
-                }
-                .main-menu a {
-                    display: block;
-                    margin-left: -1px;
-                    padding: 8px 10px;
-                    color: #0088cc;
-                    border-left: 1px solid #e5e5e5;
-                }
-                .main-menu a:hover {
-                    background: #000;
-                }
-                .main-menu .sub-menu {
-                    position: absolute;
-                    left: -118px;
-                    display: none;
-                    margin-top: 20px;
-                    padding: 0;
-                    list-style: none;
-                    background: #000;
-                }
-                .main-menu .sub-menu a {
-                    border: none;
-                    font-size: medium;
-                    color: white;
-                }
-                .main-menu > li:hover .sub-menu {
-                    display: block;
-                }
-                ul {
-                    display: none;
-                }
-            }
-            .block-1--text-black {
-                i {
-                    font-size: ($font-size)+25;
-                }
-                font {
-                    font-size: ($font-size)+70;
-                }
-                hr {}
-                p {
-                    font-size: ($font-size)+13;
-                }
-                button {
-                    margin-top: 15em;
-                    width: ($padding)+80;
-                    height: ($padding)+80;
-                    border-radius: ($padding)+50;
-                    font-size: ($padding)+22;
-                }
-            }
-            .block-1--img-logo {
-                display: $display;
-                align-items: center;
-                justify-content: space-around;
-            }
-        }
-        .img-none {
-            display: $display;
+}
+
+@media screen and (max-device-width: 480px) {
+    .block-4 {
+        background: url("../img/join-bg.jpg") center no-repeat;
+        background-size: cover;
+        height: 1110px;
+        .column-0 {
             width: $width;
-        }
-        .block-2 {
-            background: #eee;
-            height: ($padding)+691;
-            text-align: center;
-            .block-2--flex-box--main {
-                align-items: center;
-                justify-content: center;
-                p {
-                    font-size: ($padding)+19;
-                    padding-top: 0px;
-                    font-weight: 600;
-                }
-                b {
-                    display: none;
-                }
-                font {
-                    font-size: x-large;
-                    width: $width;
-                }
-                a {
-                    color: $primary-color;
-                    margin-top: ($padding)+35;
-                }
-                button {
-                    padding-top: ($padding)+10;
-                    padding-bottom: ($padding)+10;
-                    padding-right: ($padding)+60;
-                    padding-left: ($padding)+60;
-                    font-size: large;
-                }
-                button:hover {
-                    background: $primary-color;
-                    color: $background-button;
-                }
-            }
-        }
-        .block-3 {
-            background: #eee;
-            .container {
-                max-width: ($padding)+948;
-            }
-            .block-3--flex-box--main-0 {
-                margin-top: ($padding)-10;
-                margin-bottom: ($padding)+20;
-                flex-direction: column;
-                span {
-                    img {
-                        width: $width;
-                        height: auto;
-                    }
-                }
-                div {
-                    display: $display;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
-                    p {
-                        color: $primary-color-i;
-                        text-transform: $text-transform-ul;
-                        font-size: ($padding)+13;
-                        width: $width;
-                        letter-spacing: ($padding)-8;
-                        font-family: $GlyphiconsHalflingsRegular, sans-serif;
-                        text-align: center;
-                    }
-                    b {
-                        font-size: ($padding)+30;
-                        color: $primary-color-i;
-                        font-weight: 400;
-                        margin-top: ($padding)-55;
-                    }
-                    font {
-                        color: $primary-color-i;
-                        font-size: $font-size;
-                        font-size: medium;
-                        font-weight: 200;
-                        width: ($width)-35;
-                        text-align: center;
-                    }
-                    a {
-                        color: $primary-color;
-                    }
-                    button {
-                        padding-top: $padding;
-                        padding-bottom: $padding;
-                        padding-right: ($padding)+40;
-                        padding-left: ($padding)+40;
-                        font-size: large;
-                    }
-                    button:hover {
-                        background: $primary-color;
-                        color: $background-button;
-                    }
-                }
-            }
-            .block-3--flex-box--main-1 {
-                flex-direction: column-reverse;
-                margin-bottom: 0px;
-                padding-bottom: ($padding)+30;
-                span {
-                    img {}
-                }
-                div {
-                    p {
-                        font-size: ($padding)+13;
-                    }
-                    b {
-                        font-size: ($padding)+30;
-                    }
-                    font {
-                        font-size: medium;
-                    }
-                    a {
-                        color: $primary-color;
-                    }
-                    button {
-                        padding-top: $padding;
-                        padding-bottom: $padding;
-                        padding-right: ($padding)+40;
-                        padding-left: ($padding)+40;
-                        font-size: large;
-                    }
-                    button:hover {
-                        background: $primary-color;
-                        color: $background-button;
-                    }
-                }
-            }
-            .block-3--flex-box--main-2 {
-                flex-direction: column;
-                margin-bottom: 0px;
-                padding-bottom: ($padding)+30;
-                span {
-                    img {}
-                }
-                div {
-                    p {
-                        font-size: ($padding)+13;
-                    }
-                    b {
-                        font-size: ($padding)+30;
-                    }
-                    font {
-                        font-size: medium;
-                    }
-                    a {
-                        color: $primary-color;
-                    }
-                    button {
-                        padding-top: $padding;
-                        padding-bottom: $padding;
-                        padding-right: ($padding)+40;
-                        padding-left: ($padding)+40;
-                        font-size: large;
-                    }
-                    button:hover {
-                        background: $primary-color;
-                        color: $background-button;
-                    }
-                }
-            }
-        }
-        .block-4 {
-            background: url("../img/join-bg.jpg") center no-repeat;
-            background-size: cover;
-            height: 770px;
-            .column-0 {
-                width: $width;
-                padding-top: ($padding)+20;
-                height: 770px;
-                p {
-                    font-size: ($padding)+19;
-                    font-weight: 600;
-                    letter-spacing: 5px;
-                }
-                b {}
-                .row-0 {
-                    .column-1 {
-                        .card {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
-                        }
-                        .man {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
-                        }
-                    }
-                    .column-2 {
-                        .palma {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
-                        }
-                        .book {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
-                        }
-                    }
-                }
-                a {
-                    color: $primary-color;
-                }
-                button {
-                    padding-top: ($padding)+5;
-                    padding-bottom: ($padding)+5;
-                    padding-right: ($padding)+70;
-                    padding-left: ($padding)+70;
-                    font-size: large;
-                }
-                button:hover {
-                    background: $primary-color;
-                    color: $background-button;
-                }
-            }
-        }
-        .block-5 {
-            .column-0 {
-                flex-direction: column;
-                align-items: center;
-                margin-top: ($padding);
-                .block-5--ul {
-                    flex-direction: row;
-                    ul {
-                        align-items: center;
-                        a {
-                            color: $primary-color;
-                            li {
-                                font-size: large;
-                            }
-                            li:hover {
-                                text-decoration: $text-decoration-li;
-                            }
-                        }
-                    }
-                }
-                img {
-                    margin-right: ($width)-75;
-                    width: ($width)-75;
-                    margin-top: ($padding)+40;
-                    margin-bottom: ($padding)+40;
-                }
-                .input-type {
-                    input {
-                        height: ($padding)+50;
-                        font-size: large;
-                    }
-                    button {
-                        height: ($padding)+50;
-                        font-size: large;
-                    }
-                    button:hover {}
-                }
-            }
-            .column-1 {
-                justify-content: center;
-                margin-right: 0%;
-                .foot {
-                    .span-1 {
-                        display: $display;
-                        align-items: center;
-                        justify-content: space-around;
-                    }
-                    span {
-                        font-size: large;
-                        color: #5b6a79;
-                        font {
-                            color: $primary-color;
-                        }
-                    }
-                }
-            }
-        }
-        .ul-m {
-            margin-left: ($padding)+10;
-        }
-    }
-    @media screen and (max-device-width: 480px) {
-        .block-4 {
-            background: url("../img/join-bg.jpg") center no-repeat;
-            background-size: cover;
+            padding-top: ($padding)+20;
+            padding-bottom: ($padding)+20;
             height: 1110px;
-            .column-0 {
-                width: $width;
-                padding-top: ($padding)+20;
-                padding-bottom: ($padding)+20;
-                height: 1110px;
-                p {
-                    font-size: ($padding)+19;
-                    font-weight: 600;
-                    letter-spacing: 5px;
-                }
-                b {}
-                .row-0 {
-                    flex-direction: column;
-                    width: ($width)-35;
-                    .column-1 {
-                        .card {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
+            p {
+                font-size: ($padding)+19;
+                font-weight: 600;
+                letter-spacing: 5px;
+            }
+            b {}
+            .row-0 {
+                flex-direction: column;
+                width: ($width)-35;
+                .column-1 {
+                    .card {
+                        p {
+                            font-size: ($padding)+8;
                         }
-                        .man {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
+                        font {
+                            font-size: x-large;
                         }
                     }
-                    .column-2 {
-                        .palma {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
+                    .man {
+                        p {
+                            font-size: ($padding)+8;
                         }
-                        .book {
-                            p {
-                                font-size: ($padding)+8;
-                            }
-                            font {
-                                font-size: x-large;
-                            }
+                        font {
+                            font-size: x-large;
                         }
                     }
                 }
-                a {
-                    color: $primary-color;
+                .column-2 {
+                    .palma {
+                        p {
+                            font-size: ($padding)+8;
+                        }
+                        font {
+                            font-size: x-large;
+                        }
+                    }
+                    .book {
+                        p {
+                            font-size: ($padding)+8;
+                        }
+                        font {
+                            font-size: x-large;
+                        }
+                    }
                 }
-                button {
-                    padding-top: ($padding)+5;
-                    padding-bottom: ($padding)+5;
-                    padding-right: ($padding)+70;
-                    padding-left: ($padding)+70;
-                    font-size: large;
-                }
-                button:hover {
-                    background: $primary-color;
-                    color: $background-button;
-                }
+            }
+            a {
+                color: $primary-color;
+            }
+            button {
+                padding-top: ($padding)+5;
+                padding-bottom: ($padding)+5;
+                padding-right: ($padding)+70;
+                padding-left: ($padding)+70;
+                font-size: large;
+            }
+            button:hover {
+                background: $primary-color;
+                color: $background-button;
             }
         }
     }
+}
