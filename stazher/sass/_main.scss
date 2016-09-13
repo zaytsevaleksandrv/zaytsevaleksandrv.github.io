@@ -110,24 +110,26 @@ body {
         font-size: ($font-size)+17;
         color: $primary-color-i;
         font-family: $FontAwesome;
+        margin-top: 0.2%;
     }
     font {
-        font-size: ($font-size)+57;
+        font-size: ($font-size)+56;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
         font-weight: 700;
         letter-spacing: ($padding)-0.72;
+        margin-top: 0.1%;
     }
     hr {
         border: 3px solid $primary-color-i;
         width: ($padding)+25;
-        margin-top: 0.18%;
+        margin-top: 0.28%;
     }
     p {
         font-size: ($font-size)+5;
         color: $primary-color-i;
         text-transform: $text-transform-ul;
-        letter-spacing: ($padding)-7;
+        letter-spacing: ($padding)-6.8;
         font-weight: 800;
         margin-top: 0.1%;
     }
@@ -137,10 +139,10 @@ body {
         border-radius: ($padding)+20;
         background: transparentize($primary-color, .6);
         border: 1px solid $primary-color;
-        margin-top: ($padding)+94;
         color: $primary-color;
         font-size: 16px;
-        padding-top: ($padding)-4
+        padding-top: ($padding)-4;
+        margin-top: 10.5%;
     }
     button:hover {
         background: $primary-color;
