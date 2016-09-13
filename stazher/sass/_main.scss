@@ -154,7 +154,7 @@ body {
 .block-2 {
     background: url("../img/front_welcome.png") center no-repeat;
     background-size: cover;
-    height: ($padding)+691;
+    height: ($padding)+634;
 }
 
 .block-2--flex-box--main {
@@ -164,26 +164,45 @@ body {
     p {
         color: $primary-color-i;
         text-transform: $text-transform-ul;
-        font-size: ($padding)+13;
-        width: $width;
-        letter-spacing: ($padding)-8;
+        font-size: ($padding)+11;
+        letter-spacing: ($padding)-4.99;
         font-family: $GlyphiconsHalflingsRegular, sans-serif;
-        padding-top: ($padding)+110;
+        padding-top: ($padding)+80;
+        margin-left: 1.1%;
     }
     b {
         font-size: ($padding)+30;
         color: $primary-color-i;
         font-weight: 400;
         margin-top: ($padding)-55;
+        margin-left: 1%;
     }
-    font {
+    .font-0 {
         color: $primary-color-i;
         font-size: $font-size;
-        padding-top: ($padding)+15;
-        padding-bottom: ($padding)+15;
-        font-size: medium;
+        padding-top: ($padding)+20;
+        font-size: 16px;
         font-weight: 200;
-        width: ($width)-38;
+        width: ($width)-41;
+        margin-left: 1%;
+    }
+    .font-1 {
+        color: $primary-color-i;
+        font-size: $font-size;
+        padding-top: ($padding)+20;
+        font-size: 16px;
+        font-weight: 200;
+        width: ($width)-37;
+        margin-left: 1%;
+    }
+    .font-2 {
+        color: $primary-color-i;
+        font-size: $font-size;
+        padding-top: ($padding)+20;
+        font-size: 16px;
+        font-weight: 200;
+        width: ($width)-37;
+        margin-left: 1%;
     }
     a {
         color: $primary-color;
