@@ -153,8 +153,9 @@ body {
 
 .block-2 {
     background: url("../img/front_welcome.png") center no-repeat;
-    background-size: cover;
-    height: ($padding)+634;
+    background-size: 86%;
+    height: 644px;
+    background-color: #e9e9e9;
 }
 
 .block-2--flex-box--main {
@@ -178,46 +179,51 @@ body {
         margin-left: 1%;
     }
     .font-0 {
-        color: $primary-color-i;
-        font-size: $font-size;
-        padding-top: ($padding)+20;
+        color: black;
+        padding-top: 30px;
         font-size: 16px;
         font-weight: 200;
-        width: ($width)-41;
+        width: 59%;
         margin-left: 1%;
+        line-height: 1.6;
+        letter-spacing: 0.02px;
     }
     .font-1 {
-        color: $primary-color-i;
-        font-size: $font-size;
-        padding-top: ($padding)+20;
-        font-size: 16px;
+        color: black;
+        padding-top: 30px;
+        font-size: 15px;
         font-weight: 200;
-        width: ($width)-37;
+        width: 63%;
         margin-left: 1%;
+        letter-spacing: 0.55px;
+        line-height: 1.7;
     }
     .font-2 {
-        color: $primary-color-i;
-        font-size: $font-size;
-        padding-top: ($padding)+20;
+        color: black;
+        padding-top: 30px;
         font-size: 16px;
         font-weight: 200;
-        width: ($width)-37;
+        width: 63%;
         margin-left: 1%;
+        line-height: 1.7;
     }
     a {
         color: $primary-color;
         margin-top: ($padding)+35;
     }
     button {
-        background: $background-button;
-        text-transform: $text-transform-ul;
+        background: #288db3;
+        text-transform: uppercase;
         border: none;
-        padding-top: $padding;
-        padding-bottom: $padding;
-        padding-right: ($padding)+10;
-        padding-left: ($padding)+10;
-        letter-spacing: ($padding)-8;
-        font-size: smaller;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 40px;
+        padding-left: 40px;
+        letter-spacing: 4px;
+        font-size: 11px;
+        margin-top: 0.4%;
+        margin-left: 1.2%;
+        font-weight: bolder;
     }
     button:hover {
         background: $primary-color;
