@@ -1726,8 +1726,8 @@ body {
     /* line 730, ../sass/_main.scss */
     .block-1 {
         background: url("../img/front.png") center no-repeat;
-        background-size: 242%;
-        height: 100em;
+        background-size: cover;
+        height: 84em;
     }
     /* line 734, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head {
@@ -1820,9 +1820,9 @@ body {
     }
     /* line 796, ../sass/_main.scss */
     .block-1 .block-1--text-black button {
-        margin-top: 15em;
-        width: 90px;
-        height: 90px;
+        margin-top: 6.8em;
+        width: 60px;
+        height: 60px;
         border-radius: 60px;
         font-size: 32px;
     }
