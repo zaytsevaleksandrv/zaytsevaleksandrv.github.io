@@ -1274,7 +1274,7 @@ body {
 
 .block-4 {
     background: url("../img/front-footer.png") center no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 869px;
     display: flex;
     justify-content: flex-end;
