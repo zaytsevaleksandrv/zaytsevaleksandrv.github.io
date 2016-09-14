@@ -2367,6 +2367,13 @@ body {
     }
     .block-4 .column-0 .row-0 .column-1 .man {
         border-bottom: none;
+        margin-top: 100px;
+        width: 112%;
+    }
+    .block-4 .column-0 .row-0 .column-1 .man img {
+        margin-left: -13px;
+        margin-top: -21px;
+        width: 20%;
     }
     /* line 1127, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card p {
@@ -2374,7 +2381,10 @@ body {
     }
     /* line 1130, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card font {
-        font-size: x-large;
+        font-size: 30px;
+        margin-top: 21px;
+        margin-left: -43px;
+        line-height: 42px;
     }
     /* line 1135, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man p {
@@ -2382,7 +2392,10 @@ body {
     }
     /* line 1138, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man font {
-        font-size: x-large;
+        font-size: 30px;
+        margin-top: 21px;
+        margin-left: -43px;
+        line-height: 42px;
     }
     /* line 1145, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma p {
