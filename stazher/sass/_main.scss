@@ -622,7 +622,7 @@ body {
 .block-5 {
     display: $display;
     background: #0a1c2e;
-    height: ($padding)+410;
+    height: ($padding)+396;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -664,21 +664,25 @@ body {
             display: flex;
             flex-direction: row-reverse;
             input {
-                height: ($padding)+30;
-                width: ($padding)+240;
+                height: 48px;
+                width: 300px;
                 background: #0a1c2e;
-                border-color: $primary-color;
-                border: 1px solid $primary-color;
-                padding-left: 10px;
+                border-color: white;
+                border: 1px solid white;
+                padding-left: 17px;
+                letter-spacing: 2px;
+                margin-left: -29px;
+                margin-top: -2px;
             }
             button {
                 position: absolute;
-                height: ($padding)+30;
-                width: ($padding)+40;
-                background: $primary-color;
+                height: 48px;
+                width: 50px;
+                background: white;
                 color: #0a1c2e;
-                border: 1px solid $primary-color;
+                border: 1px solid white;
                 border-left: none;
+                margin-top: -2px;
             }
             button:hover {
                 background: #288db3

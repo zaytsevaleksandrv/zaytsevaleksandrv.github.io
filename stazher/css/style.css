@@ -1136,7 +1136,7 @@ body {
 .block-5 {
   display: flex;
   background: #0a1c2e;
-  height: 420px;
+  height: 406px;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
@@ -1190,28 +1190,32 @@ body {
 }
 /* line 666, ../sass/_main.scss */
 .block-5 .column-0 .input-type input {
-  height: 40px;
-  width: 250px;
+  height: 48px;
+  width: 300px;
   background: #0a1c2e;
   border-color: white;
   border: 1px solid white;
-  padding-left: 10px;
+  padding-left: 17px;
+  letter-spacing: 2px;
+  margin-left: -29px;
+  margin-top: -2px;
 }
-/* line 674, ../sass/_main.scss */
+/* line 677, ../sass/_main.scss */
 .block-5 .column-0 .input-type button {
   position: absolute;
-  height: 40px;
+  height: 48px;
   width: 50px;
   background: white;
   color: #0a1c2e;
   border: 1px solid white;
   border-left: none;
+  margin-top: -2px;
 }
-/* line 683, ../sass/_main.scss */
+/* line 687, ../sass/_main.scss */
 .block-5 .column-0 .input-type button:hover {
   background: #288db3;
 }
-/* line 688, ../sass/_main.scss */
+/* line 692, ../sass/_main.scss */
 .block-5 .column-1 {
   display: flex;
   flex-direction: row;
@@ -1221,43 +1225,43 @@ body {
   margin-bottom: 50px;
   margin-right: 10%;
 }
-/* line 697, ../sass/_main.scss */
+/* line 701, ../sass/_main.scss */
 .block-5 .column-1 .foot .span-1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
-/* line 702, ../sass/_main.scss */
+/* line 706, ../sass/_main.scss */
 .block-5 .column-1 .foot span {
   color: #5b6a79;
 }
-/* line 704, ../sass/_main.scss */
+/* line 708, ../sass/_main.scss */
 .block-5 .column-1 .foot span font {
   color: white;
 }
 
-/* line 712, ../sass/_main.scss */
+/* line 716, ../sass/_main.scss */
 .ul-m {
   margin-left: 20px;
 }
 
 @media screen and (max-device-width: 768px) {
-  /* line 717, ../sass/_main.scss */
+  /* line 721, ../sass/_main.scss */
   .block-1 {
     background: url("../img/front.png") center no-repeat;
     background-size: 242%;
     height: 100em;
   }
-  /* line 721, ../sass/_main.scss */
+  /* line 725, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head {
     padding-top: 20px;
     padding-left: 80px;
   }
-  /* line 725, ../sass/_main.scss */
+  /* line 729, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .block-1--img-logo img {
     width: 140%;
   }
-  /* line 729, ../sass/_main.scss */
+  /* line 733, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu {
     display: flex;
     margin: 0;
@@ -1265,13 +1269,13 @@ body {
     list-style: none;
     border: none;
   }
-  /* line 736, ../sass/_main.scss */
+  /* line 740, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu > li {
     position: relative;
     display: inline-block;
     left: 90%;
   }
-  /* line 741, ../sass/_main.scss */
+  /* line 745, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu a {
     display: block;
     margin-left: -1px;
@@ -1279,11 +1283,11 @@ body {
     color: #0088cc;
     border-left: 1px solid #e5e5e5;
   }
-  /* line 748, ../sass/_main.scss */
+  /* line 752, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu a:hover {
     background: #000;
   }
-  /* line 751, ../sass/_main.scss */
+  /* line 755, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu .sub-menu {
     position: absolute;
     left: -118px;
@@ -1293,33 +1297,33 @@ body {
     list-style: none;
     background: #000;
   }
-  /* line 760, ../sass/_main.scss */
+  /* line 764, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu .sub-menu a {
     border: none;
     font-size: medium;
     color: white;
   }
-  /* line 765, ../sass/_main.scss */
+  /* line 769, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head .main-menu > li:hover .sub-menu {
     display: block;
   }
-  /* line 768, ../sass/_main.scss */
+  /* line 772, ../sass/_main.scss */
   .block-1 .block-1--flex-box--head ul {
     display: none;
   }
-  /* line 773, ../sass/_main.scss */
+  /* line 777, ../sass/_main.scss */
   .block-1 .block-1--text-black i {
     font-size: 37px;
   }
-  /* line 776, ../sass/_main.scss */
+  /* line 780, ../sass/_main.scss */
   .block-1 .block-1--text-black font {
     font-size: 82px;
   }
-  /* line 780, ../sass/_main.scss */
+  /* line 784, ../sass/_main.scss */
   .block-1 .block-1--text-black p {
     font-size: 25px;
   }
-  /* line 783, ../sass/_main.scss */
+  /* line 787, ../sass/_main.scss */
   .block-1 .block-1--text-black button {
     margin-top: 15em;
     width: 90px;
@@ -1327,51 +1331,51 @@ body {
     border-radius: 60px;
     font-size: 32px;
   }
-  /* line 791, ../sass/_main.scss */
+  /* line 795, ../sass/_main.scss */
   .block-1 .block-1--img-logo {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
 
-  /* line 797, ../sass/_main.scss */
+  /* line 801, ../sass/_main.scss */
   .img-none {
     display: flex;
     width: 100%;
   }
 
-  /* line 801, ../sass/_main.scss */
+  /* line 805, ../sass/_main.scss */
   .block-2 {
     background: #eee;
     height: 701px;
     text-align: center;
   }
-  /* line 805, ../sass/_main.scss */
+  /* line 809, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main {
     align-items: center;
     justify-content: center;
   }
-  /* line 808, ../sass/_main.scss */
+  /* line 812, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main p {
     font-size: 29px;
     padding-top: 0px;
     font-weight: 600;
   }
-  /* line 813, ../sass/_main.scss */
+  /* line 817, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main b {
     display: none;
   }
-  /* line 816, ../sass/_main.scss */
+  /* line 820, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main font {
     font-size: x-large;
     width: 100%;
   }
-  /* line 820, ../sass/_main.scss */
+  /* line 824, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main a {
     color: white;
     margin-top: 45px;
   }
-  /* line 824, ../sass/_main.scss */
+  /* line 828, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main button {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1379,39 +1383,39 @@ body {
     padding-left: 70px;
     font-size: large;
   }
-  /* line 831, ../sass/_main.scss */
+  /* line 835, ../sass/_main.scss */
   .block-2 .block-2--flex-box--main button:hover {
     background: white;
     color: #288db3;
   }
 
-  /* line 837, ../sass/_main.scss */
+  /* line 841, ../sass/_main.scss */
   .block-3 {
     background: #eee;
   }
-  /* line 839, ../sass/_main.scss */
+  /* line 843, ../sass/_main.scss */
   .block-3 .container {
     max-width: 958px;
   }
-  /* line 842, ../sass/_main.scss */
+  /* line 846, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 {
     margin-top: 0px;
     margin-bottom: 30px;
     flex-direction: column;
   }
-  /* line 847, ../sass/_main.scss */
+  /* line 851, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 span img {
     width: 100%;
     height: auto;
   }
-  /* line 852, ../sass/_main.scss */
+  /* line 856, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  /* line 857, ../sass/_main.scss */
+  /* line 861, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div p {
     color: black;
     text-transform: uppercase;
@@ -1421,14 +1425,14 @@ body {
     font-family: "GlyphiconsHalflingsRegular", sans-serif;
     text-align: center;
   }
-  /* line 866, ../sass/_main.scss */
+  /* line 870, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div b {
     font-size: 40px;
     color: black;
     font-weight: 400;
     margin-top: -45px;
   }
-  /* line 872, ../sass/_main.scss */
+  /* line 876, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div font {
     color: black;
     font-size: 12px;
@@ -1437,11 +1441,11 @@ body {
     width: 65%;
     text-align: center;
   }
-  /* line 880, ../sass/_main.scss */
+  /* line 884, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div a {
     color: white;
   }
-  /* line 883, ../sass/_main.scss */
+  /* line 887, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div button {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1449,34 +1453,34 @@ body {
     padding-left: 50px;
     font-size: large;
   }
-  /* line 890, ../sass/_main.scss */
+  /* line 894, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-0 div button:hover {
     background: white;
     color: #288db3;
   }
-  /* line 896, ../sass/_main.scss */
+  /* line 900, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 {
     flex-direction: column-reverse;
     margin-bottom: 0px;
     padding-bottom: 40px;
   }
-  /* line 904, ../sass/_main.scss */
+  /* line 908, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div p {
     font-size: 23px;
   }
-  /* line 907, ../sass/_main.scss */
+  /* line 911, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div b {
     font-size: 40px;
   }
-  /* line 910, ../sass/_main.scss */
+  /* line 914, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div font {
     font-size: medium;
   }
-  /* line 913, ../sass/_main.scss */
+  /* line 917, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div a {
     color: white;
   }
-  /* line 916, ../sass/_main.scss */
+  /* line 920, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div button {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1484,34 +1488,34 @@ body {
     padding-left: 50px;
     font-size: large;
   }
-  /* line 923, ../sass/_main.scss */
+  /* line 927, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-1 div button:hover {
     background: white;
     color: #288db3;
   }
-  /* line 929, ../sass/_main.scss */
+  /* line 933, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 {
     flex-direction: column;
     margin-bottom: 0px;
     padding-bottom: 40px;
   }
-  /* line 937, ../sass/_main.scss */
+  /* line 941, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div p {
     font-size: 23px;
   }
-  /* line 940, ../sass/_main.scss */
+  /* line 944, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div b {
     font-size: 40px;
   }
-  /* line 943, ../sass/_main.scss */
+  /* line 947, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div font {
     font-size: medium;
   }
-  /* line 946, ../sass/_main.scss */
+  /* line 950, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div a {
     color: white;
   }
-  /* line 949, ../sass/_main.scss */
+  /* line 953, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div button {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -1519,67 +1523,67 @@ body {
     padding-left: 50px;
     font-size: large;
   }
-  /* line 956, ../sass/_main.scss */
+  /* line 960, ../sass/_main.scss */
   .block-3 .block-3--flex-box--main-2 div button:hover {
     background: white;
     color: #288db3;
   }
 
-  /* line 963, ../sass/_main.scss */
+  /* line 967, ../sass/_main.scss */
   .block-4 {
     background: url("../img/join-bg.jpg") center no-repeat;
     background-size: cover;
     height: 770px;
   }
-  /* line 967, ../sass/_main.scss */
+  /* line 971, ../sass/_main.scss */
   .block-4 .column-0 {
     width: 100%;
     padding-top: 30px;
     height: 770px;
   }
-  /* line 971, ../sass/_main.scss */
+  /* line 975, ../sass/_main.scss */
   .block-4 .column-0 p {
     font-size: 29px;
     font-weight: 600;
     letter-spacing: 5px;
   }
-  /* line 980, ../sass/_main.scss */
+  /* line 984, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .card p {
     font-size: 18px;
   }
-  /* line 983, ../sass/_main.scss */
+  /* line 987, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .card font {
     font-size: x-large;
   }
-  /* line 988, ../sass/_main.scss */
+  /* line 992, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .man p {
     font-size: 18px;
   }
-  /* line 991, ../sass/_main.scss */
+  /* line 995, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .man font {
     font-size: x-large;
   }
-  /* line 998, ../sass/_main.scss */
+  /* line 1002, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .palma p {
     font-size: 18px;
   }
-  /* line 1001, ../sass/_main.scss */
+  /* line 1005, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .palma font {
     font-size: x-large;
   }
-  /* line 1006, ../sass/_main.scss */
+  /* line 1010, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .book p {
     font-size: 18px;
   }
-  /* line 1009, ../sass/_main.scss */
+  /* line 1013, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .book font {
     font-size: x-large;
   }
-  /* line 1015, ../sass/_main.scss */
+  /* line 1019, ../sass/_main.scss */
   .block-4 .column-0 a {
     color: white;
   }
-  /* line 1018, ../sass/_main.scss */
+  /* line 1022, ../sass/_main.scss */
   .block-4 .column-0 button {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1587,143 +1591,143 @@ body {
     padding-left: 80px;
     font-size: large;
   }
-  /* line 1025, ../sass/_main.scss */
+  /* line 1029, ../sass/_main.scss */
   .block-4 .column-0 button:hover {
     background: white;
     color: #288db3;
   }
 
-  /* line 1032, ../sass/_main.scss */
+  /* line 1036, ../sass/_main.scss */
   .block-5 .column-0 {
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
   }
-  /* line 1036, ../sass/_main.scss */
+  /* line 1040, ../sass/_main.scss */
   .block-5 .column-0 .block-5--ul {
     flex-direction: row;
   }
-  /* line 1038, ../sass/_main.scss */
+  /* line 1042, ../sass/_main.scss */
   .block-5 .column-0 .block-5--ul ul {
     align-items: center;
   }
-  /* line 1040, ../sass/_main.scss */
+  /* line 1044, ../sass/_main.scss */
   .block-5 .column-0 .block-5--ul ul a {
     color: white;
   }
-  /* line 1042, ../sass/_main.scss */
+  /* line 1046, ../sass/_main.scss */
   .block-5 .column-0 .block-5--ul ul a li {
     font-size: large;
   }
-  /* line 1045, ../sass/_main.scss */
+  /* line 1049, ../sass/_main.scss */
   .block-5 .column-0 .block-5--ul ul a li:hover {
     text-decoration: underline;
   }
-  /* line 1051, ../sass/_main.scss */
+  /* line 1055, ../sass/_main.scss */
   .block-5 .column-0 img {
     margin-right: 25%;
     width: 25%;
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  /* line 1058, ../sass/_main.scss */
+  /* line 1062, ../sass/_main.scss */
   .block-5 .column-0 .input-type input {
     height: 60px;
     font-size: large;
   }
-  /* line 1062, ../sass/_main.scss */
+  /* line 1066, ../sass/_main.scss */
   .block-5 .column-0 .input-type button {
     height: 60px;
     font-size: large;
   }
-  /* line 1069, ../sass/_main.scss */
+  /* line 1073, ../sass/_main.scss */
   .block-5 .column-1 {
     justify-content: center;
     margin-right: 0%;
   }
-  /* line 1073, ../sass/_main.scss */
+  /* line 1077, ../sass/_main.scss */
   .block-5 .column-1 .foot .span-1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
   }
-  /* line 1078, ../sass/_main.scss */
+  /* line 1082, ../sass/_main.scss */
   .block-5 .column-1 .foot span {
     font-size: large;
     color: #5b6a79;
   }
-  /* line 1081, ../sass/_main.scss */
+  /* line 1085, ../sass/_main.scss */
   .block-5 .column-1 .foot span font {
     color: white;
   }
 
-  /* line 1088, ../sass/_main.scss */
+  /* line 1092, ../sass/_main.scss */
   .ul-m {
     margin-left: 20px;
   }
 }
 @media screen and (max-device-width: 480px) {
-  /* line 1094, ../sass/_main.scss */
+  /* line 1098, ../sass/_main.scss */
   .block-4 {
     background: url("../img/join-bg.jpg") center no-repeat;
     background-size: cover;
     height: 1110px;
   }
-  /* line 1098, ../sass/_main.scss */
+  /* line 1102, ../sass/_main.scss */
   .block-4 .column-0 {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
     height: 1110px;
   }
-  /* line 1103, ../sass/_main.scss */
+  /* line 1107, ../sass/_main.scss */
   .block-4 .column-0 p {
     font-size: 29px;
     font-weight: 600;
     letter-spacing: 5px;
   }
-  /* line 1109, ../sass/_main.scss */
+  /* line 1113, ../sass/_main.scss */
   .block-4 .column-0 .row-0 {
     flex-direction: column;
     width: 65%;
   }
-  /* line 1114, ../sass/_main.scss */
+  /* line 1118, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .card p {
     font-size: 18px;
   }
-  /* line 1117, ../sass/_main.scss */
+  /* line 1121, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .card font {
     font-size: x-large;
   }
-  /* line 1122, ../sass/_main.scss */
+  /* line 1126, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .man p {
     font-size: 18px;
   }
-  /* line 1125, ../sass/_main.scss */
+  /* line 1129, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-1 .man font {
     font-size: x-large;
   }
-  /* line 1132, ../sass/_main.scss */
+  /* line 1136, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .palma p {
     font-size: 18px;
   }
-  /* line 1135, ../sass/_main.scss */
+  /* line 1139, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .palma font {
     font-size: x-large;
   }
-  /* line 1140, ../sass/_main.scss */
+  /* line 1144, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .book p {
     font-size: 18px;
   }
-  /* line 1143, ../sass/_main.scss */
+  /* line 1147, ../sass/_main.scss */
   .block-4 .column-0 .row-0 .column-2 .book font {
     font-size: x-large;
   }
-  /* line 1149, ../sass/_main.scss */
+  /* line 1153, ../sass/_main.scss */
   .block-4 .column-0 a {
     color: white;
   }
-  /* line 1152, ../sass/_main.scss */
+  /* line 1156, ../sass/_main.scss */
   .block-4 .column-0 button {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -1731,7 +1735,7 @@ body {
     padding-left: 80px;
     font-size: large;
   }
-  /* line 1159, ../sass/_main.scss */
+  /* line 1163, ../sass/_main.scss */
   .block-4 .column-0 button:hover {
     background: white;
     color: #288db3;
