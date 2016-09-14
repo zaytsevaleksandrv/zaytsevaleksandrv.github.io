@@ -1853,6 +1853,8 @@ body {
         font-size: 29px;
         padding-top: 0px;
         font-weight: 600;
+        margin-left: -1px;
+        letter-spacing: 3px;
     }
     /* line 826, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main b {
@@ -1866,7 +1868,7 @@ body {
     .block-2--flex-box--main .font-0 {
         font-size: 16px;
         margin-left: -2%;
-        margin-top: -14px;
+        margin-top: -45px;
     }
     .block-2--flex-box--main .font-1 {
         padding-top: 37px;
@@ -1886,7 +1888,7 @@ body {
         padding-right: 60px;
         padding-left: 60px;
         font-size: 16px;
-        margin-left: -17.5%;
+        margin-left: -17.1%;
     }
     /* line 844, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main button:hover {
@@ -1903,14 +1905,15 @@ body {
     }
     /* line 855, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 {
-        margin-top: 0px;
-        margin-bottom: 30px;
+        margin-top: -55px;
+        margin-bottom: -59px;
         flex-direction: column;
     }
     /* line 860, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 span img {
-        width: 100%;
+        width: 94.3%;
         height: auto;
+        margin-left: 3%;
     }
     /* line 865, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div {
@@ -1918,32 +1921,38 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 93px;
     }
     /* line 870, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div p {
         color: black;
         text-transform: uppercase;
-        font-size: 23px;
+        font-size: 36px;
         width: 100%;
         letter-spacing: 2px;
         font-family: "GlyphiconsHalflingsRegular", sans-serif;
         text-align: center;
+        margin-left: -4px;
+        padding-top: 18px;
     }
     /* line 879, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div b {
-        font-size: 40px;
+        font-size: 47px;
         color: black;
         font-weight: 400;
-        margin-top: -45px;
+        margin-top: -46px;
+        margin-left: 0px;
     }
     /* line 885, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div font {
         color: black;
-        font-size: 12px;
-        font-size: medium;
+        font-size: 22px;
         font-weight: 200;
-        width: 65%;
+        width: 50%;
         text-align: center;
+        margin-left: -9px;
+        margin-top: -4px;
+        letter-spacing: 0.2px;
     }
     /* line 893, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div a {
@@ -1953,9 +1962,11 @@ body {
     .block-3 .block-3--flex-box--main-0 div button {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 42px;
+        padding-left: 42px;
         font-size: large;
+        margin-left: 0px;
+        margin-top: 38px;
     }
     /* line 903, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-0 div button:hover {
@@ -1968,17 +1979,42 @@ body {
         margin-bottom: 0px;
         padding-bottom: 40px;
     }
+    .block-3 .block-3--flex-box--main-1 span img {
+        width: 95.3%;
+        height: auto;
+        margin-left: 1%;
+    }
     /* line 917, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-1 div p {
-        font-size: 23px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 36px;
+        width: 100%;
+        letter-spacing: 2px;
+        font-family: "GlyphiconsHalflingsRegular", sans-serif;
+        text-align: center;
+        margin-left: -4px;
+        padding-top: 18px;
     }
     /* line 920, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-1 div b {
-        font-size: 40px;
+        font-size: 47px;
+        color: black;
+        font-weight: 400;
+        margin-top: -46px;
+        margin-left: 0px;
     }
     /* line 923, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-1 div font {
-        font-size: medium;
+        color: black;
+        font-size: 22px;
+        /* font-size: medium; */
+        font-weight: 200;
+        width: 53%;
+        text-align: center;
+        margin-left: -24px;
+        margin-top: -4px;
+        letter-spacing: 0.2px;
     }
     /* line 926, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-1 div a {
@@ -1988,9 +2024,11 @@ body {
     .block-3 .block-3--flex-box--main-1 div button {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 42px;
+        padding-left: 42px;
         font-size: large;
+        margin-left: 0px;
+        margin-top: 38px;
     }
     /* line 936, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-1 div button:hover {
@@ -2002,18 +2040,43 @@ body {
         flex-direction: column;
         margin-bottom: 0px;
         padding-bottom: 40px;
+        margin-top: -8px;
+    }
+    .block-3 .block-3--flex-box--main-2 span img {
+        width: 95.3%;
+        height: auto;
+        margin-left: 2%;
     }
     /* line 950, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-2 div p {
-        font-size: 23px;
+        color: black;
+        text-transform: uppercase;
+        font-size: 36px;
+        width: 100%;
+        letter-spacing: 2px;
+        font-family: "GlyphiconsHalflingsRegular", sans-serif;
+        text-align: center;
+        margin-left: -4px;
+        padding-top: 18px;
     }
     /* line 953, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-2 div b {
-        font-size: 40px;
+        font-size: 47px;
+        color: black;
+        font-weight: 400;
+        margin-top: -46px;
+        margin-left: 0px;
     }
     /* line 956, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-2 div font {
-        font-size: medium;
+        color: black;
+        font-size: 22px;
+        font-weight: 200;
+        width: 53%;
+        text-align: center;
+        margin-left: -24px;
+        margin-top: -4px;
+        letter-spacing: 0.2px;
     }
     /* line 959, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-2 div a {
@@ -2023,9 +2086,11 @@ body {
     .block-3 .block-3--flex-box--main-2 div button {
         padding-top: 10px;
         padding-bottom: 10px;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 42px;
+        padding-left: 42px;
         font-size: large;
+        margin-left: 0px;
+        margin-top: 38px;
     }
     /* line 969, ../sass/_main.scss */
     .block-3 .block-3--flex-box--main-2 div button:hover {
