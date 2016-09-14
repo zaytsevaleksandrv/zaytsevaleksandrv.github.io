@@ -2351,12 +2351,18 @@ body {
     .block-4 .column-0 .row-0 {
         flex-direction: column;
         width: 65%;
+        align-items: center;
     }
     .block-4 .column-0 .row-0 .column-2 .book {
-        border-bottom: none;
+        margin-top: 36px;
+        margin-left: 19px;
     }
     .block-4 .column-0 .row-0 .column-1 {
         border-left: none;
+    }
+    .block-4 .column-0 .row-0 .column-2 .book img {
+        margin-top: -21px;
+        width: 22%;
     }
     .block-4 .column-0 .row-0 .column-1 .man {
         border-bottom: none;
@@ -2379,7 +2385,9 @@ body {
     }
     /* line 1145, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma p {
-        font-size: 18px;
+        font-size: 25px;
+        letter-spacing: 4px;
+        font-weight: 600;
     }
     /* line 1148, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma font {
@@ -2387,11 +2395,16 @@ body {
     }
     /* line 1153, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book p {
-        font-size: 18px;
+        font-size: 30px;
+        width: 120%;
     }
     /* line 1156, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book font {
-        font-size: x-large;
+        font-size: 30px;
+        width: 123%;
+        margin-top: 25px;
+        margin-left: -43px;
+        line-height: 42px;
     }
     /* line 1162, ../sass/_main.scss */
     .block-4 .column-0 a {
