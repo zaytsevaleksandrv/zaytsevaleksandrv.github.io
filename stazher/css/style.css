@@ -2356,6 +2356,7 @@ body {
     .block-4 .column-0 .row-0 .column-2 .book {
         margin-top: 36px;
         margin-left: 19px;
+        border: none;
     }
     .block-4 .column-0 .row-0 .column-1 {
         border-left: none;
