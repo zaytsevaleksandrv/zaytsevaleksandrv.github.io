@@ -2322,7 +2322,7 @@ body {
         width: 100%;
         padding-top: 30px;
         padding-bottom: 30px;
-        height: 1110px;
+        height: auto;
     }
     /* line 1116, ../sass/_main.scss */
     .block-4 .column-0 p {
@@ -2330,10 +2330,36 @@ body {
         font-weight: 600;
         letter-spacing: 5px;
     }
+    .block-4 .column-0 .p-head {
+        color: black;
+        text-transform: uppercase;
+        font-size: 48px;
+        font-weight: 300;
+        margin-top: 174px;
+        width: 100%;
+        letter-spacing: 4px;
+        font-family: "GlyphiconsHalflingsRegular", sans-serif;
+        text-align: center;
+    }
+    .block-4 .column-0 b {
+        font-size: 80px;
+        color: black;
+        font-weight: 400;
+        margin-top: -83px;
+    }
     /* line 1122, ../sass/_main.scss */
     .block-4 .column-0 .row-0 {
         flex-direction: column;
         width: 65%;
+    }
+    .block-4 .column-0 .row-0 .column-2 .book {
+        border-bottom: none;
+    }
+    .block-4 .column-0 .row-0 .column-1 {
+        border-left: none;
+    }
+    .block-4 .column-0 .row-0 .column-1 .man {
+        border-bottom: none;
     }
     /* line 1127, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card p {
