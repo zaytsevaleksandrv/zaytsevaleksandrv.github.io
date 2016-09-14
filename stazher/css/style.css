@@ -2148,15 +2148,18 @@ body {
     /* line 993, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card p {
         font-size: 18px;
+        margin-top: 14px;
     }
     /* line 996, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card font {
-        font-size: x-large;
+        font-size: 19px;
+        line-height: 30.5px;
+        letter-spacing: 0.5px;
     }
     /* line 1001, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man p {
         font-size: 18px;
-        margin-top: 13px;
+        margin-top: 16px;
     }
     /* line 1004, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man font {
@@ -2170,7 +2173,7 @@ body {
     /* line 1011, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma p {
         font-size: 18px;
-        margin-top: 15px;
+        margin-top: 21px;
     }
     .block-4 .column-0 .row-0 .column-2 .palma img {
         margin-top: 21px;
@@ -2198,11 +2201,12 @@ body {
     }
     /* line 1031, ../sass/_main.scss */
     .block-4 .column-0 button {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 80px;
-        padding-left: 80px;
-        font-size: large;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 12px;
+        margin-top: 34px;
     }
     /* line 1038, ../sass/_main.scss */
     .block-4 .column-0 button:hover {
@@ -2276,6 +2280,10 @@ body {
     /* line 1094, ../sass/_main.scss */
     .block-5 .column-1 .foot span font {
         color: white;
+    }
+    .block-4 .column-0 .row-0 .column-1 .card img {
+        margin-top: -21px;
+        width: 15%;
     }
     /* line 1101, ../sass/_main.scss */
     .ul-m {
