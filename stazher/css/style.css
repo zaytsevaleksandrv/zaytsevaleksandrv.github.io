@@ -670,9 +670,9 @@ body {
 /* line 49, ../sass/_main.scss */
 
 .block-1--flex-box--head img {
-    margin-left: 6%;
-    margin-top: 18%;
-    width: 94%;
+    margin-left: 3%;
+    margin-top: 5%;
+    width: 131%;
 }
 
 
@@ -1736,7 +1736,7 @@ body {
     }
     /* line 738, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .block-1--img-logo img {
-        width: 140%;
+        width: 132%;
     }
     /* line 742, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .main-menu {
@@ -1745,6 +1745,8 @@ body {
         padding: 0;
         list-style: none;
         border: none;
+        margin-left: -14px;
+        margin-top: 3px;
     }
     /* line 749, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .main-menu > li {
