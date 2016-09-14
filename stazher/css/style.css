@@ -1860,8 +1860,18 @@ body {
     }
     /* line 829, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main font {
-        font-size: x-large;
-        width: 100%;
+        font-size: 21px;
+        width: 123%;
+    }
+    .block-2--flex-box--main .font-0 {
+        font-size: 16px;
+        margin-left: -2%;
+        margin-top: -14px;
+    }
+    .block-2--flex-box--main .font-1 {
+        padding-top: 37px;
+        font-size: 16px;
+        margin-left: -1%;
     }
     /* line 833, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main a {
@@ -1870,11 +1880,13 @@ body {
     }
     /* line 837, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main button {
-        padding-top: 20px;
+        margin-top: 41px;
+        position: absolute;
         padding-bottom: 20px;
-        padding-right: 70px;
-        padding-left: 70px;
-        font-size: large;
+        padding-right: 60px;
+        padding-left: 60px;
+        font-size: 16px;
+        margin-left: -17.5%;
     }
     /* line 844, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main button:hover {
