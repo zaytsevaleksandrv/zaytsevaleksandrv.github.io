@@ -1797,15 +1797,26 @@ body {
     }
     /* line 786, ../sass/_main.scss */
     .block-1 .block-1--text-black i {
-        font-size: 37px;
+        font-size: 38px;
+        margin-top: -3.8%;
+        margin-left: 6px;
     }
     /* line 789, ../sass/_main.scss */
     .block-1 .block-1--text-black font {
-        font-size: 82px;
+        font-size: 85px;
+        letter-spacing: 6.28px;
+        margin-top: -0.5%;
+        margin-left: -9px;
     }
     /* line 793, ../sass/_main.scss */
     .block-1 .block-1--text-black p {
         font-size: 25px;
+        margin-top: 2.1%;
+    }
+    .block-1--text-black hr {
+        border: 3px solid black;
+        width: 47px;
+        margin-top: 2.28%;
     }
     /* line 796, ../sass/_main.scss */
     .block-1 .block-1--text-black button {
