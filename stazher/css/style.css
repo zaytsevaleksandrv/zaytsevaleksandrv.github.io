@@ -2301,9 +2301,10 @@ body {
         color: white;
     }
     .block-4 .column-0 .row-0 .column-1 .card img {
-        margin-top: 28px;
-        width: 15%;
-    }
+       margin-top: 28px;
+       width: 15%;
+   }
+
     /* line 1101, ../sass/_main.scss */
     .ul-m {
         margin-left: 20px;
@@ -2370,14 +2371,17 @@ body {
         margin-top: 100px;
         width: 112%;
     }
-    .block-4 .column-0 .row-0 .column-1 .man img {
+    .block-4 .column-0 .row-0 .column-1 .card img {
         margin-left: -13px;
         margin-top: -21px;
         width: 20%;
     }
     /* line 1127, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card p {
-        font-size: 18px;
+        font-size: 30px;
+        width: 120%;
+        margin-left: -43px;
+        margin-top: 20px;
     }
     /* line 1130, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card font {
@@ -2388,7 +2392,10 @@ body {
     }
     /* line 1135, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man p {
-        font-size: 18px;
+        font-size: 30px;
+        width: 120%;
+        margin-left: -43px;
+        margin-top: 20px;
     }
     /* line 1138, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man font {
