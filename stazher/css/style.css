@@ -2315,7 +2315,7 @@ body {
     .block-4 {
         background: url("../img/join-bg.jpg") center no-repeat;
         background-size: cover;
-        height: 1110px;
+        height: 200em;
     }
     /* line 1111, ../sass/_main.scss */
     .block-4 .column-0 {
