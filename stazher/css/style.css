@@ -2386,13 +2386,27 @@ body {
     }
     /* line 1145, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma p {
-        font-size: 25px;
-        letter-spacing: 4px;
-        font-weight: 600;
+        font-size: 30px;
+        width: 120%;
+        margin-left: -43px;
+        margin-top: 20px;
+    }
+    .block-4 .column-0 .row-0 .column-2 .palma {
+        text-align: center;
+        margin-top: 36px;
+        margin-left: 19px;
+        width: 100%;
+    }
+    .block-4 .column-0 .row-0 .column-2 .palma img {
+        margin-top: -21px;
+        width: 20%;
     }
     /* line 1148, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma font {
-        font-size: x-large;
+        font-size: 30px;
+        margin-top: 21px;
+        margin-left: -43px;
+        line-height: 42px;
     }
     /* line 1153, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book p {
