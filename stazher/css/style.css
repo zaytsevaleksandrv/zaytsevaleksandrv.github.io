@@ -1736,7 +1736,14 @@ body {
     }
     /* line 738, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .block-1--img-logo img {
-        width: 140%;
+        width: 132%;
+        margin-left: 3%;
+        margin-top: 3%;
+    }
+    .block-1--flex-box--head img {
+        margin-left: -25%;
+        margin-top: 13%;
+        width: 130%;
     }
     /* line 742, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .main-menu {
