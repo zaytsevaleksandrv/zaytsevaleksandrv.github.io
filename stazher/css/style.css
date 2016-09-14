@@ -1790,6 +1790,9 @@ body {
     /* line 778, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head .main-menu > li:hover .sub-menu {
         display: block;
+        width: 215px;
+        margin-left: -23px;
+        margin-top: 6px;
     }
     /* line 781, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head ul {
