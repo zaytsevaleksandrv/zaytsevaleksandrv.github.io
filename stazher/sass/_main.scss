@@ -723,8 +723,7 @@
     }
     
     .img-none {
-        display: $display;
-        width: $width;
+        display: none;
     }
     
     @media screen and (max-device-width: 768px) {
