@@ -1793,6 +1793,7 @@ body {
         width: 215px;
         margin-left: -23px;
         margin-top: 6px;
+        height: 368px;
     }
     /* line 781, ../sass/_main.scss */
     .block-1 .block-1--flex-box--head ul {
@@ -2310,6 +2311,22 @@ body {
     /* line 1101, ../sass/_main.scss */
     .ul-m {
         margin-left: 20px;
+    }
+    .block-1--flex-box--head ul li button {
+        position: absolute;
+        background: #288db3;
+        text-transform: uppercase;
+        border: none;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-right: 47px;
+        padding-left: 47px;
+        letter-spacing: 3px;
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        margin-top: -16px;
+        margin-left: -6px;
     }
 }
 
