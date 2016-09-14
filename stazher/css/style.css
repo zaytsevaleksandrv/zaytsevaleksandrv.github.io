@@ -2257,21 +2257,20 @@ body {
     }
     /* line 1064, ../sass/_main.scss */
     .block-5 .column-0 img {
-        align-items: center;
-        margin-left: 57px;
-        margin-top: 15px;
-        line-height: 44px;
+        margin-left: -82px;
+        margin-top: 49px;
+        width: 23%;
     }
     /* line 1071, ../sass/_main.scss */
     .block-5 .column-0 .input-type input {
         height: 60px;
-        margin-top: -6px;
+        margin-top: 42px;
         font-size: large;
     }
     /* line 1075, ../sass/_main.scss */
     .block-5 .column-0 .input-type button {
         height: 60px;
-        margin-top: -6px;
+        margin-top: 43px;
         font-size: large;
         width: 63px;
         margin-left: 17px;
