@@ -1,4 +1,4 @@
-@import "compass/css3";
+    @import "compass/css3";
 @include font-face("FontAwesome", font-files("FontAwesome.otf"));
 @include font-face("FontAwesomeWebfont", font-files("fontawesome-webfont.svg", "fontawesome-webfont.ttf", "fontawesome-webfont.woff", "fontawesome-webfont.woff2"), "fontawesome-webfont.eot"
 /* относительный путь к .eot файлу для IE */
@@ -1097,78 +1097,80 @@ body {
     .ul-m {
         margin-left: ($padding)+10;
     }
-}
-
-@media screen and (max-device-width: 480px) {
-    .block-4 {
-        background: url("../img/join-bg.jpg") center no-repeat;
-        background-size: cover;
-        height: 1110px;
-        .column-0 {
-            width: $width;
-            padding-top: ($padding)+20;
-            padding-bottom: ($padding)+20;
+    .img-none {
+        display: $display;
+        width: $width;
+    }
+    @media screen and (max-device-width: 480px) {
+        .block-4 {
+            background: url("../img/join-bg.jpg") center no-repeat;
+            background-size: cover;
             height: 1110px;
-            p {
-                font-size: ($padding)+19;
-                font-weight: 600;
-                letter-spacing: 5px;
-            }
-            b {}
-            .row-0 {
-                flex-direction: column;
-                width: ($width)-35;
-                .column-1 {
-                    .card {
-                        p {
-                            font-size: ($padding)+8;
+            .column-0 {
+                width: $width;
+                padding-top: ($padding)+20;
+                padding-bottom: ($padding)+20;
+                height: 1110px;
+                p {
+                    font-size: ($padding)+19;
+                    font-weight: 600;
+                    letter-spacing: 5px;
+                }
+                b {}
+                .row-0 {
+                    flex-direction: column;
+                    width: ($width)-35;
+                    .column-1 {
+                        .card {
+                            p {
+                                font-size: ($padding)+8;
+                            }
+                            font {
+                                font-size: x-large;
+                            }
                         }
-                        font {
-                            font-size: x-large;
+                        .man {
+                            p {
+                                font-size: ($padding)+8;
+                            }
+                            font {
+                                font-size: x-large;
+                            }
                         }
                     }
-                    .man {
-                        p {
-                            font-size: ($padding)+8;
+                    .column-2 {
+                        .palma {
+                            p {
+                                font-size: ($padding)+8;
+                            }
+                            font {
+                                font-size: x-large;
+                            }
                         }
-                        font {
-                            font-size: x-large;
+                        .book {
+                            p {
+                                font-size: ($padding)+8;
+                            }
+                            font {
+                                font-size: x-large;
+                            }
                         }
                     }
                 }
-                .column-2 {
-                    .palma {
-                        p {
-                            font-size: ($padding)+8;
-                        }
-                        font {
-                            font-size: x-large;
-                        }
-                    }
-                    .book {
-                        p {
-                            font-size: ($padding)+8;
-                        }
-                        font {
-                            font-size: x-large;
-                        }
-                    }
+                a {
+                    color: $primary-color;
                 }
-            }
-            a {
-                color: $primary-color;
-            }
-            button {
-                padding-top: ($padding)+5;
-                padding-bottom: ($padding)+5;
-                padding-right: ($padding)+70;
-                padding-left: ($padding)+70;
-                font-size: large;
-            }
-            button:hover {
-                background: $primary-color;
-                color: $background-button;
+                button {
+                    padding-top: ($padding)+5;
+                    padding-bottom: ($padding)+5;
+                    padding-right: ($padding)+70;
+                    padding-left: ($padding)+70;
+                    font-size: large;
+                }
+                button:hover {
+                    background: $primary-color;
+                    color: $background-button;
+                }
             }
         }
     }
-}
