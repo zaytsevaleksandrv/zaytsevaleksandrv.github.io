@@ -468,6 +468,7 @@ body {
             letter-spacing: 4px;
             font-family: "GlyphiconsHalflingsRegular", sans-serif;
             text-align: center;
+            padding-top: 24px;
         }
         b {
             font-size: 40px;
@@ -480,7 +481,8 @@ body {
             flex-direction: row;
             align-items: baseline;
             width: 83%;
-            margin-top: 25px;
+            margin-top: 2px;
+            margin-left: 5px;
             .column-1 {
                 display: $display;
                 flex-direction: column;
