@@ -599,16 +599,17 @@ body {
             color: $primary-color;
         }
         button {
-            background: $background-button;
-            text-transform: $text-transform-ul;
+            background: #288db3;
+            text-transform: uppercase;
             border: none;
-            padding-top: $padding;
-            padding-bottom: $padding;
-            padding-right: ($padding)+40;
-            padding-left: ($padding)+40;
-            letter-spacing: ($padding)-8;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-right: 79px;
+            padding-left: 79px;
+            letter-spacing: 2px;
             font-size: smaller;
-            margin-top: ($padding)+20;
+            margin-top: 20px;
+            margin-left: 8px;
         }
         button:hover {
             background: $primary-color;
