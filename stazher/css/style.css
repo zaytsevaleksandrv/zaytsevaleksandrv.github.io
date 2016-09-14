@@ -949,8 +949,9 @@ body {
   width: 55%;
   background: rgba(255, 255, 255, 0.7);
   justify-content: flex-start;
+  padding-top: 74px;
 }
-/* line 462, ../sass/_main.scss */
+/* line 463, ../sass/_main.scss */
 .block-4 .column-0 p {
   color: black;
   text-transform: uppercase;
@@ -959,7 +960,6 @@ body {
   letter-spacing: 4px;
   font-family: "GlyphiconsHalflingsRegular", sans-serif;
   text-align: center;
-  margin-top: 122px;
 }
 /* line 472, ../sass/_main.scss */
 .block-4 .column-0 b {
