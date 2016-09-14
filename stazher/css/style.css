@@ -2188,7 +2188,9 @@ body {
     }
     /* line 1022, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book font {
-        font-size: x-large;
+        font-size: 18px;
+        line-height: 30.5px;
+        letter-spacing: 0.9px;
     }
     /* line 1028, ../sass/_main.scss */
     .block-4 .column-0 a {
