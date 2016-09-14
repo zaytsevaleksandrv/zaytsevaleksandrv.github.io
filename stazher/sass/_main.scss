@@ -492,9 +492,17 @@ body {
                 .card {
                     text-align: center;
                     padding: ($padding)+20;
+                    img {
+                        margin-top: -1px;
+                    }
                     p {
-                        font-size: ($padding)+1;
+                        font-size: 13px;
                         font-weight: 600;
+                        text-transform: uppercase;
+                        margin-bottom: 7px;
+                        letter-spacing: 2px;
+                        color: black;
+                        margin-top: 9px;
                     }
                     font {
                         color: $primary-color-i;
@@ -509,9 +517,17 @@ body {
                     border-bottom: 1px solid #eee;
                     text-align: center;
                     padding: ($padding)+20;
+                    padding-bottom: ($padding)+15;
+                    img {
+                        margin-top: 2px;
+                    }
                     p {
-                        font-size: ($padding)+1;
+                        font-size: 13px;
                         font-weight: 600;
+                        text-transform: uppercase;
+                        margin-bottom: 9px;
+                        letter-spacing: 2px;
+                        color: black;
                     }
                     font {
                         color: $primary-color-i;
@@ -531,9 +547,17 @@ body {
                 .palma {
                     text-align: center;
                     padding: ($padding)+20;
+                    img {
+                        margin-top: 0px;
+                    }
                     p {
-                        font-size: ($padding)+1;
+                        font-size: 13px;
                         font-weight: 600;
+                        text-transform: uppercase;
+                        margin-bottom: 7px;
+                        letter-spacing: 2px;
+                        color: black;
+                        margin-top: 9px;
                     }
                     font {
                         color: $primary-color-i;
@@ -547,12 +571,16 @@ body {
                 .book {
                     border-bottom: 1px solid #eee;
                     text-align: center;
-                    padding: ($padding)+17;
+                    padding: ($padding)+16;
+                    padding-bottom: 28px;
+                    img {
+                        margin-top: 3px;
+                    }
                     p {
                         font-size: 13px;
                         font-weight: 600;
                         text-transform: uppercase;
-                        margin-bottom: 9px;
+                        margin-bottom: 5px;
                         letter-spacing: 2px;
                         color: $primary-color-i;
                     }
