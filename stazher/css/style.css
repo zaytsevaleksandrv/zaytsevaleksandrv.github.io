@@ -2397,12 +2397,14 @@ body {
     .block-4 .column-0 .row-0 .column-2 .book p {
         font-size: 30px;
         width: 120%;
+        margin-left: -43px;
+        margin-top: 20px;
     }
     /* line 1156, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book font {
         font-size: 30px;
         width: 123%;
-        margin-top: 25px;
+        margin-top: 21px;
         margin-left: -43px;
         line-height: 42px;
     }
