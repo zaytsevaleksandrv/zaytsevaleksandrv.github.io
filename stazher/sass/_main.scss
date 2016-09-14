@@ -545,18 +545,22 @@ body {
                 .book {
                     border-bottom: 1px solid #eee;
                     text-align: center;
-                    padding: ($padding)+20;
+                    padding: ($padding)+17;
                     p {
-                        font-size: ($padding)+1;
+                        font-size: 13px;
                         font-weight: 600;
+                        text-transform: uppercase;
+                        margin-bottom: 9px;
+                        letter-spacing: 2px;
+                        color: $primary-color-i;
                     }
                     font {
-                        color: $primary-color-i;
-                        font-size: $font-size;
+                        color: black;
                         font-size: medium;
                         font-weight: 200;
-                        width: ($width)-35;
                         text-align: center;
+                        display: flex;
+                        width: 98%;
                     }
                 }
             }
