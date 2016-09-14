@@ -1842,6 +1842,7 @@ body {
         background: #eee;
         height: 701px;
         text-align: center;
+        margin-top: 19px;
     }
     /* line 818, ../sass/_main.scss */
     .block-2 .block-2--flex-box--main {
@@ -2100,20 +2101,49 @@ body {
     /* line 976, ../sass/_main.scss */
     .block-4 {
         background: url("../img/join-bg.jpg") center no-repeat;
-        background-size: cover;
-        height: 770px;
+        background-size: 100%;
+        height: 893px;
+        margin-top: -101px;
     }
     /* line 980, ../sass/_main.scss */
     .block-4 .column-0 {
         width: 100%;
         padding-top: 30px;
-        height: 770px;
+        height: auto;
+    }
+    .block-4 .column-0 .p-head {
+        color: black;
+        text-transform: uppercase;
+        font-size: 28px;
+        width: 100%;
+        letter-spacing: 4px;
+        font-family: "GlyphiconsHalflingsRegular", sans-serif;
+        text-align: center;
     }
     /* line 984, ../sass/_main.scss */
-    .block-4 .column-0 p {
-        font-size: 29px;
-        font-weight: 600;
-        letter-spacing: 5px;
+    .block-4 .column-0 b {
+        font-size: 45px;
+        color: black;
+        font-weight: 400;
+        margin-top: -45px;
+    }
+    .block-4 .column-0 .row-0 {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        width: 83%;
+        margin-top: 38px;
+        margin-left: 5px;
+    }
+    .block-4 .column-0 .row-0 .column-2 .book {
+        border-bottom: 1px solid #eee;
+        text-align: center;
+        padding: 26px;
+        padding-bottom: 28px;
+    }
+    .block-4 .column-0 .row-0 .column-2 .book img {
+        margin-top: -21px;
+        width: 17%;
     }
     /* line 993, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .card p {
@@ -2126,18 +2156,31 @@ body {
     /* line 1001, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man p {
         font-size: 18px;
+        margin-top: 13px;
     }
     /* line 1004, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-1 .man font {
-        font-size: x-large;
+        font-size: 18px;
+        width: 96%;
+        letter-spacing: 1px;
+        line-height: 32px;
+        margin-left: 11px;
+        margin-top: 7px;
     }
     /* line 1011, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma p {
         font-size: 18px;
+        margin-top: 15px;
+    }
+    .block-4 .column-0 .row-0 .column-2 .palma img {
+        margin-top: 21px;
+        width: 16%;
     }
     /* line 1014, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .palma font {
-        font-size: x-large;
+        font-size: 18px;
+        line-height: 30.5px;
+        letter-spacing: 0.9px;
     }
     /* line 1019, ../sass/_main.scss */
     .block-4 .column-0 .row-0 .column-2 .book p {
@@ -2211,6 +2254,11 @@ body {
     .block-5 .column-1 {
         justify-content: center;
         margin-right: 0%;
+    }
+    .block-4 .column-0 .row-0 .column-1 .man img {
+        margin-top: -17px;
+        width: 17%;
+        margin-left: 6px;
     }
     /* line 1086, ../sass/_main.scss */
     .block-5 .column-1 .foot .span-1 {
