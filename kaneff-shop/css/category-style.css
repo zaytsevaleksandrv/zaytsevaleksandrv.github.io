@@ -1,0 +1,64 @@
+                   .all-category {
+                       float: left;
+                       margin-left: -18px;
+                       margin-top: 8px;
+                   }
+                   
+                   .sale {
+                       margin-left: 16px;
+                       margin-right: 15px;
+                   }
+                   
+                   .fa-navicon: before,
+                   .fa-reorder: before,
+                   .fa-bars: before {
+                       font-size: 18px;
+                       margin-left: -21px;
+                   }
+                   
+                   .kanefhead .hred .hselect {
+                       display: block;
+                       width: 173px;
+                       height: 30px;
+                       font-weight: 700;
+                       font-size: 13px;
+                       padding-top: 5px;
+                       padding-left: 1.42857143;
+                       padding-left: 17px;
+                       color: white;
+                       background-color: transparent;
+                       background-image: none;
+                       border: 1px solid #ffbb28;
+                       border-radius: 0px;
+                       text-align: left;
+                       margin-top: -2px;
+                       margin-left: 9px;
+                   }
+                   
+                   .btn .caret {
+                       margin-left: 4.5px;
+                   }
+                   
+                   .kanefhead .hred a {
+                       color: #ffbb28;
+                       font-weight: 700;
+                       font-size: 13px;
+                       text-decoration: none;
+                       cursor: pointer;
+                       margin-left: 22px;
+                   }
+                   
+                   .blog {
+                       margin-left: 37px;
+                   }
+                   
+                   .daily-deals {
+                       margin-left: 46px;
+                   }
+                   
+                   .fa-gift:before {
+                       content: "\f06b";
+                       font-size: 27px;
+                       margin-left: -19px;
+                       margin-top: 9px;
+                   }
