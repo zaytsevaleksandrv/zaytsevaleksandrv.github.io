@@ -117,4 +117,22 @@
                    .col-md-3-font-pad {
                        width: 19%;
                        font-size: 13px;
+                       margin-top: 2px;
+                       margin-left: 1px;
+                   }
+                   
+                   .col-md-3-font-pad-2 {
+                       font-size: 13px;
+                       margin-top: -2px;
+                       margin-left: -10px;
+                   }
+                   
+                   .img__burger-1 {
+                       margin-left: 4px;
+                       margin-top: -3px;
+                   }
+                   
+                   .img__burger-2 {
+                       margin-left: 1px;
+                       margin-top: -1px;
                    }
