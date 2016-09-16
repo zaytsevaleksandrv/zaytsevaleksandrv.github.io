@@ -4,11 +4,6 @@
                        margin-top: 8px;
                    }
                    
-                   .sale {
-                       margin-left: 16px;
-                       margin-right: 15px;
-                   }
-                   
                    .fa-navicon: before,
                    .fa-reorder: before,
                    .fa-bars: before {
@@ -46,6 +41,11 @@
                        text-decoration: none;
                        cursor: pointer;
                        margin-left: 22px;
+                   }
+                   
+                   .sale {
+                       margin-left: 16px;
+                       margin-right: 15px;
                    }
                    
                    .blog {
