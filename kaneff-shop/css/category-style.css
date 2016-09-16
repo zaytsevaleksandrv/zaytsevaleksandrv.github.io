@@ -189,7 +189,16 @@
                        margin-left: 1px;
                    }
                    
-                   .mainpart .content .shopsl .info {
-                       padding-top: 22px;
-                       padding-bottom: 5px;
+                   .img-polo {
+                       padding-top: 30px;
+                       margin-left: -4px;
+                   }
+                   
+                   .img-golf-sticks {
+                       padding-top: 21px;
+                       margin-left: -4px;
+                   }
+                   
+                   .img-shoe {
+                       padding-top: 19px;
                    }
