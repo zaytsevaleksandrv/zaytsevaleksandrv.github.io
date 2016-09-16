@@ -172,9 +172,9 @@
                    }
                    
                    .hselect--br-span {
-                       margin-left: -2px;
+                       margin-left: -2px !important;
                    }
                    
                    .hselect--br-span-caret {
-                       margin-left: 88px;
+                       margin-left: 88px !important;
                    }
