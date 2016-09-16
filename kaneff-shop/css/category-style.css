@@ -111,7 +111,7 @@
                    
                    .col-md-12--mar-padd {
                        margin-top: -15px;
-                       padding-bottom: 27px;
+                       padding-bottom: 30px;
                    }
                    
                    .col-md-3-font-pad {
@@ -177,4 +177,19 @@
                    
                    .hselect--br-span-caret {
                        margin-left: 88px !important;
+                   }
+                   
+                   .mainpart .content .shopsl .new {
+                       top: 16px;
+                       left: 11px;
+                   }
+                   
+                   .mainpart .content .shopsl .sale {
+                       width: 86px;
+                       margin-left: 1px;
+                   }
+                   
+                   .mainpart .content .shopsl .info {
+                       padding-top: 22px;
+                       padding-bottom: 5px;
                    }
