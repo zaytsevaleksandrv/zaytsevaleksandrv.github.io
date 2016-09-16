@@ -167,6 +167,14 @@
                    }
                    
                    .hselect--br {
-                       width: 232%;
+                       width: 100%;
                        border-radius: 0;
+                   }
+                   
+                   .hselect--br-span {
+                       margin-left: -2px;
+                   }
+                   
+                   .hselect--br-span-caret {
+                       margin-left: 88px;
                    }
