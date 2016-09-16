@@ -73,7 +73,7 @@
                    }
                    
                    .breadcrumb {
-                       padding: 8px 0;
+                       padding: 6px 0;
                        background-color: transparent;
                    }
                    
@@ -86,4 +86,25 @@
                    a {
                        color: #333;
                        text-decoration: none;
+                   }
+                   
+                   .club-color {
+                       color: red;
+                   }
+                   
+                   .mainpart .content .products .control p {
+                       font-size: 34px;
+                       font-weight: 700;
+                       margin-left: -2px;
+                       margin-top: 0;
+                   }
+                   
+                   .mainpart .toppart {
+                       margin-top: 2px;
+                       margin-left: -2px;
+                   }
+                   
+                   .mainpart .toppart input[type="checkbox"] + label::before,
+                   .mainpart .toppart input[type="radio"] + label::before {
+                       margin: 0 10px -3px -5px;
                    }
