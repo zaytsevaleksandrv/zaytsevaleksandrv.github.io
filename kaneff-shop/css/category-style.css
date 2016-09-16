@@ -108,3 +108,13 @@
                    .mainpart .toppart input[type="radio"] + label::before {
                        margin: 0 10px -3px -5px;
                    }
+                   
+                   .col-md-12--mar-padd {
+                       margin-top: -15px;
+                       padding-bottom: 27px;
+                   }
+                   
+                   .col-md-3-font-pad {
+                       width: 19%;
+                       font-size: 13px;
+                   }
