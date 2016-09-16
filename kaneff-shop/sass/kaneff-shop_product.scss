@@ -1,0 +1,549 @@
+$black: #000000;
+$lblack:#191919;
+$orange: #ffbb28;
+$red:#d42131;
+$grey:#666666;
+$white:#ffffff;
+$greytext:#d5d5d5;
+
+
+
+.repeat{
+	.golfbg{
+		padding-top: 77px;
+		padding-bottom:30px;
+		background: url('../img/golfbg.png');
+		background-size:cover;
+
+		.support{
+			color:$white;
+			text-align:center;
+
+			img{
+				margin:0 auto;
+			}
+			.top{
+				font-size:50px;
+				font-weight: 700;
+				padding-top: 12px;
+
+			}
+			.mid{
+				font-size:16px;
+				padding-bottom:26px;
+				margin-top: -16px;
+			}
+			.bold{
+				font-weight: 700;
+			}
+		}
+	}
+
+
+	.slider{
+		padding-top:60px;
+		padding-bottom: 63px;
+		background:$white;
+		width: 100%;
+		.stitle{
+			font-size:35px;
+			text-align: center;
+			font-weight: 700;
+			color:#999999;
+			
+		}
+		.leftcontrl{
+			position: absolute;
+			left: 0;
+			top: 60%;
+
+		}
+		.rightcontrl{
+			position: absolute;
+			right: 0;
+			top: 60%;
+
+		}
+		.carousel-inner{
+		img{
+			transform: translateY(-50%);
+				position: relative;
+				margin-top: 50%;
+
+
+		}
+	}
+
+	}
+
+	.orangebg{
+		padding-top: 77px;
+		padding-bottom:73px;
+		background: url('../img/orangebg.png');
+		background-size:cover;
+		.tnews{
+			font-size: 35px;
+			font-weight: 700;
+			color:$black;
+			text-align: center;
+			padding-bottom: 38px;	
+		}
+		.blog{
+			background:$white;
+			padding-top: 19px;
+			padding-left: 23px;
+			padding-bottom: 45px;
+
+		.btitle{
+			font-weight: 700;
+			font-size: 16px;
+			color:$black;
+			width: 74%;
+
+		}
+		.bdate{
+			font-size: 11px;
+			color:$grey;
+		}
+		.btext{
+			font-size: 13px;
+		}
+	}
+
+	.newsbut{
+		height: 44px;
+		width: 199px;
+		background: #ffffff;
+		margin: 0 auto;
+		text-align: center;
+		line-height: 44px;
+		margin-top: 54px;
+		p{
+			color:$black;
+			font-size: 13px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+	}
+
+	}
+}
+
+.mainpart{
+	background:$white;
+
+	.toppart{
+		border:3px solid $red;
+		padding-top: 18px;
+		padding-bottom: 11px;	
+		background:$white;
+		.tptitle{
+			font-size: 15px;
+			font-weight: 700;
+			
+
+		}
+		.customcheck{
+			width:16px;
+			height:16px;
+			background:$grey;
+
+			
+
+
+
+		.check{
+			font-size:13px;
+			font-weight: 400;
+
+			
+		}
+		
+	}
+
+
+
+
+	input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px 0 0;
+    background:#e1e2e2;
+}
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 400;
+}
+input[type="checkbox"]:checked + label::before {
+    background:$red;
+}
+
+
+	}
+
+	.sidebar{
+		background:#f2f2f2;
+		margin-top: 10px;
+		padding-bottom: 20px;
+		.tptitle{
+			font-size: 16px;
+			font-weight: 700;
+			padding-bottom: 9px;
+			padding-top: 8px;
+			
+		}
+		.select{
+	input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
+    content: "";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    margin: 0 5px 0 0;
+    background:#e1e2e2;
+}
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+  font-size: 13px;
+  cursor: pointer;
+  font-weight: 700;
+}
+input[type="checkbox"]:checked + label::before {
+    background:$red;
+}
+			li{
+				list-style-type: none;
+				line-height: 1.85;
+			}
+		}
+
+
+    .boxes{
+    	
+    	width:60%;
+    	margin-bottom:20px;
+
+ 
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+  font-size: 13px;
+cursor: pointer;
+font-weight: 700;
+width: 32px;
+height: 32px;
+z-index: 5;
+text-align: center;
+background:#e1e2e2;
+line-height:32px;
+
+}
+
+input[type="checkbox"]:checked + label {
+   background:$red;
+    color:white;
+}
+
+	}
+
+
+		 .color{
+    	
+    	margin-bottom:20px;
+    	width:60%;
+    	
+
+ 	.colorbox{
+ 		display: inline-block;
+
+input[type="checkbox"] + label, 
+input[type="radio"] + label {
+  font-size: 13px;
+cursor: pointer;
+font-weight: 700;
+width: 32px;
+height: 32px;
+z-index: 5;
+text-align: center;
+line-height:32px;
+
+
+		.fa-check{
+			opacity: 0;
+		}
+}
+
+input[type="checkbox"]:checked + label {
+   
+    color:black;
+    		.fa-check{
+			opacity: 1;
+			line-height: 32px;
+		}
+
+}
+}
+
+	}
+
+	.rate{
+		
+		p{
+			display:inline-block;
+			font-size:13px;
+			color:#333333;
+		}
+
+
+
+
+	}
+}
+
+	.book{
+		background:url('../img/book.png');
+		margin-top: 15px;
+		padding-bottom: 100px;
+		p{
+			color:$white;
+			font-size: 42px;
+			font-weight: 700;
+			line-height: 1;
+			padding-top: 31px;
+			padding-left: 4px;
+			padding-bottom: 36px;
+		}
+		.enroll{
+			width:125px;
+			height:40px;
+			border:3px solid white;
+			margin-left: 6px;
+			
+			p{
+				font-size:18px;
+			font-weight: 700;
+			text-align: center;
+			line-height: 40px;
+			padding: 0px;
+			}
+
+		}
+	}
+	.recommend{
+		padding-left: 0px;
+		padding-right: 0px;
+
+		.rtitle{
+			font-size: 35px;
+			font-weight:700;
+			padding-top: 37px;
+		}	
+
+		.recgolf{
+			border:1px solid #ececec;
+			padding-top: 8px;
+			padding-left: 10px;
+			padding-bottom:10px;
+			margin-top: 19px;
+			 img{
+			 	float:left;
+			 	padding-right: 10px;
+			 }
+			 .rectitle{
+			 	font-weight: 700;
+			 	font-size: 13px;
+			 	padding-top: 10px;
+
+			 }
+			 .price{
+			 	display: inline-block;
+			 	font-weight: 700;
+			 	color:$red;
+			 	font-size: 16px;
+			 	padding-top: 8px;
+			 }
+			 .old{
+			 	color:$black;
+			 	text-decoration: line-through;
+			 }
+		}
+	}
+
+
+.content{
+		.tabsector{
+			border-bottom: 3px solid #e1e2e2;
+			> li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
+
+					background-color: #e1e2e2;
+					border: 3px solid #e1e2e2;
+					border-bottom-color: transparent;
+					cursor: default;
+
+
+			}
+			li{
+				font-weight: 700;
+				:hover{
+					color:$orange;
+					background:transparent;
+					border:none;
+				}
+				a{
+				color:$black;
+				border: none;
+			}
+			}
+			.active{
+
+			}
+
+		}
+
+		.tab-content{
+			font-size:13px;
+			.bold{
+				font-weight: 700;
+			}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+	.products{
+		padding-bottom:65px;
+	.control{
+		padding-bottom:25px;
+				p{
+					font-size: 25px;
+					font-weight: 700;
+
+				}
+
+			.fa{
+
+				padding:7px 17px;
+				float:right;
+				color:$black;
+					&:hover{
+						background: $orange;
+					}
+			}
+		.lborder{
+			border-top:1px solid #eeeeee;
+			border-bottom:1px solid #eeeeee;
+			border-left:1px solid #eeeeee;
+		}
+		.rborder{
+			border-top:1px solid #eeeeee;
+			border-bottom:1px solid #eeeeee;
+			border-right:1px solid #eeeeee;
+		}
+	}
+}
+
+	.shopsl{
+
+		border:1px solid #ececec;
+		padding:0px;
+
+		.new{
+			background:$orange;
+			color:$white;
+			width:54px;
+			height:27px;
+			font-weight: 700;
+			line-height:27px;
+			font-size: 13px;
+			text-align: center;
+			border-radius:20px;
+			position: absolute;
+			top: 20px;
+			left: 15px;
+
+
+		}
+
+		.sale{
+			background:$red;
+			width:88px;
+
+
+		}
+		.info{
+			padding-top: 20px;
+			padding-bottom:15px;
+
+		.rev{
+			display:inline;
+			font-size: 13px;
+			color:$grey;
+			padding-left: 5px;
+		}
+		.title{
+			font-size: 13px;
+			font-weight: 700;
+			padding-top:10px;
+
+		}
+		 .price{
+			 	
+			 	font-weight: 700;
+			 	color:$red;
+			 	font-size: 16px;
+			 	margin-bottom: 4px;
+			 }
+			 .old{
+			 	color:$black;
+			 	text-decoration: line-through;
+			 }
+
+		.buy{
+			height:45px;
+			width:110px;
+			background: $red;
+			color:$white;
+			text-align:center;
+			line-height: 45px;
+			font-size: 16px;
+			font-weight: 700;
+			float:right;
+			cursor:pointer;
+
+		}	 
+	}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+.fa-star{
+	color:$orange;
+}
+.fa-star-o{
+	color:$orange;
+}
