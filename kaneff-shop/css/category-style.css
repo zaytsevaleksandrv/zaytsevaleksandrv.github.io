@@ -131,19 +131,18 @@
                    .col-md-3-input {
                        border-radius: 0px;
                        width: 145px;
-                       margin-left: 5px;
                        margin-top: -2px;
                    }
                    
                    .col-md-3--span {
                        text-align: left;
-                       margin-left: -2px;
+                       margin-left: -1px;
                        font-size: 16px;
+                       padding-right: 46px;
                    }
                    
                    .col-md-3--caret {
                        text-align: right;
-                       margin-left: 50px;
                        margin-top: -4px;
                    }
                    
@@ -155,4 +154,8 @@
                    .img__burger-2 {
                        margin-left: 1px;
                        margin-top: -1px;
+                   }
+                   
+                   .btn-group > .btn:first-child {
+                       margin-left: 4px;
                    }
