@@ -159,3 +159,14 @@
                    .btn-group > .btn:first-child {
                        margin-left: 4px;
                    }
+                   
+                   .col-md-offset--padd {
+                       font-size: 13px;
+                       margin-left: 236px;
+                       margin-top: -3px;
+                   }
+                   
+                   .hselect--br {
+                       width: 232%;
+                       border-radius: 0;
+                   }
