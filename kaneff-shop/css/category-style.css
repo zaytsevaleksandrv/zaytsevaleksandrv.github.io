@@ -125,6 +125,26 @@
                        font-size: 13px;
                        margin-top: -2px;
                        margin-left: -10px;
+                       width: 30%;
+                   }
+                   
+                   .col-md-3-input {
+                       border-radius: 0px;
+                       width: 145px;
+                       margin-left: 5px;
+                       margin-top: -2px;
+                   }
+                   
+                   .col-md-3--span {
+                       text-align: left;
+                       margin-left: -2px;
+                       font-size: 16px;
+                   }
+                   
+                   .col-md-3--caret {
+                       text-align: right;
+                       margin-left: 50px;
+                       margin-top: -4px;
                    }
                    
                    .img__burger-1 {
