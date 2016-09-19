@@ -324,7 +324,7 @@
                        }
                        
                        .mainpart .book {
-                           margin-top: 0;
+                           margin-top: 17px;
                        }
                        
                        .mainpart .recommend .rtitle {
@@ -355,5 +355,15 @@
                        }
                        
                        .block-nav--pdd {
-                           padding-top: 8px;
+                           padding-top: 20px;
+                       }
+                       
+                       .mainpart .sidebar .boxes {
+                           width: 50%;
+                           margin-bottom: 0px;
+                       }
+                       
+                       .mainpart .sidebar .color {
+                           margin-bottom: 8px;
+                           width: 50%;
                        }
