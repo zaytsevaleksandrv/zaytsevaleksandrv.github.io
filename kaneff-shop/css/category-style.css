@@ -226,6 +226,7 @@
                        
                        .margin-block--product {
                            margin-top: 20px;
+                           padding-top: 2px;
                        }
                        
                        .display__none {
@@ -237,13 +238,13 @@
                        }
                        
                        .number__product--result {
-                           padding-top: 54px;
+                           padding-top: 45px;
                            margin-left: -32px;
                            font-size: 13px;
                        }
                        
                        .number__product--number {
-                           padding-top: 22px;
+                           padding-top: 12px;
                            margin-right: -25px;
                        }
                        
