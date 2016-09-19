@@ -292,3 +292,20 @@
                        color: #333333;
                        font-weight: bolder;
                    }
+                   
+                   .block__club {
+                       margin-top: 24px;
+                       padding-left: 0;
+                       font-size: 13px;
+                   }
+                   
+                   .block__club--club-font {
+                       font-size: 26px;
+                       font-weight: bolder;
+                       margin-left: -4px;
+                   }
+                   
+                   .block__club-1 {
+                       padding-top: 13px;
+                       padding-bottom: 13px;
+                   }
