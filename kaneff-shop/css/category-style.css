@@ -225,5 +225,9 @@
                    }
                    
                    .margin-block--product {
-                       margin-top: 23px;
+                       margin-top: 20px;
+                   }
+                   
+                   .display__none {
+                       display: none;
                    }
