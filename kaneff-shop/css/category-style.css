@@ -374,3 +374,8 @@
                            margin-left: -7px;
                            margin-top: 0px;
                        }
+                       
+                       .mainpart .sidebar .select input[type="checkbox"] + label,
+                       .mainpart .sidebar .select input[type="radio"] + label {
+                           font-weight: 500;
+                       }
