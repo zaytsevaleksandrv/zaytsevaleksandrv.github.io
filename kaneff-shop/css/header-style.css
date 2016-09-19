@@ -63,3 +63,65 @@
 .kanefhead .hred a {
     margin-left: 22px;
 }
+
+@media screen and (max-device-width: 768px) {
+    .mainpart .recommend .recgolf .old {
+        margin-left: 0;
+    }
+    .mainpart .recommend .recgolf .rectitle {
+        width: 100%;
+    }
+    .col-md-3-font-pad {
+        width: 100%;
+    }
+    .col-md-3-font-pad-2 {
+        width: 100%;
+        padding-top: 10px;
+    }
+    .col-md-offset--padd {
+        margin-left: 0px;
+        padding-top: 10px;
+    }
+    .row__text-align--center {
+        text-align: center;
+    }
+    .kanefhead .hwhite .wlogo {
+        margin-left: 0;
+    }
+    .search--categ {
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .search-width {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .btn-group > .btn:first-child {
+        margin-left: 0;
+    }
+    .cart-mycart {
+        padding-top: 15px;
+    }
+    .kanefhead .hwhite .weather p {
+        width: 100%;
+    }
+    .kanefhead .hwhite .weather .wbold {
+        width: 100%;
+    }
+    .kanefhead .hwhite .cart p {
+        width: 100%;
+    }
+    .pagination {
+        width: 100%;
+    }
+    .pdd-cart-text {
+        padding-left: 53px;
+        margin-top: -25px;
+    }
+    .my-cart-text {
+        padding-left: 18px;
+    }
+    .kanefhead .hwhite .cart .wbold {
+        padding-left: 21px;
+    }
+}
