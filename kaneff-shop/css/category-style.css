@@ -430,7 +430,7 @@
                            }
                            
                            .text__color {
-                               color: #333;
+                               color: #333333 !important;
                            }
                            
                            @media screen and (max-device-width: 768px) {
