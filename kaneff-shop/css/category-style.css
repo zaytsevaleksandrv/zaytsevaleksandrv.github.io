@@ -387,3 +387,8 @@
                        .kaneffot .foot p {
                            width: 90%;
                        }
+                       
+                       .search--categ {
+                           padding-top: 3px;
+                           margin-left: -13px;
+                       }
