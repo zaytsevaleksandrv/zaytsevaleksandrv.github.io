@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>kaneff-shop_product</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/category-style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+</head>
+
+<body>
+    <header class="kanefhead">
+        <div class="container-fluid hblack">
+            <div class="container">
+                <div class="col-md-3 ">
+                    <a class="hbtext"><i class="fa fa-chevron-left fa-fw" aria-hidden="true"></i>Go to the Kaneff Golf</a>
+                </div>
+                <div class="col-md-4  hbtext">
+                    <a>Events</a>
+                    <a>Personal Training</a>
+                    <a>Book Tee Time</a>
+                </div>
+                <div class="col-md-5  hbtext right">
+                    <a><i class="fa fa-user fa-fw" aria-hidden="true"></i>My Accounts<i class="fa fa-caret-down fa-fw" aria-hidden="true"></i></a>
+                    <a><i class="fa fa-sign-in fa-fw" aria-hidden="true"></i>Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid hwhite">
+            <div class="container">
+                <div class="col-md-3 ">
+                    <img src="img/hlogo.png" class="img-responsive wlogo">
+                </div>
+                <div class="col-md-5 ">
+                    <form class="navbar-form" role="search">
+                        <div class="btn-group btn-input clearfix">
+                            <button type="button" class="btn btn-default dropdown-toggle form-control hselect" data-toggle="dropdown">
+                                <span data-bind="label">Categories</span> <span class="caret right"></span>
+                            </button>
+                            <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
+                                <li><a href="#">Item 1</a></li>
+                                <li><a href="#">Another item</a></li>
+                                <li><a href="#">This is a longer item that will not fit properly</a></li>
+                            </ul>
+                        </div>
+                        <div class="input-group" style="margin-left:-5px;">
+                            <input type="text" class="form-control nobord" placeholder="Search" name="srch-term" id="srch-term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default orbut" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="weather">
+                        <img src="img/cloud.png">
+                        <p>Toronto, Canada</p>
+                        <p class="wbold">20 °C, Mostly Cloudy</p>
+                    </div>
+                </div>
+                <div class="col-md-2 ">
+                    <div class="cart">
+                        <div class="col-md-4">
+                            <img src="img/cart.png">
+                            <div class="circle">
+                                <p>12</p>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <p>My Cart</p>
+                            <p class="wbold">$141.60</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid hred m-t">
+            <div class="container">
+                <div class="col-md-3 all-category ">
+                    <a><i class="fa fa-bars fa-fw" aria-hidden="true"></i>ALL CATEGORIES</a>
+                </div>
+                <div class="col-md-9 ">
+                    <div class="btn-group btn-input clearfix">
+                        <button type="button" class="btn btn-default dropdown-toggle form-control hselect" data-toggle="dropdown">
+                            <span data-bind="label"><img src="img/checked.png">BOOK A TEE TIME</span> <span class="caret right"></span>
+                        </button>
+                        <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
+                            <li><a href="#">Item 1</a></li>
+                            <li><a href="#">Another item</a></li>
+                            <li><a href="#">This is a longer item that will not fit properly</a></li>
+                        </ul>
+                    </div>
+                    <a class="sale">SALE</a>
+                    <a>BEST SELLER</a>
+                    <a class="daily-deals nav__bar--blog">BLOG</a>
+                    <a class="nav__bar--dailydeals"><i class="fa fa-gift fa-fw" aria-hidden="true"></i>DAILY DEALS</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid mainpart">
+        <div class="container">
+            <div class="row">
+                <!--SIDEBAR -->
+                <div class="col-md-3 ">
+                    <div class="col-md-12 toppart">
+                        <p class="tptitle">Shop All Sale Items</p>
+                        <input id="cfirst" type="checkbox" name="first" checked hidden />
+                        <label for="cfirst">Show sale items</label>
+                    </div>
+                    <div class="col-md-12 sidebar">
+                        <div class="select">
+                            <p class="tptitle">Price</p>
+                            <div id="slider-range"></div>
+                            <p>
+                                <input type="text" id="amount" readonly style="border: 0px none;font-weight: bold;background: transparent none repeat scroll 0% 0%;font-size: 13px;padding-top:13px;padding-bottom: 8px;">
+                            </p>
+                            <p class="tptitle">Gender</p>
+                            <li>
+                                <input id="csecond" type="checkbox" name="first" checked hidden />
+                                <label for="csecond">Male</label>
+                            </li>
+                            <li>
+                                <input id="cthird" type="checkbox" name="first" hidden />
+                                <label for="cthird">Female</label>
+                            </li>
+                            <li>
+                                <input id="c4" type="checkbox" name="first" hidden />
+                                <label for="c4">Unisex</label>
+                            </li>
+                            <p class="tptitle">Category</p>
+                            <li>
+                                <input id="c5" type="checkbox" name="first" checked hidden />
+                                <label for="c5">Category A</label>
+                            </li>
+                            <li>
+                                <input id="c6" type="checkbox" name="first" hidden />
+                                <label for="c6">Category B</label>
+                            </li>
+                            <li>
+                                <input id="c7" type="checkbox" name="first" hidden />
+                                <label for="c7">Category C</label>
+                            </li>
+                        </div>
+                        <p class="tptitle">Size</p>
+                        <div class="boxes">
+                            <input id="c8" type="checkbox" name="first" checked hidden>
+                            <label class="check1" for="c8">XS</label>
+                            </input>
+                            <input id="c9" type="checkbox" name="first" checked hidden>
+                            <label class="check2" for="c9">S</label>
+                            </input>
+                            <input id="c10" type="checkbox" name="first" checked hidden>
+                            <label class="check3" for="c10">M</label>
+                            </input>
+                            <input id="c11" type="checkbox" name="first" checked hidden>
+                            <label class="check1" for="c11">L</label>
+                            </input>
+                            <input id="c12" type="checkbox" name="first" checked hidden>
+                            <label class="check2" for="c12">XL</label>
+                            </input>
+                            <input id="c13" type="checkbox" name="first" checked hidden>
+                            <label class="check3" for="c13">XXL</label>
+                            </input>
+                        </div>
+                        <p class="tptitle">Color</p>
+                        <div class="color">
+                            <div class="colorbox">
+                                <input id="c14" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c14" style="background:#6eff78;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                            <div class="colorbox">
+                                <input id="c15" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c15" style="background:#265fc7;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                            <div class="colorbox">
+                                <input id="c16" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c16" style="background:#bcff3c;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                            <div class="colorbox">
+                                <input id="c17" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c17" style="background:#7aae16;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                            <div class="colorbox">
+                                <input id="c18" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c18" style="background:#606c82;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                            <div class="colorbox">
+                                <input id="c19" type="checkbox" name="first" checked hidden>
+                                <label class="check1" for="c19" style="background:#ffc689;"><i class="fa fa-check " aria-hidden="true"></i></label>
+                                </input>
+                            </div>
+                        </div>
+                        <p class="tptitle">Rating</p>
+                        <div class="rate">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p>2,223</p>
+                        </div>
+                        <div class="rate">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p>234</p>
+                        </div>
+                        <div class="rate">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p>33</p>
+                        </div>
+                        <div class="rate">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 book">
+                        <p>Book a Personal Training
+                        </p>
+                        <div class="enroll">
+                            <p>Enroll</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 recommend">
+                        <p class="rtitle">Recommend</p>
+                        <div class="col-md-12 recgolf">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/baffler.png" class="">
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="rectitle">Women's Hybrid Cobra Baffler XL</p>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <p class="price old">$200</p>
+                                    <p class="price">$120</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 recgolf">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/baffler.png" class="">
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="rectitle">Women's Hybrid Cobra Baffler XL</p>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <p class="price old">$200</p>
+                                    <p class="price">$120</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 recgolf">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/baffler.png" class="">
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="rectitle">Women's Hybrid Cobra Baffler XL</p>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <p class="price old">$200</p>
+                                    <p class="price">$120</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 recgolf">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img src="img/baffler.png" class="">
+                                </div>
+                                <div class="col-md-6">
+                                    <p class="rectitle">Women's Hybrid Cobra Baffler XL</p>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <p class="price old">$200</p>
+                                    <p class="price">$120</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--SIDEBAR END-->
+                <!--CONTENT-->
+                <div class="col-md-9  content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul class="breadcrumb">
+                                <li><a href="#">Home</a> <span class="divider">&mdash;</span></li>
+                                <li><a href="#">Catalog</a> <span class="divider">&mdash;</span></li>
+                                <li class="active">Club</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12 products">
+                            <div class="row">
+                                <div class="col-md-10 control ">
+                                    <p>
+                                        <font class="club-color ">C</font>lub</p>
+                                </div>
+                                <div class="col-md-12 col-md-12--mar-padd">
+                                    <div class="row">
+                                        <div class="col-md-3 col-md-3-font-pad">
+                                            View as:
+                                            <img class="img__burger-1" src="img/burger-1.png">
+                                            <img class="img__burger-2" src="img/burger-2.png">
+                                        </div>
+                                        <div class="col-md-3 col-md-3-font-pad-2">
+                                            Sort by:
+                                            <div class="btn-group btn-input clearfix">
+                                                <button type="button" class="btn btn-default dropdown-toggle form-control hselect col-md-3-input" data-toggle="dropdown">
+                                                    <span data-bind="label" class="col-md-3--span">Position</span> <span class="caret right col-md-3--caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
+                                                    <li><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 col-md-offset-3 col-md-offset--padd ">
+                                            Show:
+                                            <div class="btn-group btn-input clearfix">
+                                                <button type="button" class="btn btn-default dropdown-toggle form-control hselect  hselect--br" data-toggle="dropdown">
+                                                    <span data-bind="label hselect--br-span">12</span> <span class="caret right hselect--br-span-caret"></span>
+                                                </button>
+                                                <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
+                                                    <li><a href="#">1</a></li>
+                                                    <li><a href="#">2</a></li>
+                                                    <li><a href="#">3</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="Carousel1" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="col-md-12 shopsl">
+                                                    <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="new">
+                                                        NEW
+                                                    </div>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price old">$200</p>
+                                                                <p class="price">$120</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="col-md-12 shopsl">
+                                                    <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="new sale">
+                                                        SALE 25%
+                                                    </div>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">NIKE VAPOR FLY IRONS</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price old">$699.99</p>
+                                                                <p class="price">$499.99</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="col-md-12 shopsl shoe-background ">
+                                                    <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price">$180</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item ">
+                                        <div class="row">
+                                            <div class="col-md-4 ">
+                                                <div class="col-md-12 shopsl">
+                                                    <a href="#"><img src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="new">
+                                                        NEW
+                                                    </div>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price old">$200</p>
+                                                                <p class="price">$120</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="col-md-12 shopsl">
+                                                    <a href="#"><img src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="new sale">
+                                                        SALE 25%
+                                                    </div>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price old">$200</p>
+                                                                <p class="price">$120</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="col-md-12 shopsl">
+                                                    <a href="#"><img src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                                    <div class="col-md-12 info">
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                        <p class="rev">2 reviews</p>
+                                                        <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                                        <div class="row">
+                                                            <div class="col-md-5 col-xs-5">
+                                                                <p class="price old">$200</p>
+                                                                <p class="price">$120</p>
+                                                            </div>
+                                                            <div class="col-md-7 col-xs-7">
+                                                                <div class="buy">
+                                                                    BUY
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-block--product">
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl shoe-background ">
+                                        <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price">$180</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new sale display__none">
+                                            SALE 25%
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE VAPOR FLY IRONS</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$699.99</p>
+                                                    <p class="price">$499.99</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new display__none">
+                                            NEW
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$200</p>
+                                                    <p class="price">$120</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-block--product">
+                                <div class="col-md-4 ">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new display__none">
+                                            NEW
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$200</p>
+                                                    <p class="price">$120</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new sale display__none">
+                                            SALE 25%
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE VAPOR FLY IRONS</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$699.99</p>
+                                                    <p class="price">$499.99</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl shoe-background ">
+                                        <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price">$180</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-block--product">
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl shoe-background ">
+                                        <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price">$180</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new sale display__none">
+                                            SALE 25%
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE VAPOR FLY IRONS</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$699.99</p>
+                                                    <p class="price">$499.99</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new display__none">
+                                            NEW
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$200</p>
+                                                    <p class="price">$120</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-block--product">
+                                <div class="col-md-4 ">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new display__none">
+                                            NEW
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$200</p>
+                                                    <p class="price">$120</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new sale display__none">
+                                            SALE 25%
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE VAPOR FLY IRONS</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$699.99</p>
+                                                    <p class="price">$499.99</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl shoe-background ">
+                                        <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price">$180</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row margin-block--product">
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl shoe-background ">
+                                        <a href="#"><img class="img-shoe" src="img/shoe.png" alt="Image" style="width:100%;"></a>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE LUNAR CONTROL 4 COLLEGE</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price">$180</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7 padding__nike-cross">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-golf-sticks" src="img/golf-stick.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new sale display__none">
+                                            SALE 25%
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">NIKE VAPOR FLY IRONS</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$699.99</p>
+                                                    <p class="price">$499.99</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 ">
+                                    <div class="col-md-12 shopsl">
+                                        <a href="#"><img class="img-polo" src="img/polo-white.png" alt="Image" style="width:100%;"></a>
+                                        <div class="new display__none">
+                                            NEW
+                                        </div>
+                                        <div class="col-md-12 info">
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                                            <p class="rev">2 reviews</p>
+                                            <p class="title">POLO FOOTJOY STRETCH SOLID</p>
+                                            <div class="row">
+                                                <div class="col-md-5 col-xs-5">
+                                                    <p class="price old">$200</p>
+                                                    <p class="price">$120</p>
+                                                </div>
+                                                <div class="col-md-7 col-xs-7">
+                                                    <div class="buy">
+                                                        BUY
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="col-md-3 number__product--result">
+                                    Results 1 &mdash; 12 of 18
+                                </div>
+                                <div class="number__product col-md-4 number__product--number">
+                                    <ul class="pagination">
+                                        <li class="disabled"><a href="#">&laquo;</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">&raquo;</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div>Club</div>
+                                <span>Here you can buy golf clubs: children, men, women.</span>
+                                <span>29 different types of golf clubs, but in one game you can only use a maximum of 14.</span>
+                                <span>Sticks golf course vary in length and weight, as well as the angle at which strikes the ball.</span>
+                                <span>Each putter is designed to perform its specific impact. Sticks can be divided into several groups.</span>
+                                <span>The first blows must provide flight of the ball to the maximum distance for this purpose, the group sticks Woods (wood), this includes driver and putter Woods.
+Subsequent strikes ball flight should provide for different distances, depending on the position of the ball with respect to the wells. For this purpose, the club irons (iron).</span>
+                                <span>For punches with a high trajectory ball flight, when it is necessary to ensure maximum accuracy and distance at the same time is small, use a stick pitching Wedge (pitching wedge). For strokes from the bunker with sand using a stick Sand Wedge (sand wedge). The angle of these sticks 46-60 degrees.</span>
+                                <span>The final blow to the player rolls the ball across the grass to get into the hole and uses a putter (putter) this stick</span>
+                                <span>Our golf shop the best deals on golf clubs. You will also find golf clubs all these groups from the best manufacturers.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTENT END-->
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- REPEAT PART-->
+    <div class="repeat">
+        <div class="container-fluid orangebg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="tnews">Latest News</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="img/blog1.png" class="img-responsive">
+                        <div class="blog">
+                            <p class="btitle">Gymnastics in front of the golf training</p>
+                            <p class="bdate">March 15, 2016</p>
+                            <p class="btext">A lot, and it is in vain, underrated exercise that tests the golfer. For vosemnadtsatilunochny golfer goes round about 10 kilometers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/blog2.png" class="img-responsive">
+                        <div class="blog">
+                            <p class="btitle">Gymnastics in front of the golf training</p>
+                            <p class="bdate">March 15, 2016</p>
+                            <p class="btext">A lot, and it is in vain, underrated exercise that tests the golfer. For vosemnadtsatilunochny golfer goes round about 10 kilometers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/blog3.png" class="img-responsive">
+                        <div class="blog">
+                            <p class="btitle">Gymnastics in front of the golf training</p>
+                            <p class="bdate">March 15, 2016</p>
+                            <p class="btext">A lot, and it is in vain, underrated exercise that tests the golfer. For vosemnadtsatilunochny golfer goes round about 10 kilometers.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img src="img/blog4.png" class="img-responsive">
+                        <div class="blog">
+                            <p class="btitle">Gymnastics in front of the golf training</p>
+                            <p class="bdate">March 15, 2016</p>
+                            <p class="btext">A lot, and it is in vain, underrated exercise that tests the golfer. For vosemnadtsatilunochny golfer goes round about 10 kilometers.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="newsbut">
+                            <p>View all NEWS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid slider">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="stitle">We are Proud to Work With</p>
+                        <a data-slide="prev" href="#Carousel"><img src="img/left.png" class="leftcontrl"></a>
+                        <a data-slide="next" href="#Carousel"><img src="img/right.png" class="rightcontrl"></a>
+                        <div class="col-md-10 col-md-offset-1" style="margin-top: -25px;">
+                            <div id="Carousel" class="carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/polo.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/lacoste.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/nike.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/odyssey.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/polo.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/lacoste.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/nike.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <a href="#"><img src="img/odyssey.png" alt="Image" style="max-width:100%;"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid golfbg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 support">
+                        <img src="img/support.png" class="img-responsive">
+                        <p class="top">24/7</p>
+                        <p class="mid bold">SUPPORT 24/7</p>
+                        <p class="mid">We Support Online 24h A Day</p>
+                    </div>
+                    <div class="col-md-4 support">
+                        <img src="img/track.png" class="img-responsive">
+                        <p class="top">FREE</p>
+                        <p class="mid bold">SHIPPING</p>
+                        <p class="mid">Free Shipping On All Uk Oder</p>
+                    </div>
+                    <div class="col-md-4 support">
+                        <img src="img/trash.png" class="img-responsive">
+                        <p class="top">FREE</p>
+                        <p class="mid bold">RETURN</p>
+                        <p class="mid">30 Days Money Back Guarantee!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- REPEAT PART END-->
+    <!-- FOOTER -->
+    <footer class="kaneffot">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row foot">
+                    <div class="col-md-3 first">
+                        <img src="img/logof.png" class="img-responsive">
+                        <p>Earn loyalty rewards while enjoying great golf at some of Southern Ontario’s premier golf facilities.</p>
+                        <div class="row social">
+                            <i class="fa fa-facebook " aria-hidden="true"></i>
+                            <i class="fa fa-twitter " aria-hidden="true"></i>
+                            <i class="fa fa-instagram " aria-hidden="true"></i>
+                            <i class="fa fa-youtube-play " aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <p class="ftitle">QUICK LINKS</p>
+                        <ul class="ftext">
+                            <li><a href="">About</a></li>
+                            <li><a href="">About delivery</a></li>
+                            <li><a href="">About payment</a></li>
+                            <li> <a href="">Warranty and Returns</a></li>
+                            <li> <a href="">Contacts</a></li>
+                            <li> <a href="">FAQ</a></li>
+                            <li> <a href="">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <p class="ftitle">LATEST TWEETS</p>
+                        <div class="tweet">
+                            <div class="col-sm-2">
+                                <img src="img/ava.png">
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="twtitle">KaneffGolf</p>
+                                <p class="ftitle2">@KaneffGolf</p>
+                                <p class="ftext">Nike Demo day at Lionhead, Open to all public, Saturday June 18 11am to 3pm. Come try all the new technology!</p>
+                            </div>
+                        </div>
+                        <div class="tweet">
+                            <div class="col-sm-2">
+                                <img src="img/ava.png">
+                            </div>
+                            <div class="col-sm-9">
+                                <p class="twtitle">KaneffGolf</p>
+                                <p class="ftitle2">@KaneffGolf</p>
+                                <p class="ftext">Nike Demo day at Lionhead, Open to all public, Saturday June 18 11am to 3pm. Come try all the new technology!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="col-md-8" style="padding-left:0px;">
+                            <p class="ftitle">ADDRESS</p>
+                            <p>KaneffGolf Head Office 8525 Mississauga Road Brampton, ON L6Y 0C1 (905) 455-8700</p>
+                            <p class="ftext">info@kaneffgolf.com</p>
+                        </div>
+                        <div class="col-md-12" style="padding-left:0px;">
+                            <p class="ftitle3">SUBCRIBE</p>
+                            <form class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input type="email" class="form-control foo-form" id="email" placeholder="Enter your e-mail adress">
+                                        <button type="submit" class="btn btn-default ok-button">
+                                            <p>OK</p>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid fdown">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4 left">
+                        <p>Copyright © 2016 KaneffGolf Courses All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-5 right">
+                        <img src="img/cards.png" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script>
+    $(function() {
+        $("#slider-range").slider({
+            range: true,
+            min: 0,
+            max: 999,
+            values: [100, 780],
+            slide: function(event, ui) {
+                $("#amount").val("min $" + ui.values[0] + " - max $ " + ui.values[1]);
+            }
+        });
+        $("#amount").val("min $" + $("#slider-range").slider("values", 0) +
+            " - max $ " + $("#slider-range").slider("values", 1));
+    });
+    </script>
+</body>
+
+</html>
