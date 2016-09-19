@@ -472,4 +472,7 @@
                                .kanefhead .hwhite .cart p {
                                    width: 100%;
                                }
+                               .pagination {
+                                   width: 100%;
+                               }
                            }
