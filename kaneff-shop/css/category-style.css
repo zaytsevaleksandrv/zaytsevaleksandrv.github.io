@@ -343,3 +343,8 @@
                        .mainpart .recommend .recgolf .old {
                            margin-left: -13px;
                        }
+                       
+                       .mainpart .sidebar .tptitle {
+                           padding-top: 10px;
+                           margin-left: -5px;
+                       }
