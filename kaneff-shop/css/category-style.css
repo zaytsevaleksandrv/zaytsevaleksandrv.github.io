@@ -231,3 +231,7 @@
                    .display__none {
                        display: none;
                    }
+                   
+                   .number__product {
+                       float: right;
+                   }
