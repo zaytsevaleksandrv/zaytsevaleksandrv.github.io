@@ -462,4 +462,7 @@
                                .btn-group > .btn:first-child {
                                    margin-left: 0;
                                }
+                               .cart-mycart {
+                                   padding-top: 15px;
+                               }
                            }
