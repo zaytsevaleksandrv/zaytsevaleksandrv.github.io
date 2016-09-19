@@ -317,3 +317,8 @@
                        .repeat .orangebg {
                            padding-top: 105px;
                        }
+                       
+                       .repeat .orangebg .blog {
+                           margin-left: 0;
+                           width: 100%;
+                       }
