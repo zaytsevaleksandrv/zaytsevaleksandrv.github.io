@@ -455,4 +455,11 @@
                                    padding-top: 0;
                                    margin-left: 0;
                                }
+                               .search-width {
+                                   width: 100%;
+                               }
+                               .btn-group > .btn:first-child {
+                                   margin-left: 0;
+                                   margin-left: 0 !important;
+                               }
                            }
