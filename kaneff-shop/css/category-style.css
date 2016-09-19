@@ -379,3 +379,7 @@
                        .mainpart .sidebar .select input[type="radio"] + label {
                            font-weight: 500;
                        }
+                       
+                       .recgolf-2 {
+                           margin-top: 27px;
+                       }
