@@ -426,7 +426,7 @@
                            }
                            
                            .text__color {
-                               color: #ffbb28;
+                               color: #ffbb28 !important;
                            }
                            
                            @media screen and (max-device-width: 768px) {
