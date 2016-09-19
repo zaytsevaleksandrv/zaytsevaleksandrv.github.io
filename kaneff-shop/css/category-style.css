@@ -439,10 +439,14 @@
                                }
                                .col-md-3-font-pad-2 {
                                    width: 100%;
-                                   padding-top: 10px;
+                
+                   padding-top: 10px;
                                }
                                .col-md-offset--padd {
                                    margin-left: 0px;
                                    padding-top: 10px;
+                               }
+                               .row__text-align--center {
+                                   text-align: center;
                                }
                            }
