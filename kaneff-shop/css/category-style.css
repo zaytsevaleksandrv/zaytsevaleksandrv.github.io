@@ -204,3 +204,11 @@
                    .shoe-background {
                        background: #f5f5f5;
                    }
+                   
+                   .nav__bar--blog {
+                       padding-left: 14px;
+                   }
+                   
+                   .nav__bar--dailydeals {
+                       padding-left: 25px;
+                   }
