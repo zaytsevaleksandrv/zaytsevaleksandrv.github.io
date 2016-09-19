@@ -463,4 +463,13 @@
                                .cart-mycart {
                                    padding-top: 15px;
                                }
+                               .kanefhead .hwhite .weather p {
+                                   width: 100%;
+                               }
+                               .kanefhead .hwhite .weather .wbold {
+                                   width: 100%;
+                               }
+                               .kanefhead .hwhite .cart p {
+                                   width: 100%;
+                               }
                            }
