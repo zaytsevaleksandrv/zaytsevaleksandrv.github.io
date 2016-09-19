@@ -337,7 +337,9 @@
                        }
                        
                        .mainpart .recommend .recgolf .rectitle {
-                           padding-top: 10px;
+                           padding-top: 15px;
+                           width: 125%;
+                           margin-left: -16px;
                        }
                        
                        .mainpart .recommend .recgolf .old {
