@@ -35,14 +35,60 @@
         </div>
         <div class="container-fluid hwhite">
             <div class="container">
-                <div class="col-md-3 ">
+                <div class="col-md-12 ">
                     <img src="img/hlogo.png" class="img-responsive wlogo">
+                    <div>
+                        <form class="navbar-form" role="search">
+                            <div class="btn-group btn-input clearfix">
+                                <button type="button" class="btn btn-default dropdown-toggle form-control hselect" data-toggle="dropdown">
+                                    <span data-bind="label">Categories</span> <span class="caret right"></span>
+                                </button>
+                                <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
+                                    <li><a href="#">Item 1</a></li>
+                                    <li><a href="#">Another item</a></li>
+                                    <li><a href="#">This is a longer item that will not fit properly</a></li>
+                                </ul>
+                            </div>
+                            <div class="input-group" style="margin-left:-5px;">
+                                <input type="text" class="form-control nobord" placeholder="Search" name="srch-term" id="srch-term">
+                                <div class="input-group-btn">
+                                    <button class="btn btn-default orbut" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="weather">
+                            <img src="img/cloud.png">
+                            <p>Toronto, Canada</p>
+                            <p class="wbold">20 °C, Mostly Cloudy</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="cart">
+                            <div class="col-md-4">
+                                <img src="img/cart.png">
+                                <div class="circle">
+                                    <p>12</p>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <p>My Cart</p>
+                                <p class="wbold">$141.60</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-5 ">
-                    <form class="navbar-form" role="search">
+            </div>
+            <div class="container-fluid hred m-t">
+                <div class="container">
+                    <div class="col-md-3 all-category ">
+                        <a><i class="fa fa-bars fa-fw" aria-hidden="true"></i>ALL CATEGORIES</a>
+                    </div>
+                    <div class="col-md-9 ">
                         <div class="btn-group btn-input clearfix">
                             <button type="button" class="btn btn-default dropdown-toggle form-control hselect" data-toggle="dropdown">
-                                <span data-bind="label">Categories</span> <span class="caret right"></span>
+                                <span data-bind="label"><img src="img/checked.png">BOOK A TEE TIME</span> <span class="caret right"></span>
                             </button>
                             <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
                                 <li><a href="#">Item 1</a></li>
@@ -50,60 +96,13 @@
                                 <li><a href="#">This is a longer item that will not fit properly</a></li>
                             </ul>
                         </div>
-                        <div class="input-group" style="margin-left:-5px;">
-                            <input type="text" class="form-control nobord" placeholder="Search" name="srch-term" id="srch-term">
-                            <div class="input-group-btn">
-                                <button class="btn btn-default orbut" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-2 ">
-                    <div class="weather">
-                        <img src="img/cloud.png">
-                        <p>Toronto, Canada</p>
-                        <p class="wbold">20 °C, Mostly Cloudy</p>
-                    </div>
-                </div>
-                <div class="col-md-2 ">
-                    <div class="cart">
-                        <div class="col-md-4">
-                            <img src="img/cart.png">
-                            <div class="circle">
-                                <p>12</p>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <p>My Cart</p>
-                            <p class="wbold">$141.60</p>
-                        </div>
+                        <a class="sale">SALE</a>
+                        <a>BEST SELLER</a>
+                        <a class="daily-deals nav__bar--blog">BLOG</a>
+                        <a class="nav__bar--dailydeals"><i class="fa fa-gift fa-fw" aria-hidden="true"></i>DAILY DEALS</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid hred m-t">
-            <div class="container">
-                <div class="col-md-3 all-category ">
-                    <a><i class="fa fa-bars fa-fw" aria-hidden="true"></i>ALL CATEGORIES</a>
-                </div>
-                <div class="col-md-9 ">
-                    <div class="btn-group btn-input clearfix">
-                        <button type="button" class="btn btn-default dropdown-toggle form-control hselect" data-toggle="dropdown">
-                            <span data-bind="label"><img src="img/checked.png">BOOK A TEE TIME</span> <span class="caret right"></span>
-                        </button>
-                        <ul class="dropdown-menu " style="border-radius:0px;" role="menu">
-                            <li><a href="#">Item 1</a></li>
-                            <li><a href="#">Another item</a></li>
-                            <li><a href="#">This is a longer item that will not fit properly</a></li>
-                        </ul>
-                    </div>
-                    <a class="sale">SALE</a>
-                    <a>BEST SELLER</a>
-                    <a class="daily-deals nav__bar--blog">BLOG</a>
-                    <a class="nav__bar--dailydeals"><i class="fa fa-gift fa-fw" aria-hidden="true"></i>DAILY DEALS</a>
-                </div>
-            </div>
-        </div>
     </header>
     <div class="container-fluid mainpart">
         <div class="container">
