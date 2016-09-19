@@ -330,3 +330,7 @@
                        .mainpart .recommend .rtitle {
                            padding-top: 40px;
                        }
+                       
+                       .mainpart .recommend .recgolf {
+                           padding-bottom: 0;
+                       }
