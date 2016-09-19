@@ -429,8 +429,8 @@
                                color: #ffbb28 !important;
                            }
                            
-                           .text__color {
-                               color: #333333 !important;
+                           .text__color:hover {
+                               color: #333333;
                            }
                            
                            @media screen and (max-device-width: 768px) {
