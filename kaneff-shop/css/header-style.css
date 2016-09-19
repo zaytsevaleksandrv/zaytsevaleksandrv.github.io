@@ -1,0 +1,65 @@
+.kanefhead .hwhite .wlogo {
+    padding: 15px 0px;
+    margin-left: -14px;
+}
+
+.search--categ {
+    padding-top: 3px;
+    margin-left: -13px;
+}
+
+.btn-group > .btn:first-child {
+    margin-left: 4px;
+}
+
+.btn .caret {
+    margin-left: 4.5px;
+}
+
+.search-width {
+    width: 67%;
+}
+
+.weather__pdd {
+    padding-left: 45px;
+    padding-top: 5px;
+}
+
+.kanefhead .hwhite .weather p {
+    width: 121%;
+    padding-top: 6px;
+    padding-left: 50px;
+}
+
+.kanefhead .hwhite .weather .wbold {
+    width: 138%;
+    padding-left: 48px;
+    padding-top: 2px;
+}
+
+.cart-mycart {
+    padding-left: 57px;
+    padding-top: 5px;
+}
+
+.pdd-cart-text {
+    padding-left: 42px;
+}
+
+.kanefhead .hwhite .cart p {
+    width: 268%;
+}
+
+.kanefhead .hwhite .cart p {
+    width: 268%;
+}
+
+.all-category {
+    float: left;
+    margin-left: -18px;
+    margin-top: 8px;
+}
+
+.kanefhead .hred a {
+    margin-left: 22px;
+}
