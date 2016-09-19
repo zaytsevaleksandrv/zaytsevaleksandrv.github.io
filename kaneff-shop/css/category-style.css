@@ -392,3 +392,37 @@
                            padding-top: 3px;
                            margin-left: -13px;
                        }
+                       
+                       .weather__pdd {
+                           padding-left: 45px;
+                           padding-top: 5px;
+                       }
+                       
+                       .kanefhead .hwhite .weather p {
+                           width: 121%;
+                           padding-top: 6px;
+                           padding-left: 50px;
+                       }
+                       
+                       .kanefhead .hwhite .weather .wbold {
+                           width: 138%;
+                           padding-left: 48px;
+                           padding-top: 2px;
+                       }
+                       
+                       .cart-mycart {
+                           padding-left: 57px;
+                           padding-top: 5px;
+                       }
+                       
+                       .kanefhead .hwhite .cart p {
+                           width: 268%;
+                       }
+                       
+                       .pdd-cart-text {
+                           padding-left: 42px;
+                       }
+                       
+                       .search-width {
+                           width: 67%;
+                       }
