@@ -63,7 +63,9 @@
 .kanefhead .hred a {
     margin-left: 22px;
 }
-
+.mainpart .sidebar .select input[type="checkbox"] + label, .mainpart .sidebar .select input[type="radio"] + label {
+    font-weight: 500;
+}
 @media screen and (max-device-width: 768px) {
     .mainpart .recommend .recgolf .old {
         margin-left: 0;
