@@ -121,10 +121,10 @@
 }
 
 .ui-slider-horizontal {
-	height: .4em;
+	height: .3em;
 }
 .ui-slider-horizontal .ui-slider-handle {
-	top: -.3em;
+	top: -.4em;
 	margin-left: -.6em;
 }
 .ui-slider-horizontal .ui-slider-range {
@@ -210,6 +210,7 @@ html .ui-button.ui-state-disabled:active {
 	background: #d62532;
 	font-weight: normal;
 	color: #454545;
+	cursor: pointer;
 }
 .ui-state-default a,
 .ui-state-default a:link,
