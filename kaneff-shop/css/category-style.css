@@ -429,6 +429,10 @@
                                color: #ffbb28 !important;
                            }
                            
+                           .text__color {
+                               color: #333;
+                           }
+                           
                            @media screen and (max-device-width: 768px) {
                                .mainpart .recommend .recgolf .old {
                                    margin-left: 0;
