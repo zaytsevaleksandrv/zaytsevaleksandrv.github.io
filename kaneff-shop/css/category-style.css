@@ -258,3 +258,19 @@
                        border-bottom-right-radius: 0px;
                        border-top-right-radius: 0px;
                    }
+                   
+                   .pagination > .active > a,
+                   .pagination > .active > span,
+                   .pagination > .active > a:hover,
+                   .pagination > .active > span:hover,
+                   .pagination > .active > a:focus,
+                   .pagination > .active > span:focus {
+                       color: #333333;
+                       background-color: #cccccc;
+                       border-color: #cccccc;
+                   }
+                   
+                   .pagination > li > a,
+                   .pagination > li > span {
+                       padding: 11px 16px;
+                   }
