@@ -475,4 +475,13 @@
                                .pagination {
                                    width: 100%;
                                }
+                               .pdd-cart-text {
+                                   padding-left: 53px;
+                               }
+                               .my-cart-text {
+                                   padding-left: 18px;
+                               }
+                               .kanefhead .hwhite .cart .wbold {
+                                   padding-left: 21px;
+                               }
                            }
