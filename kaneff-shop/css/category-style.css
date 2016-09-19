@@ -339,17 +339,15 @@
                            
                            .mainpart .recommend .recgolf .rectitle {
                                padding-top: 10px;
-                               width: 125%;
-                               margin-left: -16px;
-                           }
-                           
-                           .mainpart .recommend .recgolf .old {
-                               margin-left: -13px;
                            }
                            
                            .mainpart .sidebar .tptitle {
                                padding-top: 10px;
                                margin-left: -5px;
+                           }
+                           
+                           .recommend-pdd {
+                               padding-left: 0;
                            }
                            
                            .block-nav-1 {
