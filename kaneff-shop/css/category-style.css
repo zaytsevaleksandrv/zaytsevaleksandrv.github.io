@@ -322,3 +322,11 @@
                            margin-left: 0;
                            width: 100%;
                        }
+                       
+                       .mainpart .book {
+                           margin-top: 0;
+                       }
+                       
+                       .mainpart .recommend .rtitle {
+                           padding-top: 40px;
+                       }
