@@ -56,7 +56,7 @@ const HotelCard = React.createClass({
                     </p>
                 </div>
                 <div className="hotel-book">
-                    <span className="hotel-price">{price}</span>
+                    <span className="hotel-price">{price} $</span>
                     <a 
                         href={`https://www.airbnb.com/rooms/${id}`}
                         target="_blank"
