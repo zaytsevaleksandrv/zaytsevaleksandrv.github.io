@@ -1,0 +1,84 @@
+body{
+	background: #252830;	
+	font-family: 'Baloo Thambi', cursive;
+	color: #fff;
+}
+h1{
+	color: #fff;
+	padding: 0;
+    margin: 0;
+}
+hr{
+	background: #fff;
+}
+.block_head{
+    padding: 15px;
+ }
+ .block_head h1{
+ 	 background: -webkit-linear-gradient(bottom left, #4fc08d 25%, #f0db4e 0);
+ 	 background: -o-linear-gradient(bottom left, #4fc08d 25%, #f0db4e 0);
+ 	 background: linear-gradient(to top right, #4fc08d 25%, #f0db4e 0);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	color: #fff;
+  	cursor: pointer;
+ }
+ .block_head-inline{
+ 	display: flex;
+ }
+ .block_head-inline: hover{
+
+ }
+.block_head_bac{
+	height: 50px;
+	background: url(https://d30y9cdsu7xlg0.cloudfront.net/noun-svg/84937.svg?Expires=1482236774&Signature=ND~uieJPjzsT7QX1-YEgT2mXKUBJ4Bj5HjzMP8CVVIF6wyS12Wsk9wC1d9JCcA8tDg93dDvUKz7iJuoa-Ex8wTFOrRz3OQRGFZ9BZ1LQgJc6Z8MpVXul8GaIkq2qluOjICEWRCHkzZsCZmmkIe7Pky3sgKdrFuYYLK0l6mjqHL4_&Key-Pair-Id=APKAI5ZVHAXN65CHVU2Q);
+}
+.block_es6{
+	background: #f0db4e;
+	height: 150px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s ease;
+	overflow: hidden;
+}
+.block_emmet{
+	background: #1b1c20;
+}
+.block_bs4{
+	background: #563d7c;
+}
+.block_vuejs{
+	background: #4fc08d;
+}
+.block_reactjs{
+	background: #61dafb;
+}
+.block_a2{
+	background: #c3002f;
+}
+.block_html{
+	background: #d66130; 
+}
+.block_css{
+	background: #2ba8e0;
+}
+.block_st3{
+	background: #e99207;
+}
+.block_git{
+	background: #4b3831;
+}
+.block_jq{
+	background: #0769ad;
+}
+.block_es6:hover{
+	box-shadow: inset 0 0 0 14px #fff;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+    margin: 0;
+}
