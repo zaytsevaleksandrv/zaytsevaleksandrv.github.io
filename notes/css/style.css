@@ -108,6 +108,9 @@ footer h4:hover{
 a:hover{
 	text-decoration: none;
 }
+a:active{
+	text-decoration: none;
+}
 ul{
     margin: 0;
 }
