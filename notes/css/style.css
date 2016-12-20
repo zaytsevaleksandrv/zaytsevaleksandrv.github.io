@@ -23,6 +23,32 @@ hr{
   	color: #fff;
   	cursor: pointer;
  }
+ .block_head h1:hover{
+ 	background: -webkit-linear-gradient(bottom left, #f0db4e 25%, #4fc08d 0%);
+ 	background: -o-linear-gradient(bottom left, #f0db4e 25%, #4fc08d 0%);
+ 	background: linear-gradient(to top right, #f0db4e 25%, #4fc08d 0%);
+ 	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+ }
+ footer h4{
+ 	 background: -webkit-linear-gradient(bottom left, #4fc08d 48%, #f0db4e 0);
+ 	 background: -o-linear-gradient(bottom left, #4fc08d 48%, #f0db4e 0);
+ 	 background: linear-gradient(to top right, #4fc08d 48%, #f0db4e 0);
+ 	 -webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+ 	text-align: center;
+ 	margin: 50px;
+ 	cursor: pointer;
+ }
+footer h4:hover{
+	background: -webkit-linear-gradient(bottom left, #f0db4e 50%, #4fc08d 0%);
+	background: -o-linear-gradient(bottom left, #f0db4e 50%, #4fc08d 0%);
+	background: linear-gradient(to top right, #f0db4e 50%, #4fc08d 0%);
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+
+
  .block_head-inline{
  	display: flex;
  }
