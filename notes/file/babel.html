@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 	<link href="https://fonts.googleapis.com/css?family=Baloo+Thambi&amp;subset=latin-ext,tamil,vietnamese" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="shortcut icon" href="../img/favicon.ico">
 </head>
@@ -22,56 +23,29 @@
 		<div class="col-md-12 block__task">
 			<h3>Настройка ES6</h3>
 			<ul>
-				<li>Открыть папку в cmd, нажать сочетание клавишь windows+r, написать cmd, написать в строчке cd и путь к папке, куда необходимо установить babel;</li>
-				<li>npm init -y (согласиться с требованиями);</li>
-				<li>npm install babel-cli babel-core babel-preset-es2015 --save-dev  (установка babel);
+				<li>Открыть папку в <b>cmd</b>, нажать сочетание клавиш <b>windows+r</b>, написать <b>cmd</b>, написать в строчке <b>cd</b> и путь к папке, куда необходимо установить <b>babel</b>;</li>
+				<li><b>npm init -y</b> (согласиться с требованиями);</li>
+				<li><b>npm install babel-cli babel-core babel-preset-es2015 --save-dev</b>  (установка babel);
 					<ul>
-						<li>babel-cli - интерфейс командной строки;</li>
-						<li>babel-core - основной модуль babel;</li>
-						<li>babel-preset-es2015 - модуль необходимый для транспиляции ES6;</li>
-						<li>--save-dev - добавит файл package.json в котором указываются модули для разработки;</li>
+						<li><b>babel-cli</b> - интерфейс командной строки;</li>
+						<li><b>babel-core</b> - основной модуль babel;</li>
+						<li><b>babel-preset-es2015</b> - модуль необходимый для транспиляции ES6;</li>
+						<li><b>--save-dev</b> - добавит файл <b>package.json</b> в котором указываются модули для разработки;</li>
 					</ul>
 				</li>
-				<li>Cоздать папки src и dist;
+				<li>Cоздать папки <b>src</b> и <b>dist</b>;
 					<ul>
-						<li>src - начальный код;</li>
-						<li>dist - конечный код;</li>
+						<li><b>src</b> - начальный код;</li>
+						<li><b>dist</b> - конечный код;</li>
 					</ul>
 				</li>
-				<li>В файле  package.json добавить :
+				<li>В файле  <b>package.json</b><b> добавить :
 					<ul>
-						<li>"build": "babel src -d dist --presets es2015",
-    	"watch": "babel src -d dist --presets es2015 -w"</li>
+						<li><b>"build": "babel src -d dist --presets es2015",
+    	"watch": "babel src -d dist --presets es2015 -w"</b></li>
 					</ul>
 				</li>
-				<li>Написать в cmd : npm run watch  - авто компиляция.</li>
-			</ul>
-		</div><div class="col-md-12 block__task">
-			<h3>Настройка ES6</h3>
-			<ul>
-				<li>Открыть папку в cmd, нажать сочетание клавишь windows+r, написать cmd, написать в строчке cd и путь к папке, куда необходимо установить babel;</li>
-				<li>npm init -y (согласиться с требованиями);</li>
-				<li>npm install babel-cli babel-core babel-preset-es2015 --save-dev  (установка babel);
-					<ul>
-						<li>babel-cli - интерфейс командной строки;</li>
-						<li>babel-core - основной модуль babel;</li>
-						<li>babel-preset-es2015 - модуль необходимый для транспиляции ES6;</li>
-						<li>--save-dev - добавит файл package.json в котором указываются модули для разработки;</li>
-					</ul>
-				</li>
-				<li>Cоздать папки src и dist;
-					<ul>
-						<li>src - начальный код;</li>
-						<li>dist - конечный код;</li>
-					</ul>
-				</li>
-				<li>В файле  package.json добавить :
-					<ul>
-						<li>"build": "babel src -d dist --presets es2015",
-    	"watch": "babel src -d dist --presets es2015 -w"</li>
-					</ul>
-				</li>
-				<li>Написать в cmd : npm run watch  - авто компиляция.</li>
+				<li>Написать в <b>cmd : npm run watch</b>  - авто компиляция.</li>
 			</ul>
 		</div>
 	</div>
