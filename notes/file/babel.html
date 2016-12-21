@@ -18,6 +18,61 @@
 		</div>
 			<div class="block_head_bac"></div>
 		</div>
-
+		<div class="col-md-12 block__task">
+			<h3>Настройка ES6</h3>
+			<ul>
+				<li>Открыть папку в cmd, нажать сочетание клавишь windows+r, написать cmd, написать в строчке cd и путь к папке, куда необходимо установить babel;</li>
+				<li>npm init -y (согласиться с требованиями);</li>
+				<li>npm install babel-cli babel-core babel-preset-es2015 --save-dev  (установка babel);
+					<ul>
+						<li>babel-cli - интерфейс командной строки;</li>
+						<li>babel-core - основной модуль babel;</li>
+						<li>babel-preset-es2015 - модуль необходимый для транспиляции ES6;</li>
+						<li>--save-dev - добавит файл package.json в котором указываются модули для разработки;</li>
+					</ul>
+				</li>
+				<li>Cоздать папки src и dist;
+					<ul>
+						<li>src - начальный код;</li>
+						<li>dist - конечный код;</li>
+					</ul>
+				</li>
+				<li>В файле  package.json добавить :
+					<ul>
+						<li>"build": "babel src -d dist --presets es2015",
+    	"watch": "babel src -d dist --presets es2015 -w"</li>
+					</ul>
+				</li>
+				<li>Написать в cmd : npm run watch  - авто компиляция.</li>
+			</ul>
+		</div><div class="col-md-12 block__task">
+			<h3>Настройка ES6</h3>
+			<ul>
+				<li>Открыть папку в cmd, нажать сочетание клавишь windows+r, написать cmd, написать в строчке cd и путь к папке, куда необходимо установить babel;</li>
+				<li>npm init -y (согласиться с требованиями);</li>
+				<li>npm install babel-cli babel-core babel-preset-es2015 --save-dev  (установка babel);
+					<ul>
+						<li>babel-cli - интерфейс командной строки;</li>
+						<li>babel-core - основной модуль babel;</li>
+						<li>babel-preset-es2015 - модуль необходимый для транспиляции ES6;</li>
+						<li>--save-dev - добавит файл package.json в котором указываются модули для разработки;</li>
+					</ul>
+				</li>
+				<li>Cоздать папки src и dist;
+					<ul>
+						<li>src - начальный код;</li>
+						<li>dist - конечный код;</li>
+					</ul>
+				</li>
+				<li>В файле  package.json добавить :
+					<ul>
+						<li>"build": "babel src -d dist --presets es2015",
+    	"watch": "babel src -d dist --presets es2015 -w"</li>
+					</ul>
+				</li>
+				<li>Написать в cmd : npm run watch  - авто компиляция.</li>
+			</ul>
+		</div>
+	</div>
 </body>
 </html>
