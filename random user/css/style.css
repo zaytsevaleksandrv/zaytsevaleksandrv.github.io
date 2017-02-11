@@ -1,0 +1,16 @@
+body{
+    background: #eee;
+}
+.container__block_user_on{
+    border: 1px solid #000;
+    padding: 5px;
+    margin: 5px;
+    background: #e2e2e2;
+    text-align: center;
+}
+.container__block_user{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
