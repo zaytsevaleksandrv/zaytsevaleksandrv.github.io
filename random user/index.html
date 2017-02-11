@@ -7,19 +7,22 @@
     <title>Api random</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
+    <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="container-fluid">
         <div class="row">
             <div class="container">
                 <div class="row">
-                    <div class="container__block_user" id="user">
+                    <div class="block__user" id="user">
+                    </div>
+                    <div class="block__user_modal" id="Modal">
+                        <span class="block__user_modal_close" id="closeModal" onclick="closeModal(this)"><i class="fa fa-times" aria-hidden="true"></i></span>
+                        <div id="userModal"></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="js/script.js"></script>
 </body>
 </html>

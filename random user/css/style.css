@@ -1,18 +1,41 @@
 body{
     background: #eee;
 }
-.container__block_user_on{
+.block__user_on{
     border: 1px solid #000;
     padding: 5px 5px 5px 0;
     margin: 5px;
     background: #e2e2e2;
     text-align: center;
 }
-.container__block_user{
+.block__user{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.container__block_user_on-capitalize{
+.block__user_on-capitalize{
     text-transform: capitalize;
+}
+.block__user_modal{
+    position: fixed;
+    display: none;
+    top: 10vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #000;
+    background: #708090;
+    color: #fff;
+    padding: 10px;
+}
+.block__user_modal_close{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 0 5px;
+    color: #fff;
+    cursor: pointer;
 }
