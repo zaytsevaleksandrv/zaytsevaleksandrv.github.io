@@ -10,7 +10,6 @@ body{
 }
 .container__block_user{
     display: flex;
-    height: auto;
     flex-wrap: wrap;
-    align-items: center;
+    justify-content: center;
 }
