@@ -17,15 +17,15 @@ function ajax_get(url, callback) {
     xmlhttp.send();
 }
  
-ajax_get('js/data.json', function(data) {
-    document.getElementById("title").innerHTML = data["title"];
+ajax_get('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture', function(data) {
+    document.getElementById("title").innerHTML = data["results"];
  
-    var html = "<h2>" + data["title"] + "</h2>";
-    html += "<h3>" + data["description"] + "</h3>";
-    html += "<ul>";
-       for (var i=0; i < data["articles"].length; i++) {
-           html += '<li><a href="' + data["articles"][i]["url"] + '">' + data["articles"][i]["title"] + "</a></li>";
-       }
-    html += "</ul>";
-    document.getElementById("root").innerHTML = html;
+    // var html = "<h2>" + data["title"] + "</h2>";
+    // html += "<h3>" + data["description"] + "</h3>";
+    // html += "<ul>";
+    //    for (var i=0; i < data["articles"].length; i++) {
+    //        html += '<li><a href="' + data["articles"][i]["url"] + '">' + data["articles"][i]["title"] + "</a></li>";
+    //    }
+    // html += "</ul>";
+    // document.getElementById("root").innerHTML = html;
 });
