@@ -1,12 +1,18 @@
 body{
     background: #eee;
 }
+a{
+    color: #fff !important;
+}
 .block__user_on{
     border: 1px solid #000;
-    padding: 5px 5px 5px 0;
+    padding: 5px;
     margin: 5px;
     background: #e2e2e2;
     text-align: center;
+}
+.block__user_on:hover{
+    border: 1px solid #f39c12;
 }
 .block__user{
     display: flex;
@@ -16,6 +22,14 @@ body{
 .block__user_on-capitalize{
     text-transform: capitalize;
 }
+.block__user_on-capitalize:hover, .block__user_modal_email:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.block__user_on_bold{
+    font-weight: 700;
+}
 .block__user_modal{
     position: fixed;
     display: none;
@@ -24,7 +38,7 @@ body{
     left: 0;
     margin: 0 auto;
     width: 400px;
-    height: 200px;
+    height: auto;
     border: 1px solid #000;
     background: #708090;
     color: #fff;
@@ -38,4 +52,9 @@ body{
     padding: 0 5px;
     color: #fff;
     cursor: pointer;
+}
+.block__user_modal_close:hover{
+   background: #eee;
+   color: #000;
+   border-radius: 10px;
 }
