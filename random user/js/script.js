@@ -18,8 +18,10 @@ function ajax_get(url, callback) {
 }
  
 ajax_get('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture', function(data) {
-    document.getElementById("title").innerHTML = data["results"];
- 
+    // document.getElementById("title").innerHTML = data["results"];
+        for (var i=0; i < data["results"].length; i++){
+            html += '<li>' + data["results"][i]["gender"] + '</li>'
+        } 
     // var html = "<h2>" + data["title"] + "</h2>";
     // html += "<h3>" + data["description"] + "</h3>";
     // html += "<ul>";
@@ -27,5 +29,5 @@ ajax_get('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,lo
     //        html += '<li><a href="' + data["articles"][i]["url"] + '">' + data["articles"][i]["title"] + "</a></li>";
     //    }
     // html += "</ul>";
-    // document.getElementById("root").innerHTML = html;
+     document.getElementById("root").innerHTML = html;
 });
