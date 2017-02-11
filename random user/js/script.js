@@ -19,7 +19,8 @@ function ajax_get(url, callback) {
  
 ajax_get('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture', function(data) {
     // document.getElementById("title").innerHTML = data["results"];
-        for (var i=0; i < data["results"].length; i++){
+     var html;    
+    for (var i=0; i < data["results"].length; i++){
             html += '<li>' + data["results"][i]["gender"] + '</li>'
         } 
     // var html = "<h2>" + data["title"] + "</h2>";
