@@ -13,3 +13,6 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
+.container__block_user_on-capitalize{
+    text-transform: capitalize;
+}

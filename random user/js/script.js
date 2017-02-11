@@ -18,13 +18,20 @@ function getData(url, callback) {
 }
  
 getData('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,location,email,phone,picture', function(data) {
+
     var html = '';
+
     for (var i=0; i < data["results"].length; i++){
-        html += '<div class="col-md-2 container__block_user_on">';
-        html += '<img src="' + data["results"][i]["picture"]["large"] + '"/>';
-        html += '<p>' + data["results"][i]["name"]["title"] + ' ' + data["results"][i]["name"]["first"] + ' ' + data["results"][i]["name"]["last"] + '</p>';
-        html += '<p><a href="#">Подробнее...</a></p>'
+
+        var name = data["results"][i]["name"]["title"] + ' ' + data["results"][i]["name"]["first"] + ' ' + data["results"][i]["name"]["last"];
+        var img = data["results"][i]["picture"]["large"];
+
+        html += '<div class="col-md-2 container__block_user_on" id="' + [i] + '">';
+        html += '<img src="' + img + '" title="'+ name +'"/>';
+        html += '<p class="container__block_user_on-capitalize">' + name + '</p>';
+        html += '<p><a href="#">More...</a></p>'
         html += '</div>';
     } 
+    
     document.getElementById("user").innerHTML = html;
 });
