@@ -29,8 +29,8 @@ function renderResults(data) {
         html += '<div class="col-md-2 block__user_on" onclick="myModal(this.id)" id="' + [i] + '"> ';
         html += '<img class="large" src="' + img + '" title="' + name + '"/>';
         html += '<img class="medium" id="medium" src="' + imgM + '" title="' + name + '"/>';
-        html += '<p class="block__user_on-capitalize name">' + name + '</p>';
-        html += '<p class="block__user_on-capitalize fullName">' + fullName + '</p>';
+        html += '<p class="block__user_on-capitalize name block__user_on_pdtop">' + name + '</p>';
+        html += '<p class="block__user_on-capitalize fullName block__user_on_pdtop">' + fullName + '</p>';
         html += '</div>';
     }
     document.getElementById("user").innerHTML = html;
@@ -88,11 +88,11 @@ function myModal(index) {
         phone = data.phone;
 
     modal += '<div > ';
-    modal += '<img src="' + img + '" title="' + name + '"/>';
+    modal += '<img class="img__radius" src="' + img + '" title="' + name + '"/>';
     modal += '<p class="block__user_on-capitalize block__user_on_bold">' + name + '</p>';
     modal += '<p class="block__user_on-capitalize"><i class="fa fa-street-view" aria-hidden="true"></i> ' + street + '</p>';
     modal += '<p class="block__user_on-capitalize"><i class="fa fa-home" aria-hidden="true"></i> ' + state + '</p>';
-    modal += '<p class="block__user_modal_email"><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:' + email + '"> ' + email + ' </a></p>';
+    modal += '<p class="block__user_modal_email"><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:' + email + '"> ' + email + ' </a></p>';
     modal += '<p class="block__user_on-capitalize"><i class="fa fa-phone" aria-hidden="true"></i> <a href="tel:' + phone + '">' + phone + '</a></p>';
     modal += '</div>';
 

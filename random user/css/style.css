@@ -3,27 +3,30 @@ body{
     font-family: 'Roboto', sans-serif !important;
 }
 a{
-    color: #fff !important;
-}
-h1 a{
     color: #000 !important;
 }
-h1 a:hover{
+h1{
+    margin-bottom: 20px !important;
+}
+h1 a{
+    padding-left: 40px;
     color: #f39c12 !important;
+}
+h1 a:hover{
+    color: #fbb340 !important;
     text-decoration: none;
 }
 .block__user_on{
-    border: 1px solid #000;
     padding: 5px;
     margin: 5px;
-    background: #e2e2e2;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    opacity: 0.7;
 }
 .block__user_on:hover{
-    border: 1px solid #f39c12;
+    opacity: 1;
 }
 .block__user{
     display: flex;
@@ -32,6 +35,13 @@ h1 a:hover{
 }
 .block__user_on-capitalize{
     text-transform: capitalize;
+    color: #000;
+}
+.block__user_on_pdtop{
+    padding: 5px 0 0 0;
+}
+.block__user_modal_email{
+    color: #000;
 }
 .block__user_on-capitalize:hover, .block__user_modal_email:hover{
     text-decoration: underline;
@@ -55,10 +65,14 @@ h1 a:hover{
     margin: 0 auto;
     width: 300px;
     height: auto;
-    border: 1px solid #000;
-    background: #708090;
+    background: #fff;
+    border-radius: 4px;
     color: #fff;
+    box-shadow: 0px 0px 15px #a09e9e;
     padding: 10px;
+}
+.img__radius{
+    border-radius: 70px;
 }
 .block__user_modal_close{
     position: absolute;
@@ -66,46 +80,60 @@ h1 a:hover{
     right: 0;
     top: 0;
     padding: 0 5px;
-    color: #fff;
+    color: #000;
+    opacity: 0.5;
     cursor: pointer;
 }
 .block__user_modal_close:hover{
-   background: #eee;
-   color: #000;
-   border-radius: 10px;
+   opacity: 1;
 }
 .block__sort{
-    background: #e2e2e2;
     padding: 10px 0;
-    border: 1px solid;
 }
 .block__sort ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style-type: none;
+}
+.block__sort ul li{
+    padding-right: 15px;
 }
 .block__sort ul li a{
     color: #000 !important;
     cursor: pointer;
     border: 1px solid #000;
-    padding: 5px;
-    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
 }
 .block__sort ul li a:hover{
      border: 1px solid #f39c12;
+    text-decoration: none;
+    color: #f39c12 !important;
 }
 .large, .name{
     display: block;
+    border-radius: 70px;
 }
 .medium, .fullName{
     display: none;
+    border-radius: 70px;
+}
+.block_select{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+    position: relative;
+    top: -5px;
+}
+.block_select:hover{
+    border: 1px solid #f39c12;
+    color: #f39c12 ;
 }
 @media (max-width: 767px){
     .block__sort ul{
         flex-direction: column;
-        align-items: center;
     }
     .block__sort ul li{
-        margin: 5px;
+        margin: 8px 0;
     }
 }
