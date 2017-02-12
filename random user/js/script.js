@@ -35,8 +35,17 @@ getData('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,loc
     }
     document.getElementById("user").innerHTML = html;
     results = data["results"];
-  }
-);
+
+    console.log( 
+        results.sort(function (obj1, obj2){
+            if (obj1.name.first < obj2.name.first) return -1;
+            if (obj1.name.first > obj2.name.first) return 1;
+            return 0;}
+        )
+    );
+
+        }
+    );
 
 function imgMedium(){
     var large = document.getElementsByClassName("large");
