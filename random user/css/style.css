@@ -10,6 +10,7 @@ a{
     margin: 5px;
     background: #e2e2e2;
     text-align: center;
+    cursor: pointer;
 }
 .block__user_on:hover{
     border: 1px solid #f39c12;
@@ -29,6 +30,11 @@ a{
 
 .block__user_on_bold{
     font-weight: 700;
+}
+.blok__user_background_modal{
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 .block__user_modal{
     position: fixed;
