@@ -22,17 +22,43 @@ getData('https://api.randomuser.me/1.0/?results=50&nat=gb,us&inc=gender,name,loc
 
     var html = '';
     for (var i = 0; i < data["results"].length; i++) {
-      var name = data["results"][i]["name"]["title"] + ' ' + data["results"][i]["name"]["first"] + ' ' + data["results"][i]["name"]["last"],
-        img = data["results"][i]["picture"]["large"];
+      var fullName = data["results"][i]["name"]["title"] + ' ' + data["results"][i]["name"]["first"] + ' ' + data["results"][i]["name"]["last"],
+        name = data["results"][i]["name"]["first"] + ' ' + data["results"][i]["name"]["last"];
+        img = data["results"][i]["picture"]["large"],
+        imgM = data["results"][i]["picture"]["medium"];
       html += '<div class="col-md-2 block__user_on" onclick="myModal(this.id)" id="' + [i] + '"> ';
-      html += '<img src="' + img + '" title="' + name + '"/>';
-      html += '<p class="block__user_on-capitalize">' + name + '</p>';
-      html += '</div>';
+      html += '<img class="large" src="' + img + '" title="' + name + '"/>';
+      html += '<img class="medium" id="medium" src="' + imgM + '" title="' + name + '"/>';
+      html += '<p class="block__user_on-capitalize name">' + name + '</p>';
+      html += '<p class="block__user_on-capitalize fullName">' + fullName + '</p>';
+      html += '</div>'; 
     }
     document.getElementById("user").innerHTML = html;
     results = data["results"];
   }
 );
+
+function imgMedium(){
+    var large = document.getElementsByClassName("large");
+    for (i = 0; i < large.length; i++) {
+        large[i].style.display = 'none';
+    }
+    var medium = document.getElementsByClassName("medium");
+    for (i = 0; i < medium.length; i++) {
+        medium[i].style.display = 'block';
+    }
+}
+
+function fullName(){
+    var name = document.getElementsByClassName("name");
+    for (i = 0; i < name.length; i++) {
+        name[i].style.display = 'none';
+    }
+    var fullName = document.getElementsByClassName("fullName");
+    for (i = 0; i < fullName.length; i++) {
+        fullName[i].style.display = 'block';
+    }
+}
 
 
 function myModal(index) {
@@ -59,7 +85,6 @@ function myModal(index) {
     document.getElementById("userModal").innerHTML = modal;
 
 }
-
 function closeModal() {
     document.getElementById("Modal").style.display = "none";
 }
