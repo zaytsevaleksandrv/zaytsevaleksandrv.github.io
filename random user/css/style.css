@@ -23,7 +23,7 @@ h1 a{
 .block__user{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 .block__user_on-capitalize{
     text-transform: capitalize;
