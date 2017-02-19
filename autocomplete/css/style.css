@@ -1,9 +1,24 @@
 .form{
-	text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .form__input{
 	width: 320px;
 	font-size: 14px;
 	line-height: 20px;
 	padding: 5px 5px;
+}
+.list_city{
+	display: block;
+    border: 1px solid #e2e2e2;
+	border-bottom: 1px solid #fff;
+    padding: 5px;
+    width: 100%;
+}
+#user{
+	display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
 }
