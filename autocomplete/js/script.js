@@ -16,7 +16,7 @@ function getData(url, callback) {
     xmlhttp.send();
 }
 
-getData('kladr.json', renderResults);
+getData('js/kladr.json', renderResults);
 function renderResults(data) {
     var html = '';
     for ( var i = 0; i < data[""].length; i++){
