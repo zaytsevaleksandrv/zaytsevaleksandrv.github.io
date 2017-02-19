@@ -28,3 +28,7 @@ function renderResults(data) {
     }
      document.getElementById("user").innerHTML = html;
 }
+function FlexCity(){
+    var user = document.getElementById('user');
+    user.style.display = 'flex';
+}
