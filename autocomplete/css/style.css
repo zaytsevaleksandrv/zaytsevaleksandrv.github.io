@@ -1,0 +1,9 @@
+.form{
+	text-align: center;
+}
+.form__input{
+	width: 320px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px 5px;
+}
