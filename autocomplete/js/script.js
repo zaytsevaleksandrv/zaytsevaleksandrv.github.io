@@ -16,14 +16,14 @@ function getData(url, callback) {
     xmlhttp.send();
 }
 
-getData('js/kladr.json', renderResults);
+getData('https://zaytsevaleksandrv.github.io/autocomplete/js/kladr.json', renderResults);
 function renderResults(data) {
     var html = '';
-    for ( var i = 0; i < data[].length; i++){
-        var id = data[].Id,
-            city = data[].City;
-        html += '<div>' + id + '</div>';
-        html += '<div>' + city + '</div>';
+    for ( var i = 0; i < data.length; i++){
+        var id = data[i].Id,
+            city = data[i].City;
+        html += '<div class="list_city">#' + id +' ';
+        html += '' + city + '</div>';
 
     }
      document.getElementById("user").innerHTML = html;
