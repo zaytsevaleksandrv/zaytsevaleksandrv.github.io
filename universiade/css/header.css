@@ -1,0 +1,295 @@
+/*23022017*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #f9f9f9;
+}
+header{
+    background: url(../img/header_decor.png) no-repeat center top;
+    margin-bottom: 50px;
+}
+.header__nav{
+    background: radial-gradient(circle at center,#ed6f26, #e66627 );
+    padding: 8px 0;
+    overflow: hidden;
+    position: relative;
+}
+.header__nav:after{
+    content: '';
+    background: url(../img/decor_right.png) no-repeat;
+    width: 177px;
+    height: 35px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.header__nav:before{
+    content: '';
+    background: url(../img/decor_left.png) no-repeat;
+    width: 178px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.header__nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.header__nav ul li{
+    list-style-type: none;
+    color: #fff;
+    font-size: 14px;
+    z-index: 1;
+    opacity: 0.8;
+}
+.header__nav ul li a{
+    color: #fff;
+}
+.header__nav ul li a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.header__nav ul li a:active{
+    color: #fff;
+    text-decoration: none;
+}
+.header__nav ul li:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+.header__nav ul li:after{
+    content: '';
+    background: url(../img/SVG/external_link.svg) no-repeat;
+    color: #fff;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 0 0 0 4px;
+}
+.header__center{
+    padding: 20px 0 20px 15px;
+}
+.header__menu{
+    background: url(../img/bg_menu.png) no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+}
+.header__menu .header__menu-ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.header__menu .header__menu-ul .header__menu-ul-li{
+    list-style-type: none;
+}
+.header__menu .header__menu-ul .header__menu-ul-li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.header__menu .header__menu-ul .header__menu-ul-li a:hover{
+    color: #d45027;
+    text-decoration: none;
+}
+.header__center_text{
+    font-size: 27px;
+    font-weight: 300;
+    color: #000;
+    padding: 30px 0;
+}
+.header__center_text img{
+    padding: 10px 0 0 0;
+}
+.header__search{
+    padding: 45px 0;
+}
+.header__search_social{
+    display: flex;
+}
+.header__search_social a{
+    display: flex;
+    align-items: center;
+}
+.header__search_social a span{
+    margin: 0 7px;
+    width: 15px;
+    height: 15px;
+    display: block
+}
+.header__search_social a:nth-child(1) span{
+        background: url(../img/SVG/fb_header.svg) no-repeat;
+}
+.header__search_social a:hover:nth-child(1) span{
+        background: url(../img/SVG/fb_header_hover.svg) no-repeat;
+}
+.header__search_social a:nth-child(2) span{
+        background: url(../img/SVG/twitter_header.svg) no-repeat;
+}
+.header__search_social a:hover:nth-child(2) span{
+        background: url(../img/SVG/twitter_header_hover.svg) no-repeat;
+}
+.header__search_social a:nth-child(3) span{
+        background: url(../img/SVG/vk_header.svg) no-repeat;
+}
+.header__search_social a:hover:nth-child(3) span{
+        background: url(../img/SVG/vk_header_hover.svg) no-repeat;
+}
+.header__search_social a:nth-child(4) span{
+        background: url(../img/SVG/youtube_header.svg) no-repeat;
+}
+.header__search_social a:hover:nth-child(4) span{
+        background: url(../img/SVG/youtube_header_hover.svg) no-repeat;
+}
+.header__search_social a:nth-child(5) span{
+        background: url(../img/SVG/instagram_header.svg) no-repeat;
+}
+.header__search_social a:hover:nth-child(5) span{
+        background: url(../img/SVG/instagram_header_hover.svg) no-repeat;
+}
+.header__search_lang-and-social{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px 10px 10px;
+}
+.header__search_lang span{
+    opacity: 0.7;
+}
+.header__search_lang a{
+    font-size: 14px;
+    color: #2479bc;
+    text-transform: uppercase;
+}
+.header__search_lang-active{
+    color: #000;
+}
+.header__search_input input{
+    width: 270px;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+    padding: 10px 35px 10px 25px;
+    background: url(../img/SVG/search.svg) no-repeat;
+    background-position: 237px;
+    background-size: 15px;
+}
+.header__search_input input:focus{
+    outline: unset;
+    border: 1px solid #febe10;
+}
+/*.header__search_social a:nth-child(1){
+    background: url(../img/SVG/vk_header.svg) no-repeat;
+    width: 100%;
+    height: 100%;
+}*/
+.header__menu_dropdown_media{
+    display: none;
+    background: #fff;
+    box-shadow: 0px 0px 20px -6px #000;
+    padding: 15px 25px;
+    border-radius: 5px;
+    position: absolute;
+    right: -45px;
+    top: 55px;
+    border: 1px solid #e2e2e2;
+    z-index: 2;
+}
+.header__menu_dropdown_media:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    right: 83px;
+}
+.header__menu_dropdown_universiade{
+    display: none;
+    background: #fff;
+    box-shadow: 0px 0px 20px -6px #000;
+    padding: 15px 25px;
+    border-radius: 5px;
+    position: absolute;
+    left: -11px;
+    top: 55px;
+    border: 1px solid #e2e2e2;
+    z-index: 2;
+}
+.header__menu_dropdown_universiade:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    right: 85px;
+}
+ .header__menu_dropdown_sports{
+    display: none;
+    background: #fff;
+    box-shadow: 0px 0px 20px -6px #000;
+    padding: 15px 0px 15px 15px;
+    border-radius: 5px;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    border: 1px solid #e2e2e2;
+    z-index: 2;
+ }
+ .header__menu_dropdown_sports:before{
+    content: '';
+    position: absolute;
+    top: -20px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    right: 440px;
+}
+.header__menu_dropdown_media .header__menu_dropdown-ul,
+.header__menu_dropdown_universiade .header__menu_dropdown-ul,
+.header__menu_dropdown_sports .header__menu_dropdown-ul{
+    padding: 0;
+}
+.header__menu_dropdown_sports .header__menu_dropdown-ul{
+    display: flex;
+    align-items: center;
+}
+.header__menu_dropdown_media .header__menu_dropdown-ul .header__menu_dropdown-ul-li,
+.header__menu_dropdown_universiade .header__menu_dropdown-ul .header__menu_dropdown-ul-li{
+    list-style-type: none;
+    padding: 5px 0;
+}
+.header__menu_dropdown_sports .header__menu_dropdown-ul .header__menu_dropdown-ul-li {
+    list-style-type: none;
+    padding: 5px;
+    width: 120px;
+    margin: 0 25px;
+}
+.header__menu_dropdown_sports .header__menu_dropdown-ul .header__menu_dropdown-ul-li:nth-child(4){
+    width: 150px;
+}
+.header__menu_dropdown_media .header__menu_dropdown-ul .header__menu_dropdown-ul-li a,
+.header__menu_dropdown_universiade .header__menu_dropdown-ul .header__menu_dropdown-ul-li a{
+    color: #2479bc;
+    font-size: 14px;
+    font-weight: unset;
+    text-transform: unset;
+}
+.header__menu_dropdown_sports .header__menu_dropdown-ul .header__menu_dropdown-ul-li a {
+    color: #2479bc;
+    font-size: 14px;
+    font-weight: unset;
+    text-transform: unset;
+    display: flex;
+    align-items: center;
+}
+.header__menu_dropdown_sports .header__menu_dropdown-ul .header__menu_dropdown-ul-li a img{
+    margin: 0 10px 0 0;
+}
+.header__menu .header__menu-ul .header__menu-ul-li a:hover + .header__menu_dropdown_media,
+.header__menu .header__menu-ul .header__menu-ul-li a:hover + .header__menu_dropdown_universiade{
+    display: block;
+}
+.header__menu .header__menu-ul .header__menu-ul-li a:hover + .header__menu_dropdown_sports{
+    display: flex;
+    flex-direction: column;
+}

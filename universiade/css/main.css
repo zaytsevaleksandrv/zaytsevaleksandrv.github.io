@@ -1,0 +1,226 @@
+h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: #ed6f26;
+    text-transform: uppercase;
+}
+.table__schedule{
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+    border-collapse: separate;
+}
+.table__schedule tr td{
+    border-right: 1px solid #e2e2e2;
+    padding: 10px 20px;
+    width: 165px;
+}
+.table__schedule tr:nth-child(2n+1){
+    background: #fff;
+}
+.table__schedule tr td:hover{
+    background: #faedca;
+    cursor: pointer;
+}
+.table__schedule tr td:hover:nth-child(1){
+    background: transparent;
+    cursor: pointer;
+}
+.table__schedule tr td a{
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+.table__schedule tr td a:hover{
+    color: #37a8dd;
+    text-decoration: none;
+}
+.table__schedule tr td a img{
+    margin: 0 20px 0 0;
+}
+.table__schedule tr td:nth-child(8){
+    border-right: unset;
+}
+.table__schedule_6{
+    display: block;
+    width: 14px;
+    background: #febe10;
+    position: relative;
+    height: 8.08px;
+    margin: 4.04px 0;
+    left: 35%;
+}
+
+.table__schedule_6:before,
+.table__schedule_6:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+}
+
+.table__schedule_6:before {
+    bottom: 100%;
+    border-bottom: 4.04px solid #febe10;
+}
+
+.table__schedule_6:after {
+    top: 100%;
+    width: 0;
+    border-top: 4.04px solid #febe10;
+}
+.table__schedule_result{
+    width: 100%;
+}
+.table__schedule_result tr td{
+    font-size: 16px;
+    color: #3282c0;
+    line-height: 50px;
+    text-align: center;
+}
+.table__schedule_result tr td:nth-child(1){
+    text-align: left;
+    padding: 0 0 0 27px;
+    width: 20.5%;
+}
+.table__schedule_result tr td a:hover{
+    text-decoration: none;
+    color: #37a8dd;
+}
+.table__schedule_result_active{
+    text-decoration: none;
+    color: #fff;
+    background: #febe10;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+.table__schedule_6_small {
+    display: block;
+    position: relative;
+    width: 10px; 
+    height: 5.77px;
+    background-color: #febe10;
+    margin: 2.89px 0;
+    left: 42%;
+}
+
+.table__schedule_6_small:before,
+.table__schedule_6_small:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.table__schedule_6_small:before {
+    bottom: 100%;
+    border-bottom: 2.89px solid #febe10;
+}
+
+.table__schedule_6_small:after {
+    top: 100%;
+    width: 0;
+    border-top: 2.89px solid #febe10;
+}
+.view__list_btn{
+    text-transform: uppercase;
+    color: #fff;
+    background: #ed6f26;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.view__list_btn:hover{
+    text-decoration: none;
+    background: #febe10;
+    color: #fff;
+}
+.mail_sub_btn{
+    text-transform: uppercase;
+    color: #fff;
+    background: #ed6f26;
+    border-radius: 5px;
+    padding: 15px 20px;
+}
+.mail_sub_btn:hover{
+    text-decoration: none;
+    background: #febe10;
+    color: #fff;
+}
+.block_list_medal{
+    padding: 0px;
+}
+.table_small_list{
+    margin: 10px 0 20px 0;
+}
+.table_small_list tbody tr td:nth-child(1){
+    display: flex;
+    align-items: baseline;
+}
+.table_small_list tbody tr:nth-child(1) td{
+    margin: 15px 0 0 0;
+}
+.table_small_list thead tr td, .table_small_list tbody tr td{
+    text-align: center;
+}
+.table_small_list thead tr td{
+    font-size: 16px;
+    color: #3282c0;
+}
+.table_small_list tbody tr td{
+    padding: 10px 0;
+}
+.table_small_list tbody tr td img{
+    padding: 0 3px;
+}
+.table_small_list tbody tr td{
+    color: #78797a;
+    font-size: 13px;
+    font-weight: 300;
+}
+.table_small_list tbody tr td:nth-child(1), 
+.table_small_list tbody tr td:nth-child(5){
+    color: #333;
+    font-weight: unset;
+}
+.table_small_list tbody tr td:nth-child(1){
+    padding: 10px 0 10px 16px;
+}
+.table_small_list tbody tr td span{
+    color: #3282c0;
+    font-weight: 300;
+}
+.input_mail_sub{
+    width: 230px;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+    padding: 10px 45px 10px 25px;
+    background: url(../img/SVG/envelope.svg) no-repeat;
+    background-position: 190px;
+    background-size: 20px 12px;
+    margin: 0 0 30px 0;
+}
+.input_mail_sub:focus{
+    border: 1px solid #febe10;
+    outline: unset;
+}
+.block_subscribe{
+    margin: 110px 0 50px 0;
+}
+.block_info{
+    padding: 0 0 0 10px;
+}
+.block_info span{
+    font-size: 13px;
+    color: #333;
+}
+.block_info div:nth-child(1){
+    padding: 0 0 20px 0;
+}
+.block_info img:nth-child(1){
+    padding: 0 25px 0 0;
+}
+.block_info .block_medal img{
+    padding: 0 19px 0 0;
+}
