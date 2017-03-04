@@ -3,6 +3,7 @@ h2{
     font-weight: 600;
     color: #ed6f26;
     text-transform: uppercase;
+    margin-bottom: 30px;
 }
 .table__schedule{
     border: 1px solid #e2e2e2;
@@ -128,7 +129,7 @@ h2{
     text-transform: uppercase;
     color: #fff;
     background: #ed6f26;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 15px 20px;
 }
 .view__list_btn:hover{
@@ -140,7 +141,7 @@ h2{
     text-transform: uppercase;
     color: #fff;
     background: #ed6f26;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 15px 20px;
 }
 .mail_sub_btn:hover{
@@ -302,6 +303,10 @@ h2{
     margin-top: 50px;
 }
 /*block__list_news*/
+.block__list_news{
+    position: relative;
+    top: -17px;
+}
 .block__list_news h4{
     font-size: 16px;
     color: #3282c0;
@@ -310,7 +315,7 @@ h2{
     font-size: 13px;
     font-weight: 400;
     color: #ed6f26;
-    line-height: 30px;
+    line-height: 20px;
 }
 .block__news_p_main{
     font-size: 14px;
@@ -318,3 +323,24 @@ h2{
     line-height: 21px;
     color: #333;
 }
+.block__list_news_one{
+    margin: 9px 0;
+}
+.block__list_news_block_btn{
+    margin: 15px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+.all_news_btn{
+    text-transform: uppercase;
+    color: #fff;
+    background: #ed6f26;
+    border-radius: 8px;
+    padding: 15px 35px;
+}
+.all_news_btn:hover{
+    text-decoration: none;
+    background: #febe10;
+    color: #fff;
+}
+
