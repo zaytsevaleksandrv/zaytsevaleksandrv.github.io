@@ -224,3 +224,97 @@ h2{
 .block_info .block_medal img{
     padding: 0 19px 0 0;
 }
+.block__news_open{
+    background: url(../img/open_univer.jpg) no-repeat;
+    background-size: 120% 430px;
+    border-radius: 8px;
+    height: 430px;
+    background-position-x: -20px;
+    overflow: hidden;
+    position: relative;
+}
+.block__news_open img, .block__news_results img, .block__news_results_two img{
+    width: 15px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+.block__news_open-text{
+    position: absolute;
+    bottom: 0px;
+    padding: 0 35px 10px 20px;
+}
+.block__news_open-text h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff;
+}
+.block__news_open-text p, .block__news_results-text p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+}
+.block__news_open:after, .block__news_results:after, .block__news_results_two:after{
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(to top, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    opacity: 0.6;
+}
+.block__news_results{
+    background: url(../img/results_1.jpg);
+    background-size: 180% 150%;
+    background-position-x: -130px;
+    border-radius: 8px;
+    height: 173px;
+    overflow: hidden;
+    position: relative;
+}
+.block__news_results_two{
+    background: url(../img/results_2.jpg);
+    background-size: 180% 130%;
+    background-position-x: -50px;
+    border-radius: 8px;
+    height: 227px;
+    overflow: hidden;
+    position: relative;
+    background-position-y: -30px;
+    margin-top: 30px;
+}
+
+.block__news_results-text {
+    position: absolute;
+    bottom: 0px;
+    padding: 0 19px 10px 19px;
+}
+.padding-right_null{
+    padding-right: 0px;
+}
+.margin_top{
+    margin-top: 50px;
+}
+/*block__list_news*/
+.block__list_news h4{
+    font-size: 16px;
+    color: #3282c0;
+}
+.block__news_p_header{
+    font-size: 13px;
+    font-weight: 400;
+    color: #ed6f26;
+    line-height: 30px;
+}
+.block__news_p_main{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #333;
+}
