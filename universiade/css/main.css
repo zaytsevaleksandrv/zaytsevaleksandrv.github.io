@@ -371,14 +371,6 @@ h2{
     top: 57%;
     left: 1%;
 }
-.block_popup:nth-child(2){
-    top: 28%;
-    left: 13.5%;
-}
-.block_popup:nth-child(3){
-    top: 28%;
-    right: 45%;
-}
 .block_popup:nth-child(4){
     top: 44%;
     right: 24%;
@@ -404,6 +396,26 @@ h2{
     transform: translateY(-15px);
   }
 }
+@media (max-width:1920px){
+    .block_popup:nth-child(3) {
+        top: 28%;
+        right: 46%;
+    }
+    .block_popup:nth-child(2) {
+        top: 28%;
+        left: 14.5%;
+    }
+}
+@media (max-width:1600px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 13.5%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 45%;
+    }
+}
 @media (max-width: 1366px){
     .block_popup:nth-child(2){
         top: 28%;
@@ -416,6 +428,20 @@ h2{
     .block_popup:nth-child(4){
         top: 44%;
         right: 22.8%;
+    }
+}
+@media (max-width: 1280px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 11.7%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 42.8%;
+    }
+    .block_popup:nth-child(4){
+        top: 44%;
+        right: 21.8%;
     }
 }
 @media (max-width: 1240px){
@@ -432,7 +458,7 @@ h2{
         right: 21.8%;
     }
 }
-@media (max-width:1240px){
+@media (max-width:1024px){
     .block__sport_object {
         background-size: 100% 491px;
         height: 491px;
