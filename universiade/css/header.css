@@ -109,6 +109,7 @@ header{
 }
 .header__search_social{
     display: flex;
+    align-content: center;
 }
 .header__search_social a{
     display: flex;
@@ -128,24 +129,32 @@ header{
 }
 .header__search_social a:nth-child(2) span{
         background: url(../img/SVG/twitter_header.svg) no-repeat;
+        width: 17px;
+        height: 10px;
 }
 .header__search_social a:hover:nth-child(2) span{
         background: url(../img/SVG/twitter_header_hover.svg) no-repeat;
 }
 .header__search_social a:nth-child(3) span{
         background: url(../img/SVG/vk_header.svg) no-repeat;
+        width: 18px;
+        height: 13px;
 }
 .header__search_social a:hover:nth-child(3) span{
         background: url(../img/SVG/vk_header_hover.svg) no-repeat;
 }
 .header__search_social a:nth-child(4) span{
         background: url(../img/SVG/youtube_header.svg) no-repeat;
+        width: 18px;
+        height: 13px;
 }
 .header__search_social a:hover:nth-child(4) span{
         background: url(../img/SVG/youtube_header_hover.svg) no-repeat;
 }
 .header__search_social a:nth-child(5) span{
         background: url(../img/SVG/instagram_header.svg) no-repeat;
+        width: 16px;
+        height: 16px;
 }
 .header__search_social a:hover:nth-child(5) span{
         background: url(../img/SVG/instagram_header_hover.svg) no-repeat;
