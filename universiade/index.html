@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <link rel="stylesheet" href="css/header.css">    
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/footer.css"> 
@@ -859,6 +860,34 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <!--спортивные объкты-->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <h2>
+                        спортивные объекты
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="block__sport_object">
+                    <div class="block_popup"><a href="#" class="text_popup">Спортивный комплекс<br>«Олимп»</a></div>
+                    <div class="block_popup"><a href="#" class="text_popup">Олимпийский стадион<br>«Фишт»</a></div>
+                    <div class="block_popup"><a href="#" class="text_popup">Спортивный комплекс<br>«Баскет-холл»</a></div>
+                    <div class="block_popup"><a href="#" class="text_popup">Дворец летних видов<br>спорта «Скейт»</a></div>
+                    <div class="block_popup"><a href="#" class="text_popup">Плавательный бассейн<br>«Атлантис»</a></div>
+                 </div>
+            </div>
+            <script>
+                $(window).scroll(function(){
+                    if ( $(this).scrollTop() > 1700 ) {
+                        $('.block_popup').addClass('block_popup_animate');
+                    } else {
+                        $('.block_popup').removeClass('block_popup_animate');
+                    }
+                })
+            </script>
         </div>
     </main>
     <footer>
