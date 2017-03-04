@@ -1,0 +1,104 @@
+footer {
+    background-image: -moz-linear-gradient( -90deg, rgb(242,149,37) 0%, rgb(228,118,38) 30%, rgb(213,86,39) 100%);
+    background-image: -webkit-linear-gradient( -90deg, rgb(242,149,37) 0%, rgb(228,118,38) 30%, rgb(213,86,39) 100%);
+    background-image: -ms-linear-gradient( -90deg, rgb(242,149,37) 0%, rgb(228,118,38) 30%, rgb(213,86,39) 100%);
+    background: url(../img/footer_decor.png) no-repeat center top;
+    margin-top: 50px;
+    background-size: cover;
+    padding: 40px 0 30px 0;
+}
+footer hr{
+    border-top: 1px solid #e18966;
+}
+footer ul{
+    list-style-type: none;
+}
+.list_sport{
+    padding-right: 0px;
+}
+.list_sport_nesting, .list_uni_nesting, .list_media_nesting{
+    padding: 0px;
+}
+.list_uni ul, .list_sport ul, .list_media ul, .list_all ul{
+    padding: 0;
+}
+.list_uni ul li, .list_sport ul li, .list_media ul li, .list_all ul li{
+    margin: 0 0 15px 0;
+}
+.list_uni_header, .list_sport_header, .list_media_header, .list_all_header{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.list_uni_header:hover, .list_sport_header:hover, .list_media_header:hover, .list_all_header:hover{
+     color: #2479bc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.list_sport_nesting li a, .list_uni_nesting li a, .list_media_nesting li a{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #fff;
+}
+.list_sport_nesting li a:hover, .list_uni_nesting li a:hover, .list_media_nesting li a:hover{
+    color: #2479bc;
+    text-decoration: none;
+    cursor: pointer;
+}
+.list_sport_nesting li, .list_uni_nesting li, .list_media_nesting li{
+    padding: 13px 0 0px 0;
+    margin: unset !important;
+}
+footer input[type="text"]{
+    width: 270px;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+    padding: 10px 35px 10px 25px;
+    background: url(../img/SVG/search.svg) no-repeat;
+    background-position: 237px;
+    background-size: 15px;
+    background-color: #fff;
+}
+.block_footer_flex{
+    display: flex;
+    justify-content: space-between;
+}
+.block_footer_copy{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+    color: #fff;
+}
+.block_footer_social a:nth-child(1) span{
+        background: url(../img/SVG/fb_footer.svg) no-repeat;
+}
+.block_footer_social a:hover:nth-child(1) span{
+        background: url(../img/SVG/fb_footer_hover.svg) no-repeat;
+}
+.block_footer_social a:nth-child(2) span{
+        background: url(../img/SVG/twitter_footer.svg) no-repeat;
+}
+.block_footer_social a:hover:nth-child(2) span{
+        background: url(../img/SVG/twitter_footer_hover.svg) no-repeat;
+}
+.block_footer_social a:nth-child(3) span{
+        background: url(../img/SVG/vk_footer.svg) no-repeat;
+}
+.block_footer_social a:hover:nth-child(3) span{
+        background: url(../img/SVG/vk_footer_hover.svg) no-repeat;
+}
+.block_footer_social a:nth-child(4) span{
+        background: url(../img/SVG/youtube_footer.svg) no-repeat;
+}
+.block_footer_social a:hover:nth-child(4) span{
+        background: url(../img/SVG/youtube_footer_hover.svg) no-repeat;
+}
+.block_footer_social a:nth-child(5) span{
+        background: url(../img/SVG/instagram_footer.svg) no-repeat;
+}
+.block_footer_social a:hover:nth-child(5) span{
+        background: url(../img/SVG/instagram_footer_hover.svg) no-repeat;
+}
