@@ -524,6 +524,27 @@ h2{
     .info p {
         width: 80%;
     }
+    .table__schedule_result {
+        width: 631px;
+    }
+    .table__schedule_result tr td:nth-child(1) {
+        width: 33.5%;
+    }
+    .block_list_task{
+        overflow: scroll;
+        width: 464px;
+        margin-right: 10px;
+    }
+    .view__list_btn, .mail_sub_btn{
+        width: 280px;
+    }
+    .block_info{
+        width: 280px;
+    }
+    .input_mail_sub {
+        width: 280px;
+        background-position: 240px;
+    }
 }
 @media (max-width:768px){
     .block__sport_object {
@@ -545,27 +566,6 @@ h2{
     .block_popup:nth-child(4) {
         top: 43%;
         right: 15.3%;
-    }
-    .table__schedule_result {
-        width: 631px;
-    }
-    .table__schedule_result tr td:nth-child(1) {
-        width: 33.5%;
-    }
-    .block_list_task{
-        overflow: scroll;
-        width: 464px;
-        margin-right: 10px;
-    }
-    .view__list_btn, .mail_sub_btn{
-        width: 280px;
-    }
-    .block_info{
-        width: 280px;
-    }
-    .input_mail_sub {
-        width: 280px;
-        background-position: 240px;
     }
     
 }

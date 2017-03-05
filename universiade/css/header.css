@@ -474,6 +474,20 @@ header{
 .header__block_menu li:hover .header__block_menu-double-media{
     display: block;
 }
+@media (max-width:1024px){
+    .header__block_menu-double-sports{
+        left: 1%;
+    }
+    .header__block_menu-double-sports:before {
+        right: 36%;
+    }
+    .header__block_menu-double-media {
+        right: 0%;
+    }
+    .header__block_menu-double-media:before {
+        right: 16%;
+    }
+}
 @media (max-width: 850px){
     .header__center_text{
         position: relative;
@@ -487,5 +501,24 @@ header{
     .header__center{
         margin: 0px;
     }
-
+    .header__block_menu li:hover .header__block_menu-double-sports {
+        width: 730px;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .header__block_menu-double-sports ul:nth-child(1) {
+        flex-wrap: wrap;
+    }
+    .header__block_menu-double-sports ul li:nth-child(4) {
+        width: 0px;
+    }
+    .header__block_menu-double-sports ul li {
+        margin: 0 20px;
+    }
+    .header__block_menu-double {
+        left: 1%;
+    }
+    .header__block_menu-double:before {
+        right: 70%;
+    }
 }

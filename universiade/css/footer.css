@@ -33,7 +33,7 @@ footer ul{
     text-transform: uppercase;
 }
 .list_uni_header:hover, .list_sport_header:hover, .list_media_header:hover, .list_all_header:hover{
-     color: #2479bc;
+     color: #d45027;
     text-decoration: none;
     cursor: pointer;
 }
@@ -44,7 +44,7 @@ footer ul{
     color: #fff;
 }
 .list_sport_nesting li a:hover, .list_uni_nesting li a:hover, .list_media_nesting li a:hover{
-    color: #2479bc;
+    color: #d45027;
     text-decoration: none;
     cursor: pointer;
 }
@@ -61,6 +61,10 @@ footer input[type="text"]{
     background-position: 237px;
     background-size: 15px;
     background-color: #fff;
+}
+footer input[type="text"]:focus {
+    outline: unset;
+    border: 1px solid #febe10;
 }
 .block_footer_flex{
     display: flex;
@@ -124,6 +128,10 @@ footer input[type="text"]{
 }
 .block_footer_social a:hover:nth-child(5){
         background: url(../img/SVG/instagram_footer_hover.svg) no-repeat;
+}
+.carousel-control{
+    text-shadow: unset;
+    opacity: 1;
 }
 @media (max-width: 1140px){
     footer input[type="text"] {
