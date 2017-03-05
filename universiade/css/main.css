@@ -484,12 +484,45 @@ h2{
         top: 25%;
         right: 1%;
     }
+    .block__list_news_one:nth-child(5){
+        display: none;
+    }
+    .all_news_btn {
+        padding: 15px 15px;
+    }
 }
 @media (max-width:991px){
     .block__news_open {
         background-size: 120% 300px;
         height: 300px;
     }
+    .block__news_results {
+        background-size: 200% 133px;
+        background-position-x: unset;
+        height: 133px;
+    }
+    .block__news_results_two {
+        background-size: 180% 130%;
+        height: 137px;
+    }
+    #carousel_info {
+        height: 219px;
+    }
+    .block__list_news {
+        position: relative;
+        top: -17px;
+        padding: 0px;
+    }
+    .block__list_news_one:nth-child(4), .block__list_news_one:nth-child(5){
+        display: none;
+    }
+    .all_news_btn {
+        padding: 15px 15px;
+    }
+    .info p {
+        width: 80%;
+    }
+}
 @media (max-width:768px){
     .block__sport_object {
         background-size: 100% 371px;
@@ -510,6 +543,17 @@ h2{
     .block_popup:nth-child(4) {
         top: 43%;
         right: 15.3%;
+    }
+    .table__schedule_result {
+        width: 631px;
+    }
+    .table__schedule_result tr td:nth-child(1) {
+        width: 33.5%;
+    }
+    .block_list_task{
+        overflow: scroll;
+        width: 464px;
+        margin-right: 10px;
     }
     
 }
@@ -588,6 +632,7 @@ h2{
 }
 .block__shop_img img{
     padding-bottom: 35px;
+    max-width: 100%;
 }
 .block__shop_inner{
     height: 400px;
@@ -615,6 +660,9 @@ h2{
     align-items: center;
     justify-content: center;
     margin: 25px 0;
+}
+.block__partner_img img{
+    max-width: 60%;
 }
 .block__partner p{
     font-size: 16px;

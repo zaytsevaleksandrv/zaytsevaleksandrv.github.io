@@ -302,3 +302,19 @@ header{
     display: flex;
     flex-direction: column;
 }
+
+@media (max-width: 850px){
+    .header__center_text{
+        position: relative;
+        left: -40px;
+    }
+    .header__center_input{
+        padding: 0px;
+        position: relative;
+        left: -20px;
+    }
+    .header__center{
+        margin: 0px;
+    }
+
+}
