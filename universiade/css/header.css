@@ -105,7 +105,7 @@ header{
 .header__search_social a:nth-child(2) span{
         background: url(../img/SVG/twitter_header.svg) no-repeat;
         width: 17px;
-        height: 10px;
+        height: 12px;
 }
 .header__search_social a:hover:nth-child(2) span{
         background: url(../img/SVG/twitter_header_hover.svg) no-repeat;
@@ -148,7 +148,7 @@ header{
     text-transform: uppercase;
 }
 .header__search_lang-active{
-    color: #000;
+    color: #000 !important;
 }
 .header__search_input input{
     width: 270px;
@@ -158,6 +158,7 @@ header{
     background: url(../img/SVG/search.svg) no-repeat;
     background-position: 237px;
     background-size: 15px;
+    background-color: #fff;
 }
 .header__search_input input:focus{
     outline: unset;

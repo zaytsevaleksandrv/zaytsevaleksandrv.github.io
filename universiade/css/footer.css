@@ -60,7 +60,9 @@ footer input[type="text"]{
     background: url(../img/SVG/search.svg) no-repeat;
     background-position: 237px;
     background-size: 15px;
+    position: relative;
     background-color: #fff;
+    left: -3px;
 }
 footer input[type="text"]:focus {
     outline: unset;
