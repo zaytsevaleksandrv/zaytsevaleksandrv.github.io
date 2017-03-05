@@ -209,6 +209,7 @@ h2{
     background-position: 190px;
     background-size: 20px 12px;
     margin: 0 0 30px 0;
+    background-color: #fff;
 }
 .input_mail_sub:focus{
     border: 1px solid #febe10;
