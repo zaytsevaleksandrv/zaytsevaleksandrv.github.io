@@ -42,11 +42,12 @@ footer ul{
     font-weight: 300;
     line-height: 21px;
     color: #fff;
+    opacity: 0.8;
 }
 .list_sport_nesting li a:hover, .list_uni_nesting li a:hover, .list_media_nesting li a:hover{
-    color: #d45027;
     text-decoration: none;
     cursor: pointer;
+    opacity: 1;
 }
 .list_sport_nesting li, .list_uni_nesting li, .list_media_nesting li{
     padding: 13px 0 0px 0;
@@ -98,7 +99,7 @@ footer input[type="text"]:focus {
         background: url(../img/SVG/twitter_footer.svg) no-repeat;
         display: block;
         width: 15px;
-        height: 15px;
+        height: 12px;
 }
 .block_footer_social a:hover:nth-child(2){
         background: url(../img/SVG/twitter_footer_hover.svg) no-repeat;

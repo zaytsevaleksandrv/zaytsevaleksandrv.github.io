@@ -557,7 +557,9 @@
                 	<table class="table_small_list">
                 		<thead>
                 			<tr>
-                				<td class="col-md-4">Медали</td>
+                				<td class="col-md-4">
+                                    <a href="#">Медали</a>
+                                </td>
                 				<td>
                 					<img src="img/medals/medal_gold.png" alt="Золото">
                 				</td>
@@ -568,7 +570,7 @@
                 					<img src="img/medals/medal_bronze.png" alt="Бронзовая">
                 				</td>
                 				<td class="col-md-2">
-                					Все
+                					<a href="#">Все</a>
                 				</td>
                 			</tr>
                 		</thead>
@@ -672,17 +674,6 @@
                 				<td class="col-md-2">2</td>
                 				<td class="col-md-2">9</td>
                 			</tr>
-                			<tr>
-                				<td class="col-md-4">
-                					10
-                					<img src="img/flags/bra.png" alt="BRA">
-                					<span>BRA</span> 
-                				</td>
-                				<td class="col-md-2">1</td>
-                				<td class="col-md-2">4</td>
-                				<td class="col-md-2">4</td>
-                				<td class="col-md-2">9</td>
-                			</tr>
                 		</tbody>
                 	</table>
                 	<div class="text-center">
@@ -690,7 +681,7 @@
                 	</div>
                 	<div class="text-center block_subscribe">
                         <form action="">
-                            <input type="email" class="input_mail_sub" placeholder="mymail@mail.ru |">
+                            <input type="email" class="input_mail_sub" placeholder="Ваш email">
                 		    <div><a href="#" class="mail_sub_btn">Подписаться на новости</a></div>
                         </form>
                 	</div>
@@ -713,40 +704,46 @@
                     <h2>Последние события</h2>
                 </div>   
                 <div class="col-lg-9 col-md-9 col-sm-9">
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-                        <div class="row">
-                            <div class="block__news_open">
-                                <img src="img/SVG/video.svg" alt="Камера">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 block__news_a">
+                        <a href="#">
+                            <div class="row">
+                                <div class="block__news_open">
+                                    <img src="img/SVG/video.svg" alt="Камера">
+                                </div>
+                                <div class="block__news_open-text">
+                                    <h5>Открытие Универсиады</h5>
+                                    <p>
+                                        В Сочи прошла торжественная церемония открытия летней Универсиады: яркое представление завершилось праздничным ...
+                                    </p>
+                                </div>
                             </div>
-                            <div class="block__news_open-text">
-                                <h5>Открытие Универсиады</h5>
-                                <p>
-                                    В Сочи прошла торжественная церемония открытия летней Универсиады: яркое представление завершилось праздничным ...
-                                </p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-right_null">
-                        <div class="col-lg-12 col-md-12 col-sm-12 padding-right_null">
-                            <div class="block__news_results">
-                                <img src="img/SVG/photo.svg" alt="Камера">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-right_null block__news_a">
+                        <a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 padding-right_null">
+                                <div class="block__news_results">
+                                    <img src="img/SVG/photo.svg" alt="Камера">
+                                </div>
+                                <div class="block__news_results-text">
+                                    <p>
+                                        Итоги первого дня Универсиады ознаменовались
+                                    </p>
+                                </div>
                             </div>
-                            <div class="block__news_results-text">
-                                <p>
-                                     Итоги первого дня Универсиады ознаменовались
-                                </p>
+                        </a>
+                        <a href="#">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-right_null ">
+                                <div class="block__news_results_two">
+                                    <img src="img/SVG/photo.svg" alt="Камера">
+                                </div>
+                                <div class="block__news_results-text">
+                                    <p>
+                                        Разыграны первые комплекты медалей в плавании, дзюдо, ...
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-right_null">
-                             <div class="block__news_results_two">
-                                <img src="img/SVG/photo.svg" alt="Камера">
-                            </div>
-                            <div class="block__news_results-text">
-                                <p>
-                                    Разыграны первые комплекты медалей в плавании, дзюдо, ...
-                                </p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slaiser_margin">
                         <div class="row">
@@ -758,29 +755,35 @@
                                 </ol>
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
-                                    <div class="active item">
+                                    <div class="active item block__news_a">
+                                        <a href="#">
                                             <div class="info">
-                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
-                                        </div>
-                                        <div class="box_img">   
-                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                        </div>
+                                                <p>Интересные факты о летней Универсиаде в Сочи</p>
+                                            </div>
+                                            <div class="box_img">   
+                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="item">
+                                    <div class="item block__news_a">
+                                        <a href="#">
                                             <div class="info">
-                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
-                                        </div>
-                                        <div class="box_img">   
-                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                        </div>
+                                                <p>Интересные факты о летней Универсиаде в Сочи</p>
+                                            </div>
+                                            <div class="box_img">   
+                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                            </div>
+                                        </a>
                                     </div>
-                                    <div class="item">
+                                    <div class="item block__news_a">
+                                        <a href="#">
                                             <div class="info">
-                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
-                                        </div>
-                                        <div class="box_img">   
-                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                        </div>
+                                                <p>Интересные факты о летней Универсиаде в Сочи</p>
+                                            </div>
+                                            <div class="box_img">   
+                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -788,7 +791,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 block__list_news">    
-                    <h4>Новости Универсиады</h4>
+                    <h4><a href="#">Новости Универсиады</a></h4>
                     <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
                         <div class="row">
                             <p class="block__news_p_header">

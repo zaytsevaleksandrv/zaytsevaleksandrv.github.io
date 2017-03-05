@@ -346,7 +346,7 @@ header{
     text-transform: unset;
 }
 .header__block_menu-double li a:hover{
-    color: #d45027;
+    color: #37a8dd;
     text-decoration: none;
 }
 .header__block_menu li:hover .header__block_menu-double{
@@ -415,7 +415,7 @@ header{
     text-transform: unset;
 }
 .header__block_menu-double-sports li a:hover{
-    color: #d45027;
+    color: #37a8dd;
     text-decoration: none;
 }
 .header__block_menu li:hover .header__block_menu-double-sports{
@@ -469,7 +469,7 @@ header{
     text-transform: unset;
 }
 .header__block_menu-double-media li a:hover{
-    color: #d45027;
+    color: #37a8dd;
     text-decoration: none;
 }
 .header__block_menu li:hover .header__block_menu-double-media{
