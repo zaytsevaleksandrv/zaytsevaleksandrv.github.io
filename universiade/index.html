@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/header.css">    
     <link rel="stylesheet" href="css/main.css">    
     <link rel="stylesheet" href="css/footer.css"> 
-    <link rel="stylesheet" href="css/slaider.css"> 
 </head>
 <body>
     <header>
@@ -716,7 +715,7 @@
                     <h2>Последние события</h2>
                 </div>   
                 <div class="col-lg-9 col-md-9 col-sm-9">
-                    <div class="col-lg-8 col-md-8 col-sm-8">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
                         <div class="row">
                             <div class="block__news_open">
                                 <img src="img/SVG/video.svg" alt="Камера">
@@ -729,7 +728,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-4 col-sm-4 padding-right_null">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 padding-right_null">
                         <div class="col-lg-12 col-md-12 col-sm-12 padding-right_null">
                             <div class="block__news_results">
                                 <img src="img/SVG/photo.svg" alt="Камера">
@@ -740,7 +739,7 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 padding-right_null">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding-right_null">
                              <div class="block__news_results_two">
                                 <img src="img/SVG/photo.svg" alt="Камера">
                             </div>
@@ -751,57 +750,46 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 slaiser_margin">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 slaiser_margin">
                         <div class="row">
-                             <input class="display__none_input" checked type="radio" name="respond" id="tablet" />
-                                <article id="slider">
-                                <input class="display__none_input" checked type="radio" name="slider" id="slide1" />
-                                <input class="display__none_input" type="radio" name="slider" id="slide2" />
-                                <input class="display__none_input" type="radio" name="slider" id="slide3" />
-                                <div id="slides">
-                                    <div id="overflow">
-                                        <div class="inner">
-                                            <article>
+                            <div id="carousel_info" class="carousel slide carousel-fade" data-ride="carousel">
+                                <ol class="carousel-indicators box_indicators">
+                                    <li data-target="#carousel_info" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel_info" data-slide-to="1"></li>
+                                    <li data-target="#carousel_info" data-slide-to="2"></li>
+                                </ol>
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item">
                                             <div class="info">
-                                                <p>Интересные факты о летней Универсиаде в Сочи</p>
-                                            </div>
-                                            <div class="box_img">   
-                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                            </div>
-                                            </article>
-                                            <article>
-                                            <div class="info">
-                                                <p>Интересные факты о летней Универсиаде в Сочи</p></div>
-                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                            </article>
-                                            <article>
-                                            <div class="info">
-                                                <p>Интересные факты о летней Универсиаде в Сочи</p></div>
-                                                <img src="img/StockSnap_7TI7OKDFYV.jpg" />
-                                            </article>
+                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
                                         </div>
-                                    <!-- inner -->
+                                        <div class="box_img">   
+                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                        </div>
                                     </div>
-                                    <!-- overflow -->
+                                    <div class="item">
+                                            <div class="info">
+                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
+                                        </div>
+                                        <div class="box_img">   
+                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                        </div>
+                                    </div>
+                                    <div class="item">
+                                            <div class="info">
+                                            <p>Интересные факты о летней Универсиаде в Сочи</p>
+                                        </div>
+                                        <div class="box_img">   
+                                            <img src="img/StockSnap_7TI7OKDFYV.jpg" />
+                                        </div>
+                                    </div>
                                 </div>
-                                <!-- slides -->
-                                <div id="controls">
-                                    <label for="slide1"></label>
-                                    <label for="slide2"></label>
-                                    <label for="slide3"></label>
-                                </div>
-                                <!-- controls -->
-                                <div id="active">
-                                    <label for="slide1"></label>
-                                    <label for="slide2"></label>
-                                    <label for="slide3"></label>
-                                </div>
-                                <!-- active -->
-                                </article>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 block__list_news">    
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 block__list_news">    
                     <h4>Новости Универсиады</h4>
                     <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
                         <div class="row">
@@ -1131,7 +1119,7 @@
     <footer class="container-fluid">
          <div class="container">
              <div class="row">
-                 <div class="col-lg-2 col-md-2 col-xs-6 list_uni">
+                 <div class="col-lg-2 col-md-2 col-xs-6 col list_uni">
                      <ul>
                          <li>
                              <a class="list_uni_header" href="#">Универсиада</a>

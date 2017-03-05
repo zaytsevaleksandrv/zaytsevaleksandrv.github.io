@@ -327,11 +327,11 @@ h2{
     margin: 9px 0;
 }
 .block__list_news_block_btn{
-    margin: 15px 0 0 0;
     padding: 0;
     text-align: center;
 }
 .all_news_btn{
+    display: inline-block;
     text-transform: uppercase;
     color: #fff;
     background: #ed6f26;
@@ -485,6 +485,11 @@ h2{
         right: 1%;
     }
 }
+@media (max-width:991px){
+    .block__news_open {
+        background-size: 120% 300px;
+        height: 300px;
+    }
 @media (max-width:768px){
     .block__sport_object {
         background-size: 100% 371px;
@@ -625,4 +630,68 @@ h2{
     font-size: 30px;
     color: #d0d2d4;
     height: 192px;
+}
+
+#carousel_info{
+    height: 279px;
+}
+.box_img{
+    height: 279px;
+}
+.box_img img{
+    max-width: 100%;
+    position: relative;
+    top: -60px;
+}
+.box_indicators{
+    position: absolute;
+    bottom: 14px;
+    right: 3%;
+    z-index: 15;
+    padding-left: 0;
+    text-align: center;
+    list-style: none;
+    width: unset;
+    margin-left: unset;
+    left: unset;
+}
+.box_indicators li{
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+}
+.box_indicators .active{
+    width: 15px;
+    height: 15px;
+     margin: 0 6px;
+}
+.info{
+    z-index: 1;
+    position: absolute;
+    padding: 30px 30px;
+    text-align: left;
+    bottom: -7%;
+}
+.info p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+    opacity: 1;
+}
+.box_img:after{
+  content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: absolute;
+    background-image: -webkit-linear-gradient(bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    background-image: -o-linear-gradient(bottom, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    background-image: linear-gradient(to top, rgb(0,0,0) 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0) 100%);
+    opacity: 0.6;
+}
+.slaiser_margin{
+  margin-top: 30px;
 }
