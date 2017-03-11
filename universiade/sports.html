@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Универсиада 2017 Сочи</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/header.css">    
+    <link rel="stylesheet" href="css/main.css">    
+    <link rel="stylesheet" href="css/footer.css"> 
+</head>
+<body>
+    <header>
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">         
+                        <ul>
+                            <li><a href="#">Билеты</a></li>
+                            <li><a href="#">Магазин</a></li>
+                            <li><a href="#">Эстафета</a></li>
+                            <li><a href="#">Символика</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container header__center">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-3 text-left header__center_logo">
+                    <a href="index.html">
+                        <img src="img/logo/logo.png" alt="Сочи 2017">
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-5 text-left header__center_text">
+                    <div>29<sup>ая</sup> Всемирная летняя</div>
+                    <div><img src="img/logo_uni.png" alt="Универсиада"></div>
+                    <div>Сочи, 25 мая – 31 мая</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-2 col-md-offset-2  text-right header__center_input">
+                    <div class="header__search">
+                        <div class="header__search_lang-and-social col-lg-9 col-lg-offset-3 col-md-9 col-md-offset-3 col-sm-12 ">
+                            <div class="header__search_lang">
+                                <a href="#">en</a>
+                                 <span> | </span>
+                                <a class="header__search_lang-active" href="#">ru</a>
+                            </div>
+                            <div class="header__search_social">
+                                <a href="#"><span></span></a>
+                                <a href="#"><span></span></a>
+                                <a href="#"><span></span></a>
+                                <a href="#"><span></span></a>
+                                <a href="#"><span></span></a>
+                            </div>
+                        </div>
+                        <div class="header__search_input">
+                            <form method="" action="">
+                                <input class="search" type="text" name="search" placeholder="Поиск">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="header__menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                       <nav>
+                            <ul class="header__block_menu">
+                                <li>
+                                    <a href="#">Универсиада</a>
+                                    <ul class="header__block_menu-double">
+                                        <li><a href="#">Сочи</a></li>
+                                        <li><a href="#">FISU</a></li>
+                                        <li><a href="#">Дирекция</a></li>
+                                        <li><a href="#">Спортивные объекты</a></li>
+                                        <li><a href="#">История Универсиады</a></li>
+                                        <li><a href="#">Оргкомитет</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Расписание</a></li>
+                                <li><a href="#">Медали</a></li>
+                                <li>
+                                    <a href="#">Виды спорта</a>
+                                    <ul class="header__block_menu-double-sports">
+                                         <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/athletics.svg" width="30px" height="30px" alt="Легкая атлетика"> 
+                                                    Легкая атлетика
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/volleyball.svg" width="30px" height="30px" alt="Волейбол"> 
+                                                    Волейбол
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="sports.html">
+                                                    <img src="img/SVG/football.svg" width="30px" height="30px" alt="Футбол">
+                                                    Футбол
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/gymnastic.svg" width="30px" height="30px" alt="Художественная гимнастика">
+                                                    Художественная гимнастика
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/judo.svg" width="30px" height="30px" alt="Дзюдо">
+                                                    Дзюдо
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/fencing.svg" width="30px" height="30px" alt="Фехтование">
+                                                    Фехтование
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/table_tennis.svg" width="30px" height="30px" alt="Настольный теннис">
+                                                    Настольный теннис
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/diving.svg" width="30px" height="30px" alt="Прыжки в воду">
+                                                    Прыжки в воду
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/swimming.svg" width="30px" height="30px" alt="Плавание">
+                                                    Плавание
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/water_polo.svg" width="30px" height="30px" alt="Водное поло">
+                                                    Водное поло
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/sport_gymnastic.svg" width="30px" height="30px" alt="Спортивная гимнастика">
+                                                    Спортивная гимнастика
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/basketball.svg" width="30px" height="30px" alt="Баскетбол">
+                                                    Баскетбол
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/SVG/tennis.svg" width="30px" height="30px" alt="Теннис">
+                                                    Теннис
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Спортсмены</a></li>
+                                <li>
+                                    <a href="#">Медиа</a>
+                                    <ul class="header__block_menu-double-media">
+                                        <li><a href="#">Новости</a></li>
+                                        <li><a href="#">Фотографии</a></li>
+                                        <li><a href="#">Видео</a></li>
+                                        <li><a href="#">Онлайн-трансляции</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main> 
+        <div class="container block__sport_futbol">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="#" >Виды спорта</a></li>
+                        <li class="active__bread">Футбол</li>
+                    </ol>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <h2>Футбол</h2>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 block_history">
+                    <div class="location">
+                        <img class="img__location" src="img/SVG/location.svg" alt="Локация">
+                        <a class="text_link" href="#">Олимпийский стадион «Фишт»</a>
+                    </div>
+                   <p class="text_futbol_bold"> История: </p>
+                    <p>Впервые футбол был пре"дставлен 
+                    на Универсиаде лишь 1979 году в Мехико, после чего нерегулярно появлялся в программе студенческих Олимпиад. 
+                    </p>
+                    <p>XIV летняя Универсиада проходила в Загребе (Югославия) в 1987 году. Сборная СССР заняла первое место по количеству наград и второе место по количеству золотых медалей. Впервые сборная команда СССР стала победителем по футболу.
+                    </p>
+                    <p>
+                    Футбол входит в обязательную программу Всемирных летних Универсиад с 1991 года . С 1993 года в программу был включён женский футбольный турнир.
+                     </p>
+                     <br>
+                    <p class="text_futbol_bold">Дисциплины Универсиады:</p>
+                    <p>
+                        Мужчины — командные соревнования;
+                        <br>
+                        Женщины — командные соревнования.
+                    </p>
+                    <div class="text-center">
+                        <a href="#" class="all_news_btn all_news_btn_buy">купить билет</a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                   <div class="row">
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block__video">
+                           <img src="img/futbol_stadium.png" class="img_max_w" alt="Футбольный стадион">
+                       </div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="block_video_one">
+                                <img class="img_max_w img_play_bg" src="img/video1.png" alt="Видео">
+                            </div>
+                       </div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="block_video_one">
+                                <img class="img_max_w img_play_bg" src="img/video2.png" alt="Видео">
+                            </div>
+                       </div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                            <div class="block_video_one">
+                                <img class="img_max_w img_play_bg" src="img/video3.png" alt="Видео">
+                            </div>
+                       </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Расписание</h2>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                    <table class="head_table_sport">
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">Дата и время</td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">Событие</td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">Страны-участницы</td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">Счёт</td>
+                        </tr>
+                    </table>
+                    <table class="table__sport">
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                25 мая (чт) 11:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа А
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/bra.png" alt="bra">
+                                    <a href="#">BRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бразилия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                2 : 0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                25 мая (чт) 14:30
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа А
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/fra.png" alt="fra">
+                                    <a href="#">FRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Франция</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                1 : 3
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                25 мая (чт) 18:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа А
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/gbr.png" alt="gbr">
+                                    <a href="#">GBR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Великобритания</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/jpn.png" alt="jpn">
+                                    <a href="#">JPN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Япония</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                0 : 0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа А
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/ita.png" alt="ita">
+                                    <a href="#">ITA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Италия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                2 : 1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа B
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/bra.png" alt="bra">
+                                    <a href="#">BRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бразилия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                1 : 1
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа B
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/can.png" alt="can">
+                                    <a href="#">CAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Канада</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                3 : 2
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа B
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/bra.png" alt="bra">
+                                    <a href="#">BRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бразилия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                3 : 0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа B
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/bra.png" alt="bra">
+                                    <a href="#">BRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Бразилия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа С
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/ita.png" alt="ita">
+                                    <a href="#">ITA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Италия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Отборочный этап – группа С
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/rus.png" alt="rus">
+                                    <a href="#">RUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;РОССИЯ</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/chn.png" alt="chn">
+                                    <a href="#">CHN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Китай</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа С
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/can.png" alt="can">
+                                    <a href="#">CAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Канада</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/6.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Отборочный этап – группа С
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/fra.png" alt="fra">
+                                    <a href="#">FRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Франция</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/medals/medal_final.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Финал, матч за 3-е место 
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                 <div class="country_one">
+                                    <img src="img/flags/gbr.png" alt="gbr">
+                                    <a href="#">GBR&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Великобритания</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/jpn.png" alt="jpn">
+                                    <a href="#">JPN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Япония</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/medals/medal_final.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Финал, матч за 3-е место 
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/ger.png" alt="ger">
+                                    <a href="#">GER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Германия</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/fra.png" alt="fra">
+                                    <a href="#">FRA&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Франция</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/medals/medal_final.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Муж. Финал, матч за 1-е место 
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <div class="country_one">
+                                    <img src="img/flags/can.png" alt="can">
+                                    <a href="#">CAN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Канада</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/aus.png" alt="aus">
+                                    <a href="#">AUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Австралия</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                <img src="img/medals/medal_final.png" alt="6 угольник">
+                                26 мая (чт) 12:00
+                            </td>
+                            <td class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                                Жен. Финал, матч за 1-е место 
+                            </td>
+                            <td class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                                 <div class="country_one">
+                                    <img src="img/flags/rus.png" alt="rus">
+                                    <a href="#">RUS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;РОССИЯ</a>
+                                </div>
+                                <div class="country_two">
+                                    <img src="img/flags/chn.png" alt="chn">
+                                    <a href="#">CHN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Китай</a>
+                                </div>
+                            </td>
+                            <td class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                - : -
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 block__list_news block__list_news_sport">    
+                    <h4><a href="#">Новости Футбола</a></h4>
+                    <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                26 мая, 22:32
+                            </p>
+                            <p class="block__news_p_main">
+                                Подборка фотографий праздничного фейерверка с открытия Универсиады. Объявляется конкурс на лучшую фотографию с талисманом ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                26 мая, 20:15
+                            </p>
+                            <p class="block__news_p_main">
+                                Подборка фотографий праздничного фейерверка с открытия Универсиады. Объявляется конкурс на лучшую фотографию с талисманом ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                26 мая, 08:20
+                            </p>
+                            <p class="block__news_p_main">
+                                В Сочи прошла торжественная церемония открытия Универсиады: 
+яркое представление завершилось праздничным салютом и ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                25 мая, 23:33
+                            </p>
+                            <p class="block__news_p_main">
+                                 В Сочи прошла торжественная церемония открытия Универсиады: 
+яркое представление завершилось праздничным салютом и ...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                25 мая, 14:00
+                            </p>
+                            <p class="block__news_p_main">
+                              Уже через 6 часов состоится торжественная церемония открытия, а пока репортаж с места проведения
+соревнований по настольному ...
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_one">
+                        <div class="row">
+                            <p class="block__news_p_header">
+                                25 мая, 08:33
+                            </p>
+                            <p class="block__news_p_main">
+                                 В Сочи прошла торжественная церемония открытия Универсиады: 
+яркое представление завершилось праздничным салютом и ...
+                            </p>
+                        </div>
+                    </div>
+                     <div class="col-lg-12 col-md-12 col-sm-12 block__list_news_block_btn">
+                        <a href="#" class="all_news_btn">читать все новости</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="container-fluid">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-2 col-md-2 col-xs-6 col list_uni">
+                     <ul>
+                         <li>
+                             <a class="list_uni_header" href="#">Универсиада</a>
+                             <ul class="list_uni_nesting">
+                                 <li><a href="#">Сочи</a></li>
+                                 <li><a href="#">FISU</a></li>
+                                 <li><a href="#">Дирекция</a></li>
+                                 <li><a href="#">Спортивные объекты</a></li>
+                                 <li><a href="#">История Универсиады</a></li>
+                                 <li><a href="#">Оргкомитет</a></li>
+                                 <li><a href="#">Контакты</a></li>
+                                 <li><a href="#">Карта сайта</a></li>
+                             </ul>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-xs-6 list_sport">
+                     <ul>
+                         <li>
+                             <a class="list_sport_header" href="#">Виды спорта</a>
+                             <ul class="list_sport_nesting">
+                                 <li><a href="#">Лёгкая атлетика</a></li>
+                                 <li><a href="#">Фехтование</a></li>
+                                 <li><a href="#">Водное поло</a></li>
+                                 <li><a href="#">Волейбол</a></li>
+                                 <li><a href="#">Настольный теннис</a></li>
+                                 <li><a href="#">Спортивная гимнастика</a></li>
+                                 <li><a href="sports.html">Футбол</a></li>
+                                 <li><a href="#">Прыжки в воду</a></li>
+                                 <li><a href="#">Баскетбол</a></li>
+                                 <li><a href="#">Художественная гимнастика</a></li>
+                                 <li><a href="#">Плавание</a></li>
+                                 <li><a href="#">Теннис</a></li>
+                                 <li><a href="#">Дзюдо</a></li>
+                             </ul>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-xs-6 list_media">
+                     <ul>
+                         <li>
+                            <a class="list_media_header" href="#">Медиа</a>
+                             <ul class="list_media_nesting">
+                                 <li><a href="#">Новости</a></li>
+                                 <li><a href="#">Фотографии</a></li>
+                                 <li><a href="#">Видео</a></li>
+                                 <li><a href="#">Онлайн-трансляции</a></li>
+                             </ul>
+                         </li>
+                     </ul>
+                 </div>
+                 <div class="col-lg-offset-1 col-md-offset-1 col-lg-2 col-md-2 col-xs-6 list_all">
+                     <ul>
+                         <li><a class="list_all_header" href="#">Расписание</a></li>
+                         <li><a class="list_all_header" href="#">Медали</a></li>
+                         <li><a class="list_all_header" href="#">Спортсмены</a></li>
+                         <li>
+                             <form method="" action="">
+                                <input class="search" type="text" name="search" placeholder="Поиск">
+                            </form>
+                         </li>
+                     </ul>
+                 </div>
+             </div>
+             <hr>
+             <div class="block_footer_flex">
+                 <div class="block_footer_copy">© 2017 Универсиада в Сочи</div>
+                 <div class="block_footer_social">
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                 </div>
+             </div>
+         </div>
+    </footer>
+</body>
+</html>
