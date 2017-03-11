@@ -810,6 +810,7 @@ h2{
 /*block__sport_futbol*/
 .block__sport_futbol{
     margin-bottom: 60px;
+    z-index: 2;
 }
 .block__sport_futbol ol{
     padding: 0;
@@ -962,4 +963,12 @@ p{
 .block__list_news_sport {
     position: relative;
     top: 10px;
+}
+.block__sport_futbol:before{
+    content: '';
+    background: url(../img/football.png);
+    position: absolute;
+    width: 408px;
+    height: 474px;
+    left: 10%;
 }
