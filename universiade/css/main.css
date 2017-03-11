@@ -812,7 +812,7 @@ h2{
     margin-bottom: 60px;
     z-index: 2;
 }
-.block__sport_futbol ol{
+.block__sport_futbol ol, .block_object ol{
     padding: 0;
 }
 .block__sport_futbol ol li a{
@@ -971,4 +971,11 @@ p{
     width: 408px;
     height: 474px;
     left: 10%;
+}
+.block__shop_inner_sport{
+    height: unset;   
+    margin: 0 0 30px 0;
+}
+.margin_30{
+    margin-bottom: 80px;
 }
