@@ -6,6 +6,7 @@
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	 <link rel="stylesheet" href="css/main.css">
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
 	.header__menu{
@@ -108,7 +109,7 @@
 }
 
 .mobile-header-nav {
-	background-color: #222222;
+	background-color: #f9f9f9;
 	display: none;
 	list-style: none;
 	margin: 0;
@@ -117,19 +118,14 @@
 	top: 107px;
 	width: 100%;
 }
-.mobile-header-nav li {
-  	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
 .mobile-header-nav li a {
-	color: white;
+	color: #ed6f26;
 	display: block;
 	padding: 15px 0;
-	text-align: center;
+	text-align: left;
+	padding-left: 15px;
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
-}
-.mobile-header-nav li a:hover {
-  	background-color: #2f2f2f;
 }
 
 .hamburger-menu {
@@ -200,16 +196,126 @@
 .header__search_lang_mob{
 	padding: 20px 0;
 }
+.arrow_down{
+	margin-left: 10px;
+}
+.arrow_down_rot{
+	-ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg); 
+    transform: rotate(180deg);
+}
+.list-group-item a{
+	color: #2479bc !important;
+    font-size: 14px;
+    font-weight: unset;
+    text-transform: unset;
+	padding: unset !important;
+}
+.list-group-item a:hover{
+	color: #37a8dd;
+    text-decoration: none;
+}
+.list-group-item{
+	border: unset !important;
+	background: #f9f9f9 !important;
+}
 </style>
 <body>
 
 <header>
-<div class="header__menu_mobile">
+<div class="header__menu_mobile header_nav">
 	<nav class="mobile-nav-wrap" role="navigation">
 		<ul class="mobile-header-nav">
-		<li><a href="#">Nav Item 1</a></li>
-		<li><a href="#">Nav Item 2</a></li>
-		<li><a href="#">Nav Item 3</a></li>
+			<li>
+				<h2 class="panel-title">
+					<a data-toggle="collapse" href="#collapse1">Универсиада 
+						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
+					</a>
+				</h2>
+				<div id="collapse1" class="panel-collapse collapse">
+					<ul class="list-group">
+						<li class="list-group-item"><a href="#">Сочи</a></li>
+						<li class="list-group-item"><a href="#">FISU</a></li>
+						<li class="list-group-item"><a href="#">Дирекция</a></li>
+						<li class="list-group-item"><a href="object.html">Спортивные объекты</a></li>
+						<li class="list-group-item"><a href="#">История Универсиады</a></li>
+						<li class="list-group-item"><a href="#">Оргкомитет</a></li>
+						<li class="list-group-item"><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				 <h2 class="panel-title">
+					<a href="#">Расписание</a>
+				</h2>
+			</li>
+			<li>
+				<h2 class="panel-title">
+					<a href="#">Медали</a>
+				</h2>
+			</li>
+			<li>
+				<h2 class="panel-title">
+					<a data-toggle="collapse" href="#collapse2">Виды спорта
+						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
+					</a>
+				</h2>
+				<div id="collapse2" class="panel-collapse collapse">
+					<ul class="list-group">
+						<li class="list-group-item"><a href="#">Легкая атлетика</a></li>
+						<li class="list-group-item"><a href="#">Волейбол</a></li>
+						<li class="list-group-item"><a href="#">Футбол</a></li>
+						<li class="list-group-item"><a href="#">Художественная гимнастика</a></li>
+						<li class="list-group-item"><a href="#">Дзюдо</a></li>
+						<li class="list-group-item"><a href="#">Фехтование</a></li>
+						<li class="list-group-item"><a href="#">Настольный теннис</a></li>
+						<li class="list-group-item"><a href="#">Прыжки в воду</a></li>
+						<li class="list-group-item"><a href="#">Плавание</a></li>
+						<li class="list-group-item"><a href="#">Водное поло</a></li>
+						<li class="list-group-item"><a href="#">Спортивная гимнастика</a></li>
+						<li class="list-group-item"><a href="#">Баскетбол</a></li>
+						<li class="list-group-item"><a href="#">Теннис</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<h2 class="panel-title">
+					<a href="#">Спортсмены</a>
+				</h2>
+			</li>
+			<li>
+				<h2 class="panel-title">
+					<a data-toggle="collapse" href="#collapse3">Медиа
+						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
+					</a>
+				</h2>
+				<div id="collapse3" class="panel-collapse collapse">
+					<ul class="list-group">
+						<li class="list-group-item"><a href="#">Новости</a></li>
+						<li class="list-group-item"><a href="#">Фотографии</a></li>
+						<li class="list-group-item"><a href="#">Видео</a></li>
+						<li class="list-group-item"><a href="#">Онлайн-трансляции</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<ul>
+					<li><a href="#">Билеты</a></li>
+					<li><a href="#">Магазин</a></li>
+					<li><a href="#">Эстафета</a></li>
+					<li><a href="#">Символика</a></li>
+				</ul>
+			</li>
+			<li><hr/></li>
+			<li>
+				 <div class="header__search_social">
+					<a href="#"><span></span></a>
+					<a href="#"><span></span></a>
+					<a href="#"><span></span></a>
+					<a href="#"><span></span></a>
+					<a href="#"><span></span></a>
+				</div>
+			</li>
 		</ul>
 		<ul class="mobile-search-input">
 		<li>
@@ -221,24 +327,24 @@
 	</nav>
   <div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-2 col-sm-2 text-left">
+				<div class="col-xs-2  text-left logo_header_mobile">
 					<a href="index.html">
 						<img src="img/logo_mobile.png" alt="Логотип">
 					</a>
 				</div>
-				<div class="col-xs-4 col-sm-4 text-right header__mobile">
+				<div class="col-xs-4 text-right header__mobile">
 					<div>29<sup>ая</sup> Всемирная летняя</div>
                     <div><img src="img/text_decoration_mobile.png" alt="Универсиада"></div>
                     <div>Сочи, 25 мая – 31 мая</div>
 				</div>
-				<div class="col-xs-4 col-sm-4 text-right header__search_lang_mob">
+				<div class="col-xs-4 text-right header__search_lang_mob">
 					<div class="header__search_lang">
 						<a href="#">en</a>
 							<span> | </span>
 						<a class="header__search_lang-active" href="#">ru</a>
 					</div>
 				</div>
-				<div class="col-xs-2 col-sm-2 text-center">
+				<div class="col-xs-2 text-center btn_header_mobile">
 					<button class="search" type="">
 						<img src="img/SVG/search.svg" width="17px" height="18px" alt="Поиск">
 					</button>
@@ -264,8 +370,34 @@
 			$('.mobile-header-nav').slideToggle();
 			$(this).toggleClass('open');
 		});
-
+		$('.panel-title a').click(function(e){
+			e.preventDefault();
+			if ($('.arrow_down').hasClass("arrow_down_rot")) {
+				$('.arrow_down').removeClass("arrow_down_rot")
+			}else{
+				$('.arrow_down').addClass('arrow_down_rot');
+			}
+		});
 	</script>
-
+	<script>
+		$(document).ready(function(){
+		var ravenous = function() { 
+		if (window.matchMedia('(max-width: 749px)').matches)
+		{
+			$('.header__mobile').css('display', 'none');
+			$('.btn_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
+			$('.logo_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
+			$('.header__search_lang_mob').addClass('text-center').removeClass('text-right');
+		} else {
+			$('.header__mobile').removeAttr('style');
+			$('.btn_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
+			$('.logo_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
+			$('.header__search_lang_mob').removeClass('text-center').addClass('text-right');
+		}
+		};
+		$(window).resize(ravenous);
+		ravenous();  
+		});
+	</script>
 </body>
 </html>
