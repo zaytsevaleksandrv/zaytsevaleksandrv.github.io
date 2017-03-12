@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="css/main.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<style>
+	.header__menu{
+	    background: url(img/bg_menu.png) no-repeat;
+	    background-size: cover;
+	}
+	.header__block_menu{
+		list-style-type: none;
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 0px;
+	}
+	.header__block_menu li{
+		padding: 20px 0;
+	}
+	.header__block_menu li a{
+	    font-size: 16px;
+	    font-weight: 600;
+	    color: #fff;
+	    text-transform: uppercase;
+	    cursor: pointer;
+	}
+	.header__block_menu li a:hover{
+	    color: #d45027;
+    	text-decoration: none;
+    }
+	.header__block_menu-double{
+		display: none;
+	    background: #fff;
+	    box-shadow: 0px 0px 20px -6px #000;
+	    padding: 15px 25px;
+	    border-radius: 5px;
+	    position: absolute;
+	    border: 1px solid #e2e2e2;
+	    z-index: 2;
+	    top: 72px;
+    	left: 85px;
+	}
+	.header__block_menu-double:before{
+		content: '';
+	    position: absolute;
+	    top: -20px;
+	    border: 10px solid transparent;
+	    border-bottom: 10px solid #fff;
+	    right: 85px;
+	}
+	.header__block_menu-double:after{
+		content: '';
+	    position: absolute;
+	    width: 140px;
+	    height: 20px;
+	    background: transparent;
+	    top: -20px;
+	    right: 0;
+	}
+	.header__block_menu-double li{
+		padding: unset;
+		list-style-type: none;
+    	padding: 5px 0;
+	}
+	.header__block_menu-double li a{
+		color: #2479bc;
+	    font-size: 14px;
+	    font-weight: unset;
+	    text-transform: unset;
+	}
+	.header__block_menu-double li a:hover{
+		color: #d45027;
+    	text-decoration: none;
+	}
+	.header__block_menu li:hover .header__block_menu-double{
+		display: block;
+	}
+	.search,  #menu_mobile {
+		width: 38px;
+		height: 38px;
+		border: 1px solid #e2e2e2;
+		border-radius: 20px;
+		background-color: #fff;
+	}
+
+	/*hamburger*/
+
+@media (min-width: 768px) {
+  .mobile-nav-wrap {
+    /* display: none; */
+  }
+}
+.mobile-search-input{
+	background: #fff;
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
+	padding: 10px 15px;
+}
+
+.mobile-header-nav {
+	background-color: #222222;
+	display: none;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 100px;
+	width: 100%;
+}
+.mobile-header-nav li {
+  	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.mobile-header-nav li a {
+	color: white;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+.mobile-header-nav li a:hover {
+  	background-color: #2f2f2f;
+}
+
+.hamburger-menu {
+	background: #fff;
+	display: inline-block;
+	transition: all 0.3s ease-in-out;
+	border: 1px solid #e2e2e2;
+	height: 38px;
+	width: 38px;
+    padding: 9px 6px;
+    border-radius: 20px;
+}
+.hamburger-menu:hover {
+  	cursor: pointer;
+}
+.hamburger-menu .menu-item {
+	background: #ed6f26;
+	display: block;
+	height: 3px;
+	margin: 0 0 5px;
+	transition: all 0.3s ease-in-out;
+	width: 24px;
+}
+.hamburger-menu.open .menu-item {
+  	margin: 0 0 5px;
+}
+.hamburger-menu.open .menu-item:first-child {
+	transform: rotate(45deg);
+	transform-origin: 5px;
+	width: 28px;
+}
+.hamburger-menu.open .menu-item:nth-child(2) {
+  	opacity: 0;
+}
+.hamburger-menu.open .menu-item:nth-child(3) {
+	transform: rotate(-45deg);
+	transform-origin: 3px;
+    width: 29px;
+}
+.header__menu_mobile{
+	padding: 15px 0 19px;
+	box-shadow: 0px 1px 1px #c7c9cc;
+	position: relative;
+	background: url(img/header_decor.png) no-repeat;
+	background-size: 140% 970%;
+    background-color: #f9f9f9;
+    background-position-y: -240px;
+}
+.search_mobile{
+	width: 100%;
+    border: 1px solid #e2e2e2;
+    border-radius: 20px;
+    padding: 10px 35px 10px 25px;
+    background: url(../img/SVG/search.svg) no-repeat;
+    background-position: 99%;
+    background-size: 15px;
+    background-color: #fff;
+}
+.header__mobile div{
+	font-size: 17px;
+	font-weight: 300;
+	color: #333;
+	letter-spacing: 0.3px;
+}
+</style>
+<body>
+
+<header>
+<div class="header__menu_mobile">
+	<nav class="mobile-nav-wrap" role="navigation">
+		<ul class="mobile-header-nav">
+		<li><a href="#">Nav Item 1</a></li>
+		<li><a href="#">Nav Item 2</a></li>
+		<li><a href="#">Nav Item 3</a></li>
+		</ul>
+		<ul class="mobile-search-input">
+		<li>
+			<form method="" action="">
+				<input class="search_mobile" type="text" name="search" placeholder="Поиск">
+			</form>
+		</li>
+		</ul>
+	</nav>
+  <div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-2 col-sm-2 text-left">
+					<a href="index.html">
+						<img src="img/logo_mobile.png" alt="Логотип">
+					</a>
+				</div>
+				<div class="col-xs-4 col-sm-4 text-right header__mobile">
+					<div>29<sup>ая</sup> Всемирная летняя</div>
+                    <div><img src="img/text_decoration_mobile.png" alt="Универсиада"></div>
+                    <div>Сочи, 25 мая – 31 мая</div>
+				</div>
+				<div class="col-xs-4 col-sm-4 text-right">
+					<div class="header__search_lang">
+						<a href="#">en</a>
+							<span> | </span>
+						<a class="header__search_lang-active" href="#">ru</a>
+					</div>
+				</div>
+				<div class="col-xs-2 col-sm-2 text-center">
+					<button class="search" type="">
+						<img src="img/SVG/search.svg" width="17px" height="18px" alt="Поиск">
+					</button>
+					
+				<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
+					<span class="menu-item"></span>
+					<span class="menu-item"></span>
+					<span class="menu-item"></span>
+				</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<script>
+		$('.search').click(function(e){
+			e.preventDefault();
+			$('.mobile-search-input').slideToggle();
+			$(this).toggleClass('open');
+		});
+		$('.js-toggle-menu').click(function(e){
+			e.preventDefault();
+			$('.mobile-header-nav').slideToggle();
+			$(this).toggleClass('open');
+		});
+
+	</script>
+
+</body>
+</html>
