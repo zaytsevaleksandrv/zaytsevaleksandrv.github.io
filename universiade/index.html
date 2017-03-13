@@ -298,24 +298,24 @@
             </nav>
         <div class="container-fluid">
                     <div class="row">
-                        <div class="col-xs-2 col-sm-2 text-left">
+                        <div class="col-xs-2  text-left logo_header_mobile">
                             <a href="index.html">
                                 <img src="img/logo_mobile.png" alt="Логотип">
                             </a>
                         </div>
-                        <div class="col-xs-4 col-sm-4 text-right header__mobile">
+                        <div class="col-xs-4 text-right header__mobile">
                             <div>29<sup>ая</sup> Всемирная летняя</div>
                             <div><img src="img/text_decoration_mobile.png" alt="Универсиада"></div>
                             <div>Сочи, 25 мая – 31 мая</div>
                         </div>
-                        <div class="col-xs-4 col-sm-4 text-right header__search_lang_mob">
+                        <div class="col-xs-4 text-right header__search_lang_mob">
                             <div class="header__search_lang">
                                 <a href="#">en</a>
                                     <span> | </span>
                                 <a class="header__search_lang-active" href="#">ru</a>
                             </div>
                         </div>
-                        <div class="col-xs-2 col-sm-2 text-center">
+                        <div class="col-xs-2 text-center btn_header_mobile">
                             <button class="search" type="">
                                 <img src="img/SVG/search.svg" width="17px" height="18px" alt="Поиск">
                             </button>
@@ -1351,6 +1351,25 @@
 			}else{
 				$('.arrow_down').addClass('arrow_down_rot');
 			}
+		});
+
+        $(document).ready(function(){
+		var ravenous = function() { 
+		if (matchMedia(' only screen and (max-width: 749px)').matches)
+		{
+			$('.header__mobile').css('display', 'none');
+			$('.btn_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
+			$('.logo_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
+			$('.header__search_lang_mob').addClass('text-center').removeClass('text-right');
+		} else {
+			$('.header__mobile').removeAttr('style');
+			$('.btn_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
+			$('.logo_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
+			$('.header__search_lang_mob').removeClass('text-center').addClass('text-right');
+		}
+		};
+		$(window).resize(ravenous);
+		ravenous();  
 		});
 	</script>
 </body>
