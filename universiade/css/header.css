@@ -699,7 +699,7 @@ header{
     }
     .hamburger-menu.open .menu-item:nth-child(3) {
         transform: rotate(-45deg);
-        transform-origin: 3px;
+        transform-origin: 1.5px;
         width: 29px;
     }
     .header__menu_mobile{
