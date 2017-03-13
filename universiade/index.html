@@ -1346,10 +1346,10 @@
 		});
 		$('.panel-title a').click(function(e){
 			e.preventDefault();
-			if ($('.arrow_down').hasClass("arrow_down_rot")) {
-				$('.arrow_down').removeClass("arrow_down_rot")
+			if ($(this).find('.arrow_down').hasClass("arrow_down_rot")) {
+				$(this).find('.arrow_down').removeClass("arrow_down_rot")
 			}else{
-				$('.arrow_down').addClass('arrow_down_rot');
+				$(this).find('.arrow_down').addClass('arrow_down_rot');
 			}
 		});
 
