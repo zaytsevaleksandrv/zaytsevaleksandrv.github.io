@@ -693,6 +693,8 @@ header{
         transform: rotate(45deg);
         transform-origin: 5px;
         width: 28px;
+        position: relative;
+        left: 1px;
     }
     .hamburger-menu.open .menu-item:nth-child(2) {
         opacity: 0;
@@ -701,6 +703,8 @@ header{
         transform: rotate(-45deg);
         transform-origin: 1.5px;
         width: 29px;
+        position: relative;
+        left: 1px;
     }
     .header__menu_mobile{
         padding: 15px 0 19px;
