@@ -754,3 +754,8 @@ header{
         background: #f9f9f9 !important;
     }
 }
+@media (max-width: 375px){
+    .search_mobile {
+        background-position: 96%;
+    }
+}
