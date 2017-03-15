@@ -1049,13 +1049,11 @@ p{
     .block_sport_mobile ul li:nth-child(2n+1){
         background: #fff !important;
     }
-    .list_sport li{
-        background: #fff !important;
-    }
     .block_sport_mobile .list-group-item {
         border-left: 0px solid;
         border-right: 0px solid;
         padding-left: 75px !important;
+        background: #fff !important;
     }
     .block_sport_mobile .panel-title {
         padding-left: 42px;
