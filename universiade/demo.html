@@ -2,387 +2,649 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Document</title>
 	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	 <link rel="stylesheet" href="css/main.css">
+	 <link rel="stylesheet" href="css/header.css">
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
-	.header__menu{
-	    background: url(img/bg_menu.png) no-repeat;
-	    background-size: cover;
+	.block_sport_mobile{
+		border: 1px solid #dcdee0;
+		border-radius: 8px;
+		padding: 0;
+		margin: 0;
 	}
-	.header__block_menu{
+	.block_sport_mobile ul{
 		list-style-type: none;
-		display: flex;
-		justify-content: space-around;
+		padding: 0;
+	    margin: 0;
+	}
+	.block_sport_mobile ul li{
+		padding: 8px 0px 11px 0px;
+	}
+	.block_sport_mobile ul li:nth-child(2n+1){
+		background: #fff !important;
+	}
+	.list_sport li{
+		background: #fff !important;
+	}
+	.block_sport_mobile .list-group-item {
+	    border-left: 0px solid;
+	    border-right: 0px solid;
+	    padding-left: 75px !important;
+	}
+	.block_sport_mobile .panel-title {
+	    padding-left: 42px;
+	}
+	.block_sport_mobile .panel-title a{
+		font-size: 13px;
+		font-weight: 300;
+		color: #333;
+		line-height: 17px;
+	}
+	.block_sport_mobile .panel-title a:hover, 
+	.block_sport_mobile .panel-title a:focus{
+		text-decoration: none;
+	}
+	.block_sport_mobile .list-group-item:first-child{
+	    border-top-left-radius: 0px;
+    	border-top-right-radius: 0px;
+	}
+	.block_sport_mobile .list-group-item a{
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 17px;
+		color: #2479bc;
+	    display: flex;
+    	align-items: center;
+	}
+	.block_sport_mobile .list-group-item a:hover,
+	.block_sport_mobile .list-group-item a:focus{
+		color: #37a8dd;
+		text-decoration: none;
+	}
+	.block_sport_mobile .list-group-item img{
+		margin-right: 13px;
+	}
+	.block_sport_mobile .list-group{
+		padding-top: 8px;
 		margin-bottom: 0px;
 	}
-	.header__block_menu li{
-		padding: 20px 0;
+	.arrow_blue{
+	    float: right;
+    	padding: 8px 30px 11px 0px;
 	}
-	.header__block_menu li a{
-	    font-size: 16px;
-	    font-weight: 600;
-	    color: #fff;
-	    text-transform: uppercase;
-	    cursor: pointer;
+	.arrow_blue_rot{
+		-ms-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg); 
+        transform: rotate(180deg);
+        position: relative;
+    	right: 30px;
 	}
-	.header__block_menu li a:hover{
-	    color: #d45027;
-    	text-decoration: none;
-    }
-	.header__block_menu-double{
-		display: none;
-	    background: #fff;
-	    box-shadow: 0px 0px 20px -6px #000;
-	    padding: 15px 25px;
-	    border-radius: 5px;
-	    position: absolute;
-	    border: 1px solid #e2e2e2;
-	    z-index: 2;
-	    top: 72px;
-    	left: 85px;
-	}
-	.header__block_menu-double:before{
-		content: '';
-	    position: absolute;
-	    top: -20px;
-	    border: 10px solid transparent;
-	    border-bottom: 10px solid #fff;
-	    right: 85px;
-	}
-	.header__block_menu-double:after{
-		content: '';
-	    position: absolute;
-	    width: 140px;
-	    height: 20px;
-	    background: transparent;
-	    top: -20px;
-	    right: 0;
-	}
-	.header__block_menu-double li{
-		padding: unset;
-		list-style-type: none;
-    	padding: 5px 0;
-	}
-	.header__block_menu-double li a{
-		color: #2479bc;
-	    font-size: 14px;
-	    font-weight: unset;
-	    text-transform: unset;
-	}
-	.header__block_menu-double li a:hover{
-		color: #d45027;
-    	text-decoration: none;
-	}
-	.header__block_menu li:hover .header__block_menu-double{
-		display: block;
-	}
-	.search,  #menu_mobile {
-		width: 38px;
-		height: 38px;
-		border: 1px solid #e2e2e2;
-		border-radius: 20px;
-		background-color: #fff;
-	}
-
-	/*hamburger*/
-
-@media (min-width: 768px) {
-  .mobile-nav-wrap {
-    /* display: none; */
-  }
-}
-.mobile-search-input{
-	background: #fff;
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 107px;
-	width: 100%;
-	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.2);
-	padding: 10px 15px;
-}
-
-.mobile-header-nav {
-	background-color: #f9f9f9;
-	display: none;
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 107px;
-	width: 100%;
-}
-.mobile-header-nav li a {
-	color: #ed6f26;
-	display: block;
-	padding: 15px 0;
-	text-align: left;
-	padding-left: 15px;
-	text-decoration: none;
-	transition: all 0.3s ease-in-out;
-}
-
-.hamburger-menu {
-	background: #fff;
-	display: inline-block;
-	transition: all 0.3s ease-in-out;
-	border: 1px solid #e2e2e2;
-	height: 38px;
-	width: 38px;
-    padding: 9px 6px;
-    border-radius: 20px;
-	position: relative;
-    top: 13px;
-    margin-left: 11px;
-}
-.hamburger-menu:hover {
-  	cursor: pointer;
-}
-.hamburger-menu .menu-item {
-	background: #ed6f26;
-	display: block;
-	height: 3px;
-	margin: 0 0 5px;
-	transition: all 0.3s ease-in-out;
-	width: 24px;
-}
-.hamburger-menu.open .menu-item {
-  	margin: 0 0 5px;
-}
-.hamburger-menu.open .menu-item:first-child {
-	transform: rotate(45deg);
-	transform-origin: 5px;
-	width: 28px;
-}
-.hamburger-menu.open .menu-item:nth-child(2) {
-  	opacity: 0;
-}
-.hamburger-menu.open .menu-item:nth-child(3) {
-	transform: rotate(-45deg);
-	transform-origin: 3px;
-    width: 29px;
-}
-.header__menu_mobile{
-	padding: 15px 0 19px;
-	box-shadow: 0px 1px 1px #c7c9cc;
-	position: relative;
-	background: url(img/header_decor.png) no-repeat;
-	background-size: 140% 970%;
-    background-color: #f9f9f9;
-    background-position-y: -240px;
-}
-.search_mobile{
-	width: 100%;
-    border: 1px solid #e2e2e2;
-    border-radius: 20px;
-    padding: 10px 35px 10px 25px;
-    background: url(../img/SVG/search.svg) no-repeat;
-    background-position: 99%;
-    background-size: 15px;
-    background-color: #fff;
-}
-.header__mobile div{
-	font-size: 17px;
-	font-weight: 300;
-	color: #333;
-	letter-spacing: 0.3px;
-}
-.header__search_lang_mob{
-	padding: 20px 0;
-}
-.arrow_down{
-	margin-left: 10px;
-}
-.arrow_down_rot{
-	-ms-transform: rotate(180deg);
-    -webkit-transform: rotate(180deg); 
-    transform: rotate(180deg);
-}
-.list-group-item a{
-	color: #2479bc !important;
-    font-size: 14px;
-    font-weight: unset;
-    text-transform: unset;
-	padding: unset !important;
-}
-.list-group-item a:hover{
-	color: #37a8dd;
-    text-decoration: none;
-}
-.list-group-item{
-	border: unset !important;
-	background: #f9f9f9 !important;
-}
 </style>
-<body>
-
-<header>
-<div class="header__menu_mobile header_nav">
-	<nav class="mobile-nav-wrap" role="navigation">
-		<ul class="mobile-header-nav">
-			<li>
-				<h2 class="panel-title">
-					<a data-toggle="collapse" href="#collapse1">Универсиада 
-						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
-					</a>
-				</h2>
-				<div id="collapse1" class="panel-collapse collapse">
-					<ul class="list-group">
-						<li class="list-group-item"><a href="#">Сочи</a></li>
-						<li class="list-group-item"><a href="#">FISU</a></li>
-						<li class="list-group-item"><a href="#">Дирекция</a></li>
-						<li class="list-group-item"><a href="object.html">Спортивные объекты</a></li>
-						<li class="list-group-item"><a href="#">История Универсиады</a></li>
-						<li class="list-group-item"><a href="#">Оргкомитет</a></li>
-						<li class="list-group-item"><a href="#">Контакты</a></li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				 <h2 class="panel-title">
-					<a href="#">Расписание</a>
-				</h2>
-			</li>
-			<li>
-				<h2 class="panel-title">
-					<a href="#">Медали</a>
-				</h2>
-			</li>
-			<li>
-				<h2 class="panel-title">
-					<a data-toggle="collapse" href="#collapse2">Виды спорта
-						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
-					</a>
-				</h2>
-				<div id="collapse2" class="panel-collapse collapse">
-					<ul class="list-group">
-						<li class="list-group-item"><a href="#">Легкая атлетика</a></li>
-						<li class="list-group-item"><a href="#">Волейбол</a></li>
-						<li class="list-group-item"><a href="#">Футбол</a></li>
-						<li class="list-group-item"><a href="#">Художественная гимнастика</a></li>
-						<li class="list-group-item"><a href="#">Дзюдо</a></li>
-						<li class="list-group-item"><a href="#">Фехтование</a></li>
-						<li class="list-group-item"><a href="#">Настольный теннис</a></li>
-						<li class="list-group-item"><a href="#">Прыжки в воду</a></li>
-						<li class="list-group-item"><a href="#">Плавание</a></li>
-						<li class="list-group-item"><a href="#">Водное поло</a></li>
-						<li class="list-group-item"><a href="#">Спортивная гимнастика</a></li>
-						<li class="list-group-item"><a href="#">Баскетбол</a></li>
-						<li class="list-group-item"><a href="#">Теннис</a></li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<h2 class="panel-title">
-					<a href="#">Спортсмены</a>
-				</h2>
-			</li>
-			<li>
-				<h2 class="panel-title">
-					<a data-toggle="collapse" href="#collapse3">Медиа
-						<img class="arrow_down" src="img/arrow_down.png" alt="arrow_down">
-					</a>
-				</h2>
-				<div id="collapse3" class="panel-collapse collapse">
-					<ul class="list-group">
-						<li class="list-group-item"><a href="#">Новости</a></li>
-						<li class="list-group-item"><a href="#">Фотографии</a></li>
-						<li class="list-group-item"><a href="#">Видео</a></li>
-						<li class="list-group-item"><a href="#">Онлайн-трансляции</a></li>
-					</ul>
-				</div>
-			</li>
-			<li>
-				<ul>
-					<li><a href="#">Билеты</a></li>
-					<li><a href="#">Магазин</a></li>
-					<li><a href="#">Эстафета</a></li>
-					<li><a href="#">Символика</a></li>
-				</ul>
-			</li>
-			<li><hr/></li>
-			<li>
-				 <div class="header__search_social">
-					<a href="#"><span></span></a>
-					<a href="#"><span></span></a>
-					<a href="#"><span></span></a>
-					<a href="#"><span></span></a>
-					<a href="#"><span></span></a>
-				</div>
-			</li>
-		</ul>
-		<ul class="mobile-search-input">
+<div class="col-xs-7 block_sport_mobile">
+	<ul>
 		<li>
-			<form method="" action="">
-				<input class="search_mobile" type="text" name="search" placeholder="Поиск">
-			</form>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse2">
+	                <img src="img/SVG/athletics.svg" width="30px" height="30px" alt="Легкая атлетика"> 
+	                Легкая атлетика
+	                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse2" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	26 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    27 мая (сб)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
 		</li>
-		</ul>
-	</nav>
-  <div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-2  text-left logo_header_mobile">
-					<a href="index.html">
-						<img src="img/logo_mobile.png" alt="Логотип">
-					</a>
-				</div>
-				<div class="col-xs-4 text-right header__mobile">
-					<div>29<sup>ая</sup> Всемирная летняя</div>
-                    <div><img src="img/text_decoration_mobile.png" alt="Универсиада"></div>
-                    <div>Сочи, 25 мая – 31 мая</div>
-				</div>
-				<div class="col-xs-4 text-right header__search_lang_mob">
-					<div class="header__search_lang">
-						<a href="#">en</a>
-							<span> | </span>
-						<a class="header__search_lang-active" href="#">ru</a>
-					</div>
-				</div>
-				<div class="col-xs-2 text-center btn_header_mobile">
-					<button class="search" type="">
-						<img src="img/SVG/search.svg" width="17px" height="18px" alt="Поиск">
-					</button>
-					
-				<a class="mobile-menu-toggle js-toggle-menu hamburger-menu" href="#">
-					<span class="menu-item"></span>
-					<span class="menu-item"></span>
-					<span class="menu-item"></span>
-				</a>
-				</div>
-			</div>
-		</div>
-	</div>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse3">
+                <img src="img/SVG/volleyball.svg" width="30px" height="30px" alt="Волейбол"> 
+                Волейбол
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse3" class="panel-collapse collapse">
+                <ul class="list-group">
+                	<li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	25 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	26 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    27 мая (сб)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse4">
+                <img src="img/SVG/football.svg" width="30px" height="30px" alt="Футбол">
+                Футбол
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse4" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	25 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	26 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    27 мая (сб)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse5">
+                <img src="img/SVG/gymnastic.svg" width="30px" height="30px" alt="Художественная гимнастика">
+                Художественная гимнастика
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse5" class="panel-collapse collapse">
+                <ul class="list-group">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse6">
+                <img src="img/SVG/judo.svg" width="30px" height="30px" alt="Дзюдо">
+                Дзюдо
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse6" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    26 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    27 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    28 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse7">
+                <img src="img/SVG/fencing.svg" width="30px" height="30px" alt="Фехтование">
+                Фехтование
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse7" class="panel-collapse collapse">
+                <ul class="list-group">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	26 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse8">
+                <img src="img/SVG/table_tennis.svg" width="30px" height="30px" alt="Настольный теннис">
+                Настольный теннис
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse8" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                   <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	25 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    26 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse9">
+                <img src="img/SVG/diving.svg" width="30px" height="30px" alt="Прыжки в воду">
+                Прыжки в воду
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse9" class="panel-collapse collapse">
+                <ul class="list-group list_sport_f9f9f9">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	25 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    26 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	27 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	29 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вс)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse10">
+                <img src="img/SVG/swimming.svg" width="30px" height="30px" alt="Плавание">
+                Плавание
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse10" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                 	<li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    27 мая (вс)
+	                    </a>
+                    </li>
+                   <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    29 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse11">
+                <img src="img/SVG/water_polo.svg" width="30px" height="30px" alt="Водное поло">
+                Водное поло
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse11" class="panel-collapse collapse">
+                <ul class="list-group">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    26 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	27 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	29 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    30 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вс)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse12">
+                <img src="img/SVG/sport_gymnastic.svg" width="30px" height="30px" alt="Спортивная гимнастика">
+                Спортивная гимнастика
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse12" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                     <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    27 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    28 мая (пн)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    29 мая (вт)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse13">
+                <img src="img/SVG/basketball.svg" width="30px" height="30px" alt="Баскетбол">
+                Баскетбол
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse13" class="panel-collapse collapse">
+                <ul class="list-group">
+                     <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	27 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	29 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    30 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вс)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+		<li>
+			<span class="panel-title">
+                <a data-toggle="collapse" href="#collapse14">
+                <img src="img/SVG/tennis.svg" width="30px" height="30px" alt="Теннис">
+                Теннис
+                <img class="arrow_blue" src="img/arrow_blue.png" alt="arrow_blue">
+                </a>
+            </span>
+            <div id="collapse14" class="panel-collapse collapse">
+                <ul class="list-group list_sport">
+                    <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    28 мая (вс)
+	                    </a>
+                    </li>
+                     <li class="list-group-item">
+	                    <a href="#">
+		                     <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+	                    	29 мая (пт)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/hexagon.svg" width="9px" height="8px" alt="hexagon">
+		                    30 мая (вс)
+	                    </a>
+                    </li>
+                    <li class="list-group-item">
+	                    <a href="#">
+		                    <img src="img/SVG/medal.svg" width="16px" height="25px" alt="hexagon">
+		                    31 мая (вс)
+	                    </a>
+                    </li>
+                </ul>
+            </div>
+		</li>
+	</ul>
+</div>
 </header>
 <script>
-		$('.search').click(function(e){
+		$('.block_sport_mobile .panel-title a').click(function(e){
 			e.preventDefault();
-			$('.mobile-search-input').slideToggle();
-			$(this).toggleClass('open');
-		});
-		$('.js-toggle-menu').click(function(e){
-			e.preventDefault();
-			$('.mobile-header-nav').slideToggle();
-			$(this).toggleClass('open');
-		});
-		$('.panel-title a').click(function(e){
-			e.preventDefault();
-			if ($('.arrow_down').hasClass("arrow_down_rot")) {
-				$('.arrow_down').removeClass("arrow_down_rot")
+			if ($(this).find('.arrow_blue').hasClass("arrow_blue_rot")) {
+				$(this).find('.arrow_blue').removeClass("arrow_blue_rot")
 			}else{
-				$('.arrow_down').addClass('arrow_down_rot');
+				$(this).find('.arrow_blue').addClass('arrow_blue_rot');
 			}
 		});
 	</script>
 	<script>
 		$(document).ready(function(){
 		var ravenous = function() { 
-		if (window.matchMedia('(max-width: 749px)').matches)
+		if (matchMedia(' only screen and (max-width: 749px)').matches)
 		{
 			$('.header__mobile').css('display', 'none');
 			$('.btn_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
