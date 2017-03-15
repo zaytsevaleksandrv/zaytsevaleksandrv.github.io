@@ -85,7 +85,7 @@
     	right: 30px;
 	}
 </style>
-<div class="col-xs-7 block_sport_mobile">
+<div class="col-xs-12 block_sport_mobile">
 	<ul>
 		<li>
 			<span class="panel-title">
@@ -646,15 +646,9 @@
 		var ravenous = function() { 
 		if (matchMedia(' only screen and (max-width: 749px)').matches)
 		{
-			$('.header__mobile').css('display', 'none');
-			$('.btn_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
-			$('.logo_header_mobile').addClass('col-xs-4').removeClass('col-xs-2');
-			$('.header__search_lang_mob').addClass('text-center').removeClass('text-right');
+			$('.block_sport_mobile').addClass('col-xs-12').removeClass('col-xs-7');
 		} else {
-			$('.header__mobile').removeAttr('style');
-			$('.btn_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
-			$('.logo_header_mobile').addClass('col-xs-2').removeClass('col-xs-4');
-			$('.header__search_lang_mob').removeClass('text-center').addClass('text-right');
+			$('.block_sport_mobile').addClass('col-xs-7').removeClass('col-xs-12');
 		}
 		};
 		$(window).resize(ravenous);
