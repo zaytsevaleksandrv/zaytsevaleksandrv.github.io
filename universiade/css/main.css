@@ -1093,7 +1093,7 @@ p{
         margin-right: 13px;
     }
     .block_sport_mobile .list-group{
-        padding-top: 8px;
+        padding-top: 11px;
         margin-bottom: 0px;
     }
     .arrow_blue{
@@ -1146,6 +1146,9 @@ p{
         -ms-flex-pack: distribute;
             justify-content: space-around;
         width: 90%;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
     .block_info img:nth-child(1){
         margin-right: 15px;
@@ -1159,4 +1162,7 @@ p{
             -ms-flex-align: center;
                 align-items: center;
     }
+    .block_info div:nth-child(1) {
+        padding: unset; 
+}
 }
