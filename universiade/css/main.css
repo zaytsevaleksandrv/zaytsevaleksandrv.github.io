@@ -1285,13 +1285,12 @@ p{
     }
     .block__sport_object{
         position: relative;
-        padding-bottom: 57%;
+        padding-bottom: 50%;
         height: 0;
         overflow: hidden;
         margin: 0;
         padding-left: 0;
         padding-right: 0;
-        margin-top: 20px;
         background-size: 100% 100%;
     }
 }
