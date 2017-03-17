@@ -302,7 +302,7 @@ h2{
     opacity: 1;
 }
 .block__news_results{
-    background: url(../img/results_1.jpg);
+    background: url(../img/results_1.jpg) no-repeat;
     background-size: 180% 150%;
     background-position-x: -130px;
     border-radius: 8px;
@@ -464,165 +464,6 @@ h2{
     -webkit-transform: translateY(-15px);
             transform: translateY(-15px);
   }
-}
-@media (max-width:1600px){
-    .block_popup:nth-child(2){
-        top: 28%;
-        left: 13.5%;
-    }
-    .block_popup:nth-child(3){
-        top: 28%;
-        right: 45%;
-    }
-}
-@media (max-width: 1366px){
-    .block_popup:nth-child(2){
-        top: 28%;
-        left: 12.3%;
-    }
-    .block_popup:nth-child(3){
-        top: 28%;
-        right: 43.8%;
-    }
-    .block_popup:nth-child(4){
-        top: 44%;
-        right: 22.8%;
-    }
-}
-@media (max-width: 1280px){
-    .block_popup:nth-child(2){
-        top: 28%;
-        left: 11.7%;
-    }
-    .block_popup:nth-child(3){
-        top: 28%;
-        right: 42.8%;
-    }
-    .block_popup:nth-child(4){
-        top: 44%;
-        right: 21.8%;
-    }
-}
-@media (max-width: 1240px){
-    .block_popup:nth-child(2){
-        top: 28%;
-        left: 11.6%;
-    }
-    .block_popup:nth-child(3){
-        top: 28%;
-        right: 43.1%;
-    }
-    .block_popup:nth-child(4){
-        top: 44%;
-        right: 21.8%;
-    }
-}
-@media (max-width:1024px){
-    .block__sport_object {
-        background-size: 100% 491px;
-        height: 491px;
-    }
-    .block_popup:nth-child(1) {
-        top: 54%;
-        left: 1%;
-    }
-     .block_popup:nth-child(2){
-        top: 26%;
-        left: 10%;
-    }
-    .block_popup:nth-child(3){
-        top: 26%;
-        right: 41.1%;
-    }
-    .block_popup:nth-child(4){
-        top: 42%;
-        right: 19.8%;
-    }
-    .block_popup:nth-child(5) {
-        top: 25%;
-        right: 1%;
-    }
-    .block__list_news_one:nth-child(5){
-        display: none;
-    }
-    .all_news_btn {
-        padding: 15px 15px;
-    }
-}
-@media (max-width:991px){
-    .block__news_open {
-        background-size: 120% 300px;
-        height: 300px;
-    }
-    .block__news_results {
-        background-size: 200% 133px;
-        background-position-x: unset;
-        height: 133px;
-    }
-    .block__news_results_two {
-        background-size: 180% 130%;
-        height: 137px;
-    }
-    #carousel_info {
-        height: 219px;
-    }
-    .block__list_news {
-        position: relative;
-        top: -17px;
-        padding: 0px;
-    }
-    .block__list_news_one:nth-child(4), .block__list_news_one:nth-child(5){
-        display: none;
-    }
-    .all_news_btn {
-        padding: 15px 15px;
-    }
-    .info p {
-        width: 80%;
-    }
-    .table__schedule_result {
-        width: 631px;
-    }
-    .table__schedule_result tr td:nth-child(1) {
-        width: 33.5%;
-    }
-    .block_list_task{
-        overflow: scroll;
-        width: 464px;
-        margin-right: 10px;
-    }
-    .view__list_btn, .mail_sub_btn{
-        width: 280px;
-    }
-    .block_info{
-        width: 280px;
-    }
-    .input_mail_sub {
-        width: 280px;
-        background-position: 240px;
-    }
-}
-@media (max-width:768px){
-    .block__sport_object {
-        background-size: 100% 371px;
-        height: 371px;
-    }
-    .block_popup:nth-child(2) {
-        top: 21%;
-        left: 6.4%;
-    }
-    .block_popup:nth-child(3) {
-        top: 21%;
-        right: 38%;
-    }
-    .block_popup:nth-child(5) {
-        top: 20%;
-        right: 0.3%;
-    }
-    .block_popup:nth-child(4) {
-        top: 43%;
-        right: 15.3%;
-    }
 }
 
 /*internet-shop*/
@@ -844,14 +685,184 @@ h2{
 .block__news_a:hover * .box_img:after{
     opacity: 1;
 }
+@media (max-width:1600px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 13.5%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 45%;
+    }
+}
+@media (max-width: 1366px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 12.3%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 43.8%;
+    }
+    .block_popup:nth-child(4){
+        top: 44%;
+        right: 22.8%;
+    }
+}
+@media (max-width: 1280px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 11.7%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 42.8%;
+    }
+    .block_popup:nth-child(4){
+        top: 44%;
+        right: 21.8%;
+    }
+}
+@media (max-width: 1240px){
+    .block_popup:nth-child(2){
+        top: 28%;
+        left: 11.6%;
+    }
+    .block_popup:nth-child(3){
+        top: 28%;
+        right: 43.1%;
+    }
+    .block_popup:nth-child(4){
+        top: 44%;
+        right: 21.8%;
+    }
+}
 @media (max-width:1199px){
     .block__shop_one {
         width: 290px;
     }
 }
+@media (max-width:1024px){
+    .block__sport_object {
+        background-size: 100% 491px;
+        height: 491px;
+    }
+    .block_popup:nth-child(1) {
+        top: 54%;
+        left: 1%;
+    }
+     .block_popup:nth-child(2){
+        top: 26%;
+        left: 10%;
+    }
+    .block_popup:nth-child(3){
+        top: 26%;
+        right: 41.1%;
+    }
+    .block_popup:nth-child(4){
+        top: 42%;
+        right: 19.8%;
+    }
+    .block_popup:nth-child(5) {
+        top: 25%;
+        right: 1%;
+    }
+    .block__list_news_one:nth-child(5){
+        display: none;
+    }
+    .all_news_btn {
+        padding: 15px 15px;
+    }
+}
 @media (max-width:991px){
+    .block__news_open {
+        background-size: 120% 300px;
+        height: 300px;
+    }
+    .block__news_results {
+        background-size: 200% 133px;
+        background-position-x: unset;
+        height: 133px;
+    }
+    .block__news_results_two {
+        background-size: 180% 130%;
+        height: 137px;
+    }
+    #carousel_info {
+        height: 219px;
+    }
+    .block__list_news {
+        position: relative;
+        top: -17px;
+        padding: 0px;
+    }
+    .block__list_news_one:nth-child(4), .block__list_news_one:nth-child(5){
+        display: none;
+    }
+    .all_news_btn {
+        padding: 15px 15px;
+    }
+    .info p {
+        width: 80%;
+    }
+    .table__schedule_result {
+        width: 631px;
+    }
+    .table__schedule_result tr td:nth-child(1) {
+        width: 33.5%;
+    }
+    .block_list_task{
+        overflow: scroll;
+        width: 464px;
+        margin-right: 10px;
+    }
+    .view__list_btn, .mail_sub_btn{
+        width: 280px;
+    }
+    .block_info{
+        width: 280px;
+    }
+    .input_mail_sub {
+        width: 280px;
+        background-position: 240px;
+    }
     .block__shop_one {
         width: 340px;
+    }
+}
+
+@media (max-width:768px){
+    .block__sport_object {
+        background-size: 100% 371px;
+        height: 371px;
+    }
+    .block_popup:nth-child(2) {
+        top: 21%;
+        left: 6.4%;
+    }
+    .block_popup:nth-child(3) {
+        top: 21%;
+        right: 38%;
+    }
+    .block_popup:nth-child(5) {
+        top: 20%;
+        right: 0.3%;
+    }
+    .block_popup:nth-child(4) {
+        top: 43%;
+        right: 15.3%;
+    }
+    .block__shop_one {
+        padding: 20px 20px 30px 20px;
+    }
+    .block__shop_one:nth-child(3) {
+        margin: unset;
+    }
+    .block__shop_one {
+        width: 225px
+    }
+    .block__shop_inner{
+        height: 423px;
     }
 }
 
@@ -1026,6 +1037,9 @@ p{
 .margin_30{
     margin-bottom: 80px;
 }
+.block__sport_object_list{
+    display: none;
+}
 @media (max-width:767px){
     .block_list_task{
         display:none;
@@ -1116,6 +1130,44 @@ p{
     .table_small_list {
         margin: -50px 0 20px 0;
     }
+    .block__list_news {
+        top: 0;
+        padding: 15px 15px 0
+    }
+    .block_popup {
+        display: none;
+    }
+    .block__sport_object {
+        background-size: 100% 331px;
+        height: 331px;
+    }
+    .block__sport_object_list{
+        display: block;
+    }
+    .block__sport_object_list ul{
+        list-style-type: none;
+        padding: 0;
+        margin-top: 13px;
+    }
+    .block__sport_object_list ul li{
+        padding: 12px 0px 12px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+    }
+    .block__sport_object_list ul li img{
+        margin-right: 13px;
+    }
+    .block__sport_object_list ul li a{
+        font-size: 14px;
+        line-height: 21px;
+        color: #2479bc;
+        font-weight: 400;
+    }
 }
 @media (max-width:749px){
     .block_list_medal {
@@ -1164,5 +1216,71 @@ p{
     }
     .block_info div:nth-child(1) {
         padding: unset; 
-}
+    }
+    .padding-right_null{
+        padding: 0;
+    }
+    #carousel_info,
+    #carousel_info .carousel-inner,
+    #carousel_info .block__news_a{
+        position: relative;
+        padding-bottom: 77%;
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .box_img ,
+    .box_img img{;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 240%;
+        height: 120%
+    }
+    .box_img img{
+        background-size: 100% 100%;
+        background-position-x: unset;
+    }
+    .block__news_open{
+        position: relative;
+        padding-bottom: 77%;
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        background-size: 120% 100%;
+    }
+    .padding-right_null_mobile {
+        position: relative;
+        padding-bottom: 57%;
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 20px;
+    }
+    .block__news_results {
+        background-size: 100% 100%;
+        background-position-x: unset;
+        height: 133px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+    }
+    .block__news_results_two{
+        background-size: 180% 150%;
+        height: 133px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        margin-top: unset;
+    }
 }
