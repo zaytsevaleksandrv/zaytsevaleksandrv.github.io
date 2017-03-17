@@ -20,8 +20,10 @@ $('.block_sport_mobile .panel-title a').click(function(e){
     e.preventDefault();
     if ($(this).find('.arrow_blue').hasClass("arrow_blue_rot")) {
         $(this).find('.arrow_blue').removeClass("arrow_blue_rot")
+        $(this).find('.block_sport_mobile ul li').css('padding-bottom', '11px');
     }else{
         $(this).find('.arrow_blue').addClass('arrow_blue_rot');
+        $(this).find('.block_sport_mobile ul li').css('padding-bottom', 'unset');
     }
 });
 $(document).ready(function(){
