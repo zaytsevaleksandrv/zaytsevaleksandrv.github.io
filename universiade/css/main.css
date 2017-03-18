@@ -144,6 +144,7 @@ h2{
     background: #ed6f26;
     border-radius: 8px;
     padding: 15px 20px;
+    font-size: 13px;
     display: inline-block;
 }
 .view__list_btn:hover{
@@ -158,6 +159,7 @@ h2{
     border-radius: 8px;
     padding: 15px 20px;
     display: inline-block;
+    font-size: 13px;
 }
 .mail_sub_btn:hover{
     text-decoration: none;
@@ -377,6 +379,7 @@ h2{
     background: #ed6f26;
     border-radius: 8px;
     padding: 15px 35px;
+    font-size: 13px;
 }
 .all_news_btn:hover{
     text-decoration: none;
@@ -1179,6 +1182,11 @@ p{
     }
 }
 @media (max-width:749px){
+
+    .margin_top {
+        margin-top: unset; 
+        margin-bottom: 30px;
+    }
     .block_list_medal {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1233,7 +1241,7 @@ p{
     #carousel_info .carousel-inner,
     #carousel_info .block__news_a{
         position: relative;
-        padding-bottom: 77%;
+        padding-bottom: 99%;
         height: 0;
         overflow: hidden;
         margin: 0;
@@ -1245,8 +1253,8 @@ p{
         position: absolute;
         top: 0;
         left: 0;
-        width: 240%;
-        height: 120%
+        width: 150%;
+        height: 100%
     }
     .box_img img{
         background-size: 100% 100%;
@@ -1301,6 +1309,22 @@ p{
         padding-left: 0;
         padding-right: 0;
         background-size: 100% 100%;
+    }
+    .info {
+        bottom: 2%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .info p {
+        width: 100%;
+    }
+    .box_indicators {
+        bottom: 2%;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
     }
 }
 @media (max-width: 734px){
