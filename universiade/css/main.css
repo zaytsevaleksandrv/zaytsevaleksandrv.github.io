@@ -1,8 +1,8 @@
 html{
-    font-size: 16px;
+    font-size: 100%;
 }
 h2{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
     color: #ed6f26;
     text-transform: uppercase;
@@ -666,7 +666,7 @@ h2{
 .info p{
     font-size: 16px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 600;
     color: #fff;
     opacity: 0.8;
 }
@@ -1044,6 +1044,9 @@ p{
     display: none;
 }
 @media (max-width:767px){
+    .all_news_btn {
+        padding: 15px 40px
+    }
     .block_list_task{
         display:none;
     }
@@ -1298,5 +1301,20 @@ p{
         padding-left: 0;
         padding-right: 0;
         background-size: 100% 100%;
+    }
+}
+@media (max-width: 734px){
+        .block__shop_one {
+            width: 47%;
+        }
+}
+@media (max-width: 530px){
+        .block__shop_one {
+            width: 100%;
+        }
+}
+@media (max-width: 409px){
+    html{
+        font-size: 76%
     }
 }

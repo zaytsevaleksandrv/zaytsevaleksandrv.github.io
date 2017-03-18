@@ -28,6 +28,21 @@ $('.block_sport_mobile .panel-title a').click(function(e){
 });
 $(document).ready(function(){
 var ravenous = function() { 
+    if (matchMedia(' only screen and (max-width: 767px)').matches)
+    {
+        $('.list_uni').addClass('col-xs-12').removeClass('col-xs-6');
+        $('.list_sport').addClass('col-xs-12').removeClass('col-xs-6');
+        $('.list_media').addClass('col-xs-12').removeClass('col-xs-6');
+        $('.list_all').addClass('col-xs-12').removeClass('col-xs-6');
+
+    } else {
+        $('.list_uni').addClass('col-xs-6').removeClass('col-xs-12');
+        $('.list_sport').addClass('col-xs-6').removeClass('col-xs-12');
+        $('.list_media').addClass('col-xs-6').removeClass('col-xs-12');
+        $('.list_all').addClass('col-xs-6').removeClass('col-xs-12');
+
+    }
+
     if (matchMedia(' only screen and (max-width: 749px)').matches)
     {
         $('.header__mobile').css('display', 'none');
@@ -50,6 +65,19 @@ var ravenous = function() {
         $('#block__news_a_2').addClass('col-xs-4').removeClass('col-xs-12');
 
     }
+    if (matchMedia(' only screen and (max-width: 734px)').matches)
+    {
+        $('.block__shop_one').addClass('col-xs-6').removeClass('col-xs-3');
+    } else {
+        $('.block__shop_one').addClass('col-xs-6').removeClass('col-xs-3');
+    }
+    if (matchMedia(' only screen and (max-width: 424px)').matches)
+    {
+        $('.block__partner').addClass('col-xs-12').removeClass('col-xs-6');
+    } else {
+        $('.block__partner').addClass('col-xs-6').removeClass('col-xs-12');
+    }
+
     if (matchMedia(' only screen and (max-width: 362px)').matches)
     {
         $('.btn_header_mobile').addClass('col-xs-5').removeClass('col-xs-4');
@@ -61,4 +89,9 @@ var ravenous = function() {
 };
 $(window).resize(ravenous);
 ravenous();  
+});
+$(document).on("pagecreate","#carousel_info",function(){
+  $("block__news_a").on("swipe",function(){
+    $(this).hide();
+  });                       
 });

@@ -149,11 +149,19 @@ footer input[type="text"]:focus {
         background-position: 153px;
     }
 }
-@media (max-width: 440px){
-    footer input[type="text"] {
-        width: 140px;
-        background-position: 93px;
+@media (max-width: 767px){
+    .list_uni_nesting,
+    .list_sport_nesting,
+    .list_media_nesting{
+        display: none;
     }
+    footer input[type="text"] {
+        width: 270px;
+        background-position: 237px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
 }
 @media (max-width: 424px){
     .block_footer_flex{
@@ -161,16 +169,20 @@ footer input[type="text"]:focus {
             -ms-flex-pack: justify;
                 justify-content: space-between;
         -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-            -ms-flex-direction: column;
-                flex-direction: column;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .block_footer_copy{
-        margin: 0 0 10px 0;
+        margin: 25px 0 0px 0;
+        text-align: center;
     }
     .block_footer_social {
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between;
+                justify-content: center;
+    }
+    .block_footer_social a {
+        margin-right: 26px
     }
 }
