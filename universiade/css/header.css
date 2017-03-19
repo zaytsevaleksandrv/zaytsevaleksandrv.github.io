@@ -589,6 +589,9 @@ header{
     }
 }
 @media (max-width:767px){
+    .logo_header_mobile a img{
+        height: 65px;
+    }
     .padding-l-r{
         padding: 0 15px;
     }
