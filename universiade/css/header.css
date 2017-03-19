@@ -618,7 +618,7 @@ header{
     }
     .block_mobile_ul li a:after {
         content: '';
-        background: url(../img/external_link.png) no-repeat;
+        background: url(../img/SVG/external_link_blue.svg) no-repeat;
         color: #2479bc;
         width: 10px;
         height: 10px;
