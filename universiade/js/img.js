@@ -21,14 +21,14 @@ var results = [];
 function renderResults(data) {
 
     var img = '';
-    for (var i = 0; i < data.img.length; i++) {
-        var img = data.img.[i].picture.large;
+    for (var i = 0; i < data["img"].length; i++) {
+        var img = data["img"][i]["picture"]["large"];
         img += '<div class="col-md-2 block__user_on" onclick="myModal(this.id)" id="' + [i] + '"> ';
         img += '<img class="large" src="' + img + '" />';
         img += '</div>';
     }
     document.getElementById("user").innerHTML = img;
-    results = data.img;
+    results = data["img"];
 
 }
 
