@@ -15,7 +15,7 @@ function getData(url, callback) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-getData('js/img.json', renderResults);
+getData('https://zaytsevaleksandrv.github.io/universiade/js/img.json', renderResults);
 
 
 function renderResults(data) {
