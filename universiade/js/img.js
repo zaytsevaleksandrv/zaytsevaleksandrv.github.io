@@ -32,5 +32,5 @@ function renderResults(data) {
 
 }
 
-getData('https://zaytsevaleksandrv.github.io/universiade/js/img.json', renderResults);
+getData('https://zaytsevaleksandrv.github.io/universiade/js/img1.json', renderResults);
 
