@@ -15,27 +15,24 @@ function getData(url, callback) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-getData('https://zaytsevaleksandrv.github.io/universiade/js/img.json', renderResults);
 
+var results = [];
 
 function renderResults(data) {
 
     var img = '';
     for (var i = 0; i < data["img"].length; i++) {
         var img = data["img"][i]["picture"]["large"];
-        html += '<div class="col-md-2 block__user_on" onclick="myModal(this.id)" id="' + [i] + '"> ';
-        html += '<img class="large" src="' + img + '" title="' + name + '"/>';
-        html += '<img class="medium" id="medium" src="' + imgM + '" title="' + name + '"/>';
-        html += '<p class="block__user_on-capitalize name block__user_on_pdtop">' + name + '</p>';
-        html += '<p class="block__user_on-capitalize fullName block__user_on_pdtop">' + fullName + '</p>';
-        html += '</div>';
+        img += '<div class="col-md-2 block__user_on" onclick="myModal(this.id)" id="' + [i] + '"> ';
+        img += '<img class="large" src="' + img + '" />';
+        img += '</div>';
     }
     document.getElementById("user").innerHTML = img;
     results = data["img"];
 
 }
 
-var results = [];
+getData('https://zaytsevaleksandrv.github.io/universiade/js/img.json', renderResults);
 
 function myModal(index) {
 
