@@ -53,7 +53,8 @@ var ravenous = function() {
         $('.block_list_medal').addClass('col-xs-12').removeClass('col-xs-3');
         $('#block__news_a_1').addClass('col-xs-12').removeClass('col-xs-8');
         $('#block__news_a_2').addClass('col-xs-12').removeClass('col-xs-4');
-
+        $('.block__list_news_sport').addClass('col-xs-12').removeClass('col-xs-4');
+        $('.block_video_one_mobile').addClass('col-xs-12').removeClass('col-xs-4');
     } else {
         $('.header__mobile').removeAttr('style');
         $('.btn_header_mobile').addClass('col-xs-2').addClass('text-center').removeClass('col-xs-4').removeClass('text-right');
@@ -63,7 +64,8 @@ var ravenous = function() {
         $('.block_list_medal').addClass('col-xs-3').removeClass('col-xs-12');
         $('#block__news_a_1').addClass('col-xs-8').removeClass('col-xs-12');
         $('#block__news_a_2').addClass('col-xs-4').removeClass('col-xs-12');
-
+        $('.block__list_news_sport').addClass('col-xs-4').removeClass('col-xs-12');
+        $('.block_video_one_mobile').addClass('col-xs-4').removeClass('col-xs-12');
     }
     if (matchMedia(' only screen and (max-width: 734px)').matches)
     {
