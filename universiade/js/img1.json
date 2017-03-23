@@ -1,15 +1,12 @@
 {
-	"img": [{
-		"picture": {
-			"large": "https://pp.userapi.com/c836737/v836737947/1a64a/cb9spo4yJ94.jpg"
-		}
-	}, {
-		"picture": {
-			"large": "https://pp.userapi.com/c836737/v836737947/1a64a/cb9spo4yJ94.jpg"
-		}
-	}, {
-		"picture": {
-			"large": "https://pp.userapi.com/c836737/v836737947/1a64a/cb9spo4yJ94.jpg"
-		}
-	}]
+	"img": [{	
+  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/2016.10.06-%D0%A1%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD-%D0%A4%D0%B8%D1%88%D1%82-04.jpg"
+  		}	
+  	}, {	
+  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/article-1357718-0C1F86FF000005DC-398_634x382.jpg"	
+  		}	
+  	}, {	
+  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/the-ball-stadion-football-the-pitch-47730.jpeg"	
+  		}	
+  	}]
 }
