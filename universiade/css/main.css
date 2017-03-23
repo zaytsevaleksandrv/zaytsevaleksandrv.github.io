@@ -1,6 +1,9 @@
 html{
     font-size: 100%;
 }
+main{
+    overflow: hidden;
+}
 h2{
     font-size: 1.625rem;
     font-weight: 600;
@@ -930,11 +933,98 @@ p{
 .block_history{
     padding-right: 0px;
 }
-.img_max_w{
-    max-width: 100%;
+.img_max_w {
+    width: 100%;
+    height: 100%;
 }
+div#userModal {
+    position: relative;
+    padding-bottom: 57%;
+    height: 0;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 10px;
+}
+#userModal .img__radius{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.block__user_modal_sublist{
+    z-index:3;
+    display:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.block__user_modal{
+    position: fixed;
+    display: none;
+    top: 5vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    height: 0;
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px;
+    z-index: 4;
+    padding-bottom: 50%;
+}
+div#userModal{
+   position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 10px; 
+}
+div#userModal div iframe, 
+div#userModal div object, 
+div#userModal div embed {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+  height: 100%; 
+  border-radius: 15px;
+}
+.block__user_modal_close{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: -6px;
+    font-size: 17px;
+    padding: 0px 2%;
+    color: #fff;
+    cursor: pointer;
+}
+.block__user_modal_close:hover{
+   opacity: 1;
+}
+
 .block__video{
     margin: 0 0 30px;
+}
+.block_video_one {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 173px;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .block_video_one:before{
     content: '';
@@ -1030,10 +1120,10 @@ p{
 }
 .block__sport_futbol:before{
     content: '';
-    background: url(../img/football.png);
+    background: url(../img/football.png) no-repeat;
     position: absolute;
-    width: 408px;
-    height: 474px;
+    width: 60%;
+    height: 100%;
     left: 10%;
 }
 .block__shop_inner_sport{
@@ -1046,7 +1136,23 @@ p{
 .block__sport_object_list{
     display: none;
 }
+.block__sport_table_767{
+    display: block;
+}
+@media (max-width:1199px){
+    .block_video_one:after{
+        width: 88%;
+    }
+}
+@media (max-width:991px){
+    .block_video_one:after{
+        width: 85%;
+    }
+}
 @media (max-width:767px){
+    .block__sport_table_767{
+        display: none;
+    }
     .all_news_btn {
         padding: 15px 40px
     }
@@ -1180,9 +1286,67 @@ p{
         color: #2479bc;
         font-weight: 400;
     }
+    .block__sport_futbol:before {
+        left: 3%;
+        top: 27%;
+        width: 97%;
+    }
+    .block_history {
+        margin-bottom: 50px;
+    }
+    .all_news_btn_buy{
+        padding: 15px 66px;
+    }
+    .block_video_one:after {
+        width: 88%;
+    }
+    .block_sport_football{
+        margin: 0 0 0 15px;
+    }
+    .block_sport_football ul li{
+        padding: 13px 0px 15px 0px;
+    }
+    .block_sport_football ul li span a img:nth-child(1){
+        margin-top: -3px;
+        margin-right: 20px;
+    }
+    .block_sport_football ul li:nth-child(6) span a img:nth-child(1){
+        margin-top: -3px;
+        margin-right: 15px;
+        margin-left: -3px;
+    }
+    .block_sport_football .panel-title {
+        padding-left: 20px
+    }
+    .block__list_news_sport{
+        padding: 15px 0 0 15px;
+        width: 39.666667%;
+        top: -71px;
+    }
+     .block__list_news_sport h4{
+        margin-bottom: 24px;
+    }
 }
 @media (max-width:749px){
-
+    .block_video_one_mobile {
+        position: relative;
+        padding-bottom: 47%;
+        height: 0;
+        overflow: hidden;
+        margin: 0 0 30px;
+    }
+    .img_play_bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+    .block__list_news_sport{
+        width: unset;
+        top: unset;
+    }
     .margin_top {
         margin-top: unset; 
         margin-bottom: 30px;
@@ -1326,6 +1490,9 @@ p{
         left: 0;
         margin: 0 auto;
     }
+    .block_video_one:after {
+        width: 96%
+    }
 }
 @media (max-width: 734px){
         .block__shop_one {
@@ -1342,3 +1509,4 @@ p{
         font-size: 76%
     }
 }
+}}
