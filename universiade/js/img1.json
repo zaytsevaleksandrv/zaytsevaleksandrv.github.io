@@ -4,10 +4,12 @@
 			    "video": "https://www.youtube.com/embed/_tDxu2O-7XY?ecver=1"
   		}
   	}, {	
-  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/article-1357718-0C1F86FF000005DC-398_634x382.jpg"	
+  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/article-1357718-0C1F86FF000005DC-398_634x382.jpg",
+			    "video" : "https://www.youtube.com/embed/9rhJ7wG1Gzs?ecver=1"
   		}	
   	}, {	
-  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/the-ball-stadion-football-the-pitch-47730.jpeg"	
+  		"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/the-ball-stadion-football-the-pitch-47730.jpeg",
+			    "video" : "https://www.youtube.com/embed/4DSOxPm45bg?ecver=1"
   		}	
   	}]
 }
