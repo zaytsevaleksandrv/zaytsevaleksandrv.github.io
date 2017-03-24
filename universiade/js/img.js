@@ -35,7 +35,7 @@ function renderResults(data) {
 
 }
 
-getData('https://zaytsevaleksandrv.github.io/universiade/js/img1.json', renderResults);
+getData('https://zaytsevaleksandrv.github.io/universiade/js/img_video.json', renderResults);
 
 
 function myModal(index) {
