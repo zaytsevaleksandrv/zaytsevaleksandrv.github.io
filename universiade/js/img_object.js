@@ -30,7 +30,7 @@ function renderResults(data) {
         img += '</div>';
         img += '</div>';
     }
-    document.getElementById("img__object").innerHTML = img;
+    document.getElementById("imgObject").innerHTML = img;
     results = data["img"];
 
 }
@@ -47,7 +47,7 @@ function myModal(index) {
         image = data.picture.large;
 
     modal += '<div > ';
-    modal += '<img src="' + image +'" />;
+    modal += '<img src="' + image +'" />';
     modal += '</div>';
 
     document.getElementById("userModal").innerHTML = modal;
