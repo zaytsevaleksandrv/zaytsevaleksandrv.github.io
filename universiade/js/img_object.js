@@ -44,10 +44,10 @@ function myModal(index) {
     document.getElementById("Modal").style.display = "block";
     document.getElementById("Modal_sublist").style.display = "block";
     var modal = '',
-        video = data.picture.large;
+        image = data.picture.large;
 
     modal += '<div > ';
-    modal += '<iframe id="iframe_remove" src="' + video + '" frameborder="0" allowfullscreen></iframe>';
+    modal += '<img src="' + image +'" />;
     modal += '</div>';
 
     document.getElementById("userModal").innerHTML = modal;
