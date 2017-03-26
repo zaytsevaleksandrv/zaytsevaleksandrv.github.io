@@ -1052,7 +1052,7 @@ div#userModal div .windows_object {
 
 .block__video{
     margin: 7px 0 30px;
-    z-index: 9999;
+    z-index: 1;
 }
 .block_video_one {
     display: -webkit-box;
