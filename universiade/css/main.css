@@ -1164,7 +1164,7 @@ div#userModal div .windows_object {
     background: url(../img/football.png) no-repeat;
     position: absolute;
     width: 60%;
-    height: 100%;
+    height: 150%;
     left: 10%;
 }
 .block__shop_inner_sport{
@@ -1329,7 +1329,8 @@ div#userModal div .windows_object {
         width: 97%;
     }
     .block_history {
-        margin-bottom: 50px;
+        margin-bottom: 35px;
+        padding-right: 15px;
     }
     .all_news_btn_buy{
         padding: 15px 66px;
@@ -1353,7 +1354,7 @@ div#userModal div .windows_object {
         padding-left: 20px
     }
     .block__list_news_sport{
-        padding: 15px 0 0 15px;
+        padding: 15px 15px 0 15px;
         width: 39.666667%;
         top: -71px;
     }
@@ -1396,6 +1397,9 @@ div#userModal div .windows_object {
     .block__padding_unset table tr td{
        padding-bottom: 15px;
     }
+    .margin_30{
+        margin-bottom: unset;
+    }
 }
 @media (max-width:749px){
     .block_list_task, 
@@ -1409,9 +1413,17 @@ div#userModal div .windows_object {
         margin-bottom: 0px;
         z-index: 2;
     }
-    .block_video_one {
+    .block_video_one,
+    .block_image_one_slaider {
         padding-bottom: 47%;
         height: 0;
+    }
+    .block_image_one_slaider .img_play_bg{
+        height: 100%;
+        padding: 0 15px 15px 15px;
+    }
+    .arrow_sub .carousel-indicators {
+        bottom: -10px
     }
     .block_video_one:before{
         top: 41%;

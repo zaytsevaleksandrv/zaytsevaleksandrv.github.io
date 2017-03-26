@@ -809,6 +809,7 @@ header{
         background-size: 140% 970%;
         background-color: #f9f9f9;
         background-position-y: -240px;
+        z-index: 1;
     }
     .search_mobile{
         width: 100%;
@@ -850,6 +851,10 @@ header{
     .list-group-item{
         border: unset !important;
         background: #f9f9f9 !important;
+    }
+    .search_mobile:focus{
+        outline: unset;
+        border: 1px solid #febe10;
     }
 }
 @media (max-width: 749px){
