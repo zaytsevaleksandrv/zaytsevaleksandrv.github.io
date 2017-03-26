@@ -542,6 +542,11 @@ h2{
 .carousel-indicators {
     bottom: -30px;
 }
+@-moz-document url-prefix() { 
+    .carousel-indicators {
+        bottom: -50px;
+    }
+}
 .block__shop_one{
     text-align: center;
     background: #fff;
@@ -1047,6 +1052,7 @@ div#userModal div .windows_object {
 
 .block__video{
     margin: 7px 0 30px;
+    z-index: 9999;
 }
 .block_video_one {
     display: -webkit-box;
