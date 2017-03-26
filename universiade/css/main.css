@@ -12,11 +12,7 @@ h2{
     font-weight: 600;
     color: #ed6f26;
     text-transform: uppercase;
-    margin-bottom: 30px;
-}
-.block__sport_futbol h2,
-.block_object h2{
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 .carousel-indicators{
     z-index: 0;
