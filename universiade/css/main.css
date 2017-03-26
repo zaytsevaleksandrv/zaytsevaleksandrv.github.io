@@ -5,7 +5,7 @@ main{
     overflow: hidden;
 }
 a:hover{
-	text-decoration: none;
+    text-decoration: none;
 }
 h2{
     font-size: 1.625rem;
@@ -317,8 +317,8 @@ h2{
     opacity: 1;
 }
 .block__news_a {
-	border-radius: 8px;
-	overflow: hidden;
+    border-radius: 8px;
+    overflow: hidden;
 }
 .block__news_results{
     background: url(../img/results_1.jpg) no-repeat;
@@ -640,7 +640,7 @@ h2{
     height: 192px;
 }
 .item div{
-	cursor: pointer;
+    cursor: pointer;
 }
 #carousel_info{
     height: 279px;
@@ -918,8 +918,8 @@ h2{
     background-color: unset;
 }
 .breadcrumb li a:hover{
-	text-decoration: none;
-	color: #37a8dd;
+    text-decoration: none;
+    color: #37a8dd;
     cursor: pointer;
     text-decoration: none;
 }
@@ -1042,7 +1042,7 @@ div#userModal div .windows_object {
 }
 
 .block__video{
-    margin: 0 0 30px;
+    margin: 7px 0 30px;
 }
 .block_video_one {
     display: -webkit-box;
@@ -1245,10 +1245,10 @@ div#userModal div .windows_object {
                 align-items: center;
     }
    .block_sport_mobile .list-group{
-	    display: block;
-	    border-top: 1px solid #e2e2e2;
-	    border-bottom: 1px solid #e2e2e2
-	}
+        display: block;
+        border-top: 1px solid #e2e2e2;
+        border-bottom: 1px solid #e2e2e2
+    }
     .block_sport_mobile .list-group-item a:hover,
     .block_sport_mobile .list-group-item a:focus{
         color: #37a8dd;
@@ -1362,14 +1362,14 @@ div#userModal div .windows_object {
         margin-bottom: 24px;
     }
     .block_list_game-football_flex{
-    	display: -webkit-box;
-    	display: -ms-flexbox;
-    	display: flex;
-    	-webkit-box-orient: vertical;
-    	-webkit-box-direction: normal;
-    	    -ms-flex-direction: column;
-    	        flex-direction: column;
-    	z-index: 9;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        z-index: 9;
     }
 }
 @media (max-width:749px){
