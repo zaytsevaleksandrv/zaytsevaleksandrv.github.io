@@ -22,6 +22,10 @@ h2{
 .block_info_d div{
     display:none;
 }
+.block_list_task, .block_list_medal {
+    position: relative;
+    top: -28px;
+}
 .table__schedule{
     border: 1px solid #e2e2e2;
     border-radius: 4px;
