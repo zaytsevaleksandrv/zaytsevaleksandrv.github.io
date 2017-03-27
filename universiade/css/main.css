@@ -720,7 +720,7 @@ h2{
     height: 173px;
     width: unset;
 }
-.block_carousel_object .item div{
+.block_carousel_object .item .block_img_width{
     border-radius: 8px;
     overflow: hidden;
 }
@@ -1068,6 +1068,8 @@ div#userModal div .windows_object {
 .block__video{
     margin: 7px 0 30px;
     z-index: 1; 
+}
+.block__video_map{
     display: block;
     border: 1px solid transparent;
     padding: 0 15px;
@@ -1219,7 +1221,7 @@ div#userModal div .windows_object {
 
 @media (max-width:767px){
     .block_carousel_object{
-        padding: 0 0 20px 0;
+        padding: 0 0 30px 0;
     }
     .block_carousel_object .carousel-indicators {
         bottom: -15px
@@ -1473,12 +1475,29 @@ div#userModal div .windows_object {
     .block_video_one:before{
         top: 41%;
     }
-    .img_play_bg{
+    .block_carousel_object .img_max_w{
+        height: unset;
+        width: unset;
+    }
+    .block_carousel_object .img_play_bg{
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 130%;
+    }
+    .block_carousel_object .item .block_img_width{
+        overflow: hidden;
+        padding-bottom: 47%;
+        height: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        border-radius: 8px;
+        position: relative;
     }
     .block__list_news_sport{
         width: unset;
