@@ -1072,9 +1072,11 @@ div#userModal div .windows_object {
 .block__video_map{
     display: block;
     border: 1px solid transparent;
-    padding: 0 15px;
+    padding: 0 0px;
     height: 430px;
+    border-radius: 8px;
     position: relative;
+    overflow: hidden;
 }
 /* .block__video:after{
     content:'Здесь появиться карта.';
