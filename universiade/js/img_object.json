@@ -1,28 +1,39 @@
-{		
-	"img": [{		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/1-Олимпийский-стадион-Фишт-4.jpg"	
-  		}	
-  		}, {		
- 			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/9ed432e5.jpg"	
-  		}		
-  		}, {		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/football-1331838_1280.jpg"
-  		},{		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/2016.10.06-Стадион-Фишт-04.jpg"	
-  		}	
-  		}, {		
- 			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/article-1357718-0C1F86FF000005DC-398_634x382.jpg"	
-  		}		
-  		}, {		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/img2.png"
-  		},{		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/the-ball-stadion-football-the-pitch-39562.jpeg"	
-  		}	
-  		}, {		
- 			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/202939.jpg"	
-  		}		
-  		}, {		
-  			"picture": {"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/Sochi_Olympic_Park_Fisht_Olympic_Stadium_P5020324_2200.jpg"
-  		}			
- 	}]	
- }
+{
+	"img": [{
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/1-Олимпийский-стадион-Фишт-4.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/9ed432e5.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/football-1331838_1280.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/2016.10.06-Стадион-Фишт-04.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/article-1357718-0C1F86FF000005DC-398_634x382.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/img2.png"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/the-ball-stadion-football-the-pitch-39562.jpeg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/202939.jpg"
+		}
+	}, {
+		"picture": {
+			"large": "https://raw.githubusercontent.com/zaytsevaleksandrv/zaytsevaleksandrv.github.io/master/universiade/img/Sochi_Olympic_Park_Fisht_Olympic_Stadium_P5020324_2200.jpg"
+		}
+	}]
+}
