@@ -24,7 +24,7 @@ function renderResults(data) {
     for (var i = 0; i < data["img"].length; i++) {
         var image = data["img"][i]["picture"]["large"];
 
-        img += '<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 block_video_one_mobile">'
+        img += '<div class="block_video_one_mobile col-lg-4 col-md-4 col-sm-4 col-xs-4">'
         img += '<div class="block_video_one" onclick="myModal(this.id)" id="' + [i] + '"> ';
         img += ' <img class="img_max_w img_play_bg" src="' + image + '" alt="Видео"/>';
         img += '</div>';
@@ -59,3 +59,16 @@ function closeModal() {
     document.getElementById("Modal_sublist").style.display = "none";
     document.getElementById("iframe_remove").remove();
 }
+
+$(document).ready(function(){
+var ravenous = function() { 
+    if (matchMedia('(max-width: 749px)').matches)
+    {
+        $('.block_video_one_mobile').addClass('col-xs-12').removeClass('col-xs-4');
+    } else {
+        $('.block_video_one_mobile').addClass('col-xs-4').removeClass('col-xs-12');
+    }
+};
+$(window).resize(ravenous);
+ravenous();  
+});

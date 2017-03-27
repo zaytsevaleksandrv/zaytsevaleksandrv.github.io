@@ -54,7 +54,6 @@ var ravenous = function() {
         $('#block__news_a_1').addClass('col-xs-12').removeClass('col-xs-8');
         $('#block__news_a_2').addClass('col-xs-12').removeClass('col-xs-4');
         $('.block__list_news_sport').addClass('col-xs-12').removeClass('col-xs-4');
-        $('.block_video_one_mobile').addClass('col-xs-12').removeClass('col-xs-4');
         $('.block_image_one_slaider').addClass('col-xs-12').removeClass('col-xs-6');
         $('.item_block').addClass('col-xs-12').removeClass('col-xs-4');
     } else {
@@ -67,7 +66,6 @@ var ravenous = function() {
         $('#block__news_a_1').addClass('col-xs-8').removeClass('col-xs-12');
         $('#block__news_a_2').addClass('col-xs-4').removeClass('col-xs-12');
         $('.block__list_news_sport').addClass('col-xs-4').removeClass('col-xs-12');
-        $('.block_video_one_mobile').addClass('col-xs-4').removeClass('col-xs-12');
         $('.block_image_one_slaider').addClass('col-xs-6').removeClass('col-xs-12');
         $('.item_block').addClass('col-xs-4').removeClass('col-xs-12');
     }
