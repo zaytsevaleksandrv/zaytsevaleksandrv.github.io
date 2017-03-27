@@ -62,7 +62,7 @@ function closeModal() {
 
 $(document).ready(function(){
 var ravenous = function() { 
-    if (matchMedia('(max-width: 749px)').matches)
+    if (matchMedia(' only screen and (max-width: 749px)').matches)
     {
         $('.block_video_one_mobile').addClass('col-xs-12').removeClass('col-xs-4');
     } else {
