@@ -1680,6 +1680,9 @@ div#userModal div .windows_object {
         left: 0;
         margin: 0 auto;
     }
+    .full_width{
+        width: 100%;
+    }
 }
 @media (max-width: 734px){
         .block__shop_one {

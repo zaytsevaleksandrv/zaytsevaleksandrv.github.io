@@ -64,9 +64,9 @@ $(document).ready(function(){
 var ravenous = function() { 
     if (matchMedia(' only screen and (max-width: 749px)').matches)
     {
-        $('.block_video_one_mobile').addClass('col-xs-12').removeClass('col-xs-4');
+        $('.block_video_one_mobile').addClass('full_width');
     } else {
-        $('.block_video_one_mobile').addClass('col-xs-4').removeClass('col-xs-12');
+        $('.block_video_one_mobile').removeClass('full_width');
     }
 };
 $(window).resize(ravenous);
