@@ -1475,6 +1475,10 @@ div#userModal div .windows_object {
     .block_video_one:before{
         top: 41%;
     }
+    .img_max_w{
+        height: unset;
+        width: 100%;
+    }
     .block_carousel_object .img_max_w{
         height: unset;
         width: unset;
