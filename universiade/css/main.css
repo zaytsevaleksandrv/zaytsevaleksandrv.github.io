@@ -716,6 +716,17 @@ h2{
 .block__news_a:hover * .box_img:after{
     opacity: 1;
 }
+.block_carousel_object .img_max_w{
+    height: 173px;
+    width: unset;
+}
+.block_carousel_object .item div{
+    border-radius: 8px;
+    overflow: hidden;
+}
+.block_carousel_object .carousel-indicators {
+    bottom: -50px;
+}
 @media (max-width:1600px){
     .block_popup:nth-child(2){
         top: 28%;
@@ -863,6 +874,9 @@ h2{
 }
 
 @media (max-width:768px){
+    .block_carousel_object .img_max_w{
+        height: 145px;
+    }
     .block__sport_object {
         background-size: 100% 371px;
         height: 371px;
@@ -1204,6 +1218,12 @@ div#userModal div .windows_object {
 }
 
 @media (max-width:767px){
+    .block_carousel_object{
+        padding: 0 0 20px 0;
+    }
+    .block_carousel_object .carousel-indicators {
+        bottom: -15px
+    }
     .block__sport_table_767{
         display: none;
     }
