@@ -1031,7 +1031,11 @@ div#userModal{
     overflow: hidden;
     padding-left: 0;
     padding-right: 0;
-    margin: 10px; 
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    height: auto;
+    z-index: 9; 
 }
 div#userModal div iframe, 
 div#userModal div object, 
