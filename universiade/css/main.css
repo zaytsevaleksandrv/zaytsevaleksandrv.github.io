@@ -967,6 +967,7 @@ p{
     width: 100%;
     height: 100%;
 }
+
 div#userModal {
     position: relative;
     padding-bottom: 57%;
@@ -1052,8 +1053,23 @@ div#userModal div .windows_object {
 
 .block__video{
     margin: 7px 0 30px;
-    z-index: 1;
+    z-index: 1; 
+    display: block;
+    border: 1px solid transparent;
+    padding: 0 15px;
+    height: 430px;
+    position: relative;
 }
+/* .block__video:after{
+    content:'Здесь появиться карта.';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    color: #333;
+    -webkit-transition: color 3s;
+    transition: color 3s;
+} */
+
 .block_video_one {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1611,4 +1627,5 @@ div#userModal div .windows_object {
     html{
         font-size: 76%
     }
+}
 }
