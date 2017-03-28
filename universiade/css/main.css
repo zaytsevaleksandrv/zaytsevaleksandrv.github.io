@@ -1051,8 +1051,7 @@ div#userModal div .windows_object {
   position: absolute; 
   top: 0; 
   left: 0; 
-  width: 100%;
-  height: 100%; 
+  width: 100%; 
   border-radius: 15px;
 }
 .block__user_modal_close{
@@ -1452,6 +1451,15 @@ div#userModal div .windows_object {
     }
 }
 @media (max-width:749px){
+    .block_map{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
     .block__partner {
         margin-bottom: 40px
     }
@@ -1498,13 +1506,6 @@ div#userModal div .windows_object {
     }
     .block_carousel_object{
         padding-bottom: 47%;
-        height: 0;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
         border-radius: 8px;
         position: relative;
         margin: 0 0 30px;
