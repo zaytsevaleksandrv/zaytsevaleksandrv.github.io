@@ -817,6 +817,9 @@ h2{
     }
 }
 @media (max-width:991px){
+    .block__news_results-text-absolute{
+        top: 78px;
+    }
     .block__news_open {
         background-size: 120% 300px;
         height: 300px;
@@ -1451,6 +1454,9 @@ div#userModal div .windows_object {
     }
 }
 @media (max-width:749px){
+    .block__news_results-text-absolute{
+        top: unset;
+    }
     .block_map{
         display: -webkit-box;
         display: -ms-flexbox;
