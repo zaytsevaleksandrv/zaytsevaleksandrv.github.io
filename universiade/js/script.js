@@ -35,6 +35,6 @@ $('.panel-title a').click(function(e){
             $(this).parent().carousel('next'); 
         },
         //Default is 75px, set to 0 for demo so any distance triggers swipe
-        threshold: 75px
+        threshold: 75
     });
 });
