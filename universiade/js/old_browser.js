@@ -5,7 +5,7 @@ $( document ).ready(function($) {
       msie: 7,
       msie: 8,
       msie: 9,
-      safari: 5
+      safari: 5.1
     },
     imagePath: 'img/browsers/',
     display: [ 'chrome','firefox','safari','opera' ],
