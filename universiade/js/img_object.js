@@ -45,9 +45,24 @@ function closeModal() {
     document.getElementById("Modal").style.display = "none";
     document.getElementById("Modal_sublist").style.display = "none";
 }
+
 $(document).on('keyup',function(e) {
     if (e.keyCode == 27) {
         document.getElementById("Modal").style.display = "none";
         document.getElementById("Modal_sublist").style.display = "none";
     }
+});
+
+//swipe
+ $(".carousel").swipe({
+    click:function(event, target) {
+    },
+  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+
+    if (direction == 'left') $(this).carousel('next');
+    if (direction == 'right') $(this).carousel('prev');
+
+  },
+  allowPageScroll:"vertical"
+
 });
