@@ -647,6 +647,7 @@ h2{
     font-size: 30px;
     color: #d0d2d4;
     height: 192px;
+    background: transparent;
 }
 .item div{
     cursor: pointer;
