@@ -1,15 +1,12 @@
-
 //swipe
- $(".carousel").swipe({
- 	tap:function(event, target) {
-          $('.img_max_w').on('click', myModal);
-        },
-  swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
-
-    if (direction == 'left') $(this).carousel('next');
-    if (direction == 'right') $(this).carousel('prev');
-
-  },
-  allowPageScroll:"vertical"
-
+ $(document).ready(function() { 
+ 	$(".carousel-inner").swipe( {
+        swipeLeft:function(event, direction, distance, duration, fingerCount) {
+        	$(this).parent().carousel('prev'); 
+      	},
+        swipeRight: function() {
+			$(this).parent().carousel('next'); 
+ 	 	},
+ 	 	threshold:0
+	});
 });
