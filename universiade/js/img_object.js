@@ -45,7 +45,6 @@ function closeModal() {
     document.getElementById("Modal").style.display = "none";
     document.getElementById("Modal_sublist").style.display = "none";
 }
-
 $(document).on('keyup',function(e) {
     if (e.keyCode == 27) {
         document.getElementById("Modal").style.display = "none";
