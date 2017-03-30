@@ -24,4 +24,5 @@
     <li>Edge;</li>
     <li>IE 10+ с небольшими искажениями;</li>
   </ul>
+  <img style="text-align: center" src="https://zaytsevaleksandrv.github.io/universiade/img/logo_mobile.png" alt="logo"/>
 </p>
