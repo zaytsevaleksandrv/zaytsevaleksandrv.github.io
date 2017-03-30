@@ -15,11 +15,11 @@
   </ul>
   Поддержка:
    <ul>
-    <li>Google Chrome - старше 2014 года;</li>
-    <li>Opera -  старше 2014 года;</li>
-    <li>Safari - старше 2014 года;</li>
-    <li>Yandex - старше 2014 года;</li>
-    <li>Mozilla FireFox -  старше 2014 года;</li>
+    <li>Google Chrome - от 2014 года;</li>
+    <li>Opera -  от 2014 года;</li>
+    <li>Safari - от 2014 года;</li>
+    <li>Yandex - от 2014 года;</li>
+    <li>Mozilla FireFox -  от 2014 года;</li>
     <li>Edge;</li>
     <li>IE 10+ с маленькими косяками;</li>
   </ul>
