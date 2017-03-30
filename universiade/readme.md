@@ -3,7 +3,7 @@
 <p>Разработаны 3 страницы:
   <ul>
     <li><a href="https://zaytsevaleksandrv.github.io/universiade/index.html" target="_blank">Главная</a></li>
-    <li>Спортивные объекты - <a href="https://zaytsevaleksandrv.github.io/universiade/object.html" target="_blank">Олимпийский стадион "Фишт"</a></li>
+    <li>Спортивные объекты - <a href="https://zaytsevaleksandrv.github.io/universiade/object.html" target="_blank">Олимпийский стадион «Фишт»</a></li>
     <li>Виды спорта - <a href="https://zaytsevaleksandrv.github.io/universiade/sports.html" target="_blank">Футбол</a></li>
   </ul>
   Использованы:
@@ -16,13 +16,12 @@
   </ul>
   Поддержка:
    <ul>
-    <li>Google Chrome - от 2014 года;</li>
-    <li>Opera -  от 2014 года;</li>
-    <li>Safari - от 2014 года;</li>
-    <li>Yandex - от 2014 года;</li>
-    <li>Mozilla FireFox -  от 2014 года;</li>
+    <li>Google Chrome  — от 2014 года;</li>
+    <li>Opera  —  от 2014 года;</li>
+    <li>Safari  — от 2014 года;</li>
+    <li>Yandex  — от 2014 года;</li>
+    <li>Mozilla FireFox  —  от 2014 года;</li>
     <li>Edge;</li>
-    <li>IE 10+ с небольшими искажениями;</li>
+    <li>IE 10+ с небольшими искажениями.</li>
   </ul>
-  <img style="text-align: center" src="https://zaytsevaleksandrv.github.io/universiade/img/logo_mobile.png" alt="logo"/>
 </p>
