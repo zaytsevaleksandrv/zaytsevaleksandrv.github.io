@@ -10,7 +10,7 @@
 	<script>
 	$(document).ready(function(){
 	    $("button").click(function(){
-	        $("#div1").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
+	        $("#inputStr").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
 	                alert("External content loaded successfully!");
 	            if(statusTxt == "error")
@@ -22,9 +22,7 @@
 </head>
 <body>
 
-<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
-
-<button>Get External Content</button>
+<button>Получить данные программы</button>
 	<header>
 		<hgroup class="head__page">
 			<h1>Кольцевая машина Тьюринга</h1>
@@ -44,7 +42,7 @@
 					<ul class="article__list">
 						<li>Входная строка: 
 							<ul>
-								<li>ABC01</li>
+								<li id="inputStr">ABC01</li>
 							</ul>
 						</li>
 						<li>Правила переходов:
