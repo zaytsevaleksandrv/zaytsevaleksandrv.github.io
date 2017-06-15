@@ -12,10 +12,29 @@
 	    $("button").click(function(){
 	        $("#inputStr").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
-	                alert("External content loaded successfully!");
+	                alert("Входные данные загружены");
 	            if(statusTxt == "error")
 	                alert("Error: " + xhr.status + ": " + xhr.statusText);
 	        });
+	         $("#transitionRules").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	                alert("Правила переходов загружены");
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	        $("#limitSteps").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	                alert("Количество шагов загружено");
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	         $("#inputOutput").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	                alert("Выходные данные загружены");
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	        
 	    });
 	});
 	</script>
@@ -42,37 +61,22 @@
 					<ul class="article__list">
 						<li>Входная строка: 
 							<ul>
-								<li id="inputStr">ABC01</li>
+								<li id="inputStr"></li>
 							</ul>
 						</li>
 						<li>Правила переходов:
 							<ul>
-								<li>A1A1R</li>
-								<li>B1B1R</li>
-								<li>0101R</li>
-								<li>C1C2I</li>
-								<li>C2C2R</li>
-								<li>0202D</li>
-								<li>1212R</li>
-								<li>_2_3L</li>
-								<li>1313L</li>
-								<li>0303L</li>
-								<li>C3C3L</li>
-								<li>B3B3L</li>
-								<li>A3A3L</li>
-								<li>_301R</li>
+								<li id="transitionRules"></li>
 							</ul>
 						</li>
 						<li>Ограничение по количеству шагов:
 							<ul>
-								<li>15</li>
+								<li id="limitSteps"></li>
 							</ul>
 						</li>
 						<li>На выходе получаем:
 							<ul>
-								<li>Before: <<code>A</code>>BC01</li>
-								<li>Command: A1 -> A1R</li>
-								<li>After: A<<code>B</code>>C01</code></li>
+								<p id="inputOutput"></p>
 							</ul>
 						</li>
 					</ul>
