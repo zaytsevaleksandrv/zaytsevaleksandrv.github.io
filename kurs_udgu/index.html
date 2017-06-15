@@ -22,13 +22,7 @@
 	            if(statusTxt == "error")
 	                alert("Error: " + xhr.status + ": " + xhr.statusText);
 	        });
-	        $("#limitSteps").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
-	            if(statusTxt == "success")
-	                alert("Количество шагов загружено");
-	            if(statusTxt == "error")
-	                alert("Error: " + xhr.status + ": " + xhr.statusText);
-	        });
-	         $("#inputOutput").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
+	         $("#inputOutput").load("Release/Output.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
 	                alert("Выходные данные загружены");
 	            if(statusTxt == "error")
@@ -71,7 +65,7 @@
 						</li>
 						<li>Ограничение по количеству шагов:
 							<ul>
-								<li id="limitSteps"></li>
+								<li id="limitSteps">15</li>
 							</ul>
 						</li>
 						<li>На выходе получаем:
