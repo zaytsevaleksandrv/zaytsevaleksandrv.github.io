@@ -23,6 +23,18 @@ section{
 textarea {
     overflow: auto;
     resize: none;
-    height: auto;
-    width: 200px;
+    height: 280px;
+    width: 80px;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+}
+#inputOutput{
+	width: 200px;
+	text-align: left;
+	padding: 0 0 0 10px;
+}
+li{
+    color: #fff;
+    font-weight: 700;
 }
