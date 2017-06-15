@@ -12,19 +12,17 @@
 	    $("button").click(function(){
 	        $("#inputStr").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
-	                alert("Входные данные загружены");
 	            if(statusTxt == "error")
 	                alert("Error: " + xhr.status + ": " + xhr.statusText);
 	        });
 	         $("#transitionRules").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
-	                alert("Правила переходов загружены");
 	            if(statusTxt == "error")
 	                alert("Error: " + xhr.status + ": " + xhr.statusText);
 	        });
 	         $("#inputOutput").load("Release/Output.txt", function(responseTxt, statusTxt, xhr){
 	            if(statusTxt == "success")
-	                alert("Выходные данные загружены");
+	                alert("Данные загружены!");
 	            if(statusTxt == "error")
 	                alert("Error: " + xhr.status + ": " + xhr.statusText);
 	        });
@@ -34,8 +32,6 @@
 	</script>
 </head>
 <body>
-
-<button>Получить данные программы</button>
 	<header>
 		<hgroup class="head__page">
 			<h1>Кольцевая машина Тьюринга</h1>
@@ -46,27 +42,25 @@
 	<main>
 		<section>
 			<article>
-				<header>
-					<hgroup>
-						<h2>Пример задачи</h2>
-					</hgroup>
+				<header class="head__article">
+					<button>Получить данные программы</button>
 				</header>
 				<main>
 					<ul class="article__list">
-						<li>Входная строка: 
+						<li class="head__info">Входная строка: 
 							<ul>
 								<li id="inputStr"></li>
 							</ul>
 						</li>
-						<li>Правила переходов:<br>
+						<li class="head__info">Правила переходов:<br>
 								<textarea id="transitionRules"></textarea>
 						</li>
-						<li>Ограничение по количеству шагов:
+						<li class="head__info">Ограничение по количеству шагов:
 							<ul>
 								<li id="limitSteps">15</li>
 							</ul>
 						</li>
-						<li>На выходе получаем:<br>
+						<li class="head__info">На выходе получаем:<br>
 								<textarea id="inputOutput"></textarea>
 						</li>
 					</ul>
