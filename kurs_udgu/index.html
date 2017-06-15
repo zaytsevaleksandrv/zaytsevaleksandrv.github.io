@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Кольцевая машина Тьюринга</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $("#div1").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	                alert("External content loaded successfully!");
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	    });
+	});
+	</script>
+</head>
+<body>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
+	<header>
+		<hgroup class="head__page">
+			<h1>Кольцевая машина Тьюринга</h1>
+			<h3>Выполнил Зайцев А.В., студент 1 курса магистратуры</br>
+			Научный руководитель: зав. кафедрой д.ф.-м.н., профессор А.П. Бельтюков </h3>
+		</hgroup>
+	</header>
+	<main>
+		<section>
+			<article>
+				<header>
+					<hgroup>
+						<h2>Пример задачи</h2>
+					</hgroup>
+				</header>
+				<main>
+					<ul class="article__list">
+						<li>Входная строка: 
+							<ul>
+								<li>ABC01</li>
+							</ul>
+						</li>
+						<li>Правила переходов:
+							<ul>
+								<li>A1A1R</li>
+								<li>B1B1R</li>
+								<li>0101R</li>
+								<li>C1C2I</li>
+								<li>C2C2R</li>
+								<li>0202D</li>
+								<li>1212R</li>
+								<li>_2_3L</li>
+								<li>1313L</li>
+								<li>0303L</li>
+								<li>C3C3L</li>
+								<li>B3B3L</li>
+								<li>A3A3L</li>
+								<li>_301R</li>
+							</ul>
+						</li>
+						<li>Ограничение по количеству шагов:
+							<ul>
+								<li>15</li>
+							</ul>
+						</li>
+						<li>На выходе получаем:
+							<ul>
+								<li>Before: <<code>A</code>>BC01</li>
+								<li>Command: A1 -> A1R</li>
+								<li>After: A<<code>B</code>>C01</code></li>
+							</ul>
+						</li>
+					</ul>
+				</main>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
