@@ -1,0 +1,139 @@
+body{
+    background: #eee;
+    font-family: 'Roboto', sans-serif !important;
+}
+a{
+    color: #000 !important;
+}
+h1{
+    margin-bottom: 20px !important;
+}
+h1 a{
+    padding-left: 40px;
+    color: #f39c12 !important;
+}
+h1 a:hover{
+    color: #fbb340 !important;
+    text-decoration: none;
+}
+.block__user_on{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+.block__user_on:hover{
+    opacity: 1;
+}
+.block__user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.block__user_on-capitalize{
+    text-transform: capitalize;
+    color: #000;
+}
+.block__user_on_pdtop{
+    padding: 5px 0 0 0;
+}
+.block__user_modal_email{
+    color: #000;
+}
+.block__user_on-capitalize:hover, .block__user_modal_email:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.block__user_on_bold{
+    font-weight: 700;
+}
+.blok__user_background_modal{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.block__user_modal{
+    position: fixed;
+    display: none;
+    top: 10vh;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    background: #fff;
+    border-radius: 4px;
+    color: #fff;
+    box-shadow: 0px 0px 15px #a09e9e;
+    padding: 10px;
+}
+.img__radius{
+    border-radius: 70px;
+}
+.block__user_modal_close{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    padding: 0 5px;
+    color: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.block__user_modal_close:hover{
+   opacity: 1;
+}
+.block__sort{
+    padding: 10px 0;
+}
+.block__sort ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+.block__sort ul li{
+    padding-right: 15px;
+}
+.block__sort ul li a{
+    color: #000 !important;
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.block__sort ul li a:hover{
+     border: 1px solid #f39c12;
+    text-decoration: none;
+    color: #f39c12 !important;
+}
+.large, .name{
+    display: block;
+    border-radius: 70px;
+}
+.medium, .fullName{
+    display: none;
+    border-radius: 70px;
+}
+.block_select{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 4px;
+    position: relative;
+    top: -5px;
+}
+.block_select:hover{
+    border: 1px solid #f39c12;
+    color: #f39c12 ;
+}
+@media (max-width: 767px){
+    .block__sort ul{
+        flex-direction: column;
+    }
+    .block__sort ul li{
+        margin: 8px 0;
+    }
+}
