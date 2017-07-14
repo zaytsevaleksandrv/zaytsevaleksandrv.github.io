@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&subset=cyrillic,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Библиотека jQuery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <!-- jQuery User Interface -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    <!-- CSS для календаря -->
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.17/themes/redmond/jquery-ui.css" type="text/css">
+    <title>add. edit. check. delete.</title>
+    <script type="text/javascript" src="js/manageTodo.js"></script>
+</head>
+
+<body>
+    <h1>add. edit. check. delete. v 1.1</h1>
+    <div id="bodyWrapper">
+        <div id="todo_wrapper" class="block__newtask">
+            <h2>Добавьте новую задачу</h2>
+            <!-- Форма для добавления задания -->
+            <div id="todo_form">
+                <div id="form_wrapper">
+                    <!-- Текстовая область -->
+                    <input id="todo_item_text" placeholder="Задать задачу"></input>
+                    <!-- Дата -->
+                    <input type="text" id="todo_due_date" placeholder="Когда выполнить задачу?" />
+                </div>
+                <!-- Кнопка добавить -->
+                <input type="submit" id="create_todo" value="Добавить" class="button" />
+            </div>
+        </div>
+        <div class="block__yuorstask">
+            <h2>Ваши задачи</h2>
+            <!-- В этот список будут добавлены элементы (созданные задачи/дела) -->
+            <ul class="list"></ul>
+        </div>
+    </div>
+    <script>
+    db = openDatabase("ToDo", "0.1", "A list of to do items.", 200000);
+    if (!db) {
+        alert("Failed to connect to database.");
+    }
+    </script>
+</body>
+
+</html>

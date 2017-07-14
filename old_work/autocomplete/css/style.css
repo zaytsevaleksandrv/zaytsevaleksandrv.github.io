@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+}
+.form__input{
+	width: 354px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 5px 5px;
+}
+.list_city{
+	display: block;
+    border: 1px solid #e2e2e2;
+	border-bottom: 1px solid #fff;
+    padding: 5px;
+    width: 339px;
+}
+#user{
+	display: none;
+    flex-direction: column;
+    align-items: flex-start;
+	overflow: auto;
+    height: 200px;
+}

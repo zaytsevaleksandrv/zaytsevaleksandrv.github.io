@@ -1,0 +1,238 @@
+.text_logo {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text_logo_block_2 {
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text_logo_block_3 {
+    font-size: 41px;
+    color: #c7c7c7;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text_logo_block_3_1 {
+    margin-left: 10px;
+    font-size: 41px;
+    color: #000;
+    font-weight: 700;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.text_logo_block_3_2 {
+    font-size: 18px;
+    color: #000;
+    border-bottom: 1px dashed #000;
+    font-weight: 400;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.text_logo_block_3_2:hover {
+    color: red;
+    border-bottom: 1px dashed red;
+    text-decoration: none;
+}
+
+.img_logo {
+    margin-right: 10px;
+    float: left;
+}
+
+.div_head {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.modal-dialog {
+    width: 300px !important;
+}
+
+.modal_text {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+    color: #000;
+}
+
+.btn_otz {
+    width: 240px;
+    background: #5bae00 !important;
+    font-size: 18px !important;
+    font-family: 'PT Sans', sans-serif !important;
+    color: #fff;
+    border: none;
+    font-weight: 100 !important;
+    border-radius: 4px;
+}
+
+.modal-body {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.modal-header {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 7px !important;
+}
+
+.form-control {
+    font-family: 'PT Sans', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    color: #656565 !important;
+}
+
+.btn_nav {
+    height: 40px !important;
+    border-right: 1px solid #fff4d7 !important;
+    border-radius: none !important;
+    text-align: center;
+}
+
+.text_nav {
+    font-size: 21px !important;
+    font-family: 'PT Sans', sans-serif !important;
+    color: #000;
+    font-weight: 400 !important;
+}
+
+.text_nav:hover {
+    font-size: 21px !important;
+    font-family: 'PT Sans', sans-serif !important;
+    color: #000;
+    font-weight: 400 !important;
+}
+
+.carusel_block {
+    background: url(../img/slaider_1.png) center no-repeat;
+    width: 480px;
+    height: 348px;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    width: 73%;
+    color: #f1c340;
+    direction: rtl;
+    text-align: left;
+    font-size: x-large;
+}
+
+.rating>span {
+    display: inline-block;
+    position: relative;
+    width: 1em;
+}
+
+.rating>span:hover:before, .rating>span:hover~span:before {
+    content: "\2605";
+    position: absolute;
+}
+
+.rating_text {
+    float: left;
+    margin-right: 20px;
+}
+
+.rating_text_1 {
+    margin-top: 30px;
+    margin-left: 27px;
+    margin-right: 20px;
+}
+
+.kupit {
+    background: #fff2cd;
+    width: 480px;
+    height: 348px;
+}
+
+.kupit::after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 27px;
+    border: 20px solid transparent;
+    border-right: 20px solid #fff2cd;
+    /*.div_rating {
+    background: #000;
+    opacity: 0.5;
+    height: 40px;
+}*/
+}
+
+.text_kup_ot {
+    padding-left: 25px;
+    padding-top: 23px;
+    padding-right: 25px;
+}
+
+.text_kup {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.text_kup_b {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text_kup_c {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #e78120;
+}
+
+.otz_people {
+    background: #dce7ff;
+    width: 380px;
+    height: 130px;
+    border-radius: 6px;
+}
+
+.otz_people::after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 7px;
+    border: 25px solid transparent;
+    border-right: 35px solid #dce7ff;
+}
+
+.otz_people_ot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.boxShadow {
+    -webkit-box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+    -moz-box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+    box-shadow: 0px 10px 11px -5px rgba(0, 0, 0, 0.44);
+}
+
+.btn_fot {
+    background: #ffe290;
+    border: none;
+    border-radius: 2px;
+    padding: 15px 45px;
+    font-size: 16px;
+    color: #646464;
+    text-decoration: none;
+}

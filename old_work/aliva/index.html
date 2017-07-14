@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <title>Агенство путешествий - "Алива"</title>
+</head>
+
+<body>
+    <div class="modal fade" id="myModal12" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="top:150px">
+            <div class="modal-content" style="border: 3px solid #ffb845;">
+                <div class="modal-header" style="border-bottom:1px">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title modal_text" id="myModal_bron">Бронирование тура</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group" style="margin-bottom:1px">
+                        <label for="lastName"></label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Фамилия">
+                    </div>
+                    <div class="form-group" style="margin-bottom:1px">
+                        <label for="firstName"></label>
+
+                        <input type="text" class="form-control" id="firstName" placeholder="Имя">
+
+                    </div>
+                    <div class="form-group" style="margin-bottom:1px">
+                        <label class="control-label" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565;float: left;margin-top: 15px;margin-bottom: 15px;">Количество человек</label>
+                        <div class="col-xs-4" style="margin-top: 10px;margin-bottom: 10px; float:right">
+                            <select class="form-control" style="float:right; width: 138%;">
+
+												<option value="t1">01</option>
+												<option value="t2">02</option>
+												<option value="t3">03</option>
+												<option value="t4">04</option>
+												<option value="t5">05</option>
+												<option value="t6">06</option>
+												<option value="t7">07</option>
+												<option value="t8">08</option>
+												<option value="t9">09</option>
+												<option value="t10">10</option>
+												<option value="t11">11</option>
+												<option value="t12">12</option>
+												<option value="t13">13</option>
+												<option value="t14">14</option>
+												<option value="t15">15</option>
+												<option value="t16">16</option>
+												<option value="t17">17</option>
+												<option value="t18">18</option>
+												<option value="t19">19</option>
+												<option value="t20">20</option>
+												<option value="t21">21</option>
+												<option value="t22">22</option>
+												<option value="t23">23</option>
+												<option value="t24">24</option>
+												<option value="t25">25</option>
+												<option value="t26">26</option>
+												<option value="t27">27</option>
+												<option value="t28">28</option>
+												<option value="t29">29</option>
+												<option value="t30">30</option>
+												<option value="t31">31</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"></label>
+                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputTel" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
+                        <input type="tel" class="form-control" id="exampleInputTel" style="float: right;width: 90%;" placeholder="Телефон">
+                    </div>
+
+                </div>
+                <div class="modal-footer" style="text-align: center; border-top:none">
+                    <button type="button" class="btn btn-primary btn_otz">Забронировать тур</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header-->
+    <div class="container-fluid" style="background:#fffce7">
+        <div class="container div_head">
+            <div class="row">
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                    <a href="../aliva/index.html"><img src="img/logo.png" class="img_logo" /></a> <span class="text_logo">Агенство</br>путешествий</br>«Алива»</span>
+                </div>
+                <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5" style="margin-top: 10px;">
+                    <span class="text_logo_block_2">Раннее бронирование туров — </br>это покупка качественного отдыха со скидкой!</span>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <div style="float:right">
+                        <span class="text_logo_block_3">7 (3452)</span>
+                        <span class="text_logo_block_3_1">79-20-55</span>
+                        </br>
+                        <div style="float:right">
+                            <img src="img/call.png" />
+                            <span><a data-toggle="modal" data-target="#myModal" class="text_logo_block_3_2">Обратный звонок</a></span>
+                        </div>
+
+
+                        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" style="top:150px">
+                                <div class="modal-content" style="border: 3px solid #ffb845;">
+                                    <div class="modal-header" style="border-bottom:none">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title modal_text" id="myModalLabel">Обратный звонок</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail2"></label>
+                                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Имя">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputTel1" style="font-size: 16px;font-weight:400;margin-top: 5px; color: #656565">+7</label>
+                                            <input type="tel" class="form-control" id="exampleInputTel1" style="float: right;width: 90%;" placeholder="Телефон">
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer" style="text-align: center; border-top:none">
+                                        <button type="button" class="btn btn-primary btn_otz">Оставить заявку</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--nav-bar-->
+    <div class="container-fluid" style="background:#ffe18c">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href="#" class="btn_nav text_nav" style="  border-left: 1px solid #fff4d7 !important;">Великобритания</a></li>
+                        <li><a href=" # " class="btn_nav text_nav">ОАЭ</a></li>
+                        <li><a href="#" class="btn_nav text_nav">Египет</a></li>
+                        <li><a href=" # " class="btn_nav text_nav">Италия</a></li>
+                        <li><a href="#" class="btn_nav text_nav">Сингапур</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--slaider-->
+    <div class="container-fluid" style="padding-top:40px;">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Маркеры слайдов -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" style="color:#333" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="container" style="max-width:960px !important">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+
+                                <div class="rating rating_text_1 ">
+                                    <p class="rating_text" style="color:white"> ОАЭ </p>
+                                    <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+
+                                <div class="kupit">
+                                    <div class="text_kup text_kup_ot">
+                                        Страна изобилия и высочайшего уровня жизни.</br> Прекрасный климат, чистое и теплое море, обилие</br>экзотических развлечений стяжали Эмиратам славу</br> самого модного курорта на Аравийском полуострове.
+
+                                        <p class="text_kup_b" style="padding-top: 15px;">Вылет из Тюмени 02.05.13 на 9 ночей</p>
+
+                                        <p>В стоимость каждого тура входит:</br> проживание в отеле 4-5* , питание, прелет эконом-класса,</br> мед. страховка, трансфер.</p>
+                                        <p>Дополнительно оплачивается:</br>топливный сбор, виза.</p>
+                                        <p>Узнайте подробнее по телефону +7 (3452) 79-20-55</p>
+                                        <span class="text_kup_c">20 000 руб.</span>
+                                        <button type="button" data-toggle="modal" data-target="#myModal12" class="btn btn-primary btn_otz" style="float:right">Забронировать тур</button></br>на человека
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container" style="max-width:960px !important">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+                                <div>
+
+                                    <div class="rating rating_text_1">
+                                        <p class="rating_text " style="color:white"> ОАЭ </p>
+                                        <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+
+                                <div class="kupit">
+                                    <div class="text_kup text_kup_ot">
+                                        Страна изобилия и высочайшего уровня жизни.</br> Прекрасный климат, чистое и теплое море, обилие</br>экзотических развлечений стяжали Эмиратам славу</br> самого модного курорта на Аравийском полуострове.
+
+                                        <p class="text_kup_b" style="padding-top: 15px;">Вылет из Тюмени 02.05.13 на 9 ночей</p>
+
+                                        <p>В стоимость каждого тура входит:</br> проживание в отеле 4-5* , питание, прелет эконом-класса,</br> мед. страховка, трансфер.</p>
+                                        <p>Дополнительно оплачивается:</br>топливный сбор, виза.</p>
+                                        <p>Узнайте подробнее по телефону +7 (3452) 79-20-55</p>
+                                        <span class="text_kup_c">20 000 руб.</span>
+                                        <button type="button" data-toggle="modal" data-target="#myModal12" class="btn btn-primary btn_otz" style="float:right">Забронировать тур</button></br>на человека
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container" style="max-width:960px !important">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+                                <div>
+
+                                    <div class="rating rating_text_1">
+                                        <p class="rating_text" style="color:white"> ОАЭ </p>
+                                        <span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span><span>&#9734;</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 carusel_block">
+
+                                <div class="kupit">
+                                    <div class="text_kup text_kup_ot">
+                                        Страна изобилия и высочайшего уровня жизни.</br> Прекрасный климат, чистое и теплое море, обилие</br>экзотических развлечений стяжали Эмиратам славу</br> самого модного курорта на Аравийском полуострове.
+
+                                        <p class="text_kup_b" style="padding-top: 15px;">Вылет из Тюмени 02.05.13 на 9 ночей</p>
+
+                                        <p>В стоимость каждого тура входит:</br> проживание в отеле 4-5* , питание, прелет эконом-класса,</br> мед. страховка, трансфер.</p>
+                                        <p>Дополнительно оплачивается:</br>топливный сбор, виза.</p>
+                                        <p>Узнайте подробнее по телефону +7 (3452) 79-20-55</p>
+                                        <span class="text_kup_c">20 000 руб.</span>
+                                        <button type="button" data-toggle="modal" data-target="#myModal12" class="btn btn-primary btn_otz" style="float:right">Забронировать тур</button></br>на человека
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--slaider2-->
+    <div class="container-fluid" style="padding-top:40px; ">
+        <div id="myCarousel" class="carousel slide">
+            <!--Carousel items -->
+            <div class="carousel-inner">
+                <div class="active item">
+                    <div class="container " style="max-width:960px !important ">
+                        <div class="row ">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_1.png ">
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people otz_people_ot boxShadow " style=" margin-bottom: 10px; ">
+                                    <p class=" text_kup_b ">Константин</p>
+                                    <span class="text_kup ">  Мы с семьей поехали отдохнуть и совершитьшопинг в Дубаи, остановились в прекрасномотеле, хороший современный номер,вежливый персонал.
+                              </span> </div>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_2.png ">
+
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people otz_people_ot boxShadow " style=" margin-bottom: 10px; ">
+                                    <p class="text_kup_b ">Сергей</p>
+                                    <span class="text_kup ">  Дубайский зоопарк не очень большой,но увлекательный. Разная живность(особенно много всяких птиц) находитсядовольно-таки близко.
+                                </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="container " style="max-width:960px !important ">
+                        <div class="row ">
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_1.png ">
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people otz_people_ot boxShadow " style=" margin-bottom: 10px; ">
+                                    <p class=" text_kup_b ">Константин</p>
+                                    <span class="text_kup ">  Мы с семьей поехали отдохнуть и совершитьшопинг в Дубаи, остановились в прекрасномотеле, хороший современный номер,вежливый персонал.
+                              </span> </div>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 ">
+                                <img src="img/people_2.png ">
+
+                            </div>
+                            <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 ">
+                                <div class="otz_people otz_people_ot boxShadow " style=" margin-bottom: 10px; ">
+                                    <p class="text_kup_b ">Сергей</p>
+                                    <span class="text_kup ">  Дубайский зоопарк не очень большой,но увлекательный. Разная живность(особенно много всяких птиц) находитсядовольно-таки близко.
+                                </span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Carousel nav-->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+    </div>
+    <div id="footer " class="container-fluid " style="margin-top:56px; margin-bottom:56px; ">
+        <div class="container " style="max-width:960px !important ">
+            © 2013, alivatour.ru
+            <div class="dropdown" style="float:right">
+                <a class="btn_fot" data-toggle="dropdown" style="float:right" href="#">Посмотреть другие туры<span class="caret"></span></a>
+                <ul class="dropdown-menu drop_prod ">
+                    <li><a href="#">Житомер</a></li>
+                    <li><a href="#">Воронеж</a></li>
+                    <li><a href="#">Екатеринбург</a></li>
+                    <li><a href="#">Ижевск</a></li>
+                    <li><a href="#">Чита</a></li>
+                    <li><a href="#">Киров</a></li>
+                    <li><a href="#">Дон</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
+н</a>
+</li>
+</ul>
+</div>
+</div>
+
+</div>
+</body>
+
+</html>

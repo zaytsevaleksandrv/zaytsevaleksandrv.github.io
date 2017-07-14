@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Кольцевая машина Тьюринга</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Arimo:400,400i,700,700i" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	    $("button").click(function(){
+	        $("#inputStr").load("Release/INPUT.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	         $("#transitionRules").load("Release/Commandsfile.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	         $("#inputOutput").load("Release/Output.txt", function(responseTxt, statusTxt, xhr){
+	            if(statusTxt == "success")
+	                alert("Данные загружены!");
+	            if(statusTxt == "error")
+	                alert("Error: " + xhr.status + ": " + xhr.statusText);
+	        });
+	        
+	    });
+	});
+	</script>
+</head>
+<body>
+	<header>
+		<hgroup class="head__page">
+			<h1>Кольцевая машина Тьюринга</h1>
+			<h3>Выполнил Зайцев А.В., студент 1 курса магистратуры</br>
+			Научный руководитель: зав. кафедрой д.ф.-м.н., профессор А.П. Бельтюков </h3>
+		</hgroup>
+	</header>
+	<main>
+		<section>
+			<article>
+				<header class="head__article">
+					<button>Получить данные программы</button>
+				</header>
+				<main>
+					<ul class="article__list">
+						<li class="head__info">Входная строка: 
+							<ul>
+								<li id="inputStr"></li>
+							</ul>
+						</li>
+						<li class="head__info">Правила переходов:<br>
+								<textarea id="transitionRules"></textarea>
+						</li>
+						<li class="head__info">Ограничение по количеству шагов:
+							<ul>
+								<li id="limitSteps">15</li>
+							</ul>
+						</li>
+						<li class="head__info">На выходе получаем:<br>
+								<textarea id="inputOutput"></textarea>
+						</li>
+					</ul>
+				</main>
+			</article>
+		</section>
+	</main>
+</body>
+</html>
