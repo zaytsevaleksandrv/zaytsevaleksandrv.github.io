@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="script/script.js"></script>
+</head>
+
+<body>
+  <section>
+    <div>
+      <form name="square_root" action="javascript:square()">
+        <fieldset>
+          <legend>ax<sup><small>2</small></sup> + bx + c = 0</legend>
+          <input name="number_a" type="text" placeholder="a" value="1">
+          <input name="number_b" type="text" placeholder="b" value="6">
+          <input name="number_c" type="text" placeholder="c" value="9">
+          
+          <button onclick="square()" id="button">run</button>
+        </fieldset>
+        
+        <div id="answer"></div>
+      </form>
+    </div>
+  </section>
+
+</body>
+
+</html>
