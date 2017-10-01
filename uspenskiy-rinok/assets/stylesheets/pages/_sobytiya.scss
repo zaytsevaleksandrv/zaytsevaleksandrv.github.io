@@ -1,0 +1,117 @@
+.sobytiya{
+
+  &__bg-header{
+    background: url('../images/sobytiya/header_sobytiya.png') no-repeat center;
+    background-size: cover;
+    height: 490px;
+    margin: 0 -15px;
+    margin-bottom: 55px;
+  }
+
+  &__b-image{
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+    display: block;
+
+    &:before{
+      content: '';
+      -webkit-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      position: absolute;
+      -webkit-box-shadow: inset 0px 0px 50px transparent;
+              box-shadow: inset 0px 0px 50px transparent;
+      border: 1px solid transparent;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    &:hover {
+      &:before {
+        -webkit-box-shadow: inset 0px 0px 50px #000;
+                box-shadow: inset 0px 0px 50px #000;
+        border: 1px solid #000;
+      }
+    }
+
+    img{
+      height: 442px;
+      width: 100%;
+
+      @media (max-width: 991px){
+        height: 342px;
+      }
+
+      @media (max-width: 767px){
+        height: 242px;
+      }
+
+      @media (max-width: 425px){
+        height: 194px;
+      }
+
+      @media (max-width: 375px){
+        height: 163px;
+      }
+
+      @media (max-width: 320px){
+        height: 128px;
+      }
+    }
+
+    h1{
+      position: absolute;
+      top: 52px;
+      left: 45px;
+
+      @media (max-width: 425px){
+        top: 15px;
+        left: 15px;
+      }
+
+      @media (max-width: 375px){
+        top: 5px;
+        height: 60px;
+        overflow: hidden;
+      }
+    }
+
+    time{
+      position: absolute;
+      bottom: 43px;
+      left: 45px;
+      font-size: 30px;
+      line-height: 35px;
+      color: #140e10;
+      text-transform: uppercase;
+
+      span{
+        display: block;
+      }
+
+      @media (max-width: 425px){
+        bottom: 15px;
+        left: 15px;
+        font-size: 24px;
+        line-height: 25px;
+      }
+
+      @media (max-width: 375px){
+        bottom: 5px;
+      }
+    }
+  }
+
+  &__article{
+    margin-bottom: 52px;
+    &:first-child{
+      margin-top: 67px;
+
+      @media (max-width: 475px){
+        margin-top: 30px;
+      }
+    }
+  }
+}

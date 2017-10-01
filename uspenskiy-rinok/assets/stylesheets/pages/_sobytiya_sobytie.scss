@@ -1,0 +1,67 @@
+.header-image {
+  position: relative;
+  .image-sobytiya_sobytie {
+    background: url(../images/sobytiya_sobytie/header-image.jpg) center center no-repeat;
+    background-size: cover;
+    height: 480px;
+  }
+}
+
+.sobytiya_sobytie {
+  .carouselSob {
+    .carousel-control-prev-icon {
+      background: url(../images/sobytiya_sobytie/right.png);
+    }
+    .carousel-control-next-icon {
+      background: url(../images/sobytiya_sobytie/left.png);
+    }
+  }
+  padding-bottom: 40px;
+  .restcar {
+    .block_n {
+      @media (max-width: 991px) {
+        width: 90%;
+        margin: 0 auto;
+      }
+    }
+    margin-top:  40px;
+    h1 {
+      font-size: 46px;
+      line-height: 1.01;
+      text-align: left;
+      color: #ffffff;
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      @media (max-width: 600px) {
+        font-size: 28px;
+        margin-bottom: 0;
+        padding: 0 20px;
+      }
+    }
+    .info-dir {
+      @media (max-width: 991px) {
+        margin-top: 40px;
+      }
+      @media (max-width: 600px) {
+        padding: 0 20px;
+      }
+      .date {
+        font-size: 30px;
+        color: #fff;
+        @media (max-width: 400px) {
+          font-size: 24px;
+        }
+      }
+      p {
+        font-size: 20px;
+        text-align: left;
+        color: #baa79c;
+        margin-bottom: 40px;
+        @media (max-width: 400px) {
+          font-size: 16px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
