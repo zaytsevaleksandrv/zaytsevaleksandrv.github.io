@@ -1,6 +1,154 @@
-.foodcourt{
+#foodcourtModal {
+  .modal-dialog {
+    max-width: 1005px;
+    @media (max-width: 1005px) {
+      max-width: 100%;
+    }
+    .modal-content {
+      border-radius: 0;
+      border: none;
+      background: #53352f;
+      margin-top: 100px;
+      .modal_block {
+        width: 100% !important;
+        height: auto !important;
+        float: left;
+        background-size: contain;
+        @media (max-width: 1005px) {
+          width: 59%;
+        }
+        @media (max-width: 845px) {
+          height: 486px;
+        }
+        @media (max-width: 767px) {
+          float: none;
+          width: 100%;
+        }
+        .modal-header {
+          border: none;
+          padding: 0;
+          .close {
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+            top: -25px;
+            opacity: 1;
+            background: url('../images/products/close.png') no-repeat center;
+            width: 50px;
+            height: 50px;
+            display: block;
+          }
+        }
+        .modal-body {
+          @media (max-width: 600px) {
+            padding: 15px 0;
+          }
+          padding-bottom: 40px;
+          padding-left: 40px;
+          padding-right: 60px;
+          .slider_block {
+            width: 80%;
+            @media (max-width: 600px) {
+              width: 50%;
+            }
+            margin: 0 auto;
+            margin-top: 60px;
+            .carouselSob {
+              margin: 0 auto;
+              display: block;
+              .carousel-control-prev {
+                left: -50px;
+                @media (max-width: 600px) {
+                  left: -30px;
+                }
+                &:hover {
+                  .carousel-control-prev-icon {
+                    background: url('../images/modal-hov-left.png') no-repeat center;
+                  }
+                }
+                .carousel-control-prev-icon {
+                  width: 44px;
+                  height: 44px;
+                  background: url('../images/foodcourt/modal-leftt.png') no-repeat center;
+                  background-size: cover;
+                  @media (max-width: 600px) {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                  }
+                }
+              }
+              .carousel-control-next {
+                right: -50px;
+                @media (max-width: 600px) {
+                  right: -30px;
+                }
+                &:hover {
+                  .carousel-control-next-icon {
+                    background: url('../images/modal-hov-right.png') no-repeat center;
+                  }
+                }
+                .carousel-control-next-icon {
+                  width: 44px;
+                  height: 44px;
+                  background: url('../images/foodcourt/modal-right.png') no-repeat center;
+                  background-size: cover;
+                  @media (max-width: 600px) {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                  }
+                }
+              }
+              .carousel-caption {
+                left: 50px;
+                bottom: 0;
+                @media (max-width: 767px) {
+                  left: 20px;
+                }
+                h3 {
+                  font-size: 60px;
+                  line-height: 60px;
+                  color: #fff;
+                  text-transform: none;
+                  @media (max-width: 767px) {
+                    font-size: 30px;
+                    line-height: 30px;
+                  }
+                  @media (max-width: 500px) {
+                    font-size: 12px;
+                    line-height: 12px;
+                  }
+                }
+              }
+            }
+          }
+          .text {
+            width: 75%;
+            margin: 0 auto;
+            color: #9a8a81;
+            font-size: 20px;
+            margin-top: 70px;
+            @media (max-width: 600px) {
+              font-size: 12px;
+              width: 90%;
+              margin-top: 30px;
+            }
+          }
+        }
+        &:after {
+          content: '';
+          position: relative;
+          clear: both;
+        }
+      }
+    }
+  }
+}
 
-  &__bg-header{
+.foodcourt {
+
+  &__bg-header {
     background: url('../images/foodcourt/header_foodcourt.png') no-repeat center;
     background-size: cover;
     height: 490px;
@@ -8,116 +156,139 @@
     margin-bottom: 55px;
   }
 
-  &__b-article-1{
+  &__b-article-1 {
     margin-top: 60px;
     margin-bottom: 70px;
     padding-right: 30px;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       margin-bottom: 20px;
       padding-right: 0px
     }
   }
 
-  &__b-article-2{
+  &__b-article-2 {
     margin-top: 60px;
     margin-bottom: 100px;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       margin-bottom: 20px;
     }
   }
 
-  &__b-article-3{
+  &__b-article-3 {
     margin-top: 60px;
     margin-bottom: 70px;
     padding-right: 30px;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       margin-bottom: 20px;
       padding-right: 0px;
     }
 
-    h1{
+    h1 {
       margin-bottom: 37px;
-      span{
+      span {
         color: #f8cfa3;
       }
     }
   }
 
-  &__figure{
+  &__figure {
     position: relative;
     display: block;
     margin-bottom: 28px;
     overflow: hidden;
+    cursor: pointer;
 
-    &_img{
+    &:before {
+      content: '';
+      -webkit-transition: all 0.1s ease-in-out;
+      transition: all 0.1s ease-in-out;
+      position: absolute;
+      -webkit-box-shadow: inset 0px 0px 50px transparent;
+      box-shadow: inset 0px 0px 50px transparent;
+      border: 1px solid transparent;
+      z-index: 1;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    &:hover {
+      &:before {
+        -webkit-box-shadow: inset 0px 0px 50px #000;
+        box-shadow: inset 0px 0px 50px #000;
+        border: 1px solid #000;
+      }
+    }
 
-      &--pinzeria{
+    &_img {
+
+      &--pinzeria {
         background: url('../images/foodcourt/pinzeria.png') no-repeat center;
         height: 430px;
         background-size: cover;
       }
 
-      &--mitzva{
+      &--mitzva {
         background: url('../images/foodcourt/mitzva.png') no-repeat center;
         height: 210px;
         background-size: cover;
       }
 
-      &--vanil{
+      &--vanil {
         background: url('../images/foodcourt/vanilla_ice_cream.png') no-repeat center;
         height: 275px;
         background-size: cover;
       }
 
-      &--rubasuchi{
+      &--rubasuchi {
         background: url('../images/foodcourt/rubasuchi.png') no-repeat center;
         height: 403px;
         background-size: cover;
       }
 
-      &--phopho{
+      &--phopho {
         background: url('../images/foodcourt/phopho.png') no-repeat center;
         height: 210px;
         background-size: cover;
       }
 
-      &--cocomaniaco{
+      &--cocomaniaco {
         background: url('../images/foodcourt/cocomaniaco.png') no-repeat center;
         height: 237px;
         background-size: cover;
       }
 
-      &--plov{
+      &--plov {
         background: url('../images/foodcourt/plov.png') no-repeat center;
         height: 256px;
         background-size: cover;
       }
 
-      &--ojaxuri{
+      &--ojaxuri {
         background: url('../images/foodcourt/ojaxuri.png') no-repeat center;
         height: 323px;
         background-size: cover;
       }
     }
 
-    h1{
+    h1 {
       position: absolute;
       bottom: 45px;
       left: 45px;
 
-      @media (max-width: 500px){
+      @media (max-width: 500px) {
         left: 15px;
       }
     }
 
-    &-right{
-      h1{
+    &-right {
+      h1 {
         bottom: 32px;
         left: 32px;
-        @media (max-width: 500px){
+        @media (max-width: 500px) {
           left: 15px;
         }
 
@@ -125,27 +296,27 @@
     }
   }
 
-  &__text-p-20{
+  &__text-p-20 {
     font-size: 20px;
     line-height: 32px;
     text-align: left;
     color: #baa79c;
   }
 
-  &__text-p-16{
+  &__text-p-16 {
     font-size: 16px;
     line-height: 24px;
     text-align: left;
     color: #baa79c;
     margin-top: 20px;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       padding-left: 0;
       margin-top: 0px;
     }
   }
 
-  &__text-p-18{
+  &__text-p-18 {
     font-size: 18px;
     line-height: 28px;
     text-align: left;
@@ -153,7 +324,7 @@
     padding-left: 10px;
     padding-top: 10px;
 
-    @media (max-width: 767px){
+    @media (max-width: 767px) {
       padding-left: 0;
       padding-top: 0px;
     }

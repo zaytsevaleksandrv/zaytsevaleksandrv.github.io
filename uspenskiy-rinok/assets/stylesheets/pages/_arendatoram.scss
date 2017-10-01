@@ -10,13 +10,28 @@
 .arendatoram {
   padding-bottom: 40px;
   .info-dir {
+    margin-left: 30px;
     @media (max-width: 991px) {
       margin-top: 40px;
+      margin-left: 0;
     }
     h3 {
       font-size: 30px;
       color: #fff;
       margin-top: 40px;
+      display: -ms-flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      a{
+        img{
+          display: block;
+          margin-left: 15px;
+        }
+      }
       @media (max-width: 400px) {
         font-size: 24px;
       }
@@ -26,6 +41,7 @@
       color: #fff;
       font-family: Geometria, sans-serif;
       font-style: italic;
+      text-transform: inherit;
       margin-top: 20px;
       @media (max-width: 400px) {
         font-size: 16px;

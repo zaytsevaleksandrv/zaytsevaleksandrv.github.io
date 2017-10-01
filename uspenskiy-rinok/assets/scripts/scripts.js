@@ -55,3 +55,6 @@ $('.hist_ .button_year a').click(function () {
 $('.products__item').click(function () {
     $('#productModal').modal('show');
 });
+$('.foodcourt__figure').click(function () {
+    $('#foodcourtModal').modal('show');
+});
