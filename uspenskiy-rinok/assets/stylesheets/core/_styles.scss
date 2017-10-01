@@ -363,6 +363,7 @@ footer .container:before {
 #carouselTopControls .carousel-item .container .carousel-caption h3 {
   text-transform: uppercase;
   font-size: 30px;
+  color: #fff;
 }
 
 #carouselTopControls .carousel-control-prev {
@@ -395,6 +396,25 @@ footer .container:before {
   width: 27px;
 }
 
+button.btn.show-sob-btn {
+  border: 2px solid #fff;
+  border-radius: 0;
+  background: none;
+  color: #fff;
+  position: relative;
+  height: 44px;
+  text-transform: uppercase;
+  line-height: 40px;
+  font-family: Geometria, sans-serif;
+  font-size: 11px;
+  width: 185px;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+button.btn.show-sob-btn:hover {
+  opacity: 0.5;
+}
 button.btn.show-video-btn {
   border: 2px solid #fff;
   border-radius: 0;

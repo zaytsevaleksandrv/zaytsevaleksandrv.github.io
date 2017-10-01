@@ -1,3 +1,104 @@
+#productModal {
+  .modal-dialog {
+    max-width: 1005px;
+    @media (max-width: 1005px)  {
+      max-width: 100%;
+    }
+    .modal-content {
+      border-radius: 0;
+      border: none;
+      background: #53352f;
+      margin-top: 100px;
+      .modal_block {
+        .mleft {
+          position: relative;
+          background: url('../images/products/bg-modal.jpg') no-repeat center;
+          background-size: cover;
+          width: 423px;
+          height: 686px;
+          float: left;
+          @media (max-width: 1005px)  {
+            width: 40%;
+          }
+          @media (max-width: 845px)  {
+            height: 486px;
+          }
+          @media (max-width: 767px)  {
+            float: none;
+            width: 100%;
+          }
+          .text {
+            font-size: 14px;
+            position: absolute;
+            bottom: 60px;
+            padding: 0 20px;
+            color: #fff;
+            @media (max-width: 767px)  {
+              font-size: 14px;
+            }
+          }
+        }
+        .mright {
+          float: left;
+          background: url('../images/products/bg-modal-2.jpg') center center no-repeat;
+          background-size: contain;
+          width: 582px;
+          height: 686px;
+          @media (max-width: 1005px)  {
+            width: 59%;
+          }
+          @media (max-width: 845px)  {
+            height: 486px;
+          }
+          @media (max-width: 767px)  {
+            float: none;
+            width: 100%;
+          }
+          .modal-header {
+            border: none;
+            padding: 0;
+            .close {
+              position: absolute;
+              right: 20px;
+              top: -25px;
+              opacity: 1;
+              background: url('../images/products/close.png') no-repeat center;
+              width: 50px;
+              height: 50px;
+              display: block;
+            }
+          }
+          .modal-body {
+            padding-left: 40px;
+            padding-right: 60px;
+            .title {
+              font-size: 34px;
+              text-transform: uppercase;
+              color: #fff;
+              @media (max-width: 767px)  {
+                font-size: 24px;
+              }
+            }
+            .text {
+              color: #f8cfa3;
+              font-size: 14px;
+              text-transform: uppercase;
+            }
+            .address {
+              color: #f8cfa3;
+              font-size: 14px;
+            }
+          }
+        }
+        &:after {
+          content: '';
+          position: relative;
+          clear: both;
+        }
+      }
+    }
+  }
+}
 .products{
   &__bg-header{
     background: url('../images/products/products_header.png') no-repeat center;
