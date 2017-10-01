@@ -1,0 +1,161 @@
+.foodcourt{
+
+  &__bg-header{
+    background: url('../images/foodcourt/header_foodcourt.png') no-repeat center;
+    background-size: cover;
+    height: 490px;
+    margin: 0 -15px;
+    margin-bottom: 55px;
+  }
+
+  &__b-article-1{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-right: 30px;
+
+    @media (max-width: 767px){
+      margin-bottom: 20px;
+      padding-right: 0px
+    }
+  }
+
+  &__b-article-2{
+    margin-top: 60px;
+    margin-bottom: 100px;
+
+    @media (max-width: 767px){
+      margin-bottom: 20px;
+    }
+  }
+
+  &__b-article-3{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    padding-right: 30px;
+
+    @media (max-width: 767px){
+      margin-bottom: 20px;
+      padding-right: 0px;
+    }
+
+    h1{
+      margin-bottom: 37px;
+      span{
+        color: #f8cfa3;
+      }
+    }
+  }
+
+  &__figure{
+    position: relative;
+    display: block;
+    margin-bottom: 28px;
+    overflow: hidden;
+
+    &_img{
+
+      &--pinzeria{
+        background: url('../images/foodcourt/pinzeria.png') no-repeat center;
+        height: 430px;
+        background-size: cover;
+      }
+
+      &--mitzva{
+        background: url('../images/foodcourt/mitzva.png') no-repeat center;
+        height: 210px;
+        background-size: cover;
+      }
+
+      &--vanil{
+        background: url('../images/foodcourt/vanilla_ice_cream.png') no-repeat center;
+        height: 275px;
+        background-size: cover;
+      }
+
+      &--rubasuchi{
+        background: url('../images/foodcourt/rubasuchi.png') no-repeat center;
+        height: 403px;
+        background-size: cover;
+      }
+
+      &--phopho{
+        background: url('../images/foodcourt/phopho.png') no-repeat center;
+        height: 210px;
+        background-size: cover;
+      }
+
+      &--cocomaniaco{
+        background: url('../images/foodcourt/cocomaniaco.png') no-repeat center;
+        height: 237px;
+        background-size: cover;
+      }
+
+      &--plov{
+        background: url('../images/foodcourt/plov.png') no-repeat center;
+        height: 256px;
+        background-size: cover;
+      }
+
+      &--ojaxuri{
+        background: url('../images/foodcourt/ojaxuri.png') no-repeat center;
+        height: 323px;
+        background-size: cover;
+      }
+    }
+
+    h1{
+      position: absolute;
+      bottom: 45px;
+      left: 45px;
+
+      @media (max-width: 500px){
+        left: 15px;
+      }
+    }
+
+    &-right{
+      h1{
+        bottom: 32px;
+        left: 32px;
+        @media (max-width: 500px){
+          left: 15px;
+        }
+
+      }
+    }
+  }
+
+  &__text-p-20{
+    font-size: 20px;
+    line-height: 32px;
+    text-align: left;
+    color: #baa79c;
+  }
+
+  &__text-p-16{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #baa79c;
+    margin-top: 20px;
+
+    @media (max-width: 767px){
+      padding-left: 0;
+      margin-top: 0px;
+    }
+  }
+
+  &__text-p-18{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #baa79c;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    @media (max-width: 767px){
+      padding-left: 0;
+      padding-top: 0px;
+    }
+  }
+}
