@@ -1,0 +1,26 @@
+﻿body 
+{
+    
+}
+.header-elem 
+{
+    background: #A0A0A0;
+    float: left;
+}
+.header-elem.selected 
+{
+    background: #FFFFFF;
+}
+.header-elem:hover
+{
+    background: #FF0000;
+}
+.content-elem
+{
+    clear:both;
+    display:none;
+}
+.content-elem.selected 
+{
+    display:block;
+}
