@@ -28,11 +28,15 @@ function Mediator() {
     
     // about data
     var DATA_TYPES = {};
-    this.sendData = function() {};
-    this.getData = function() {};
+    this.sendData = function() {
+    	//...
+    };
+    this.getData = function() {
+    	//...
+    };
     
     function init() {
-    	for (var key in TYPES) {
+    	for (var key in EVENT_TYPES) {
     		events[EVENT_TYPES[key]] = [];
     	}
     }
