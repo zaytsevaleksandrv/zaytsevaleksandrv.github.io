@@ -1,0 +1,54 @@
+.dostavka {
+  h1 {
+    padding-bottom: 14px;
+    position: relative;
+    top: -15px;
+  }
+
+  &__bg {
+    background: url('../images/dostavka/bg.png') no-repeat top center;
+    background-size: auto;
+    height: auto;
+    margin-top: 34px;
+    min-height: 647px;
+    // margin-left: -51px;
+    // margin-right: -51px;
+    margin-bottom: 0;
+    z-index: 1;
+    width: 100%;
+    -webkit-box-shadow: inset 0 -40px 38px 0 rgba(0,0,0,0.5);
+    box-shadow: inset 0 -40px 38px 0 rgba(0,0,0,0.5);
+    @media (max-width: 1199px) {
+      margin-bottom: 0;
+      height: auto;
+    }
+    @media (max-width: 767px) {
+      margin-bottom: 50px;
+    }
+
+    &_h4 {
+      margin-bottom: 416px;
+    }
+  }
+
+  &__main {
+    h4 {
+      font-family: 'Geometria-Bold', sans-serif;
+      margin-bottom: 21px;
+    }
+
+    h3 {
+      font-family: 'Geometria-Bold', sans-serif;
+      color: #e84e1c;
+      margin-bottom: 42px;
+    }
+
+    .text-p-20 {
+      margin-bottom: 220px;
+    }
+  }
+
+  footer {
+    top: 0;
+  }
+}
