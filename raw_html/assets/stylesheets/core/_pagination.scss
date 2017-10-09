@@ -1,0 +1,61 @@
+.pagination {
+    min-height: 30px;
+    width: 100%;
+    margin-top: 50px;
+    .pagination__holder {
+        max-width: 350px;
+        margin: 0 auto;
+        display: table;
+        a {
+            cursor: pointer;
+            margin: 0 7px;
+            color: $color-darkBlue;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 40px;
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            text-decoration: none;
+        }
+        a:hover {
+            background-color: $color-darkBlue;
+            color: $color-white;
+        }
+        .jp-previous {
+            display: none;
+        }
+        .jp-next {
+            display: none;
+        }
+        .jp-current,
+        .jp-current:hover {
+            background-color: $color-pink;
+            color: $color-white;
+        }
+        .jp-disabled,
+        .jp-disabled:hover {
+            visibility: hidden;
+        }
+        .jp-current,
+        .jp-current:hover,
+        .jp-disabled,
+        .jp-disabled:hover {
+            background-color: $color-pink;
+            color: $color-white;
+        }
+        span {
+            margin: 0 5px;
+            color: $color-darkBlue;
+        }
+    }
+    @media (max-width: 768px) {
+        .pagination__holder {
+            a {
+                margin: 0 5px;
+            }
+        }
+    }
+}

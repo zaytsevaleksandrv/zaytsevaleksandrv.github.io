@@ -1,0 +1,267 @@
+@media (min-width: 1200px) {
+    .container-large {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .rotate-title {
+        writing-mode: vertical-rl;
+        @include transform(rotate(-180deg));
+    }
+}
+
+.events {
+    min-width: 350px;
+    .days-wrap {
+        height: 100%;
+        width: 100%;
+        display: table;
+        table-layout: fixed;
+    }
+    .header1.rotate {
+        margin-top: 155px;
+    }
+    .schedule {
+        @include clearfix;
+        line-height: 24px;
+        color: $color-darkBlue;
+        &__title-column {
+            line-height: initial;
+        }
+        &__medals,
+        &__scroll-container,
+        &__first-column {
+            padding: 0;
+        }
+        &__scroll-container {
+            height: 100%;
+        }
+        &__column {
+            height: 100%;
+            display: table-cell;
+        }
+        &__day .holder {
+            height: 24px;
+        }
+        .day .holder,
+        .medals .holder {
+            height: 24px;
+        }
+        &__first-column {
+            padding-left: 10px;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            float: left;
+            .schedule__row {
+                overflow: hidden;
+                position: relative;
+                text-align: left;
+                padding-left: 30px;
+                span {
+                    white-space: nowrap;
+                }
+            }
+            @media (max-width: 767px) {
+                .schedule__row {
+                    padding-left: 10px;
+                }
+            }
+            .schedule__row:after {
+                position: absolute;
+                content: '';
+                width: 50px;
+                height: 100%;
+                right: 0;
+                top: 0;
+                @include gradient-horizontal(rgba(255, 255, 255, 0.4), $color-white, 40%, 100%);
+            }
+            @media (max-width: 767px) {
+                .schedule__row:after {
+                    width: 20px;
+                }
+            }
+            .schedule__row:nth-child(2n + 3):after {
+                @include gradient-horizontal(rgba(229, 244, 252, 0.4), #e5f4fc, 40%, 100%);
+            }
+            &__numbering-days {
+                color: $color-pink;
+                font-size: 16px;
+                font-weight: 300;
+            }
+            &__total {
+                font-weight: 700;
+            }
+            .schedule__heading-month {
+                font-size: 44px;
+                font-weight: 100;
+                padding: 30px;
+            }
+            @media (max-width: 767px) {
+                .schedule__row {
+                    padding-left: 10px;
+                }
+            }
+        }
+        &__numbering-days {
+            color: $color-pink;
+            font-size: 18px;
+            font-weight: 700;
+        }
+        &__row {
+            padding: 10px;
+            text-align: center;
+            &:nth-child(2n + 3) {
+                background-color: #e5f4fc;
+            }
+            &+.schedule__row__star-holder {
+                background: $color-yellow url("../images/events/icon-star.png") no-repeat 50%;
+            }
+            &+.schedule__competition-holder {
+                background-color: $color-darkBlue;
+                .holder {
+                    display: inline-block;
+                    background-color: #fff;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                }
+            }
+            &+.schedule__final-holder {
+                background-color: $color-pink;
+                color: $color-white;
+                font-weight: 700;
+            }
+        }
+        &__day {
+            width: 50px;
+            .row-title {
+                padding: 18px 0px;
+                span {
+                    display: block;
+                }
+            }
+            &__total {
+                font-weight: 700;
+            }
+            &:not(.empty):hover {
+                position: relative;
+                @include box-shadow(0px,
+                34px,
+                54px,
+                -2px,
+                rgba(21, 125, 193, 0.3));
+                .row-title {
+                    color: $color-white;
+                    font-weight: 700;
+                    padding: 17px 0 0 0;
+                    .marker {
+                        background: url("../images/events/events-active-day.png") no-repeat 50%;
+                        height: 67px;
+                        min-width: 50px;
+                        max-width: 56px;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+        &__medals {
+            width: 84px;
+            .schedule__day__total {
+                font-weight: 900;
+                font-size: 26px;
+            }
+            .schedule__row {
+                text-align: right;
+                padding-right: 20px;
+                font-weight: 700;
+            }
+            .row-title {
+                font-weight: 400;
+            }
+            &__icons {
+                height: 83px;
+                padding: 18px 20px 0 0;
+                &__medal {
+                    float: right;
+                    width: 22px;
+                    height: 22px;
+                    border-radius: 50%;
+                    border: 1px solid $color-white;
+                    background-color: $color-yellow;
+                }
+                .gold {
+                    margin-right: -5px;
+                }
+                .silver {
+                    background-color: $color-silver;
+                    margin-right: -5px;
+                }
+                .bronze {
+                    background-color: $color-bronze;
+                }
+            }
+        }
+        &__date_active {
+            position: relative;
+            box-shadow: 0px 34px 54px -2px rgba(21, 125, 193, 0.3);
+            -moz-box-shadow: 0px 34px 54px -2px rgba(21, 125, 193, 0.3);
+            -webkit-box-shadow: 0px 34px 54px -2px rgba(21, 125, 193, 0.3);
+            .row-title {
+                color: $color-white;
+                font-weight: 700;
+                padding: 17px 0 0 0;
+            }
+            &__marker {
+                background: url("../images/events/events-active-day.png") no-repeat 50%;
+                height: 67px;
+                min-width: 50px;
+                max-width: 56px;
+                margin: 0 auto;
+            }
+        }
+        .empty {
+            .row-title,
+            .schedule__numbering-days {
+                color: transparent;
+            }
+        }
+    }
+    .legend-holder {
+        overflow: hidden;
+        padding: 0;
+        &__list {
+            list-style: none;
+            margin-top: 50px;
+            padding: 0;
+            float: left;
+            li {
+                display: inline-block;
+                vertical-align: middle;
+                margin: 2px 30px 0 0;
+            }
+            &__legend {
+                display: inline-block;
+                vertical-align: middle;
+                width: 15px;
+                height: 10px;
+            }
+            .row-yellow {
+                background: $color-yellow;
+            }
+            .row-blue {
+                background: $color-darkBlue;
+            }
+            .row-pink {
+                background: $color-pink;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .legend-holder {
+            padding: 0;
+        }
+    }
+}

@@ -1,0 +1,109 @@
+@media (min-width: 1200px) {
+    .volunteer-of-the-month-banner-text {
+        font: 32.4px/32.4px 'PFAgoraSansPro', Arial, sans-serif!important;
+        font-weight: 500!important;
+    }
+}
+
+.big-banner,
+.big-banner__text,
+.single-banner,
+.banner-ski,
+.white-banner-volonter,
+.blue-banner-volonter,
+.volunteer-of-the-month-banner-volonter,
+.double-banner,
+.white-banner-volonter img,
+.blue-banner-volonter img,
+.volunteer-of-the-month-banner-volonter img {
+    padding: 0;
+}
+
+
+/*-----------Блок_ski_баннера------------*/
+
+.banner-ski {
+    margin: 40px 0;
+}
+
+
+/*-----------Блок_с_отступами------------*/
+
+.banner-margin-bottom,
+.banner-margin-all {
+    margin-bottom: 44px;
+}
+
+.banner-margin-top {
+    margin-top: 40px;
+}
+
+.banner-margin-all {
+    margin-top: 40px;
+}
+
+
+/*-----------------------------*/
+
+.white-banner,
+.blue-banner,
+.double-banner,
+.volunteer-of-the-month-banner {
+    background-size: cover;
+}
+
+.white-banner-volonter,
+.blue-banner-volonter,
+.volunteer-of-the-month-banner-volonter {
+    margin: 0 auto;
+    float: none!important;
+}
+
+.white-banner {
+    background-image: url("../images/core/banners/white-banner.svg");
+}
+
+.blue-banner {
+    background-image: url("../images/core/banners/blue-banner.svg");
+}
+
+.volunteer-of-the-month-banner {
+    background-image: url("../images/core/banners/volunteer-of-the-month-banner.svg");
+}
+
+.volunteer-of-the-month-banner-text {
+    display: block;
+    font: 2.7vw/2.7vw 'PFAgoraSansPro', Arial, sans-serif;
+    position: absolute;
+    color: $color-white;
+    width: 100%;
+    top: 40%;
+    font-weight: 500;
+    right: 0;
+}
+
+.volunteer-of-the-month-banner-text div {
+    display: inline-block;
+    &:first-child {
+        float: left;
+        margin-left: 7%;
+    }
+    &:last-child {
+        float: right;
+        margin-right: 7%;
+    }
+}
+
+
+/*-----------------------------*/
+
+.double-banner {
+    background-image: url("../images/core/banners/double-banner.svg");
+    max-height: 150px;
+}
+
+.double-banner-volonter {
+    margin: 0 auto;
+    float: right !important;
+    max-height: 150px;
+}

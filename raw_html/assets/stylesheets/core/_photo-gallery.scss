@@ -1,0 +1,645 @@
+    /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+    
+    .fancybox-wrap,
+    .fancybox-skin,
+    .fancybox-outer,
+    .fancybox-inner,
+    .fancybox-image,
+    .fancybox-wrap iframe,
+    .fancybox-wrap object,
+    .fancybox-nav,
+    .fancybox-nav span,
+    .fancybox-tmp {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: none;
+        vertical-align: top;
+    }
+    
+    .fancybox-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 8020;
+    }
+    
+    .fancybox-skin {
+        position: relative;
+        color: #fff;
+        text-shadow: none;
+    }
+    
+    .fancybox-opened {
+        z-index: 8030;
+    }
+    
+    .fancybox-outer,
+    .fancybox-inner {
+        position: relative;
+    }
+    
+    .fancybox-inner {
+        overflow: hidden;
+    }
+    
+    .fancybox-type-iframe .fancybox-inner {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .fancybox-error {
+        color: #444;
+        font-family: PFAgoraSansPro;
+        margin: 0;
+        padding: 15px;
+        white-space: nowrap;
+    }
+    
+    .fancybox-image,
+    .fancybox-iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .fancybox-image {
+        //max-width: 670px!important;
+        max-height: 100%;
+        //margin: 0 auto!important;
+    }
+    
+    #fancybox-loading {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -22px;
+        margin-left: -22px;
+        background-position: 0 -108px;
+        opacity: 0.8;
+        cursor: pointer;
+        z-index: 8060;
+    }
+    
+    #fancybox-loading div {
+        width: 44px;
+        height: 44px;
+        background: url('../images/fancybox/fancybox_loading.gif') center center no-repeat;
+    }
+    
+    .fancybox-nav {
+        position: absolute;
+        top: 50%;
+        background: url(../images/fancybox/btns.png) no-repeat;
+        width: 32px;
+        height: 64px;
+        margin-top: -32px;
+    }
+    
+    .fancybox-prev {
+        left: -70px;
+        background-position: 0 -120px;
+    }
+    
+    .fancybox-next {
+        right: -70px;
+        background-position: -32px -120px;
+    }
+    
+    .fancybox-prev:hover {
+        background-position: -64px -120px;
+    }
+    
+    .fancybox-next:hover {
+        background-position: -96px -120px;
+    }
+    
+    .fancybox-tmp {
+        position: absolute;
+        top: -99999px;
+        left: -99999px;
+        visibility: hidden;
+        max-width: 99999px;
+        max-height: 99999px;
+        overflow: visible !important;
+    }
+    /* Overlay helper */
+    
+    .fancybox-lock {
+        overflow: hidden !important;
+        width: auto;
+    }
+    
+    .fancybox-lock body {
+        overflow: hidden !important;
+    }
+    
+    .fancybox-lock-test {
+        overflow-y: hidden !important;
+    }
+    
+    .fancybox-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        display: none;
+        z-index: 8010;
+        background: url('../images/fancybox/overlay-new.png');
+    }
+    
+    .fancybox-overlay-fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .fancybox-lock .fancybox-overlay {
+        overflow: auto;
+        overflow-y: scroll;
+    }
+    /* Title helper */
+    
+    .fancybox-title {
+        visibility: hidden;
+        position: relative;
+        text-shadow: none;
+        z-index: 8050;
+    }
+    
+    .fancybox-opened .fancybox-title {
+        visibility: visible;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .fancybox-title-float-wrap {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        margin-bottom: -35px;
+        z-index: 8050;
+        text-align: center;
+    }
+    
+    .fancybox-title-float-wrap .child {
+        display: inline-block;
+        margin-right: -100%;
+        padding: 2px 20px;
+        background: transparent;
+        /* Fallback for web browsers that doesn't support RGBa */
+        background: rgba(0, 0, 0, 0.8);
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        text-shadow: 0 1px 2px #222;
+        color: #FFF;
+        font-weight: bold;
+        line-height: 24px;
+        white-space: nowrap;
+    }
+    
+    .fancybox-title-outside-wrap {
+        padding: 0 0 5px;
+        color: #fff;
+    }
+    
+    .fancy-links {
+        position: absolute;
+        bottom: 14px;
+        width: 100%;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center;
+        z-index: 99999;
+        padding: 0;
+        margin-left: -5px;
+    }
+    
+    .fancy-links li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+    }
+    
+    .fancy-links li label {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    
+    .fancy-links li.active label {
+        background: #e6007c;
+    }
+    
+    .expander {
+        position: absolute;
+        right: -74px;
+        top: 71px;
+        width: 60px;
+        height: 60px;
+        background: url(../images/fancybox/btns.png) no-repeat;
+        z-index: 99999;
+        cursor: pointer;
+    }
+    
+    .expander:hover {
+        background-position: 0 -60px;
+    }
+    /* Fancybox styles */
+    
+    .fancybox-wrap,
+    .fancybox-skin,
+    .fancybox-outer,
+    .fancybox-inner,
+    .fancybox-image,
+    .fancybox-wrap iframe,
+    .fancybox-wrap object,
+    .fancybox-nav,
+    .fancybox-nav span,
+    .fancybox-tmp {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        outline: none;
+        vertical-align: top;
+    }
+    
+    .fancybox-wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 8020;
+        max-width: 1100px;
+    }
+    
+    .fancybox-inner {
+        max-width: 1100px;
+    }
+    
+    .fancybox-skin {
+        position: relative;
+        color: #fff;
+        text-shadow: none;
+    }
+    
+    .fancybox-opened {
+        z-index: 8030;
+    }
+    
+    .fancybox-outer,
+    .fancybox-inner {
+        position: relative;
+    }
+    
+    .fancybox-inner {
+        overflow: hidden;
+        padding-bottom: 25px;
+    }
+    
+    .fancybox-type-iframe .fancybox-inner {
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .fancybox-error {
+        color: #444;
+        font-family: PFAgoraSansPro;
+        margin: 0;
+        padding: 15px;
+        white-space: nowrap;
+    }
+    
+    .fancybox-image,
+    .fancybox-iframe {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .fancybox-image {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    #fancybox-loading {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -22px;
+        margin-left: -22px;
+        background-position: 0 -108px;
+        opacity: 0.8;
+        cursor: pointer;
+        z-index: 8060;
+    }
+    
+    #fancybox-loading div {
+        width: 44px;
+        height: 44px;
+        background: url('../images/fancybox/fancybox_loading.gif') center center no-repeat;
+    }
+    
+    .fancybox-close {
+        position: absolute;
+        top: 0;
+        right: -74px;
+        width: 60px;
+        height: 60px;
+        background-image: url(../images/fancybox/btns.png) no-repeat 0 0;
+        background-color: #007ac2;
+        cursor: pointer;
+        z-index: 8040;
+    }
+    
+    .fancybox-close:hover {
+        background-position: 0 0;
+        background-color: #009cde;
+    }
+    
+    .fancybox-nav {
+        position: absolute;
+        top: 50%;
+        background: url(../images/fancybox/btns.png) no-repeat;
+        width: 32px;
+        height: 64px;
+        margin-top: -32px;
+    }
+    
+    .fancybox-prev {
+        left: -70px;
+        background-position: 0 -210px;
+    }
+    
+    .fancybox-next {
+        right: -70px;
+        background-position: -32px -120px;
+    }
+    
+    .fancybox-prev:hover {
+        background-position: -64px -120px;
+    }
+    
+    .fancybox-next:hover {
+        background-position: -96px -120px;
+    }
+    
+    .fancybox-tmp {
+        position: absolute;
+        top: -99999px;
+        left: -99999px;
+        visibility: hidden;
+        max-width: 99999px;
+        max-height: 99999px;
+        overflow: visible !important;
+    }
+    /* Overlay helper */
+    
+    .fancybox-lock {
+        overflow: hidden !important;
+        width: auto;
+    }
+    
+    .fancybox-lock body {
+        overflow: hidden !important;
+    }
+    
+    .fancybox-lock-test {
+        overflow-y: hidden !important;
+    }
+    
+    .fancybox-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        display: none;
+        z-index: 8010;
+        background: url('../images/fancybox/overlay-new.png');
+    }
+    
+    .fancybox-overlay-fixed {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .fancybox-lock .fancybox-overlay {
+        overflow: auto;
+        overflow-y: scroll;
+    }
+    /* Title helper */
+    
+    .fancybox-title {
+        visibility: hidden;
+        font-family: PFAgoraSansPro;
+        position: relative;
+        text-shadow: none;
+        z-index: 8050;
+    }
+    
+    .fancybox-opened .fancybox-title {
+        visibility: visible;
+    }
+    
+    .fancybox-title-outside-wrap {
+        padding: 0 0 5px;
+        color: #fff;
+    }
+    
+    .fancy-links {
+        position: absolute;
+        bottom: 14px;
+        width: 100%;
+        padding-top: 10px;
+        list-style: none;
+        text-align: center;
+        z-index: 99999;
+    }
+    
+    .fancy-links li {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 5px;
+    }
+    
+    .fancy-links li label {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #fff;
+        cursor: pointer;
+    }
+    
+    .fancy-links li.active label {
+        background: $color-darkBlue;
+    }
+    
+    .fancy-links li:hover label {
+        background: $color-darkBlue;
+    }
+    
+    .expander {
+        position: absolute;
+        right: -74px;
+        top: 71px;
+        width: 60px;
+        height: 60px;
+        background: url(../images/fancybox/btns.png) no-repeat;
+        z-index: 99999;
+        cursor: pointer;
+    }
+    
+    .expander:hover {
+        background-position: 0 -60px;
+    }
+    /* Fancybox styles end */
+    /* Fancybox masters styles start */
+    
+    .photo-album .fancybox-opened .fancybox-title {
+        text-align: center;
+    }
+    
+    .photo-album .fancybox-close,
+    .photo-album .expander,
+    .photo-album .fancybox-nav {
+        background-image: url(../images/fancybox/btns.png);
+        background-color: #007ac2;
+    }
+    
+    .photo-album .fancybox-close:hover,
+    .photo-album .expander:hover,
+    .photo-album .fancybox-nav:hover {
+        background-image: url(../images/fancybox/btns.png);
+        background-color: #009cde;
+    }
+    
+    .photo-album .expander {
+        background-position: 0 -70px;
+    }
+    
+    .photo-album .expander:hover {
+        background-color: #009cde;
+    }
+    
+    .photo-album .fancybox-nav {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .photo-album .fancybox-next {
+        background-position: 0px -140px;
+    }
+    
+    .photo-album .fancybox-prev:hover {
+        background-position: 0 -210px;
+        background-color: #009cde;
+    }
+    
+    .photo-album .fancybox-next:hover {
+        background-position: 0px -140px;
+        background-color: #009cde;
+    }
+    
+    .photo-album .fancybox-close,
+    .photo-album .expander,
+    .photo-album .fancybox-nav {
+        margin-top: 0;
+        top: auto;
+        bottom: 15px;
+        right: auto;
+        /*left: 50%;*/
+    }
+    
+    .photo-album .fancybox-close,
+    .photo-album .expander,
+    .photo-album .fancybox-nav {
+        left: 50%;
+    }
+    
+    .photo-album .fancybox-prev {
+        margin-left: calc(100% - 133%);
+        position: absolute;
+        top: 50%;
+    }
+    
+    .photo-album .fancybox-next {
+        margin-left: calc(100% - 70%);
+        right: auto;
+        position: absolute;
+        top: 50%;
+    }
+    
+    .photo-album .expander {
+        margin-left: -30px;
+        top: auto;
+        right: auto;
+    }
+    
+    .photo-album .fancybox-close {
+        margin-left: calc(100% - 70%);
+        right: auto;
+        position: absolute;
+        top: 7%;
+    }
+    
+    .photo-album .fancy-links {
+        bottom: 95px;
+    }
+    
+    .photo-album .fancy-links li label {
+        font-size: 16px;
+        border: 0 none;
+        color: #fff;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    
+    .photo-album .fancy-links li.active label {
+        color: #fff;
+    }
+    
+    @media all and (min-width: 0px) and (max-width: 1200px) {
+        .photo-album .fancybox-close,
+        .photo-album .expander,
+        .photo-album .fancybox-nav {
+            left: 50%;
+        }
+        .photo-album .fancybox-prev {
+            margin-left: -140px;
+            top: auto;
+        }
+        .photo-album .fancybox-next {
+            margin-left: -70px;
+            top: auto;
+            right: auto;
+        }
+        .photo-album .expander {
+            margin-left: 0px;
+            top: auto;
+            right: auto;
+        }
+        .photo-album .fancybox-close {
+            margin-left: 70px;
+            top: auto;
+            right: auto;
+        }
+    }
+    
+    @media all and (min-width:1200px) and (max-width:1799px) {
+        .photo-album .fancybox-prev {
+            margin-left: calc(100% - 145%)!important;
+        }
+        .photo-album .fancybox-next {
+            margin-left: calc(100% - 60%)!important;
+        }
+        .photo-album .fancybox-close {
+            margin-left: calc(100% - 60%)!important;
+        }
+    }
+    /* Fancybox masters styles end */

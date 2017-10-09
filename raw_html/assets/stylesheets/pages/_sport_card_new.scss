@@ -1,0 +1,234 @@
+.sport-card-new {
+    h1 {
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 32px;
+        color: $color-navyBlue;
+        text-transform: uppercase;
+        padding: 0 0 14px 0;
+        margin: unset;
+        
+        @media (max-width: 768px){
+            font-size: 20px;
+            line-height: 26px;
+        }
+    }
+    ul {
+        margin: 0 0 30px;
+    }
+    .sport-card-new-image &__discipline {
+        li {
+            padding-left: 50px!important;
+        }
+        .man:before,
+        .woman:before,
+        .together:before {
+            content: '';
+            width: 20px;
+            height: 20px;
+            left: 0;
+            top: 0;
+            border-radius: 0;
+        }
+        .man {
+            &:before {
+                background-color: $color-navyBlue;
+            }
+        }
+        .woman {
+            &:before {
+                background-color: $color-pink;
+            }
+        }
+        .together {
+            &:before {
+                border-top: 20px solid $color-pink;
+                border-left: 20px solid transparent;
+            }
+        }
+    }
+    p {
+        color: $color-navyBlue;
+        margin-bottom: 30px;
+    }
+    &__sport-box {
+        position: relative;
+        padding-right: 40%;
+        &__type {
+            position: absolute;
+            top: -5px;
+            right: 0;
+            height: 300px;
+            width: 280px;
+        }
+        &__desc {
+            color: $color-navyBlue;
+            ul {
+                margin: 0 0 30px;
+                li {
+                    margin: 0;
+                }
+            }
+        }
+    }
+    &__documents {
+        margin: 20px 0 40px;
+        h3 {
+            margin: 0 0 30px;
+        }
+        a {
+            display: block;
+            background: url('../images/core/doc-ico.png') no-repeat;
+            min-height: 30px;
+            margin: 20px 0;
+            padding: 7px 0 0 40px;
+        }
+        a:hover {
+            background: url('../images/core/doc-ico-hover.png') no-repeat;
+            color: $color-pink;
+        }
+    }
+    &__sidebar {
+        &__sport {
+            width: 50px;
+            height: 50px;
+            float: right;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__left {
+            img {
+                margin-top: -210px;
+                margin-left: -45px;
+                width: 205px;
+                height: 120px;
+            }
+        }
+        &__right {
+            img {
+                width: 205px;
+                height: 120px;
+                margin-left: 15px;
+                @include transform(scale(1,
+                -1));
+            }
+        }
+    }
+    &__wrapp-images {
+        max-height: 260px;
+        max-width: 540px;
+        min-width: 190px;
+        overflow: scroll;
+        margin: 65px auto 65px -30px;
+        .sport-card-images {
+            padding: 20px 20px 20px 30px;
+            img {
+                height: 100%;
+                @include transition(all 0.3s ease 0s);
+                margin: 0px 25px 22px 0;
+            }
+            img:hover {
+                box-shadow: 0 0px 33px 0 rgba(0, 0, 0, 0.15);
+                @include transform(scale(1.07,
+                1.07));
+            }
+        }
+    }
+    &__image {
+        margin-bottom: 35px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__back-and-share {
+        a {
+            font-size: 16px;
+        }
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .sport-card {
+        .header {
+            margin: 70px 10px;
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 992px) {
+    .sport-card {
+        .mobil-hide {
+            display: none;
+        }
+        .sport-card-image {
+            text-align: center;
+        }
+        &__desc {
+            padding: 15px 0 20px;
+            color: $color-navyBlue;
+        }
+        &__content {
+            max-width: 540px;
+            margin: 0 auto;
+        }
+        .interesting-fact {
+            margin: 50px auto;
+            max-width: 540px;
+            .slick-dots {
+                max-width: 200px;
+            }
+            &__text {
+                max-width: 500px;
+            }
+        }
+    }
+}
+
+@media all and (min-width:768px) and (max-width:991px) {
+    .sport-card {
+        .interesting-fact {
+            .slick-arrow {
+                top: 164px;
+                left: 433px;
+            }
+            .slider-counter {
+                margin-left: 375px;
+            }
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width:768px) {
+    .sport-card {
+        &__wrapp-images {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (max-width:425px) {
+    .sport-card {
+        &__wrapp-images {
+            width: 190px;
+            margin: 35px auto;
+        }
+        .interesting-fact {
+            padding: 24px;
+            .slick-dots {
+                max-width: 100px;
+            }
+            .slick-arrow {
+                top: 164px;
+                left: 193px;
+            }
+            .slider-counter {
+                margin-left: 130px;
+            }
+        }
+    }
+}

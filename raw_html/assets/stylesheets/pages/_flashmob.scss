@@ -1,0 +1,212 @@
+.flashmob {
+    &__content {
+        padding: 0 0 30px;
+        border-bottom: 1px solid #71c5e8;
+        margin-bottom: 30px;
+        img {
+            width: 100%;
+        }
+        &__image {
+            margin-bottom: 35px;
+        }
+        &__desc {
+            padding: 0px 0 30px!important;
+            color: $color-navyBlue;
+            p {
+                i {
+                    font-style: italic;
+                }
+            }
+            &__warning {
+                margin-top: 22px;
+            }
+            ul {
+                font-style: italic;
+                list-style-type: none;
+                padding: 0;
+                li {
+                    margin: 0 0 10px;
+                    padding-left: 25px;
+                    position: relative;
+                }
+                li:before {
+                    content: "";
+                    display: block;
+                    width: 8px;
+                    height: 8px;
+                    position: absolute;
+                    left: 0;
+                    top: 6px;
+                    border-radius: 100%;
+                    background-color: currentColor;
+                }
+            }
+        }
+        &__form-box {
+            color: $color-navyBlue;
+            margin-bottom: 35px;
+            &__label {
+                min-width: 36%;
+                display: inline-block;
+                label {
+                    font-weight: 400;
+                    margin: 0;
+                }
+            }
+            &__input {
+                width: 63%;
+                display: inline-block;
+                input {
+                    width: 100%;
+                    border: none;
+                    border-bottom: 1px solid $color-navyBlue;
+                    outline: none;
+                    padding-bottom: 8px;
+                }
+            }
+            .date-input {
+                p {
+                    font-style: italic;
+                    margin-top: 8px;
+                    font-size: 15px;
+                    padding: 0;
+                }
+                .flashmob__content__form-box__label {
+                    vertical-align: top;
+                }
+                .flashmob__content__form-box__input {
+                    input::-webkit-input-placeholder {
+                        font-style: italic;
+                        color: #a3c3e2;
+                    }
+                    input::-moz-placeholder {
+                        font-style: italic;
+                        color: #a3c3e2;
+                    }
+                    input:-moz-placeholder {
+                        font-style: italic;
+                        color: #a3c3e2;
+                    }
+                    input:-ms-input-placeholder {
+                        font-style: italic;
+                        color: #a3c3e2;
+                    }
+                    input {
+                        width: 44%!important;
+                    }
+                }
+            }
+            &__agreenment {
+                font-size: 18px;
+                color: $color-navyBlue;
+                position: relative;
+                margin-bottom: 30px;
+                &__text {
+                    margin-right: 10px;
+                }
+                label {
+                    font-weight: 400;
+                    margin-left: 30px;
+                    margin-bottom: 0;
+                    &:before {
+                        content: '';
+                        height: 20px;
+                        width: 20px;
+                        border-radius: 3px;
+                        border: 1px solid $color-pink;
+                        position: absolute;
+                        left: 0;
+                        cursor: pointer;
+                    }
+                }
+                input[type="checkbox"]:checked+label:before {
+                    content: "";
+                    background: url('../images/core/checkbox-ico.png') no-repeat;
+                    background-position: center;
+                    position: absolute;
+                    left: 0px;
+                    padding: 2px 0 0 2px;
+                }
+            }
+            &__captcha {
+                margin-bottom: 40px;
+            }
+        }
+    }
+    .button-wrap {
+        text-align: right;
+        position: relative;
+        padding: 0;
+        button {
+            padding: 10px 25px;
+            vertical-align: middle;
+            height: auto;
+        }
+        .error-message {
+            display: none;
+            margin-bottom: 0px;
+            font-weight: normal;
+            font-style: italic;
+            font-size: 16px;
+        }
+        .success-message {
+            margin-bottom: 0px;
+            max-width: 350px;
+            float: left;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: italic;
+            text-align: left;
+        }
+        .error-message {
+            color: #d9534f;
+        }
+        .success-message {
+            color: $color-navyBlue;
+        }
+    }
+    .button-valid-success {
+        margin-top: 15px;
+        color: $color-navyBlue;
+        display: none;
+    }
+    .share-icon {
+        cursor: pointer;
+        float: right;
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 992px) {
+    .flashmob {
+        .mobil-hide {
+            display: none;
+        }
+        .flashmob-image {
+            text-align: center;
+        }
+        &__desc {
+            padding: 15px 0 20px;
+            color: $color-navyBlue;
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 767px) {
+    .flashmob {
+        .button-wrap button {
+            margin: 30px auto 0;
+            width: 100%;
+        }
+        &__content {
+            &__form-box {
+                &__label {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+                &__input {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

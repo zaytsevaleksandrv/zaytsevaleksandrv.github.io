@@ -1,0 +1,170 @@
+/*--------------------------БЛОК_ФУТЕР-------------------------------------*/
+
+.footer-vol {
+    background: url(../images/article/footer-bg.svg) no-repeat;
+    background-size: cover;
+    height: 480px;
+    background-position: 0 77%;
+    &__menu {
+        padding-top: 235px;
+        .menu-box {
+            padding: 0;
+            margin-bottom: 50px;
+            &__nav {
+                text-align: center;
+                &__item {
+                    display: inline-block;
+                    padding: 3px 10px;
+                    a {
+                        @include transition(all 0.3s ease 0s);
+                        color: $color-white;
+                        cursor: pointer;
+                        font-size: 16px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                    }
+                    a:hover {
+                        color: $color-navyBlue;
+                    }
+                }
+            }
+        }
+    }
+    &__logo {
+        padding: 0;
+    }
+    &__social-buttons {
+        min-height: 40px;
+        padding: 0;
+        margin-left: 15px;
+        &__vk,
+        &__in {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+            padding: 7.5px;
+            background-size: cover;
+            background: #71c5e8;
+            margin: 0 5px;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        &__vk {
+            margin: 0 5px 0 0;
+        }
+        &__in {
+            margin: 0 0 0 5px;
+        }
+        &__vk:hover,
+        &__in:hover {
+            background-color: #007ac2;
+        }
+    }
+    &__info-box {
+        //margin-top: -250px;
+        padding: 20px 0;
+        &__social-networks {
+            text-align: right;
+            &__portal-button {
+                vertical-align: top;
+                display: inline-block;
+                a {
+                    @include transition(all 0.3s ease 0s);
+                    color: $color-white;
+                    cursor: pointer;
+                    font-size: 16px;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    display: inline-block;
+                    padding: 10px;
+                    height: 38px;
+                    text-align: center;
+                    margin-right: 5px;
+                    border: 1px solid $color-white;
+                }
+                a:hover {
+                    color: $color-navyBlue;
+                    border: 1px solid $color-navyBlue;
+                }
+            }
+            &__item {
+                cursor: pointer;
+                display: inline-block;
+                width: 39px;
+                height: 38px;
+                margin-right: 5px;
+                background: url(../images/core/social-icons.png) no-repeat -5px 0;
+                &.vk-icon {
+                    background-position-y: -293px;
+                }
+                &.inst-icon {
+                    background-position-y: -101px;
+                }
+                &:hover {
+                    &.vk-icon {
+                        background-position-y: -341px;
+                    }
+                    &.inst-icon {
+                        background-position-y: -149px;
+                    }
+                }
+            }
+        }
+        &__signature {
+            padding-top: 25px;
+            ;
+            color: $color-white;
+            font-size: 15px;
+        }
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+    .footer-vol {
+        background-position: 0 100%;
+        &__menu {
+            .menu-box {
+                display: none;
+            }
+        }
+        &__info-box {
+            &__social-networks,
+            &__signature {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+    .footer-vol {
+        &__info-box {
+            &__social-networks {
+                padding: 0;
+            }
+            &__signature {
+                padding-top: 20px;
+            }
+            &__social-networks,
+            &__signature {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 991px) and (max-width: 1200px) {
+    .footer-vol {
+        background-position: 0 95%;
+    }
+}
+
+@media all and (min-width: 1200px) and (max-width: 1500px) {
+    .footer-vol {
+        background-position: 0 85%;
+    }
+}

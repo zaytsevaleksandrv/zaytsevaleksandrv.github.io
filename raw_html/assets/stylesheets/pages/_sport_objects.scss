@@ -1,0 +1,155 @@
+.sport-objects{
+  padding-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+
+  .c-decoration-left {
+      height: 1214px;
+      width: 320px;
+      top: 0px;
+  }
+
+  .c-decoration-right {
+    height: 919px;
+    width: 265px;
+    top: 100px;
+  }
+
+  .nav-tabs > li{
+    padding: 0px 22px 6.5px 0px;
+  }
+
+  .nav-tabs > li > a {
+    cursor: pointer;
+    color: #007ac2 !important;
+    display: inline-block;
+    font: 16px/22px 'PFAgoraSansPro', Arial, sans-serif;
+    background: transparent;
+    border-radius: unset;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    top: -3px;
+    border: none;
+    letter-spacing: 0.8px;
+    border-bottom: 2px dashed transparent;
+
+    &:hover, &:focus, &:active{
+      background: transparent;
+      color: #e5007c !important;
+      border: unset;
+      box-shadow: unset;
+      border-bottom: 2px dashed #e5007c;
+      text-decoration: none;
+    }
+  }
+
+  .nav-tabs {
+    border-bottom: unset;
+    margin-bottom: 13px;
+
+    @media (max-width: 991px){
+      display: none;
+    }
+
+    .active{
+      a {
+        background: transparent;
+        color: #e5007c !important;
+        border: unset;
+        box-shadow: unset;
+      }
+    }
+  }
+
+  &__articles{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  &__select{
+    display: none;
+
+    @media (max-width: 991px){
+      display: block;
+      margin-bottom: 44px;
+    }
+  }
+
+  &__article{
+    padding: 29px 49px 54px 30px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: calc(50% - 20px);
+  
+    @media (max-width: 1199px){
+      margin-right: 0px;
+      width: calc(100%);
+    }
+
+    @media (max-width: 321px){
+       padding: 29px 49px 54px 20px;
+    }
+
+    &:hover{
+      box-shadow: 0px 20px 50px 0 rgba(0, 126, 197, 0.2); 
+    }
+
+    &_link{
+      display: block;
+    }
+  }
+
+  &__main{
+    display: flex;
+    margin-top: 2px;
+
+    @media (max-width: 767px){
+      flex-wrap: wrap;
+    }
+  }
+
+  &__info{
+    @media (max-width:710px){
+      margin-top: 22px;
+    }
+  }
+
+  &__figure{
+    margin-right: 37px;
+
+    img{
+      width: 218px;
+      height: 166px;
+    }
+  }
+
+  &__address{
+    margin-bottom: 9px;
+
+    p:last-child{
+      padding-bottom: 0;
+    }
+  }
+
+  &__type-of-sport{
+    display: flex;
+    margin-bottom: 19px;
+
+    img{
+      width: 40px;
+      height: 40px;
+    }
+
+    a{
+      margin-right: 15px;
+
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+  }
+}

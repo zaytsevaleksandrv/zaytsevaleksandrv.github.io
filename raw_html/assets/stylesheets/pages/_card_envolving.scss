@@ -1,0 +1,110 @@
+.card-envolving {
+    .breadcrumbs {
+        margin: 0 0 29px;
+    }
+    h3 {
+        color: $color-pink;
+    }
+    a {
+        color: $color-pink;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+            color: $color-fuchsia;
+        }
+    }
+    &__name {
+        font-weight: 500;
+        color: $color-navyBlue;
+        margin: 20px 0 0;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .tags {
+        display: block;
+        overflow: hidden;
+        zoom: 1;
+        font-style: italic;
+        color: $color-grey;
+        margin-top: 10px;
+    }
+    &__desc {
+        padding: 34px 0 0;
+        color: $color-navyBlue;
+    }
+    &__wrapp-images {
+        max-height: 260px;
+        max-width: 540px;
+        min-width: 190px;
+        overflow: scroll;
+        margin: 65px auto 65px -30px;
+        .card-envolving-images {
+            padding: 20px 20px 20px 30px;
+            img {
+                height: 100%;
+                @include transition(all 0.3s ease 0s);
+                margin: 0px 25px 22px 0;
+            }
+            img:hover {
+                box-shadow: 0 0px 33px 0 rgba(0, 0, 0, 0.15);
+                @include transform(scale(1.07, 1.07));
+            }
+        }
+    }
+    &-image {
+        img {
+            max-width: 540px;
+            max-height: 360px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .slider-counter__current-slide-item {
+        display: inline-block;
+        font-weight: normal;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1200px) {
+    .card-envolving {
+        .header {
+            margin: 70px 10px;
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 992px) {
+    .card-envolving {
+        .mobil-hide {
+            display: none;
+        }
+        .card-envolving-image {
+            text-align: center;
+        }
+        &__desc {
+            padding: 15px 0 20px;
+            color: $color-navyBlue;
+        }
+        &__content {
+            max-width: 540px;
+            margin: 0 auto;
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width:768px) {
+    .card-envolving {
+        &__wrapp-images {
+            width: 100%;
+        }
+    }
+}
+
+@media all and (max-width:425px) {
+    .card-envolving {
+        &__wrapp-images {
+            width: 190px;
+            margin: 35px auto;
+        }
+    }
+}

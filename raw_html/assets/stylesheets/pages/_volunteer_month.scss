@@ -1,0 +1,150 @@
+.volunteer-month {
+    h3 {
+        color: $color-pink;
+    }
+    .date-filter {
+        color: $color-navyBlue;
+        font-weight: 500;
+        padding: 0 15px;
+        &__years {
+            &__year {
+                display: inline-block;
+                font-size: 18px;
+                width: 65px;
+                margin: 5px 0 15px 0;
+                &:hover,
+                &.active {
+                    cursor: pointer;
+                    color: $color-pink;
+                }
+                &.disabled {
+                    color: $color-grey;
+                }
+            }
+        }
+        &__months {
+            margin-left: -13px;
+            &__month {
+                display: inline-block;
+                position: relative;
+                .number {
+                    line-height: 30px;
+                    font-size: 18px;
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin: 0px 3px;
+                }
+                .name {
+                    color: $color-pink;
+                    text-transform: uppercase;
+                    display: none;
+                    @include transition(all 0.3s ease 0s);
+                }
+                &:not(.disabled):not(.active):hover {
+                    cursor: pointer;
+                    .number {
+                        background-color: $color-darkBlue;
+                        color: $color-white;
+                    }
+                }
+                &.active {
+                    cursor: pointer;
+                    .number {
+                        background-color: $color-pink;
+                        color: $color-white;
+                    }
+                    .name {
+                        display: block;
+                        position: absolute;
+                        text-align: center;
+                        width: 200px;
+                        left: -83px;
+                    }
+                }
+                &.disabled {
+                    .number {
+                        color: $color-grey;
+                    }
+                }
+            }
+        }
+    }
+    &__photo {
+        margin: 5px -15px 0px -0px;
+        background-repeat: no-repeat;
+        height: 452px;
+    }
+    &__info {
+        padding: 0 15px;
+        h2 {
+            text-transform: capitalize;
+        }
+    }
+    &__desc {
+        margin-bottom: 35px;
+        div {
+            margin-bottom: 12px;
+        }
+        &__label {
+            font-weight: 500;
+            padding-right: 10px;
+        }
+    }
+    &__achievements {
+        margin-bottom: 35px;
+    }
+    &__interview {
+        color: $color-navyBlue;
+        margin-top: 50px;
+        .questions {
+            margin-top: 12px;
+            .question-item {
+                .answer {
+                    display: block;
+                    padding: 5px 10px 10px 25px;
+                    position: relative;
+                    &:before {
+                        content: "-";
+                        display: block;
+                        width: 8px;
+                        height: 8px;
+                        position: absolute;
+                        left: 0;
+                    }
+                }
+                .question {
+                    font-weight: 500;
+                    font-style: italic;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width:992px) {
+    .volunteer-month {
+        &__photo {
+            max-width: 550px;
+            max-height: 450px;
+            min-width: 350px;
+            min-height: 250px;
+            background-position: 0;
+            background-size: 100%;
+            margin: 0 0 10px 0px;
+            height: auto;
+        }
+        &__info {
+            padding: 0;
+        }
+        .date-filter {
+            padding: 0;
+            margin: 0 0 10px 45px;
+            &__months__month {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

@@ -1,0 +1,255 @@
+/*--------------------------БЛОК_ФУТЕР-------------------------------------*/
+
+.footer-bg {
+    background-color: #00ace9;
+}
+
+.footer-menu-bg {
+    background: url(../images/core/footer-bg-new1.svg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+    margin-top: -80px;
+    //background-position-y: 70%;
+}
+
+.footer {
+    &__menu {
+        .menu-box {
+            margin-top: -160px;
+            &__hide {
+                display: block;
+            }
+            &__nav {
+                //float: left;
+                //width: 10%;
+                max-width: 150px;
+                &:first-child {
+                    margin-left: -15px;
+                }
+                &:last-child {
+                    margin-right: -15px;
+                }
+                &__header {
+                    display: inline-block;
+                    padding: 10px 0;
+                    margin-bottom: 35px;
+                    a {
+                        color: $color-white;
+                        cursor: pointer;
+                        font-size: 16px;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                    }
+                }
+                &__item {
+                    a {
+                        p {
+                            color: $color-white;
+                            @include transition(all 0.3s ease 0s);
+                            cursor: pointer;
+                            font-size: 16px;
+                            text-decoration: none;
+                            line-height: 1.75;
+                            padding: 2px 10px;
+                            margin: -10px;
+                            display: inline;
+                        }
+                    }
+                    a:hover {
+                        p {
+                            color: #fff;
+                            background-color: $color-navyBlue;
+                        }
+                    }
+                }
+                &__show {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__info-box {
+        padding: 20px 0;
+        position: relative;
+        .social-buttons {
+            min-height: 40px;
+            //width: 240px;
+            margin: 0 auto 25px;
+            &__vk,
+            &__fb,
+            &__tw,
+            &__yt,
+            &__in,
+            &__od {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                padding: 7px 8px;
+                background-size: cover;
+                background: #71c5e8;
+                margin: 0 5px;
+                img {
+                    width: 25px;
+                    height: 25px;
+                }
+            }
+            &__vk:hover,
+            &__fb:hover,
+            &__tw:hover,
+            &__yt:hover,
+            &__in:hover,
+            &__od:hover {
+                background-color: #007ac2;
+            }
+            a {
+                &:first-child {
+                    margin: 0 5px 0 0;
+                }
+                &:last-child {
+                    margin: 0 0 0 5px;
+                }
+            }
+        }
+        &__logo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            padding-left: 0;
+        }
+        .copyright {
+            color: $color-white;
+        }
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 767px) {
+    .footer-menu-bg {
+        height: 350px;
+        margin-top: -65px;
+    }
+    .footer-bg {
+        margin-top: -180px!important;
+    }
+    .footer {
+        &__info-box {
+            .social-buttons {
+                &__wrapp {
+                    max-width: 290px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .footer-menu-bg {
+        height: 400px;
+        margin-top: -65px;
+    }
+    .footer-bg {
+        height: 120px;
+        margin-top: -190px!important;
+    }
+    .footer {
+        &__info-box {
+            .social-buttons {
+                a {
+                    margin: 0 15px;
+                    &:first-child {
+                        margin: 0 15px 0 0;
+                    }
+                    &:last-child {
+                        margin: 0 0 0 15px;
+                    }
+                }
+                &__wrapp {
+                    max-width: 390px;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 0px) and (max-width: 991px) {
+    .footer {
+        &__menu {
+            height: 180px;
+            background-position-x: -100px;
+            .menu-box {
+                display: none;
+            }
+        }
+        &__info-box {
+            .social-buttons {
+                padding: 0;
+            }
+            &__signature {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media all and (min-width: 992px) {
+    .footer {
+        .padding-lg-0 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+}
+
+@media all and (min-width: 991px) and (max-width: 1199px) {
+    .footer-menu-bg {
+        height: 435px;
+        margin-top: -65px;
+    }
+    .footer-bg {
+        height: 120px;
+        margin-top: -230px!important;
+    }
+    .footer {
+        &__info-box {
+            .padding-lg-0 {
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .footer {
+        &__menu {
+            .menu-box {
+                &__hide {
+                    display: none;
+                }
+                &__nav {
+                    margin-bottom: 40px;
+                    max-width: 100%;
+                    &:first-child {
+                        margin-left: 0;
+                    }
+                    &__header {
+                        margin-bottom: 10px;
+                    }
+                    &__show {
+                        display: block;
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width: 1400px) {
+    .footer-bg {
+        //background-position-x: 0;
+    }
+}

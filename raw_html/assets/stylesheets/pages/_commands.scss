@@ -1,0 +1,82 @@
+.commands {
+    .filter-commands {
+        position: relative;
+    }
+    [data-id=typeCommandSelect]+.dropdown-menu.open {
+        box-shadow: rgba(21, 125, 193, 0.2) 5px 15px 24px 5px;
+        z-index: 1111;
+        padding-left: 10px;
+    }
+    .command-select {
+        margin: 20px 0 10px;
+        .bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+            color: $color-pink;
+        }
+        .disabled.selected {
+            display: none;
+        }
+    }
+    .bootstrap-select.btn-group .dropdown-menu li{
+        overflow-x: hidden;
+        max-width: 450px;
+    }
+    .sidebar-left-info {
+        &__wrap {
+            color: #007ac2;
+            .header3 {
+                font-size: 18px;
+                margin-bottom: 35px;
+            }
+        }
+        &__head {
+            margin-bottom: 35px;
+        }
+        h4 {
+            font-weight: 500;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        &__contacts {
+            &__email {
+                margin-bottom: 10px;
+            }
+            &__link {
+                margin-bottom: 75px;
+            }
+        }
+    }
+    #map {
+        max-width: 660px;
+        height: 438px;
+        min-width: 280px;
+        .ymaps-2-1-45-balloon,
+        .ymaps-2-1-45-balloon__layout {
+            address {
+                font-size: 16px;
+                strong {
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    @media all and (max-width:1200px) {
+                 .bootstrap-select.btn-group .dropdown-menu li{
+        max-width: 363.33px!important;
+    }
+    }
+    @media all and (max-width:988px) {
+        .sidebar-left-info__contacts__link {
+            margin-bottom: 35px;
+        }
+        #map {
+            margin-top: 20px;
+            max-width: 100%;
+        }
+    }
+    @media all and (min-width:0px) and (max-width:768px) {
+        #map {
+            height: 350px;
+        }
+    }
+} //.commands-item

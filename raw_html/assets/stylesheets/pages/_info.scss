@@ -1,0 +1,108 @@
+.info {
+    a {
+        color: $color-pink;
+    }
+    a:hover {
+        color: $color-fuchsia;
+    }
+    &__content {
+        max-width: 730px;
+        img {
+            width: 100%;
+        }
+        &__logo {
+            border: 1px solid #e4f2fc;
+        }
+        &__desc {
+            padding: 30px 0;
+            color: $color-navyBlue;
+        }
+        &__image {
+            margin-bottom: 30px;
+            img {
+                //max-width: 540px;
+                //max-height: 360px;
+                //width: 100%;
+                //height: 100%;
+                //display: block;
+                //margin: 0 auto;
+            }
+        }
+        &__documents {
+            margin: 20px 0 40px;
+            h5 {
+                margin: 0 0 30px;
+            }
+            a {
+                display: block;
+                background: url('../images/core/doc-ico.png') no-repeat;
+                min-height: 30px;
+                margin: 20px 0;
+                padding: 7px 0 0 40px;
+            }
+            a:hover {
+                background: url('../images/core/doc-ico-hover.png') no-repeat;
+            }
+        }
+        table {
+            font-size: 16px;
+            width: 100%;
+            margin: 20px auto;
+            tbody {
+                tr {
+                    color: $color-navyBlue;
+                    &:first-child {
+                        background: $color-navyBlue!important;
+                        color: $color-white!important;
+                        td {
+                            padding: 6px 15px 6px 20px!important;
+                            vertical-align: bottom;
+                            line-height: 1;
+                        }
+                    }
+                    &:nth-child(odd) {
+                        background: #e4f2fc;
+                    }
+                    td {
+                        vertical-align: top;
+                        padding: 20px;
+                        p {
+                            margin-bottom: 20px;
+                        }
+                        &:first-child {
+                            width: 39%;
+                        }
+                        &:nth-child(2) {
+                            width: 39%;
+                        }
+                        &:last-child {
+                            width: 22%;
+                            p {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width:0px) and (max-width: 992px) {
+    .info {
+        .mobil-hide {
+            display: none;
+        }
+        .info-image {
+            text-align: center;
+        }
+        &__desc {
+            padding: 15px 0 20px;
+            color: $color-navyBlue;
+        }
+        &__content {
+            max-width: 540px;
+            margin: 0 auto;
+        }
+    }
+}

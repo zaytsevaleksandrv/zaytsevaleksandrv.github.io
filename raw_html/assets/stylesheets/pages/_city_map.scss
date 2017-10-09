@@ -1,0 +1,37 @@
+.city-map {
+    .city-map-select {
+        margin-bottom: 30px;
+    }
+    #map {
+        max-width: 660px;
+        height: 440px;
+        min-width: 280px;
+        .ymaps-2-1-45-balloon,
+        .ymaps-2-1-45-balloon__layout {
+            strong,
+            p,
+            a {
+                font-size: 18px;
+            }
+            address {
+                font-size: 16px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    @media all and (min-width:992px) {
+        #map {
+            padding: 0 15px;
+        }
+    }
+    @media all and (max-width:992px) {
+        #map {
+            max-width: 100%;
+        }
+    }
+    @media all and (min-width:0px) and (max-width:768px) {
+        #map {
+            height: 350px;
+        }
+    }
+}

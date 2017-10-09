@@ -1,0 +1,113 @@
+.test-event {
+    .news {
+        &__box {
+            margin-bottom: 5px;
+            &__link {
+                padding: 9.5px 30px;
+                text-align: center;
+                letter-spacing: normal;
+                margin-right: 12px;
+                &:first-child {
+                    padding: 9.5px 15px;
+                }
+            }
+        }
+    }
+}
+
+.test-list {
+    list-style: none;
+    margin: 0;
+    padding: 20px 0;
+    &__item {
+        list-style: none;
+        margin-bottom: 15px;
+    }
+    &__link {
+        font-size: 18px;
+        font-weight: 400;
+        color: $color-navyBlue;
+        @include transition(all 0.3s ease 0s);
+        &:hover {
+            color: $color-pink;
+        }
+    }
+    .active {
+        color: $color-pink;
+    }
+}
+
+.test-item {
+    padding: 34px;
+    margin-bottom: 35px;
+    @include clearfix();
+    min-height: 150px;
+    cursor: pointer;
+    &__images {
+        max-width: 255px;
+        float: left;
+        img {
+            max-width: 255px;
+        }
+    }
+    &__desc {
+        padding-left: 30px;
+        box-sizing: border-box;
+        float: left;
+        width: calc(100% - 255px);
+        h3 {
+            @include transition(all 0.3s ease 0s);
+            margin-bottom: 20px;
+        }
+        p {
+            color: $color-navyBlue;
+            font-size: 16px;
+        }
+    }
+}
+
+.test-item:hover {
+    @include box-shadow (5px, 15px, 54px, -1px, rgba(21, 125, 193, 0.2));
+    h3 {
+        color: $color-pink;
+        text-decoration: underline;
+    }
+}
+
+@media all and (min-width:992px) and (max-width:1199px) {
+    .test-item {
+        margin-left: 24.5%;
+    }
+}
+
+@media all and (min-width:0) and (max-width:786px) {
+    .test-list {
+        margin-bottom: 30px;
+        &__item {
+            display: inline-block;
+            margin: 0 5px;
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    .header-test {
+        margin-bottom: 30px;
+    }
+    .test-item {
+        padding: 24px;
+        margin-bottom: 30px;
+        &__images {
+            float: none;
+            margin-bottom: 30px;
+            img {
+                width: 100%
+            }
+        }
+        &__desc {
+            float: none;
+            padding-left: 0px;
+            width: 100%;
+        }
+    }
+}

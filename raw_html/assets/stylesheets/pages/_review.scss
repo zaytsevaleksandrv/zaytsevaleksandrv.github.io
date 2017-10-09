@@ -1,0 +1,75 @@
+.review {
+    &-bg-top {
+        background: url("../images/review/review-bg-top.png") no-repeat;
+        height: 285px;
+    }
+    &-wrap {
+        padding: 0 0 50px 100px;
+        margin: -75px 0 0;
+    }
+    &-bg-bottom {
+        background: url("../images/review/review-bg-bottom.png") no-repeat;
+        height: 279px;
+    }
+    .logo {
+        margin: 0 0 50px;
+        img {
+            width: 515px;
+            height: 85px;
+        }
+    }
+    .static {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 14px;
+        display: block;
+        margin: 0 0 15px;
+        &-question {
+            border-bottom: 2px solid $color-navyBlue;
+            padding: 0 0 8px;
+            margin: 0 0 25px;
+            font-size: 16px;
+            color: $color-navyBlue;
+        }
+    }
+    /* textarea {
+        display: inline-block;
+        width: 100%;
+        outline: none;
+        resize: none;
+        border: none;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0px 10px 10px 0;
+        margin: 0 0 45px;
+        overflow: hidden;
+        color: $color-navyBlue;
+        border-bottom: 2px solid $color-navyBlue;
+    }*/
+    button {
+        text-align: center;
+        font-size: 16px;
+        // padding: 15px 20px;
+        font-weight: 500;
+        background: $color-navyBlue;
+        color: $color-white;
+        text-transform: uppercase;
+        border: none;
+        outline: none;
+        &:hover {
+            opacity: 0.9;
+        }
+    }
+    @media all and(min-width:0) and (max-width:991px) {
+        &-wrap {
+            padding: 205px 0 0;
+            background-position: center;
+            background-size: cover;
+            min-height: 1000px;
+        }
+        .logo {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
