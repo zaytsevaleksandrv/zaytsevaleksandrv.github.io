@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  color: #38a4ab;
+  line-height: 24px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+h2 {
+  font-size: 20px;
+  color: #38a4ab;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+h4 {
+  color: #38a4ab;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+address a {
+  color: #38a4ab;
+  font-weight: 400;
+  line-height: 12px;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+img {
+  border: 1px solid;
+}
+@-webkit-keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.carousel .slider-list {
+  height: 190px !important;
+}
+
+.slider-slide > img {
+  height: 190px;
+}
