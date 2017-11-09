@@ -6,6 +6,7 @@ h1 {
   font-size: 28px;
   color: #38a4ab;
   line-height: 24px;
+  margin: 0 0 33px;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -64,12 +65,4 @@ img {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-}
-
-.carousel .slider-list {
-  height: 190px !important;
-}
-
-.slider-slide > img {
-  height: 190px;
 }
