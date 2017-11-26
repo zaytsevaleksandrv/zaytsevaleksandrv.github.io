@@ -4,7 +4,7 @@ import ReactDom from 'react-dom';
 class App extends Component {
   render () {
     return (
-      <Header title="Заголовок"/>
+      <Header title="Заголовок 1"/>
     );
   }
 }
