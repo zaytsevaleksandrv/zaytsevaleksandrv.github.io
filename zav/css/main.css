@@ -14,14 +14,16 @@ body{background:#fff;font-family:Roboto,sans-serif; font-size: 17px;}.name-block
 
 .list__item {
     padding: 5px 10px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease-in-out;    
+}
+
+.list__item:hover {
+    border-color:#289ed9;
 }
 
 .list__item_link {
     text-decoration: none;
-    color: #666;
-    transition: color 0.2s ease-in-out;
-}
-
-.list__item_link:hover {
-    color: #4080a7;
+    color: #289ed9;
 }
