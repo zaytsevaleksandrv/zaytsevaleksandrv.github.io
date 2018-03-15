@@ -12,7 +12,7 @@ body{background:#fff;font-family:Roboto,sans-serif; font-size: 17px;}.name-block
 }
 
 .list__item {
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .list__item_link {
