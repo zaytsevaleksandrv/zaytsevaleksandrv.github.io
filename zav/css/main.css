@@ -15,7 +15,6 @@ body{background:#fff;font-family:Roboto,sans-serif; font-size: 17px;}.name-block
 .list__item {
     padding: 5px 10px;
     border: 1px solid transparent;
-    border-radius: 3px;
     box-sizing: border-box;
     transition: border-color 0.2s ease-in-out;    
 }
