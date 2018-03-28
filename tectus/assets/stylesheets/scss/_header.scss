@@ -1,25 +1,17 @@
-$color_white: #ffffff;
-$color_dark_blue: #181a34;
-$color_orange: #e84734;
-
-
 .tectus__header {
   background: transparent;
   height: 74px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.2s ease;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background 0.2s ease;
 
   &-sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
     background: $color_white;
   }
 
-  &-sticky + main {
-    padding-top: 74px;
+  &-sticky &-nav-item-link  {
+    color: $color_dark_blue;
   }
 
   &-section {
@@ -29,10 +21,14 @@ $color_orange: #e84734;
   }
 
   &-logo {
-    background: url("../images/logo/logo_b.svg") center center / contain no-repeat;
+    background: url("../images/logo/logo_w.svg") center center / contain no-repeat;
     width: 118px;
     height: 40px;
     display: inline-block;
+  }
+
+  &-sticky &-logo  {
+    background: url("../images/logo/logo_b.svg") center center / contain no-repeat;
   }
 
   &-nav {
@@ -54,7 +50,7 @@ $color_orange: #e84734;
 
       &-link {
         text-decoration: none;
-        color: $color_dark_blue;
+        color: $color_white;
         transition: color 0.3s ease;
         font-weight: bold;
 

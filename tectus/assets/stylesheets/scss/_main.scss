@@ -1,0 +1,17 @@
+.tectus__section_one {
+  background: url("../images/bg/1.png") center center / contain no-repeat;
+  background-size: 100% 100%;
+  height: 560px;
+}
+
+.tectus__wrapper-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 74px;
+
+  & h1 {
+    text-align: center;
+  }
+}
