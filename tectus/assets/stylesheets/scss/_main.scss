@@ -2,6 +2,7 @@
   &__section_one {
     background: url("../images/bg/1.png") center center / cover no-repeat scroll #050920;
     height: 560px;
+    box-sizing: border-box;
   }
 
   &__wrapper-header {
@@ -75,10 +76,10 @@
     & > .slick-list {
       min-height: 470px;
       max-height: 470px;
-      margin: 0 -13px;
+      margin: 0 -10px;
       display: flex;
       justify-content: flex-start;
-      padding-left: 15px;
+      padding-left: 10px;
 
       & > .slick-track {
         display: flex;
@@ -233,6 +234,24 @@
       list-style: none;
       padding: 0;
       margin: 0;
+    }
+  }
+
+  &__cooperation {
+    background: url("../images/bg/2.png") center center / cover no-repeat scroll #050920;
+    height: 296px;
+    box-sizing: border-box;
+
+    &-text-question {
+      color: $color_orange;
+      font-weight: 900;
+      position: relative;
+      top: -5px;
+    }
+
+    &-h2 {
+      color: $color_white;
+      margin-bottom: 19px;
     }
   }
   
