@@ -18,7 +18,7 @@
         <div class="container">
             <section class="tectus__header-section">
                 <a href="#" class="tectus__header-logo" title="Tectus"></a>
-                <nav class="tectus__header-nav">
+                <nav class="tectus__header-nav" id="navigation">
                     <ul class="tectus__header-nav-list">
                         <li class="tectus__header-nav-item">
                             <a class="tectus__header-nav-item-link" href="#companies" title="Перейти">О компании</a>
@@ -37,6 +37,15 @@
                         </li>
                     </ul>
                 </nav>
+                <div class="menu-toggle__wrapper">
+                    <div onClick="menuMobile()" class="menu-toggle__inner" id="menuMobile">
+                        <div class="menu-toggle">
+                            <span class="menu-toggle__part"></span>
+                            <span class="menu-toggle__part"></span>
+                            <span class="menu-toggle__part"></span>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
     </header>

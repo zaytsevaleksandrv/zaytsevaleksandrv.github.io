@@ -60,6 +60,16 @@ function moreNews() {
 var more_link = document.getElementById("more_link");
 more_link.addEventListener("click", moreNews, false);
 
+//menu mobile
+function menuMobile() {
+    let burger = document.getElementById('menuMobile'),
+        nav = document.getElementById('navigation'),
+        header = document.getElementById('myHeader');
+    burger.classList.toggle('menu-toggle_open');
+    nav.classList.toggle('nav-toggle_open');
+    header.classList.toggle('header_open');
+}
+
 //sliders
 $('.tectus__amenities-slider').slick({
     infinite: false,
