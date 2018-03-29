@@ -49,6 +49,10 @@
     font-weight: 600;
     color: $color_dark_blue;
     margin-bottom: 30px;
+
+    &_mb {
+      margin-bottom: 18px;
+    }
   }
 
   &__link {
@@ -64,4 +68,86 @@
       border-bottom-color: $color_dark_blue;
     }
   }
+  
+  &__amenities-slider {
+    margin-top: 74px;
+
+    & > .slick-list {
+      min-height: 470px;
+      max-height: 470px;
+      margin: 0 -13px;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 15px;
+
+      & > .slick-track {
+        display: flex;
+        justify-content: flex-start;
+      }
+    }
+  }
+
+  &__amenities-card {
+    width: 310px;
+    min-width: 310px;
+    max-width: 310px;
+    height: 447px;
+    min-height: 447px;
+    max-height: 447px;
+    box-shadow: 0px 10px 20px 0 rgba(157, 165, 178, 0.2);
+    border-radius: 3px;
+    background-color: $color_white;
+    padding: 60px 23px 26px;
+    box-sizing: border-box;
+    margin-right: 19px;
+    display: inline-block;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &-info {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-height: 190px;
+      max-height: 190px;
+    }
+
+    &-logo-wrapper {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      min-height: 107px;
+      max-height: 107px;
+    }
+
+    &_setting {
+      background: url("../images/icons/1.svg") center center / contain no-repeat;
+      height: 56px;
+      min-height: 56px;
+      width: 56px;
+      min-width: 56px;
+    }
+
+    &_efficiency {
+      background: url("../images/icons/2.svg") center center / contain no-repeat;
+      height: 52px;
+      min-height: 52px;
+      width: 55px;
+      min-width: 55px;
+    }
+
+    &_develop {
+      background: url("../images/icons/3.svg") center center / contain no-repeat;
+      height: 53px;
+      min-height: 53px;
+      width: 58px;
+      min-width: 58px;
+    }
+  }
+  
+}
+#amenities {
+  background-color: $color_white-gray;
 }
