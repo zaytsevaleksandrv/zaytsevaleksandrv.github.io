@@ -529,10 +529,40 @@
     height: 0;
     overflow: hidden;
   }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__contact-link {
+    color: $color_dark_blue;
+    line-height: 30px;
+    font-weight: 300;
+    text-decoration: none;
+
+
+    & > h3 {
+      color: $color_dark_blue;
+      line-height: 30px;
+      font-weight: 300;
+
+      &:hover {
+        color: $color_orange;
+      }
+    }
+  }
+
+  &__footer {
+    background-color: $color_white-grey;
+    padding: 33px 0 30px;
+    text-align: center;
+  }
 }
 #amenities, #publication {
   background-color: $color_white-gray;
 }
-#project {
+#project, #contact, #contact_info {
   background-color: $color_white;
 }
