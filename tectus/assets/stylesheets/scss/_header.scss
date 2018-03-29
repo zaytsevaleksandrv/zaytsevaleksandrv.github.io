@@ -8,6 +8,7 @@
 
   &-sticky {
     background: $color_white;
+    box-shadow: 0 0px 5px 0px  $color_dark_blue;
   }
 
   &-sticky &-nav-item-link  {
