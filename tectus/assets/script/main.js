@@ -52,3 +52,12 @@ $('.tectus__amenities-slider').slick({
     slidesToScroll: 1,
     arrows: false,
 });
+
+$('.tectus__project-slider').slick({
+    centerMode: true,
+    slidesToShow: 3,
+    infinite: true,
+    arrows: false,
+    centerPadding: '0px',
+    dots: true,
+});
