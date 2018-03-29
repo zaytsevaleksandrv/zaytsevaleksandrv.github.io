@@ -519,12 +519,15 @@
       justify-content: flex-start;
       padding-left: 10px;
 
+      @media (max-width: 768px) {
+        display: block;
+        justify-content: unset;
+      }
+
       @media (max-width: 766px) {
         min-height: 410px;
         max-height: 410px;
         margin: 0;
-        display: block;
-        justify-content: unset;
       }
 
       & > .slick-track {
@@ -532,7 +535,7 @@
         justify-content: flex-start;
         align-items: center;
 
-        @media (max-width: 766px) {
+        @media (max-width: 768px) {
           justify-content: space-between;
         }
       }
