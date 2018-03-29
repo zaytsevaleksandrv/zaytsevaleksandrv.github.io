@@ -1,5 +1,18 @@
 .container {
   width: 967px;
+
+  @media (max-width: 990px) {
+    width: 767px;
+    //overflow: hidden;
+    padding: 0 28px;
+  }
+
+  &_full {
+
+    @media (max-width: 991px){
+      width: 100%;
+    }
+  }
 }
 
 .flex {

@@ -66,6 +66,17 @@ $('.tectus__amenities-slider').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true
+            }
+        }
+    ]
 });
 
 $('.tectus__project-slider').slick({
@@ -75,4 +86,20 @@ $('.tectus__project-slider').slick({
     arrows: false,
     centerPadding: '0px',
     dots: true,
+    responsive: [
+        {
+            breakpoint: 991,
+            settings: {
+                centerPadding: '15px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 769,
+            settings: {
+                centerPadding: '15px',
+                slidesToShow: 2
+            }
+        }
+    ]
 });

@@ -46,6 +46,10 @@
     &-item {
       margin-right: 41px;
 
+      @media (max-width: 991px) {
+        margin-right: 26px;
+      }
+
       &:last-child {
         margin-right: 0;
       }

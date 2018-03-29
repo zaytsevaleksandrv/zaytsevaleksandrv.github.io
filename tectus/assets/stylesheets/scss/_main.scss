@@ -28,8 +28,18 @@
     margin-left: 24px;
     padding: 20px 0;
 
+    @media (max-width: 991px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
     &-text {
       margin-bottom: 24px;
+
+      @media (max-width: 991px) {
+        text-align: center;
+      }
     }
 
     &-wrapper {
@@ -44,6 +54,20 @@
     min-height: 384px;
     width: 335px;
     min-width: 335px;
+
+    &_dekstop {
+      @media (max-width: 991px) {
+        display: none;
+      }
+    }
+
+    &_991 {
+      display: none;
+
+      @media (max-width: 991px) {
+        display: block;
+      }
+    }
   }
 
   &__subtitle {
@@ -80,6 +104,10 @@
       display: flex;
       justify-content: flex-start;
       padding-left: 10px;
+
+      @media (max-width: 991px) {
+        padding-left: 38px;
+      }
 
       & > .slick-track {
         display: flex;
@@ -149,6 +177,17 @@
   }
 
   &__client {
+
+    &-list-item {
+      @media (max-width: 991px) {
+        margin-right: 55px;
+        margin-bottom: 24px;
+
+        &:nth-child(4), &:nth-child(7) {
+          margin-right: 0;
+        }
+      }
+    }
 
     &_adm-ram-r {
       background: url("../images/clients/1.png") center center / contain no-repeat;
@@ -234,6 +273,11 @@
       list-style: none;
       padding: 0;
       margin: 0;
+
+      @media (max-width: 991px) {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
     }
   }
 
@@ -298,45 +342,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        
       }
     }
-
-    & > .slick-dots {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      list-style: none;
-      margin-top: 9px;
-      padding: 0;
-
-      &> li {
-        margin-right: 10px;
-
-        & > button {
-          width: 20px;
-          height: 3px;
-          background-color: $color_platine;
-          border: none;
-          overflow: hidden;
-          outline: none;
-          cursor: pointer;
-          color: transparent;
-        }
-
-        &.slick-active {
-
-          & > button {
-            background-color: $color_orange;
-          }
-        }
-
-        &:last-child {
-          margin-right: 0;
-        }
-      }
-
-    }
-
   }
 
   &__project-card {
@@ -477,8 +485,22 @@
     align-items: flex-start;
     justify-content: space-between;
 
+    @media (max-width: 991px) {
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+
     &_mt {
       margin-top: 70px;
+    }
+  }
+
+  &__publication-col {
+
+    @media (max-width: 991px) {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
     }
   }
 
@@ -496,8 +518,21 @@
     box-sizing: border-box;
     margin-bottom: 20px;
 
+    @media (max-width: 991px) {
+      margin-bottom: 20px;
+      margin-right: 20px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
     &:last-child {
       margin-bottom: 0;
+
+      @media (max-width: 991px) {
+        margin-bottom: 20px;
+      }
     }
 
     &-title {
@@ -523,6 +558,10 @@
     margin-top: 36px;
     display: inline-block;
     cursor: pointer;
+
+    @media (max-width: 991px) {
+      margin-top: 21px;
+    }
   }
 
   &__publication-more {
@@ -542,11 +581,20 @@
     font-weight: 300;
     text-decoration: none;
 
+    @media (max-width: 991px) {
+      font-size: 20px;
+    }
+
 
     & > h3 {
       color: $color_dark_blue;
       line-height: 30px;
       font-weight: 300;
+
+      @media (max-width: 991px) {
+        line-height: normal;
+        font-size: 20px;
+      }
 
       &:hover {
         color: $color_orange;
