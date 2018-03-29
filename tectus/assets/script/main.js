@@ -89,10 +89,45 @@ $('.tectus__amenities-slider').slick({
         {
             breakpoint: 767,
             settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true,
+                centerMode: true,
+                centerPadding: '60px'
+            }
+        },
+        {
+            breakpoint: 426,
+            settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
-                dots: true
+                dots: true,
+                centerMode: true,
+                centerPadding: '80px'
+            }
+        },
+        {
+            breakpoint: 376,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true,
+                centerMode: true,
+                centerPadding: '60px'
+            }
+        },
+        {
+            breakpoint: 321,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true,
+                centerMode: true,
+                centerPadding: '30px'
             }
         }
     ]
