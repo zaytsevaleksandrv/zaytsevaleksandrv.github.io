@@ -146,6 +146,95 @@
       min-width: 58px;
     }
   }
+
+  &__client {
+
+    &_adm-ram-r {
+      background: url("../images/clients/1.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 111px;
+      min-width: 111px;
+      max-width: 111px;
+      display: inline-block;
+    }
+
+    &_eurohim {
+      background: url("../images/clients/2.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 131px;
+      min-width: 131px;
+      max-width: 131px;
+      display: inline-block;
+    }
+
+    &_merrus {
+      background: url("../images/clients/3.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 107px;
+      min-width: 107px;
+      max-width: 107px;
+      display: inline-block;
+    }
+
+    &_mts {
+      background: url("../images/clients/4.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 74px;
+      min-width: 74px;
+      max-width: 74px;
+      display: inline-block;
+    }
+
+    &_mfc {
+      background: url("../images/clients/5.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 118px;
+      min-width: 118px;
+      max-width: 118px;
+      display: inline-block;
+    }
+
+    &_rus-reest {
+      background: url("../images/clients/6.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 90px;
+      min-width: 90px;
+      max-width: 90px;
+      display: inline-block;
+    }
+
+    &_rtk {
+      background: url("../images/clients/7.png") center center / contain no-repeat;
+      height: 40px;
+      min-height: 40px;
+      max-height: 40px;
+      width: 129px;
+      min-width: 129px;
+      max-width: 129px;
+      display: inline-block;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
   
 }
 #amenities {

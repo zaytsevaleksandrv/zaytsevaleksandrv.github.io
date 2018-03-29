@@ -5,6 +5,7 @@
   top: 0;
   width: 100%;
   transition: background 0.2s ease;
+  z-index: 1;
 
   &-sticky {
     background: $color_white;
