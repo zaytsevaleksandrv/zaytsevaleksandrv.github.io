@@ -45,6 +45,21 @@ nav.find('a').on('click', function () {
     return false;
 });
 
+// Функция изменяет содержимое more_link
+function moreNews() {
+    var more_new = document.getElementById("more_new");
+    more_new.classList.toggle("open");
+
+    if (more_link.firstChild.nodeValue == "Скрыть") {
+        more_link.firstChild.nodeValue = "Показать еще";
+    } else {
+        more_link.firstChild.nodeValue = "Скрыть";
+    }
+}
+
+var more_link = document.getElementById("more_link");
+more_link.addEventListener("click", moreNews, false);
+
 //sliders
 $('.tectus__amenities-slider').slick({
     infinite: false,
