@@ -85,6 +85,15 @@ $('.tectus__amenities-slider').slick({
                 infinite: false,
                 dots: true
             }
+        },
+        {
+            breakpoint: 767,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                dots: true
+            }
         }
     ]
 });
@@ -109,6 +118,26 @@ $('.tectus__project-slider').slick({
             settings: {
                 centerPadding: '15px',
                 slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 426,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '70px',
+            }
+        }, {
+            breakpoint: 376,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '45px',
+            }
+        },
+        {
+            breakpoint: 321,
+            settings: {
+                slidesToShow: 1,
+                centerPadding: '27px',
             }
         }
     ]
