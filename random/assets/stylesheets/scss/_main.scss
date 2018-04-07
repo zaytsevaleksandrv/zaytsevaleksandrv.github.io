@@ -1,0 +1,23 @@
+.users {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @media (max-width: 1199px) {
+    justify-content: center;
+  }
+}
+
+.select {
+  border-radius: 3px;
+  border: 1px solid $color_white;
+  padding: 5px;
+  color: $color_blue;
+  cursor: pointer;
+  margin-right: 40px;
+
+  @media (max-width: 1199px) {
+    margin-right: 0;
+  }
+}
