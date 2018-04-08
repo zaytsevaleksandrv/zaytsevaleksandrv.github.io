@@ -190,16 +190,12 @@ function filterUsers() {
         render_msg = 'No data available...';
 
     if (keyword.length > 0) {
-        results = results.filter(function(user){
-            user = user.name.first.toLowerCase();
-            return user.indexOf(keyword) == 0;
+        results = results.filter( data => {
+            data = data.name.first.toLowerCase();
+            return data.indexOf(keyword) == 0;
         });
 
-        if ( results.length > 0) {
-            getUserFilter(results);
-        } else {
-            root.innerText = render_msg;
-        }
+        (results.length > 0) ? getUserFilter(results) : root.innerText = render_msg;
     } else {
         getData(getUsers);
     }

@@ -23,7 +23,7 @@
             <input
                 class="input"
                 type="text"
-                placeholder="Enter Aa...Zz"
+                placeholder="Enter Aa to Zz, 1 letter"
                 id="filter_users"
                 maxlength="1"
             />
@@ -39,11 +39,52 @@
         </div>
 
     </header>
-    <main>
-        <div id="root" class="users container"></div>
+    <main class="container main">
+        <div class="info-block">
+            <ul class="info-block__list">
+                <li class="info-block__list-item">
+                    <p class="info-block__text">
+                        — User cards are made in the style of
+                        <a
+                            class="info-block__link"
+                            target="_blank"
+                            title="Go to view the scene from the movie"
+                            href="http://originalnyi-podarok.ru/wp-content/uploads/2017/10/magicheskiy-shar-trassa-60.jpg"
+                        >
+                            ball predictions
+                        </a> from the film
+                        <a
+                            class="info-block__link"
+                            target="_blank"
+                            title="Go to kinopoisk.ru"
+                            href="https://www.kinopoisk.ru/film/trassa-60-2001-3563/"
+                        >
+                            "Route 60";
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p class="info-block__text">
+                        — The work is done - Zaytsev Aleksandr, 23 years old. My site -
+                        <a
+                            class="info-block__link"
+                            target="_blank"
+                            title="Go to on my site"
+                            href="https://zaytsevaleksandrv.github.io/zav/"
+                        >
+                            zav
+                        </a>.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div id="root" class="users"></div>
         <div id="modal" class="modal__wrapper"></div>
+        <a class="up" href="#">up</a>
     </main>
-
+    <footer class="container footer">
+        <p class="footer__text">© 2018</p>
+    </footer>
     <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </body>
 </html>
