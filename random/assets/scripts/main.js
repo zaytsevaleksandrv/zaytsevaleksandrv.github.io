@@ -164,7 +164,8 @@ let input = document.getElementById('filter_users');
 let filterUsers = function(){
     keyword = input.value.toLowerCase();
 
-    if (keyword.length >= 0) {
+
+    if (keyword.length > 0) {
         results = results.filter(function(user){
             user = user.name.first.toLowerCase();
             return user.indexOf(keyword) == 0;
@@ -173,6 +174,6 @@ let filterUsers = function(){
     } else {
         getData(getUsers);
     }
-};
+}
 
 input.addEventListener('keyup', filterUsers);
