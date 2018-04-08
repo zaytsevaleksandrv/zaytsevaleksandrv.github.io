@@ -65,15 +65,15 @@ function Modal(index) {
             ></div>
             <address class="modal__address">
                 <ul class="modal__address-list">
-                    <li class="modal__address-list-item">
+                    <li class="modal__address-list-item" title="Location">
                         <div class="modal__address_icon-wrapper"><i class="fa fa-street-view" aria-hidden="true"></i></div>
                         <p class="modal__address-text">${it.location.street}</p>
                     </li>
-                    <li class="modal__address-list-item">
+                    <li class="modal__address-list-item" title="City">
                         <div class="modal__address_icon-wrapper"><i class="fa fa-university" aria-hidden="true"></i></div>
                         <p class="modal__address-text">${it.location.city}</p>
                     </li>
-                    <li class="modal__address-list-item">
+                    <li class="modal__address-list-item" title="State">
                         <div class="modal__address_icon-wrapper"><i class="fa fa-home" aria-hidden="true"></i></div>
                         <p class="modal__address-text">${it.location.state}</p>
                     </li>
@@ -125,16 +125,6 @@ function sortUsers() {
 
     getUsers({results: results});
 }
-
-// function Alhpabet(query) {
-//     for (var i = 0; i <= results.length; i++) {
-//         results[i].name.first.filter((el) =>
-//             el.toLowerCase().indexOf(query.toLowerCase()) == 0
-//         );
-//     getUsers({results: results});
-//     }
-// }
-// console.log(results);
 
 function getUserFilter(data) {
     let root = document.getElementById('root'),
