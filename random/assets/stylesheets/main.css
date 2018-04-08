@@ -57,8 +57,9 @@ h1 > a {
     .container {
       width: 100%; } }
 
-.margin-bottom {
-  margin-bottom: 33px; }
+@media (max-width: 767px) {
+  .margin-bottom {
+    margin-bottom: 33px; } }
 
 .card__user {
   max-width: 190px;

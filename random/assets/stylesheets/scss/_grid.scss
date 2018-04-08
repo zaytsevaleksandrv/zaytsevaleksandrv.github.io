@@ -16,5 +16,7 @@
 }
 
 .margin-bottom {
-  margin-bottom: 33px;
+  @media (max-width: 767px) {
+    margin-bottom: 33px;
+  }
 }
