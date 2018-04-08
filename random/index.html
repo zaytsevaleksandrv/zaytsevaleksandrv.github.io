@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/stylesheets/normalize.css">
     <link rel="stylesheet" href="./assets/stylesheets/main.css">
-
-    <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </head>
 <body>
     <header class="header container margin-bottom">
@@ -21,14 +19,19 @@
                 Random user api
             </a>
         </h1>
-        <select class="select" id="order" onchange="sortUsers(this)">
-            <option disabled selected>order</option>
-            <option>In alphabet order</option>
-            <option>In reverse order</option>
-        </select>
+        <div>
+            <input class="input" type="text" placeholder="Search Users" id="filter_users"/>
+            <select class="select" id="order" onchange="sortUsers(this)">
+                <option disabled selected>order</option>
+                <option>In alphabet order</option>
+                <option>In reverse order</option>
+            </select>
+        </div>
 
     </header>
     <div id="root" class="users container"></div>
     <div id="modal" class="modal__wrapper"></div>
+
+    <script type="text/javascript" src="./assets/scripts/main.js"></script>
 </body>
 </html>

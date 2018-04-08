@@ -348,7 +348,31 @@ h1 > a {
   padding: 5px;
   color: #3498db;
   cursor: pointer;
-  margin-right: 40px; }
+  margin-right: 40px;
+  background-color: #fff; }
   @media (max-width: 1199px) {
     .select {
       margin-right: 0; } }
+
+.input {
+  border-radius: 3px;
+  border: 1px solid #fff;
+  padding: 6px;
+  color: #3498db;
+  cursor: pointer;
+  background-color: #fff;
+  height: 33px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+::-webkit-input-placeholder {
+  color: #3498db; }
+
+::-moz-placeholder {
+  color: #3498db; }
+
+:-ms-input-placeholder {
+  color: #3498db; }
+
+:-moz-placeholder {
+  color: #3498db; }

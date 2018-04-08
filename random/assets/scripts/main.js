@@ -126,12 +126,49 @@ function sortUsers() {
     getUsers({results: results});
 }
 
-function Alhpabet(query) {
-    console.log(results)
-    results.filter((el) =>
-        el.name.first.toLowerCase().indexOf(query.toLowerCase()) == 0
-    );
-}
-// console.log(filterItems('k')); // ['apple', 'grapes']
+// function Alhpabet(query) {
+//     for (var i = 0; i <= results.length; i++) {
+//         results[i].name.first.filter((el) =>
+//             el.toLowerCase().indexOf(query.toLowerCase()) == 0
+//         );
+//     getUsers({results: results});
+//     }
+// }
+// console.log(results);
 
-Alhpabet('a')
+function getUser(data) {
+    let root = document.getElementById('root'),
+        render_card = '';
+
+    data.map((it, id) => {
+        render_card += `
+            <div 
+                class="card__user" 
+                id='${id}' 
+                title="${it.name.title}"
+                onclick="Modal(this.id)"
+            >
+                <div 
+                    class="card__user-logo" 
+                    style="background: url('${it.picture.medium}') center center / contain no-repeat"
+                ></div>
+                <p class="card__user-name">${it.name.title}. ${it.name.first} ${it.name.last}</p>
+            </div>
+        `
+    });
+    root.innerHTML = render_card;
+}
+
+var input = document.getElementById('filter_users');
+
+var filterUsers = function(event){
+    keyword = input.value.toLowerCase();
+    results = results.filter(function(user){
+        user = user.name.first.toLowerCase();
+        return user.indexOf(keyword) == 0;
+    });
+
+    getUser(results);
+}
+
+input.addEventListener('keyup', filterUsers);
