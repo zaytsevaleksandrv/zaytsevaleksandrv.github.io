@@ -19,9 +19,18 @@
                 Random user api
             </a>
         </h1>
-        <div>
-            <input class="input" type="text" placeholder="Search Users" id="filter_users"/>
-            <select class="select" id="order" onchange="sortUsers(this)">
+        <div class="wrapper__func-element">
+            <input
+                class="input"
+                type="text"
+                placeholder="Enter Aa...Zz"
+                id="filter_users"
+            />
+            <select
+                class="select"
+                id="order"
+                onchange="sortUsers(this)"
+            >
                 <option disabled selected>order</option>
                 <option>In alphabet order</option>
                 <option>In reverse order</option>

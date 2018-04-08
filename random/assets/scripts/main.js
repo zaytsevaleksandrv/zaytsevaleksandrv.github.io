@@ -38,7 +38,9 @@ function getUsers(data) {
                     class="card__user-logo" 
                     style="background: url('${it.picture.medium}') center center / contain no-repeat"
                 ></div>
-                <p class="card__user-name">${it.name.title}. ${it.name.first} ${it.name.last}</p>
+                <p class="card__user-name">
+                    ${it.name.title}. ${it.name.first} ${it.name.last}
+                </p>
             </div>
         `
     });
@@ -66,24 +68,52 @@ function Modal(index) {
             <address class="modal__address">
                 <ul class="modal__address-list">
                     <li class="modal__address-list-item" title="Location">
-                        <div class="modal__address_icon-wrapper"><i class="fa fa-street-view" aria-hidden="true"></i></div>
-                        <p class="modal__address-text">${it.location.street}</p>
+                        <div class="modal__address_icon-wrapper">
+                            <i class="fa fa-street-view" aria-hidden="true"></i>
+                        </div>
+                        <p class="modal__address-text">
+                            ${it.location.street}
+                        </p>
                     </li>
                     <li class="modal__address-list-item" title="City">
-                        <div class="modal__address_icon-wrapper"><i class="fa fa-university" aria-hidden="true"></i></div>
-                        <p class="modal__address-text">${it.location.city}</p>
+                        <div class="modal__address_icon-wrapper">
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                        </div>
+                        <p class="modal__address-text">
+                            ${it.location.city}
+                        </p>
                     </li>
                     <li class="modal__address-list-item" title="State">
-                        <div class="modal__address_icon-wrapper"><i class="fa fa-home" aria-hidden="true"></i></div>
-                        <p class="modal__address-text">${it.location.state}</p>
+                        <div class="modal__address_icon-wrapper">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </div>
+                        <p class="modal__address-text">
+                            ${it.location.state}
+                        </p>
                     </li>
                     <li class="modal__address-list-item">
-                        <div class="modal__address_icon-wrapper"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                        <a class="modal__address-link" title="Write a letter on ${it.email}" href="mailto:${it.email}">${it.email}</a>
+                        <div class="modal__address_icon-wrapper">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                        </div>
+                        <a 
+                            class="modal__address-link" 
+                            title="Write a letter on ${it.email}" 
+                            href="mailto:${it.email}"
+                        >
+                            ${it.email}
+                        </a>
                      </li>
                      <li class="modal__address-list-item">
-                        <div class="modal__address_icon-wrapper"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                        <a class="modal__address-link" title="Сall the number ${it.phone}" href="tel:${it.phone}">${it.phone}</a>
+                        <div class="modal__address_icon-wrapper">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                        </div>
+                        <a 
+                            class="modal__address-link" 
+                            title="Сall the number ${it.phone}" 
+                            href="tel:${it.phone}"
+                        >
+                            ${it.phone}
+                        </a>
                      </li>
                 </ul>
             </address>
@@ -142,7 +172,9 @@ function getUserFilter(data) {
                     class="card__user-logo" 
                     style="background: url('${it.picture.medium}') center center / contain no-repeat"
                 ></div>
-                <p class="card__user-name">${it.name.title}. ${it.name.first} ${it.name.last}</p>
+                <p class="card__user-name">
+                    ${it.name.title}. ${it.name.first} ${it.name.last}
+                </p>
             </div>
         `
     });
@@ -150,20 +182,25 @@ function getUserFilter(data) {
 }
 
 let input = document.getElementById('filter_users');
+input.addEventListener('keyup', filterUsers);
 
-let filterUsers = function(){
-    keyword = input.value.toLowerCase();
-
+function filterUsers() {
+    let keyword = input.value.toLowerCase(),
+        root = document.getElementById('root'),
+        render_msg = 'No data available...';
 
     if (keyword.length > 0) {
         results = results.filter(function(user){
             user = user.name.first.toLowerCase();
             return user.indexOf(keyword) == 0;
         });
-        getUserFilter(results);
+
+        if ( results.length > 0) {
+            getUserFilter(results);
+        } else {
+            root.innerText = render_msg;
+        }
     } else {
         getData(getUsers);
     }
 }
-
-input.addEventListener('keyup', filterUsers);

@@ -32,6 +32,19 @@
   background-color: $color_white;
   height: 33px;
   box-sizing: border-box;
+
+  @media (max-width: 374px) {
+    margin-bottom: 20px;
+  }
+}
+
+.wrapper__func-element {
+  @media (max-width: 374px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 ::-webkit-input-placeholder {
