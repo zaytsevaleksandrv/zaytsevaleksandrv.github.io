@@ -136,7 +136,7 @@ function sortUsers() {
 // }
 // console.log(results);
 
-function getUser(data) {
+function getUserFilter(data) {
     let root = document.getElementById('root'),
         render_card = '';
 
@@ -159,16 +159,20 @@ function getUser(data) {
     root.innerHTML = render_card;
 }
 
-var input = document.getElementById('filter_users');
+let input = document.getElementById('filter_users');
 
-var filterUsers = function(event){
+let filterUsers = function(){
     keyword = input.value.toLowerCase();
-    results = results.filter(function(user){
-        user = user.name.first.toLowerCase();
-        return user.indexOf(keyword) == 0;
-    });
 
-    getUser(results);
-}
+    if (keyword.length >= 0) {
+        results = results.filter(function(user){
+            user = user.name.first.toLowerCase();
+            return user.indexOf(keyword) == 0;
+        });
+        getUserFilter(results);
+    } else {
+        getData(getUsers);
+    }
+};
 
 input.addEventListener('keyup', filterUsers);
