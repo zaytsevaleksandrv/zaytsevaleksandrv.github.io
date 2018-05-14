@@ -37,7 +37,7 @@ class Article extends PureComponent {
         const body = isOpen && <section className="card-text">{article.text}</section>;
 
         return (
-            <div className="card mx-auto" style = {width}>
+            <div><div className="card mx-auto" style = {width}>
                 <div className="card-header">
                     <h3 onClick={this.incrementCounter}>
                         {article.title}
@@ -51,9 +51,10 @@ class Article extends PureComponent {
                     <h6 className="card-subtitle text-muted">
                         creation date: {(new Date(article.date)).toDateString()}
                     </h6>
-                    {body}
+
                 </div>
             </div>
+            {body}</div>
         )
     }
 

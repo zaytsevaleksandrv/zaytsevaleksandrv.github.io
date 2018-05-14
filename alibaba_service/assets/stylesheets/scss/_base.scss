@@ -1,0 +1,31 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+* {
+  transition: all .2s ease;
+}
+
+.btn {
+  min-height: 52px;
+  max-height: 52px;
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 32px;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.btn-color-text_black {
+  color: $color_black;
+}
+
+.btn-yellow {
+  background-color: $color_gold;
+
+  &:hover {
+    background-color: $color_gold_dark;
+  }
+}

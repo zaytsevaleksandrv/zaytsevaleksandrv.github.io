@@ -1,0 +1,330 @@
+.expert {
+  background: url('../images/alibs_web/alibs_main_2.0/background_main_one_block.png') center center / cover no-repeat;
+  height: 715px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  &__h1 {
+    font-size: 72px;
+    color: $color_white;
+    font-weight: 700;
+    text-shadow: 4.9px 4.9px 39.6px rgba(48, 33, 23, 0.29), 4.9px 4.9px 9.6px rgba(47, 33, 23, 0.2);
+    max-width: 860px;
+    margin: 0;
+    text-align: center;
+    user-select: none;
+    padding-top: 136px;
+    padding-bottom: 48px;
+  }
+
+  &__h4 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    max-width: 470px;
+    color: $color_white;
+    text-shadow: 4.9px 4.9px 39.6px rgba(48, 33, 23, 0.29), 4.9px 4.9px 9.6px rgba(47, 33, 23, 0.2);
+    user-select: none;
+    margin: 0;
+    padding-bottom: 51px;
+  }
+
+  & > .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+
+  &__top {
+    width: 100%;
+  }
+
+  &__form {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+
+    &-input {
+      max-width: 436px;
+      min-width: 436px;
+      min-height: 52px;
+      max-height: 52px;
+      padding-left: 29px;
+      padding-right: 120px;
+      border-radius: 26px;
+      opacity: .9;
+      box-sizing: border-box;
+      border: none;
+      outline: none;
+
+      &:focus {
+        opacity: 1;
+      }
+    }
+
+    &-btn {
+      max-width: 164px;
+      min-width: 164px;
+      min-height: 52px;
+      max-height: 52px;
+      background-color: $color_red;
+      box-shadow: 1.4px 1.4px 0 0 #c40000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 26px;
+      font-size: 16px;
+      color: $color_white;
+      font-weight: 700;
+      box-sizing: border-box;
+      border: none;
+      margin-left: -100px;
+      z-index: 1;
+      outline: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c40000;
+      }
+    }
+  }
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+
+  &__logo {
+    background: url('../images/logo.svg') center center / contain no-repeat;
+    width: 155px;
+    min-width: 155px;
+    max-width: 155px;
+    height: 50px;
+    min-height: 50px;
+    max-height: 50px;
+    display: inline-block;
+  }
+
+  &__menu-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+
+    &-inner {
+      position: relative;
+      min-width: 141px;
+      max-width: 141px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &-label {
+        font-size: 16px;
+        color: $color_black;
+        font-weight: 700;
+        cursor: pointer;
+        text-align: center;
+        margin: 0;
+
+        &:hover {
+          color: $color_gold;
+        }
+      }
+
+      &:hover .nav__dropdown-menu-list {
+        display: block;
+      }
+    }
+  }
+
+  &__dropdown-menu-list {
+    position: absolute;
+    background-color: $color_white;
+    border: 2px solid $color_gold_light;
+    margin: 0;
+    padding: 22px 26px;
+    list-style-type: none;
+    text-align: center;
+    bottom: -180px;
+    display: none;
+
+    &:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: -12px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      border: 0 solid transparent;
+      border-right-width: 8px;
+      border-left-width: 8px;
+      border-bottom: 10px solid $color_gold_light;
+    }
+
+    &:after {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: -9px;
+      right: 0;
+      left: 0;
+      margin: auto;
+      border: 0 solid transparent;
+      border-right-width: 7px;
+      border-left-width: 7px;
+      border-bottom: 9px solid $color_white;
+    }
+
+    &:hover ~ .nav__menu-list-inner-label {
+      color: $color_gold;
+    }
+
+    &-inner {
+
+      &-link {
+        font-size: 16px;
+        color: $color_black;
+        font-weight: 700;
+        cursor: pointer;
+        margin: 0;
+        line-height: 30px;
+        text-decoration: none;
+
+        &:hover {
+          color: $color_gold;
+        }
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &_tel {
+      font-size: 18px;
+      letter-spacing: .5px;
+      font-weight: 700;
+      color: $color_red;
+      display: inline-block;
+      text-decoration: none;
+
+      &:hover {
+        color: $color_gold;
+      }
+    }
+
+    &_mail {
+      font-size: 12px;
+      color: $color_gold_dark;
+      font-weight: 700;
+
+      &:hover {
+        color: $color_black;
+      }
+    }
+  }
+}
+
+.business-strategy {
+  background: url('../images/alibs_web/alibs_main_2.0/background_main_two_block.png') center center / cover no-repeat;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  user-select: none;
+
+  &__h3 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+    margin: 0;
+    color: $color_white;
+    text-shadow: 4.9px 4.9px 39.6px rgba(48, 33, 23, 0.29), 4.9px 4.9px 9.6px rgba(47, 33, 23, 0.2);
+    text-transform: uppercase;
+    max-width: 303px;
+    text-align: center;
+    padding-bottom: 45px;
+  }
+
+  & > .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    box-sizing: border-box;
+  }
+}
+
+.experience {
+  background: url('../images/alibs_web/alibs_main_2.0/background_main_three_block.png') center center / cover no-repeat;
+  height: 490px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+
+  &__wrapper-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    & > div {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  &__h1 {
+    margin: 0;
+    font-size: 72px;
+    color: $color_white;
+    font-weight: 700;
+  }
+
+  &__h2 {
+    margin: 0;
+    font-size: 60px;
+    color: $color_white;
+    font-weight: 700;
+
+    &-x {
+      padding: 20px 118px 0 123px;
+    }
+  }
+
+  &__h4 {
+    margin: 0;
+    font-weight: 400;
+    font-size: 22px;
+    color: $color_white;
+  }
+
+  &__level {
+    &-one {
+      display: flex;
+      margin-bottom: 66px;
+    }
+    &-two {
+      display: flex;
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.container {
+  width: 1170px;
+
+  @media (max-width: 990px) {
+    width: 767px;
+    padding: 0 28px;
+  }
+
+  @media (max-width: 766px) {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  &_full {
+
+    @media (max-width: 991px){
+      width: 100%;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex__sb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+}
