@@ -8,6 +8,9 @@
 
   &__work-platforms {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 
     &-text {
       font-size: 14px;
@@ -16,6 +19,7 @@
       padding: 0;
       opacity: .2;
       color: $color_white;
+      margin-right: 29px;
     }
   }
 
@@ -26,9 +30,84 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: 1;
+    margin-right: 215px;
+
+    &-inner {
+      &:nth-child(1) &-link {
+        background: url('../images/alibs_web/alibs_main_2.0/alibaba.png') center center / contain no-repeat;
+        width: 111px;
+        min-width: 111px;
+        max-width: 111px;
+        height: 20px;
+        min-height: 20px;
+        max-height: 20px;
+        display: inline-block;
+      }
+      &:nth-child(2) &-link {
+        background: url('../images/alibs_web/alibs_main_2.0/aliexpress.png') center center / contain no-repeat;
+        width: 84px;
+        min-width: 84px;
+        max-width: 84px;
+        height: 20px;
+        min-height: 20px;
+        max-height: 20px;
+        display: inline-block;
+      }
+      &:nth-child(3) &-link {
+        background: url('../images/alibs_web/alibs_main_2.0/taobao.png') center center / contain no-repeat;
+        width: 106px;
+        min-width: 106px;
+        max-width: 106px;
+        height: 14px;
+        min-height: 14px;
+        max-height: 14px;
+        display: inline-block;
+        position: relative;
+        top: -2px;
+      }
+      &:nth-child(4) &-link {
+        background: url('../images/alibs_web/alibs_main_2.0/amazon.png') center center / contain no-repeat;
+        width: 86px;
+        min-width: 86px;
+        max-width: 86px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: inline-block;
+        position: relative;
+        top: 4px;
+      }
+      &:nth-child(5) &-link {
+        background: url('../images/alibs_web/alibs_main_2.0/1688.png') center center / contain no-repeat;
+        width: 80px;
+        min-width: 80px;
+        max-width: 80px;
+        height: 15px;
+        min-height: 15px;
+        max-height: 15px;
+        display: inline-block;
+      }
+      &-link {
+        &:hover {
+          opacity: .8;
+        }
+      }
+    }
   }
 
   &__lk {
+    &-icon {
+      background: url('../images/svg/enter-lk.svg') center center / contain no-repeat;
+      width: 34px;
+      min-width: 34px;
+      max-width: 34px;
+      height: 25px;
+      min-height: 25px;
+      max-height: 25px;
+      display: inline-block;
+      margin-right: 10px;
+    }
     &-link {
       font-size: 14px;
       font-weight: 400;
@@ -37,6 +116,12 @@
       opacity: .2;
       color: $color_white;
       text-decoration: none;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        opacity: .8;
+      }
     }
   }
 }
