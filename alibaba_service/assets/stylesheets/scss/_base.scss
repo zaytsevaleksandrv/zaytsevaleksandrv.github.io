@@ -16,6 +16,12 @@ body {
   font-size: 16px;
   text-decoration: none;
   font-weight: 700;
+  line-height: 41px;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: $color_red_dark;
+  }
 }
 
 .btn-color-text_black {
@@ -24,8 +30,23 @@ body {
 
 .btn-yellow {
   background-color: $color_gold;
+  border: 3px solid $color_gold;
 
   &:hover {
-    background-color: $color_gold_dark;
+    background-color: transparent;
+    border: 3px solid $color_gold;
+    color: $color_gold;
+  }
+}
+
+.btn-outline {
+  background-color: $color_white;
+  border: 3px solid $color_red_light;
+  color: $color_red_light;
+
+  &:hover {
+    border: 3px solid $color_red_light;
+    color: $color_white;
+    background-color: $color_red_light;
   }
 }
