@@ -1006,7 +1006,7 @@ body {
         margin-bottom: 30px; }
 
 .employees {
-  padding: 80px 0 103px;
+  padding: 80px 0 89px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1091,3 +1091,81 @@ body {
       text-align: center;
       color: rgba(54, 54, 54, 0.75);
       margin: 0; }
+
+.licenses {
+  padding: 80px 0 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(85, 85, 85, 0.1); }
+  .licenses > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .licenses__h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 63px 0;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .licenses__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    width: 100%; }
+    .licenses__list-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+      .licenses__list-inner-text {
+        max-width: 150px;
+        margin-left: 30px; }
+      .licenses__list-inner-img {
+        width: 170px;
+        height: 240px; }
+      .licenses__list-inner-label {
+        font-size: 22px;
+        font-weight: 700;
+        text-align: left;
+        color: #cdaf3a;
+        text-transform: uppercase;
+        margin: 25px 0 23px; }
+      .licenses__list-inner-count {
+        font-size: 20px;
+        text-align: left;
+        color: #363636;
+        font-weight: 400;
+        margin: 0; }
+      .licenses__list-inner-date {
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+        color: #999797; }
