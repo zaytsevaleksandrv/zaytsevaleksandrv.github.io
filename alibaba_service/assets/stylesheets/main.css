@@ -259,6 +259,143 @@ body {
     .header__lk-link:hover {
       opacity: .8; }
 
+.footer {
+  background-color: #3e2e25;
+  padding: 6px 0 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .footer > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .footer__slider {
+    width: 100%; }
+    .footer__slider .slick-track {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .footer__slider-inner {
+      min-width: 110px;
+      max-width: 220px;
+      outline: none; }
+      .footer__slider-inner:nth-child(1) {
+        min-width: 174px;
+        max-width: 174px;
+        margin-right: 126px; }
+      .footer__slider-inner:nth-child(2) {
+        min-width: 195px;
+        max-width: 195px;
+        margin-right: 105px; }
+      .footer__slider-inner:nth-child(3) {
+        min-width: 214px;
+        max-width: 214px;
+        margin-right: 87px; }
+      .footer__slider-inner:nth-child(4) {
+        min-width: 205px;
+        max-width: 205px; }
+      .footer__slider-inner-label {
+        font-size: 22px;
+        text-transform: uppercase;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.2);
+        font-weight: 400;
+        font-style: normal;
+        margin-bottom: 16px; }
+      .footer__slider-inner-text {
+        font-size: 16px;
+        margin: 0;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.2);
+        font-weight: 300;
+        font-style: normal; }
+      .footer__slider-inner-link {
+        font-size: 16px;
+        margin: 0;
+        line-height: 22px;
+        color: rgba(255, 255, 255, 0.2);
+        text-decoration: none;
+        font-weight: 300;
+        font-style: normal;
+        display: block; }
+        .footer__slider-inner-link:hover {
+          color: #ffffff; }
+      .footer__slider-inner > address {
+        font-weight: 400;
+        font-style: normal; }
+  .footer__copywriting-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px; }
+  .footer__copywriting-text {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.2); }
+  .footer__copywriting-link {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.2);
+    display: block;
+    margin-top: 10px; }
+    .footer__copywriting-link:hover {
+      color: #ffffff; }
+  .footer__social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: 100px; }
+    .footer__social-link {
+      width: 50px;
+      min-width: 50px;
+      max-width: 50px;
+      height: 50px;
+      min-height: 50px;
+      max-height: 50px;
+      display: inline-block;
+      margin-right: 20px;
+      opacity: .2; }
+      .footer__social-link:hover {
+        opacity: 1; }
+      .footer__social-link:nth-child(1) {
+        background: url("../images/svg/vkontakte.svg") center center/contain no-repeat; }
+      .footer__social-link:nth-child(2) {
+        background: url("../images/svg/twitter.svg") center center/contain no-repeat; }
+      .footer__social-link:nth-child(3) {
+        background: url("../images/svg/facebook.svg") center center/contain no-repeat;
+        margin-right: 0; }
+
 .expert {
   background: url("../images/alibs_web/alibs_main_2.0/background_main_one_block.png") center center/cover no-repeat;
   height: 715px;
