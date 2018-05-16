@@ -67,7 +67,9 @@ body {
   font-weight: 700;
   line-height: 41px;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none; }
   .btn:hover {
     background-color: #c40000; }
 
@@ -82,6 +84,15 @@ body {
     border: 3px solid #cdaf3a;
     color: #cdaf3a; }
 
+.btn-red {
+  background-color: #fa0000;
+  border: 3px solid #fa0000;
+  color: #ffffff; }
+  .btn-red:hover {
+    background-color: transparent;
+    border: 3px solid #ffffff;
+    color: #ffffff; }
+
 .btn-outline {
   background-color: #ffffff;
   border: 3px solid #fa0000;
@@ -90,6 +101,40 @@ body {
     border: 3px solid #fa0000;
     color: #ffffff;
     background-color: #fa0000; }
+
+.input {
+  min-height: 52px;
+  max-height: 52px;
+  line-height: 48px;
+  padding: 0 31px;
+  opacity: .9;
+  border-radius: 26px;
+  border: solid 2px transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 20px;
+  width: 100%; }
+  .input:focus {
+    opacity: 1;
+    border: solid 2px #cdaf3a; }
+
+.textarea {
+  min-height: 124px;
+  max-height: 124px;
+  padding: 19px 31px;
+  opacity: .9;
+  border-radius: 26px;
+  border: solid 2px transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+  width: 100%; }
+  .textarea:focus {
+    opacity: 1;
+    border: solid 2px #cdaf3a; }
 
 .header {
   height: 50px;
@@ -1189,7 +1234,7 @@ body {
         color: #999797; }
 
 .gratitude {
-  padding: 91px 0 70px;
+  padding: 91px 0 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1354,3 +1399,90 @@ body {
         line-height: 24px;
         font-weight: 400;
         text-align: left; }
+
+.delivery {
+  background: url("../images/alibs_web/alibs_main_2.0/form_background.png") center center/cover no-repeat;
+  width: 100%;
+  padding: 91px 0 108px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: inset 0 80px 55px -50px #fff, inset 0 0px 0px 0px #fff;
+  box-shadow: inset 0 80px 55px -50px #fff, inset 0 0px 0px 0px #fff; }
+  .delivery > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .delivery__h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 29px 0;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .delivery__text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin: 0 auto 47px;
+    color: rgba(54, 54, 54, 0.75);
+    font-weight: 400;
+    max-width: 394px; }
+  .delivery__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .delivery__form-inner {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      max-width: 370px;
+      min-width: 370px;
+      margin-right: 29px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-box-align: start;
+      -ms-flex-align: start;
+      align-items: flex-start; }
+      .delivery__form-inner .btn {
+        margin-top: 10px; }
+      .delivery__form-inner-text {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 0;
+        margin-top: 10px;
+        margin-left: 19px; }
+        .delivery__form-inner-text > a {
+          color: rgba(255, 255, 255, 0.75);
+          font-size: 14px; }
+          .delivery__form-inner-text > a:hover {
+            color: #ffffff; }
+      .delivery__form-inner:last-child {
+        margin-right: 0; }

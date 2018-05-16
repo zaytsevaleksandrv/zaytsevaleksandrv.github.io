@@ -18,6 +18,8 @@ body {
   font-weight: 700;
   line-height: 41px;
   box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
 
   &:hover {
     background-color: $color_red_dark;
@@ -39,6 +41,18 @@ body {
   }
 }
 
+.btn-red {
+  background-color: $color_red_light;
+  border: 3px solid $color_red_light;
+  color: $color_white;
+
+  &:hover {
+    background-color: transparent;
+    border: 3px solid $color_white;
+    color: $color_white;
+  }
+}
+
 .btn-outline {
   background-color: $color_white;
   border: 3px solid $color_red_light;
@@ -48,5 +62,43 @@ body {
     border: 3px solid $color_red_light;
     color: $color_white;
     background-color: $color_red_light;
+  }
+}
+
+.input {
+  min-height: 52px;
+  max-height: 52px;
+  line-height: 48px;
+  padding: 0 31px;
+  opacity: .9;
+  border-radius: 26px;
+  border: solid 2px transparent;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 20px;
+  width: 100%;
+
+  &:focus {
+    opacity: 1;
+    border: solid 2px $color_gold;
+  }
+}
+
+.textarea {
+  min-height: 124px;
+  max-height: 124px;
+  padding: 19px 31px;
+  opacity: .9;
+  border-radius: 26px;
+  border: solid 2px transparent;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  margin-bottom: 20px;
+  width: 100%;
+
+  &:focus {
+    opacity: 1;
+    border: solid 2px $color_gold;
   }
 }
