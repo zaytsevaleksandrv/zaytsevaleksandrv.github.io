@@ -1004,3 +1004,90 @@ body {
         text-align: center;
         color: rgba(54, 54, 54, 0.75);
         margin-bottom: 30px; }
+
+.employees {
+  padding: 80px 0 103px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .employees > .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+  .employees__slider {
+    width: 100%; }
+    .employees__slider-card {
+      text-align: center; }
+  .employees__h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: 0 0 17px 0;
+    color: #363636;
+    text-transform: uppercase;
+    font-weight: 700; }
+  .employees__text {
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
+    margin: 0 0 68px;
+    color: rgba(54, 54, 54, 0.75);
+    font-weight: 400; }
+  .employees__octagon-wrapper {
+    position: relative;
+    width: 200px;
+    margin: auto; }
+  .employees__octagon-view {
+    position: relative;
+    z-index: 1; }
+  .employees__octagon-hover {
+    display: none;
+    position: absolute;
+    top: -5px;
+    left: -5px; }
+  .employees__inner {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    margin-top: 3px; }
+    .employees__inner:hover .employees__inner-text-block-label {
+      color: #fa0000; }
+    .employees__inner:hover .employees__inner-text-block-paragraph {
+      color: #b19334; }
+    .employees__inner:hover .employees__octagon-hover {
+      display: block; }
+    .employees__inner:hover .employees__inner-label {
+      color: #fa0000; }
+    .employees__inner:hover .employees__inner-paragraph {
+      color: #b19334; }
+    .employees__inner-label {
+      font-size: 22px;
+      text-align: center;
+      color: #363636;
+      margin-bottom: 13px;
+      text-transform: uppercase;
+      margin-top: 37px; }
+    .employees__inner-paragraph {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: center;
+      color: rgba(54, 54, 54, 0.75);
+      margin: 0; }
