@@ -123,6 +123,9 @@
                 <h1 class="expert__h1">
                     ЭКСПЕРТ В ПОСТАВКАХ ИЗ КИТАЯ
                 </h1>
+                <h1 class="expert__h1 expert__h1_mobile">
+                    ЭКСПЕРТ<br>В ПОСТАВКАХ<br>ИЗ КИТАЯ
+                </h1>
                 <h4 class="expert__h4">
                     Закажите продукцию из Поднебесной прямо сейчас
                 </h4>
@@ -157,6 +160,7 @@
                     <a href="" class="transfer__ways">
                         <div class="transfer__ways-logo"></div>
                         <h5 class="transfer__ways-label">ЖД</br>от 200 кг</h5>
+                        <h5 class="transfer__ways-label transfer__ways-label_mobile">ЖД от 200 кг</h5>
                         <p class="transfer__ways-subtext">быстро и недорого</p>
                     </a>
                 </div>
@@ -458,7 +462,7 @@
                         </div>
                     </div>
                     <div class="licenses__list-inner">
-                        <img src="./assets/images/alibs_web/alibs_main_2.0/registration_certificate.png" alt="registration_certificate">
+                        <img class="licenses__list-inner-img" src="./assets/images/alibs_web/alibs_main_2.0/registration_certificate.png" alt="registration_certificate">
                         <div class="licenses__list-inner-text">
                             <h5 class="licenses__list-inner-label">БИЗНЕС СЕРТИФИКАТ</h5>
                             <p class="licenses__list-inner-count">№888888</p>
@@ -482,6 +486,13 @@
                                 <time datetime="05.01.2017" class="gratitude__slider-inner-date">5 января 2017г.</time>
                             </div>
                         </div>
+                        <!--<div class="gratitude__slider-inner-popup">-->
+                            <!--<div class="gratitude__slider-inner-user-data">-->
+                                <!--<p class="gratitude__slider-inner-user-name">Михаил Венедиктов</p>-->
+                                <!--<time datetime="05.01.2017" class="gratitude__slider-inner-date">5 января 2017г.</time>-->
+                            <!--</div>-->
+                            <!--<p class="gratitude__slider-inner-text">Наладили сотрудничество<br>с несколькими Китайскими компаниями по экспорту Российской косметики</p>-->
+                        <!--</div>-->
                     </div>
                     <div class="gratitude__slider-inner">
                         <p class="gratitude__slider-inner-text">Экономим на логистике<br>около 15% по сравнению<br>с прошлыми затратами</p>
@@ -519,24 +530,32 @@
         </section>
 
         <section class="delivery">
-            <div class="conatiner">
+            <div class="container">
                 <h3 class="delivery__h3">ЗАКАЖИТЕ ДОСТАВКУ с любой<br>
                     международной интернет-платформы
                 </h3>
                 <p class="delivery__text">Маленький шаг для вас — большой шаг для вашего бизнеса </p>
                 <form class="delivery__form" action="">
-                    <div class="delivery__form-inner">
-                        <input class="input" type="text" placeholder="Ссылка на страницу с вашим товаром" required>
-                        <input class="input" type="text" placeholder="Количество товара" required pattern="[0-9]" title="Вводите цифры от 0 до 9. ">
-                        <input class="input" type="text" placeholder="Наименование компании" required>
-                        <input class="input" type="text" placeholder="ФИО" required>
-                        <p class="delivery__form-inner-text">Нажимая на кнопку «Отправить заявку»<br>вы соглашаетесь на обработку персональных<br>данных и с <a href="">Политикой конфиденциальности</a></p>
+                    <div class="delivery__form-level">
+                        <div class="delivery__form-inner">
+                            <input class="input" type="text" placeholder="Ссылка на страницу с вашим товаром" required>
+                            <input class="input" type="text" placeholder="Количество товара" required pattern="[0-9]" title="Вводите цифры от 0 до 9. ">
+                            <input class="input" type="text" placeholder="Наименование компании" required>
+                            <input class="input" type="text" placeholder="ФИО" required>
+                        </div>
+                        <div class="delivery__form-inner">
+                            <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Комментарии к товару"></textarea>
+                            <input class="input" type="text" placeholder="Регион и город доставки" required>
+                            <input class="input" type="email" placeholder="E-mail" required>
+                        </div>
                     </div>
-                    <div class="delivery__form-inner">
-                        <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Комментарии к товару"></textarea>
-                        <input class="input" type="text" placeholder="Регион и город доставки" required>
-                        <input class="input" type="email" placeholder="E-mail" required>
-                        <button class="btn btn-red">Отправить заявку</button>
+                    <div class="delivery__form-level">
+                        <div class="delivery__form-inner">
+                            <p class="delivery__form-inner-text">Нажимая на кнопку «Отправить заявку»<br>вы соглашаетесь на обработку персональных<br>данных и с <a href="">Политикой конфиденциальности</a></p>
+                        </div>
+                        <div class="delivery__form-inner">
+                            <button class="btn btn-red">Отправить заявку</button>
+                        </div>
                     </div>
                 </form>
             </div>

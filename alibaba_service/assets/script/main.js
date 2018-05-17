@@ -7,58 +7,14 @@ $('.employees__slider').slick({
     dots: false,
     responsive: [
         {
-            breakpoint: 991,
+            breakpoint: 1199,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
                 dots: true
             }
         },
-        {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 426,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '80px'
-            }
-        },
-        {
-            breakpoint: 376,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 321,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '30px'
-            }
-        }
     ]
 });
 
@@ -71,58 +27,16 @@ $('.gratitude__slider').slick({
     centerMode: true,
     responsive: [
         {
-            breakpoint: 991,
+            breakpoint: 1199,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
+                arrows: false,
+                centerMode: false,
                 dots: true
             }
         },
-        {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 426,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '80px'
-            }
-        },
-        {
-            breakpoint: 376,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 321,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '30px'
-            }
-        }
     ]
 });
 
@@ -134,57 +48,13 @@ $('.footer__slider').slick({
     dots: false,
     responsive: [
         {
-            breakpoint: 991,
+            breakpoint: 1199,
             settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
                 dots: true
             }
         },
-        {
-            breakpoint: 767,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 426,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '80px'
-            }
-        },
-        {
-            breakpoint: 376,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '60px'
-            }
-        },
-        {
-            breakpoint: 321,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: false,
-                dots: true,
-                centerMode: true,
-                centerPadding: '30px'
-            }
-        }
     ]
 });

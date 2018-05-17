@@ -93,6 +93,10 @@
       justify-content: space-between;
       width: 100%;
       margin-top: 40px;
+
+      @media (max-width: 1199px) {
+        flex-direction: column-reverse;
+      }
     }
 
     &-text {
@@ -119,6 +123,10 @@
     display: flex;
     align-items: center;
     margin-right: 100px;
+
+    @media (max-width: 1199px) {
+      margin-right: 0;
+    }
 
     &-link {
       width: 50px;

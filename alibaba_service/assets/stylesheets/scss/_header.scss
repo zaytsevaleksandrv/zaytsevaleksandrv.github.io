@@ -12,6 +12,10 @@
     align-items: center;
     justify-content: flex-start;
 
+    @media (max-width: 1199px) {
+      display: none;
+    }
+
     &-text {
       font-size: 14px;
       font-weight: 400;
@@ -97,6 +101,14 @@
   }
 
   &__lk {
+
+    @media (max-width: 1199px) {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
     &-icon {
       background: url('../images/svg/enter-lk.svg') center center / contain no-repeat;
       width: 34px;

@@ -21,6 +21,13 @@ body {
   cursor: pointer;
   outline: none;
 
+  @media (max-width: 1199px) {
+    min-width: 288px;
+    max-width: 288px;
+    line-height: 1;
+    text-align: center;
+  }
+
   &:hover {
     background-color: $color_red_dark;
   }
@@ -100,5 +107,48 @@ body {
   &:focus {
     opacity: 1;
     border: solid 2px $color_gold;
+  }
+}
+
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  justify-content: center;
+  margin: 30px 0 0 0;
+  padding: 0;
+
+  .slick-active {
+    button {
+      background-color: $color_gold_light;
+      color: $color_gold_light;
+    }
+  }
+  
+  & > li {
+
+    & > button {
+      border-radius: 50%;
+      background-color: $color_light_grey;
+      width: 10px;
+      height: 10px;
+      overflow: hidden;
+      box-sizing: border-box;
+      border: none;
+      color: $color_light_grey;
+      max-width: 10px;
+      max-height: 10px;
+      min-height: 10px;
+      margin-right: 10px;
+      padding: 0;
+      outline: none;
+    }
+
+    &:last-child {
+      & > button {
+        margin-right: 0;
+      }
+    }
   }
 }
