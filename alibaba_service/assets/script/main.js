@@ -12,6 +12,28 @@ function Sticky() {
     }
 }
 
+//плавающий mobile header
+function Sticky() {
+    var header = document.getElementById("myHeaderMobile"),
+        sticky = header.offsetTop;
+
+    if (window.pageYOffset > sticky) {
+        header.classList.add("mobile__menu-sticky");
+    } else {
+        header.classList.remove("mobile__menu-sticky");
+    }
+}
+
+//menu mobile
+function menuMobile() {
+    let burger = document.getElementById('menuMobile'),
+        nav = document.getElementById('navigation'),
+        header = document.getElementById('myHeader');
+    burger.classList.toggle('menu-toggle_open');
+    nav.classList.toggle('nav-toggle_open');
+    header.classList.toggle('header_open');
+}
+
 //sliders
 $('.employees__slider').slick({
     infinite: false,
