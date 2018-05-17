@@ -646,6 +646,8 @@ body {
     min-height: 50px;
     max-height: 50px;
     display: inline-block; }
+    .nav__logo_mobile {
+      display: none; }
     @media (max-width: 1199px) {
       .nav__logo {
         width: 108px;

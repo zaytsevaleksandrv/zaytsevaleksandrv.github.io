@@ -187,6 +187,10 @@
     max-height: 50px;
     display: inline-block;
 
+    &_mobile {
+      display: none;
+    }
+
     @media (max-width: 1199px) {
       width: 108px;
       min-width: 108px;
