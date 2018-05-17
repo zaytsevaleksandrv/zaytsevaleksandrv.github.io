@@ -1,5 +1,9 @@
+.accordion, .panel {
+  display: none;
+}
 @media (max-width: 1199px) {
   .accordion {
+    display: block;
     cursor: pointer;
     width: 100%;
     border: none;
@@ -53,6 +57,7 @@
   }
 
   .panel {
+    display: block;
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;

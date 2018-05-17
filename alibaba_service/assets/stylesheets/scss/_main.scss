@@ -190,6 +190,9 @@
 
     &_mobile {
       display: none;
+      @media (max-width: 1199px) {
+        display: inline-block;
+      }
     }
 
     @media (max-width: 1199px) {
@@ -199,6 +202,7 @@
       height: 34px;
       min-height: 34px;
       max-height: 34px;
+      display: inline-block;
     }
   }
 
@@ -1967,7 +1971,12 @@
   left: 0;
   padding: 17px 10px;
 }
-
 .header_open {
-  background-color: $color_white;
+  display: none;
+}
+@media (max-width: 1199px) {
+  .header_open {
+    display: flex;
+    background-color: $color_white;
+  }
 }
