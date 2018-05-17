@@ -180,7 +180,7 @@ $('.tectus__project-slider').slick({
 
 //сворачивание toggle text
 
-$(".tectus__link").click(function () {
+$("#more_link_bio").click(function () {
   $('.tectus__info-chief-text_toggle').toggle()
       $(this).text(function(i, text){
           return text === "Раскрыть" ? "Скрыть" : "Раскрыть";
