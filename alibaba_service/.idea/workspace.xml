@@ -26,8 +26,8 @@
       <file leaf-file-name="_main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+            <state relative-caret-position="362">
+              <caret line="1963" column="12" selection-start-line="1963" selection-start-column="12" selection-end-line="1963" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -244,7 +244,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68071000" />
+    <option name="totallyTimeSpent" value="68374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
@@ -573,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="191" column="4" selection-start-line="191" selection-start-column="4" selection-end-line="191" selection-end-column="4" />
+        <state relative-caret-position="362">
+          <caret line="1963" column="12" selection-start-line="1963" selection-start-column="12" selection-end-line="1963" selection-end-column="12" />
         </state>
       </provider>
     </entry>
