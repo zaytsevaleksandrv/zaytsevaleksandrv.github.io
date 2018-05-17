@@ -2315,3 +2315,70 @@ body {
 .header_open {
   background-color: #ffffff;
   border-bottom: #d8d8d8; }
+
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #ffffff;
+  padding: 10px 20px 10px 0;
+  font-size: 16px;
+  color: #363636;
+  font-weight: 700; }
+
+.accordion:after {
+  content: '';
+  float: right;
+  background: url("../images/svg/arrow-gold-10px.svg") center center/contain no-repeat;
+  width: 17px;
+  min-width: 17px;
+  max-width: 17px;
+  height: 9px;
+  min-height: 9px;
+  max-height: 9px;
+  display: block;
+  -webkit-transition: all 0s ease;
+  -o-transition: all 0s ease;
+  transition: all 0s ease; }
+
+.active:after {
+  content: '';
+  float: right;
+  background: url("../images/svg/arrow-gold-10px.svg") center center/contain no-repeat;
+  width: 17px;
+  min-width: 17px;
+  max-width: 17px;
+  height: 9px;
+  min-height: 9px;
+  max-height: 9px;
+  display: block;
+  -webkit-transition: all 0s ease;
+  -o-transition: all 0s ease;
+  transition: all 0s ease;
+  -webkit-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  transform: rotate(-180deg); }
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  -o-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out; }
+  .panel-link {
+    font-size: 16px;
+    color: #363636;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0;
+    line-height: 30px;
+    text-decoration: none;
+    display: block; }
+    .panel-link:hover {
+      color: #cdaf3a; }

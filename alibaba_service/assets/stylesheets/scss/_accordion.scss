@@ -1,0 +1,65 @@
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  background-color: $color_white;
+  padding: 10px 20px 10px 0;
+  font-size: 16px;
+  color: $color_black;
+  font-weight: 700;
+}
+
+
+.accordion:after {
+  content: '';
+  float: right;
+  background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+  width: 17px;
+  min-width: 17px;
+  max-width: 17px;
+  height: 9px;
+  min-height: 9px;
+  max-height: 9px;
+  display: block;
+  transition: all 0s ease;
+}
+
+.active:after {
+  content: '';
+  float: right;
+  background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+  width: 17px;
+  min-width: 17px;
+  max-width: 17px;
+  height: 9px;
+  min-height: 9px;
+  max-height: 9px;
+  display: block;
+  transition: all 0s ease;
+  transform: rotate(-180deg);
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+
+  &-link {
+    font-size: 16px;
+    color: $color_black;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 0;
+    line-height: 30px;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      color: $color_gold;
+    }
+  }
+}

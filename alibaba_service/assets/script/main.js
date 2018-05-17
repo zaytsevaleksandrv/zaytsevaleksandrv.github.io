@@ -1,4 +1,5 @@
 window.onscroll = function() {Sticky()};
+window.onscroll = function() {Sticky_mobile()};
 
 //плавающий header
 function Sticky() {
@@ -13,7 +14,7 @@ function Sticky() {
 }
 
 //плавающий mobile header
-function Sticky() {
+function Sticky_mobile() {
     var header = document.getElementById("myHeaderMobile"),
         sticky = header.offsetTop;
 
@@ -32,6 +33,22 @@ function menuMobile() {
     burger.classList.toggle('menu-toggle_open');
     nav.classList.toggle('nav-toggle_open');
     header.classList.toggle('header_open');
+}
+//accordion mobile
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
 }
 
 //sliders
