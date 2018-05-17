@@ -2,7 +2,7 @@
   width: 1170px; }
   @media (max-width: 1199px) {
     .container {
-      width: 290px; } }
+      width: 300px; } }
 
 .flex {
   display: -webkit-box;
@@ -1339,6 +1339,15 @@ body {
       min-height: 191px;
       max-height: 191px;
       display: inline-block; }
+      @media (max-width: 1199px) {
+        .build__import-export:hover:nth-child(1) .build__import-export-icon {
+          width: 98px;
+          min-width: 98px;
+          max-width: 98px;
+          height: 92px;
+          min-height: 92px;
+          max-height: 92px;
+          display: inline-block; } }
     .build__import-export:hover:nth-child(2) .build__import-export-icon {
       background: url("../images/svg/export-hover.svg") center center/contain no-repeat;
       width: 204px;
@@ -1348,6 +1357,15 @@ body {
       min-height: 191px;
       max-height: 191px;
       display: inline-block; }
+      @media (max-width: 1199px) {
+        .build__import-export:hover:nth-child(2) .build__import-export-icon {
+          width: 98px;
+          min-width: 98px;
+          max-width: 98px;
+          height: 92px;
+          min-height: 92px;
+          max-height: 92px;
+          display: inline-block; } }
     .build__import-export-icon-label {
       font-size: 36px;
       margin: 0;

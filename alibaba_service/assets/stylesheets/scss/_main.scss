@@ -892,6 +892,16 @@
         min-height: 191px;
         max-height: 191px;
         display: inline-block;
+
+        @media (max-width: 1199px) {
+          width: 98px;
+          min-width: 98px;
+          max-width: 98px;
+          height: 92px;
+          min-height: 92px;
+          max-height: 92px;
+          display: inline-block;
+        }
       }
       &:nth-child(2) .build__import-export-icon {
         background: url('../images/svg/export-hover.svg') center center / contain no-repeat;
@@ -902,6 +912,16 @@
         min-height: 191px;
         max-height: 191px;
         display: inline-block;
+
+        @media (max-width: 1199px) {
+          width: 98px;
+          min-width: 98px;
+          max-width: 98px;
+          height: 92px;
+          min-height: 92px;
+          max-height: 92px;
+          display: inline-block;
+        }
       }
     }
 
