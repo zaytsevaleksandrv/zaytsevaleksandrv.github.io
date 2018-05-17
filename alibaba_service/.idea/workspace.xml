@@ -35,8 +35,8 @@
       <file leaf-file-name="_accordion.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="723">
+              <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -253,7 +253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67501000" />
+    <option name="totallyTimeSpent" value="67560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
@@ -590,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="723">
+          <caret line="74" column="3" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
         </state>
       </provider>
     </entry>
