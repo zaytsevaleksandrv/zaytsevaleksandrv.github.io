@@ -588,6 +588,7 @@
 
       & .tectus__project-card-info {
         display: block;
+        max-width: 250px;
       }
 
       & .tectus__project-card-logo-wrapper {
@@ -771,6 +772,7 @@
       font-weight: 600;
       color: $color_dark_blue;
       transition: color .3s ease;
+      max-width: 250px;
     }
 
     &:hover {
