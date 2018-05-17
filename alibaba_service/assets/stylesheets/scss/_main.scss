@@ -1946,3 +1946,23 @@
     transform: rotate(-135deg);
   }
 }
+
+.nav-toggle_close {
+  display: none;
+}
+
+.nav-toggle_open {
+  display: inline-block;
+  position: absolute;
+  top: 62px;
+  background-color: $color_white;
+  border-bottom: #d8d8d8;
+  width: 100%;
+  left: 0;
+  padding: 17px 10px;
+}
+
+.header_open {
+  background-color: $color_white;
+  border-bottom: #d8d8d8;
+}

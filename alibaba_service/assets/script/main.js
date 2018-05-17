@@ -28,7 +28,7 @@ function Sticky() {
 function menuMobile() {
     let burger = document.getElementById('menuMobile'),
         nav = document.getElementById('navigation'),
-        header = document.getElementById('myHeader');
+        header = document.getElementById('myHeaderMobile');
     burger.classList.toggle('menu-toggle_open');
     nav.classList.toggle('nav-toggle_open');
     header.classList.toggle('header_open');
