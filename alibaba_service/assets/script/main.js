@@ -1,27 +1,17 @@
 window.onscroll = function() {Sticky()};
-window.onscroll = function() {Sticky_mobile()};
 
 //плавающий header
 function Sticky() {
     var header = document.getElementById("myHeader"),
+        header_mobile = document.getElementById("myHeaderMobile"),
         sticky = header.offsetTop;
 
     if (window.pageYOffset > sticky) {
         header.classList.add("expert__top-sticky");
+        header_mobile.classList.add("mobile__menu-sticky");
     } else {
         header.classList.remove("expert__top-sticky");
-    }
-}
-
-//плавающий mobile header
-function Sticky_mobile() {
-    var header = document.getElementById("myHeaderMobile"),
-        sticky = header.offsetTop;
-
-    if (window.pageYOffset > sticky) {
-        header.classList.add("mobile__menu-sticky");
-    } else {
-        header.classList.remove("mobile__menu-sticky");
+        header_mobile.classList.remove("mobile__menu-sticky");
     }
 }
 
