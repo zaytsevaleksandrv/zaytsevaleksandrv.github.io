@@ -1,3 +1,17 @@
+window.onscroll = function() {Sticky()};
+
+//плавающий header
+function Sticky() {
+    var header = document.getElementById("myHeader"),
+        sticky = header.offsetTop;
+
+    if (window.pageYOffset > sticky) {
+        header.classList.add("expert__top-sticky");
+    } else {
+        header.classList.remove("expert__top-sticky");
+    }
+}
+
 //sliders
 $('.employees__slider').slick({
     infinite: false,
