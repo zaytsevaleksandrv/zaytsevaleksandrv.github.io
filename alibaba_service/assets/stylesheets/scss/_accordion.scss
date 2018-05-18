@@ -16,6 +16,10 @@
     color: $color_black;
     font-weight: 700;
     position: relative;
+
+    &.active {
+      color: $color_gold;
+    }
   }
 
 
@@ -72,6 +76,7 @@
       line-height: 30px;
       text-decoration: none;
       display: block;
+      padding: 8px 0;
 
       &:hover {
         color: $color_gold;
