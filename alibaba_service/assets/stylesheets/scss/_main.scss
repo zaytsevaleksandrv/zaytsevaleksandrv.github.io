@@ -1938,15 +1938,15 @@
   }
 
   .menu-toggle__part:nth-child(1) {
-    top: -3px;
+    top: -1px;
   }
 
   .menu-toggle__part:nth-child(2) {
-    top: 9px;
+    top: 11px;
   }
 
   .menu-toggle__part:nth-child(3) {
-    top: 20px;
+    top: 23px;
   }
   .menu-toggle_open .navigation {
     display: block;
@@ -1959,7 +1959,7 @@
 
 
   .menu-toggle_open .menu-toggle .menu-toggle__part:nth-child(1) {
-    top: 4px;
+    top: 9px;
     transform: rotate(135deg);
   }
 
@@ -1969,7 +1969,7 @@
   }
 
   .menu-toggle_open .menu-toggle .menu-toggle__part:nth-child(3) {
-    top: 4px;
+    top: 9px;
     transform: rotate(-135deg);
   }
 }
@@ -1981,7 +1981,7 @@
 .nav-toggle_open {
   display: inline-block;
   position: absolute;
-  top: 54px;
+  top: 51px;
   background-color: $color_white;
   border-bottom: 2px solid #d8d8d8;
   border-top: 1px solid #d8d8d8;
