@@ -1,5 +1,26 @@
 window.onscroll = function() {Sticky()};
 
+//modalka
+function Modal() {
+    let modal = document.getElementById('modal');
+    modal.classList.add("business-strategy__modal_active");
+
+    this.closeModal = function() {
+        modal.classList.remove('business-strategy__modal_active');
+    };
+
+    let btn_close = document.getElementById("btn_close");
+    btn_close.addEventListener("click", this.closeModal);
+
+    let modal_inner = document.getElementById("modal_inner");
+    modal_inner.onclick = function(e) {
+        e.stopPropagation();
+    };
+
+    modal.addEventListener("click", this.closeModal);
+
+}
+
 //плавающий header
 function Sticky() {
     var header = document.getElementById("myHeader"),

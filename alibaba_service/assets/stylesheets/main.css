@@ -64,8 +64,8 @@ body {
   outline: none; }
   @media (max-width: 1199px) {
     .btn {
-      min-width: 288px;
-      max-width: 288px;
+      min-width: 100%;
+      max-width: 100%;
       line-height: 1;
       text-align: center; } }
   .btn:hover {
@@ -115,6 +115,8 @@ body {
   .input:focus {
     opacity: 1;
     border: solid 2px #cdaf3a; }
+  .input_border-grey {
+    border-color: #ebebeb; }
 
 .textarea {
   min-height: 124px;
@@ -558,6 +560,12 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    @media (max-width: 1199px) {
+      .expert__form {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
     .expert__form-input {
       max-width: 436px;
       min-width: 436px;
@@ -573,7 +581,10 @@ body {
       outline: none; }
       @media (max-width: 1199px) {
         .expert__form-input {
-          display: none; } }
+          max-width: 100%;
+          min-width: 100%;
+          padding: 0 10px;
+          margin-bottom: 10px; } }
       .expert__form-input:focus {
         opacity: 1; }
     .expert__form-btn {
@@ -834,6 +845,94 @@ body {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none; }
+  .business-strategy__modal {
+    max-width: 430px;
+    min-width: 430px;
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 26px 30px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    .business-strategy__modal > h3 {
+      font-size: 22px;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      color: #363636;
+      text-transform: uppercase; }
+    .business-strategy__modal-text {
+      font-size: 16px;
+      text-align: left;
+      color: rgba(54, 54, 54, 0.75);
+      line-height: 22px; }
+    @media (max-width: 431px) {
+      .business-strategy__modal {
+        max-width: 100%;
+        min-width: 100%; } }
+    .business-strategy__modal-wrapper {
+      position: fixed;
+      display: none;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      background-color: rgba(37, 37, 37, 0.6);
+      top: 0;
+      z-index: 999;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    .business-strategy__modal_active {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .business-strategy__modal-btn-close {
+      position: absolute;
+      top: 23px;
+      right: 25px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      background-color: transparent;
+      -webkit-transition: background-color .5s ease-in-out;
+      -o-transition: background-color .5s ease-in-out;
+      transition: background-color .5s ease-in-out; }
+      .business-strategy__modal-btn-close:before {
+        content: '';
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        width: 20px;
+        height: 1px;
+        background-color: #363636;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: background-color .5s ease-in-out;
+        -o-transition: background-color .5s ease-in-out;
+        transition: background-color .5s ease-in-out; }
+      .business-strategy__modal-btn-close:after {
+        content: '';
+        position: absolute;
+        top: 15px;
+        left: 5px;
+        width: 20px;
+        height: 1px;
+        background-color: #363636;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        -webkit-transition: background-color .5s ease-in-out;
+        -o-transition: background-color .5s ease-in-out;
+        transition: background-color .5s ease-in-out; }
+      .business-strategy__modal-btn-close:hover::after, .business-strategy__modal-btn-close:hover::before {
+        background-color: #cdaf3a; }
   .business-strategy__h3 {
     font-size: 30px;
     line-height: 45px;
