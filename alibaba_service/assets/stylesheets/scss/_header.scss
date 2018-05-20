@@ -5,6 +5,8 @@
   width: 100%;
   background-color: $chocolate_brown;
   text-align: center;
+  position: relative;
+  z-index: 1;
 
   &__work-platforms {
     flex: 1;

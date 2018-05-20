@@ -21,3 +21,24 @@
 .column {
   flex-direction: column;
 }
+
+.content {
+  width: 100%;
+  padding-left: 290px;
+
+  .delivery {
+    justify-content: flex-start;
+    padding-top: 63px;
+    padding-left: 64px;
+    box-sizing: border-box;
+
+    &__text {
+      text-align: left;
+      margin: 0 auto 47px 0;
+    }
+
+    &__h3 {
+      text-align: left;
+    }
+  }
+}

@@ -155,3 +155,49 @@ body {
     }
   }
 }
+.h1 {
+  font-size: 72px;
+  font-weight: 700;
+  color: $color_white;
+  line-height: 84px;
+  text-shadow: 4.9px 4.9px 39.6px rgba(48, 33, 23, 0.29), 4.9px 4.9px 9.6px rgba(47, 33, 23, 0.2);
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 1199px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: $color_white;
+  line-height: 30px;
+  text-shadow: 4.9px 4.9px 39.6px rgba(48, 33, 23, 0.29), 4.9px 4.9px 9.6px rgba(47, 33, 23, 0.2);
+  margin: 0;
+  padding: 0;
+
+  @media (max-width: 1199px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+.paragraph {
+  font-weight: 400;
+  text-align: left;
+  color: rgba(54, 54, 54, 0.75);
+  margin-top: 0;
+
+  &_20 {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

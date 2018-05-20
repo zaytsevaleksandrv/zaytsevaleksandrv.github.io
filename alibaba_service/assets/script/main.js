@@ -1,4 +1,12 @@
-window.onscroll = function() {Sticky()};
+window.onscroll = function() {
+    let header = document.getElementById("myHeader"),
+        header_mobile = document.getElementById("myHeaderMobile");
+    header || header_mobile ? Sticky() : '';
+    header || header_mobile ? Sticky() : '';
+
+    let sidebar = document.getElementById("sidebar");
+    sidebar ? StickySidebar() : '';
+};
 
 //modalka
 function Modal() {
@@ -45,8 +53,37 @@ function menuMobile() {
     nav.classList.toggle('nav-toggle_open');
     header.classList.toggle('header_open');
 }
-//accordion mobile
 
+//menu sidebar
+
+//menu menuSidebar
+let acc_sidebar = document.getElementsByClassName("nav-sidebar__btn");
+
+for (i = 0; i < acc_sidebar.length; i++) {
+    acc_sidebar[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+
+//плавающий sidebar
+function StickySidebar() {
+    var sidebar = document.getElementById("sidebar"),
+        sticky = sidebar.offsetTop;
+
+    if (window.pageYOffset > sticky) {
+        sidebar.classList.add("sidebar__sticky");
+    } else {
+        sidebar.classList.remove("sidebar__sticky");
+    }
+}
+
+//accordion mobile
 var acc = document.getElementsByClassName("accordion");
 var i;
 
