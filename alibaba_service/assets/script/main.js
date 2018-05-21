@@ -36,7 +36,10 @@ function ModalInner() {
     modal.classList.add("modal_active");
     document.querySelector("body").style.overflow = 'hidden';
     document.querySelector("html").style.overflow = 'hidden';
-    document.querySelector("body").style.position = 'relative';
+    document.querySelector("body").style.position = 'fixed';
+    document.querySelector("body").style.height = '100%';
+    document.querySelector("body").style.width = '100%';
+
 
     this.closeModal = function() {
         modal.classList.remove('modal_active');
