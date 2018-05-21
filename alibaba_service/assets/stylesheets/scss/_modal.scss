@@ -7,6 +7,7 @@
   padding: 26px 30px;
   position: relative;
   box-sizing: border-box;
+  z-index: 1;
 
   &__form {
     margin-top: 29px;
@@ -47,7 +48,7 @@
 
     @media (max-width: 1199px) {
       align-items: flex-start;
-      overflow-x: scroll;
+      overflow: auto;
     }
   }
 

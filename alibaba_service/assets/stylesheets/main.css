@@ -2616,7 +2616,8 @@ body {
   padding: 26px 30px;
   position: relative;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  z-index: 1; }
   .modal__form {
     margin-top: 29px; }
   .modal > h3 {
@@ -2655,7 +2656,7 @@ body {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start;
-        overflow-x: scroll; } }
+        overflow: auto; } }
   .modal__info-msg {
     font-size: 14px;
     line-height: 36px;
