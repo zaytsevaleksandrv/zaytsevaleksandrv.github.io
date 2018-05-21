@@ -1,0 +1,165 @@
+.modal {
+  max-width: 430px;
+  min-width: 430px;
+  background-color: $color_white;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 26px 30px;
+  position: relative;
+  box-sizing: border-box;
+
+  &__form {
+    margin-top: 29px;
+  }
+
+  & > h3 {
+    font-size: 22px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: $color_black;
+    text-transform: uppercase;
+  }
+
+  &-text {
+    font-size: 16px;
+    text-align: left;
+    color: rgba(54, 54, 54, 0.75);
+    line-height: 22px;
+  }
+
+  @media (max-width: 431px) {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  &-wrapper {
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(37, 37, 37, .6);
+    top: 0;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    @media (max-width: 1199px) {
+      align-items: flex-start;
+      overflow-x: scroll;
+    }
+
+    @media (max-height: 890px) {
+      align-items: flex-start;
+      overflow-x: scroll;
+    }
+  }
+
+  &__info-msg {
+    font-size: 14px;
+    line-height: 36px;
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center;
+    color: $color_red_light;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+
+  &__example-text {
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 29px;
+    font-weight: 400;
+    color: $color_gold;
+    margin-top: -14px;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+
+  &__add-to-product {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color_gold;
+    padding-left: 29px;
+    margin-bottom: 19px;
+    margin-top: -6px;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      color: $color_gold_dark;
+    }
+  }
+
+  &__remove-input {
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    padding-left: 29px;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color_gold;
+    text-decoration: underline;
+    cursor: pointer;
+
+    &:hover {
+      color: $color_gold_dark;
+    }
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  &_active {
+    display: flex;
+  }
+
+  &-btn-close {
+    position: absolute;
+    top: 23px;
+    right: 25px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color .5s ease-in-out;
+
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 15px;
+      right: 5px;
+      width: 20px;
+      height: 1px;
+      background-color: $color_black;
+      transform: rotate(-45deg);
+      transition: background-color .5s ease-in-out;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 15px;
+      left: 5px;
+      width: 20px;
+      height: 1px;
+      background-color: $color_black;
+      transform: rotate(45deg);
+      transition: background-color .5s ease-in-out;
+    }
+
+    &:hover {
+
+      &::after, &::before {
+        background-color: $color_gold;
+      }
+    }
+  }
+}

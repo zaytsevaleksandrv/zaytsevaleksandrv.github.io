@@ -1,8 +1,9 @@
+//при скролле вызываем sticky
 window.onscroll = function() {
     let header = document.getElementById("myHeader"),
         header_mobile = document.getElementById("myHeaderMobile");
-    header || header_mobile ? Sticky() : '';
-    header || header_mobile ? Sticky() : '';
+    header && (header ? Sticky() : '');
+    header_mobile && (header_mobile ? Sticky() : '');
 
     let sidebar = document.getElementById("sidebar");
     sidebar ? StickySidebar() : '';
@@ -26,21 +27,50 @@ function Modal() {
     };
 
     modal.addEventListener("click", this.closeModal);
+}
 
+//modal inner
+
+function ModalInner() {
+    let modal = document.getElementById('modal');
+    modal.classList.add("modal_active");
+
+    this.closeModal = function() {
+        modal.classList.remove('modal_active');
+    };
+
+    let btn_close = document.getElementById("btn_close");
+    btn_close.addEventListener("click", this.closeModal);
+
+    let modal_inner = document.getElementById("modal_inner");
+    modal_inner.onclick = function(e) {
+        e.stopPropagation();
+    };
+
+    modal.addEventListener("click", this.closeModal);
 }
 
 //плавающий header
 function Sticky() {
     var header = document.getElementById("myHeader"),
         header_mobile = document.getElementById("myHeaderMobile"),
-        sticky = header.offsetTop;
+        sticky = header ? header.offsetTop : '',
+        sticky_mobile = header_mobile ? header_mobile.offsetTop : '';
 
-    if (window.pageYOffset > sticky) {
-        header.classList.add("expert__top-sticky");
-        header_mobile.classList.add("mobile__menu-sticky");
+    if (header) {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("expert__top-sticky");
+            header_mobile.classList.add("mobile__menu-sticky");
+        } else {
+            header.classList.remove("expert__top-sticky");
+            header_mobile.classList.remove("mobile__menu-sticky");
+        }
     } else {
-        header.classList.remove("expert__top-sticky");
-        header_mobile.classList.remove("mobile__menu-sticky");
+        if (window.pageYOffset > sticky_mobile) {
+            header_mobile.classList.add("mobile__menu-sticky");
+        } else {
+            header_mobile.classList.remove("mobile__menu-sticky");
+        }
     }
 }
 
@@ -98,6 +128,64 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+//input file
+
+document.querySelector("html").classList.add('js');
+
+var fileInput  = document.querySelector( ".input-file" ),
+    button     = document.querySelector( ".input-file-trigger" ),
+    the_return = document.querySelector(".file-return");
+
+button.addEventListener( "keydown", function( event ) {
+    if ( event.keyCode == 13 || event.keyCode == 32 ) {
+        fileInput.focus();
+    }
+});
+button.addEventListener( "click", function( event ) {
+    fileInput.focus();
+    return false;
+});
+fileInput.addEventListener( "change", function( event ) {
+    the_return.innerHTML = this.value;
+});
+
+// add to product
+var addBtn = $('.modal__add-to-product');
+
+addBtn.click(function addItem (){
+    var div = $('.modal__add-to-product-block'),
+        maxLi = 5,
+        countLi = $(".modal__add-to-product-block input").length;
+
+    if (maxLi != 0 && countLi >= maxLi) {
+    } else {
+        div.append('<div><input class="input input_border-grey" type="text" placeholder="Ссылка на страницу с вашим товаром" autofocus required>\n' +
+            '<input class="input input_border-grey" type="text" placeholder="Количество товара" required>' +
+            '<a href="javascript://" class ="modal__remove-input" onclick="$(this).parent().remove(); removeItem()" title="Удалить поле">Удалить товар</a></div>');
+    }
+
+    let modal_inner = document.getElementById("modal_inner");
+    let modal = document.getElementById("modal");
+    if (modal_inner.offsetHeight > 920) {
+        modal.style.overflowY = "scroll";
+        modal.style.alignItems = "flex-start";
+    } else {
+        modal.removeAttribute("style");
+    }
+});
+
+function removeItem() {
+    let modal_inner = document.getElementById("modal_inner");
+    let modal = document.getElementById("modal");
+    if (modal_inner.offsetHeight > 920) {
+        modal.style.overflowY = "scroll";
+        modal.style.alignItems = "flex-start";
+    } else {
+        modal.removeAttribute("style");
+    }
+};
 
 //sliders
 $('.employees__slider').slick({

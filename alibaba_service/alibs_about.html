@@ -93,11 +93,58 @@
             </div>
         </div>
 
+        <div class="mobile__menu mobile__menu_bgc" id="myHeaderMobile">
+            <div class="menu-toggle__wrapper">
+                <div onClick="menuMobile()" class="menu-toggle__inner" id="menuMobile">
+                    <div class="menu-toggle">
+                        <span class="menu-toggle__part"></span>
+                        <span class="menu-toggle__part"></span>
+                        <span class="menu-toggle__part"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="navigation" class="nav-toggle_close">
+                <nav>
+                    <button class="accordion">Международные перевозки
+                    </button>
+                    <div class="panel">
+                        <a class="panel-link" href="">Морские</a>
+                        <a class="panel-link" href="">Автомобильные</a>
+                        <a class="panel-link" href="">Авиационные</a>
+                        <a class="panel-link" href="">Железнодорожные</a>
+                    </div>
+
+                    <button class="accordion">Бизнес консалтинг
+                    </button>
+                    <div class="panel">
+                        <a class="panel-link" href="">Морские</a>
+                        <a class="panel-link" href="">Автомобильные</a>
+                        <a class="panel-link" href="">Авиационные</a>
+                        <a class="panel-link" href="">Железнодорожные</a>
+                    </div>
+
+                    <button class="accordion">О компании
+                    </button>
+                    <div class="panel">
+                        <a class="panel-link" href="">Морские</a>
+                        <a class="panel-link" href="">Автомобильные</a>
+                        <a class="panel-link" href="">Авиационные</a>
+                        <a class="panel-link" href="">Железнодорожные</a>
+                    </div>
+                </nav>
+            </div>
+            <a href="/" class="nav__logo nav__logo_mobile"></a>
+            <div>
+                <a href="tel:8 800 555 52 75" class="nav__phone"></a>
+                <a href="mailto:lbazlova@alibaba-service.ru" class="nav__mailto"></a>
+            </div>
+        </div>
+
         <div class="content">
             <section class="first-layout first-layout__about">
                 <h1 class="h1">АЛИБАБА-СЕРВИС<br>К ВАШИМ УСЛУГАМ</h1>
                 <h4 class="h4">Воспользуйся уникальным сервисом прямо сейчас!</h4>
-                <button class="btn btn-red">Оставить заявку</button>
+                <button href="javascript:()" onclick="ModalInner()" class="btn btn-red">Оставить заявку</button>
             </section>
 
             <section class="two-layout two-layout__about">
@@ -155,7 +202,7 @@
                         <a href="/" class="guarantee-inner__inner">
                             <div class="guarantee-inner__inner-text-block">
                                 <h5 class="guarantee-inner__inner-text-block-label">Удобное таможенное оформление</h5>
-                                <p class="guarantee-inner__inner-text-block-paragraph">На 5 основных постах в РФ, Владивостоке, Петербурге, Новороссийске и Новосибирске. Экономим ваши деньги уже 25 лет. Проработали для вас более 500 товарных групп оформили 10 000+ сертификатов и разрешительных документов.</p>
+                                <p class="guarantee-inner__inner-text-block-paragraph">Оптимизируем ваши таможенные пошлины на 5 основных таможенных постах РФ: во Владивостоке, Петербурге, Москве, Новороссийске и Новосибирске.</p>
                                 <div class="guarantee-inner__inner-text-block-vertical"></div>
                             </div>
                             <div class="guarantee-inner__octagon-wrapper">
@@ -197,7 +244,7 @@
                         <a href="/" class="guarantee-inner__inner"-inner>
                             <div class="guarantee-inner__inner-text-block">
                                 <h5 class="guarantee-inner__inner-text-block-label">Аутсорсинг ВЭД</h5>
-                                <p class="guarantee-inner__inner-text-block-paragraph">Комплексное обслуживание вашего бизнеса ресурсами Alibaba Service освободит вам недостающее время на развитие компании. </p>
+                                <p class="guarantee-inner__inner-text-block-paragraph">Как результат постоянной работы с клиентом. Вы больше времени инвестируете в свой бизнес. Мы отвечаем за всю логистику.</p>
                             </div>
                             <div class="guarantee-inner__octagon-wrapper">
                                 <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
@@ -292,13 +339,44 @@
                     <a class="footer__copywriting-link" href="">Политика конфиденциальности</a>
                 </p>
                 <div class="footer__social">
-                    <a class="footer__social-link" title="Вконтакте" href=""></a>
-                    <a class="footer__social-link" title="Twitter" href=""></a>
                     <a href="https://www.facebook.com/alibaba.service/" target="_blank" class="footer__social-link" title="Facebook" href=""></a>
+                    <a class="footer__social-link" title="Instagram" href="https://www.instagram.com/alibaba_service/" target="_blank"></a>
+                    <a href="" target="_blank" class="footer__social-link" title="YouTube" href=""></a>
                 </div>
             </div>
         </div>
     </footer>
+
+    <div class="modal-wrapper" id="modal">
+        <div class="modal" id="modal_inner">
+            <button class="modal-btn-close" id="btn_close" title="закрыть"></button>
+            <h3>оставить заявку</h3>
+            <form class="modal__form" action="">
+                <input class="input input_border-grey" type="text" placeholder="Ссылка на страницу с вашим товаром" autofocus required>
+                <input class="input input_border-grey" type="text" placeholder="Количество товара" required>
+                <div class="modal__add-to-product-block"></div>
+                <a class="modal__add-to-product">Добавить еще товар</a>
+                <input class="input input_border-grey" type="text" placeholder="ФИО" required>
+                <input class="input input_border-grey" type="text" placeholder="Телефон" required>
+                <input class="input input_border-grey" type="text" placeholder="Email" required>
+                <input class="input input_border-grey" type="text" placeholder="Город и регион доставки" required>
+                <p class="modal__example-text">Москва, Тверская ул, 16<br>Байконур, 6-я платформа, р.7</p>
+                <textarea class="textarea textarea_border-grey" type="text" placeholder="Комментарии к товару"></textarea>
+
+                <div class="input-file-container">
+                    <input class="input-file" id="my-file" type="file">
+                    <div class="attach"></div>
+                    <label tabindex="0" for="my-file" class="input-file-trigger">Или прикрепите файл в любом формате
+                        (инвойс, упаковочный лист)</label>
+                </div>
+                <p class="file-return"></p>
+
+                <button class="btn btn-red">Отправить заявку</button>
+
+                <p class="modal__info-msg">*Заполните необходимые поля, пожалуйста</p>
+            </form>
+        </div>
+    </div>
 
     <!-- script -->
     <script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>

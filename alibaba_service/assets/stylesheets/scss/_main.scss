@@ -1984,6 +1984,11 @@
     box-sizing: border-box;
     z-index: 999;
 
+    &_bgc {
+      background-color: $color_white;
+      padding-bottom: 17px;
+    }
+
     &-sticky {
       top: 0;
       background-color: $color_white;

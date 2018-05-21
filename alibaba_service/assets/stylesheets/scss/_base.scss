@@ -111,6 +111,12 @@ body {
     opacity: 1;
     border: solid 2px $color_gold;
   }
+
+  &_border-grey{
+    border-color: #ebebeb;
+    min-height: 89px;
+    max-height: 89px;
+  }
 }
 
 
@@ -167,6 +173,10 @@ body {
   @media (max-width: 1199px) {
     font-size: 40px;
     line-height: 50px;
+    max-width: 100%;
+    min-width: 100%;
+    margin: auto;
+    text-align: center;
   }
 }
 
@@ -182,6 +192,9 @@ body {
   @media (max-width: 1199px) {
     font-size: 16px;
     line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 }
 
@@ -196,8 +209,67 @@ body {
     line-height: 28px;
     margin-bottom: 30px;
 
+    @media (max-width: 1199px) {
+      font-size: 16px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
     &:last-child {
       margin-bottom: 0;
     }
   }
+}
+
+.input-file-container {
+  max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  margin-bottom: 25px;
+}
+.js .input-file-trigger {
+  display: inline-block;
+  color: rgba(54, 54, 54, 0.75);
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration: underline;
+  transition: all .4s;
+  cursor: pointer;
+  outline: none;
+  z-index: 1;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  color: $color_gold;
+}
+
+.file-return {
+  margin: 0;
+  padding-left: 23px;
+}
+.file-return:not(:empty) {
+  margin: -10px 0 25px 0;
+}
+.js .file-return {
+  color: rgba(54, 54, 54, 0.75);
+  font-size: 14px;
+  font-weight: 400;
+}
+.js .file-return:not(:empty):before {
+  content: "Выбранный файл: ";
+  color: rgba(54, 54, 54, 0.75);
+  font-size: 14px;
+  font-weight: 600;
 }

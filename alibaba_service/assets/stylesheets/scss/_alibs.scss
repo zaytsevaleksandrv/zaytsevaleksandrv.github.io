@@ -16,6 +16,10 @@
     bottom: 0;
     left: 0;
 
+    @media (max-width: 1199px) {
+      display: none;
+    }
+
     & > .nav__logo {
       background-position-x: left;
     }
@@ -77,6 +81,12 @@
     background: url("../images/alibs_web/alibs_about/flag.png") center center / cover no-repeat;
     padding: 134px 63px 123px;
 
+    @media (max-width: 1199px) {
+      padding-right: 15px;
+      padding-left: 15px;
+      height: auto;
+    }
+
     & > .h1 {
       margin-bottom: 26px;
     }
@@ -98,6 +108,11 @@
 
   &__about {
     padding: 50px 277px 50px 64px;
+
+    @media (max-width: 1199px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
   }
 }
 
@@ -208,7 +223,7 @@
   box-sizing: border-box;
 
   @media (max-width: 1199px) {
-    padding: 50px 0 77px;
+    padding: 50px 15px 35px;
   }
 
   &__h3 {
@@ -222,6 +237,7 @@
     @media (max-width: 1199px) {
       font-size: 24px;
       max-width: 100%;
+      text-align: center;
     }
   }
 
@@ -246,6 +262,10 @@
     &-wrapper {
       position: relative;
       margin-left: 80px;
+
+      @media (max-width: 1199px) {
+        margin-left: 0;
+      }
     }
 
     &-view {
@@ -399,6 +419,10 @@
         color: $color_black;
         margin-bottom: 14px;
         text-transform: uppercase;
+
+        @media (max-width: 1199px) {
+          text-align: center;
+        }
       }
       &-paragraph {
         font-size: 16px;
@@ -406,7 +430,23 @@
         text-align: left;
         color: rgba(54, 54, 54, 0.75);
         margin-bottom: 26px;
+
+        @media (max-width: 1199px) {
+          text-align: center;
+        }
       }
     }
   }
+}
+
+.attach {
+  background: url('../images/svg/attach.svg') center center / contain no-repeat;
+  width: 15px;
+  height: 15px;
+  max-width: 15px;
+  min-width: 15px;
+  min-height: 15px;
+  max-height: 15px;
+  margin-right: 8px;
+  margin-top: 3px;
 }
