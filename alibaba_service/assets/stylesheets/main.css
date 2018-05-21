@@ -2658,8 +2658,7 @@ body {
       .modal-wrapper {
         -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start;
-        overflow: scroll; } }
+        align-items: flex-start; } }
   .modal__info-msg {
     font-size: 14px;
     line-height: 36px;

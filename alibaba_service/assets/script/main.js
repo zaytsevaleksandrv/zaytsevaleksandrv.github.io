@@ -34,8 +34,8 @@ function Modal() {
 function ModalInner() {
     let modal = document.getElementById('modal');
     modal.classList.add("modal_active");
-    document.querySelector("body").style.overflowX = 'hidden';
-    document.querySelector("html").style.overflowX = 'hidden';
+    document.querySelector("body").style.overflow = 'hidden';
+    document.querySelector("html").style.overflow = 'hidden';
     document.querySelector("body").style.position = 'relative';
 
     this.closeModal = function() {
