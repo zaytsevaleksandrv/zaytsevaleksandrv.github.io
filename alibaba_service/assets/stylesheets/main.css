@@ -2656,12 +2656,6 @@ body {
         -ms-flex-align: start;
         align-items: flex-start;
         overflow-x: scroll; } }
-    @media (max-height: 890px) {
-      .modal-wrapper {
-        -webkit-box-align: start;
-        -ms-flex-align: start;
-        align-items: flex-start;
-        overflow-x: scroll; } }
   .modal__info-msg {
     font-size: 14px;
     line-height: 36px;

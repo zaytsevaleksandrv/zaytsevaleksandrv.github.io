@@ -17,7 +17,7 @@
       <file leaf-file-name="_alibs.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19180">
+            <state relative-caret-position="28">
               <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
             </state>
           </provider>
@@ -26,11 +26,12 @@
       <file leaf-file-name="alibs_consult.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_consult.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="389" column="37" selection-start-line="389" selection-start-column="37" selection-end-line="389" selection-end-column="37" />
+            <state relative-caret-position="390">
+              <caret line="154" column="51" lean-forward="true" selection-start-line="154" selection-start-column="51" selection-end-line="154" selection-end-column="51" />
               <folding>
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#0;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#1;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#a#2;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -43,15 +44,6 @@
                 <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_grid.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_grid.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -108,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_modal.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
+            <state relative-caret-position="308">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -126,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+            <state relative-caret-position="117">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
                 <element signature="n#!!block;n#Sticky#0" />
                 <element signature="n#!!block;n#menuMobile#0" />
@@ -210,10 +202,10 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss" />
         <option value="$PROJECT_DIR$/assets/script/slaider.js" />
         <option value="$PROJECT_DIR$/alibs_main_2.0.html" />
-        <option value="$PROJECT_DIR$/alibs_consult.html" />
         <option value="$PROJECT_DIR$/alibs_about.html" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss" />
+        <option value="$PROJECT_DIR$/alibs_consult.html" />
         <option value="$PROJECT_DIR$/assets/script/main.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss" />
       </list>
     </option>
   </component>
@@ -246,6 +238,19 @@
               <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
               <item name="alibaba_service" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba_service" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alibaba_service" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="svg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
@@ -320,12 +325,12 @@
       <workItem from="1526816755308" duration="11328000" />
       <workItem from="1526842935490" duration="4788000" />
       <workItem from="1526894380579" duration="17493000" />
-      <workItem from="1526929676884" duration="1214000" />
+      <workItem from="1526929676884" duration="2854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110407000" />
+    <option name="totallyTimeSpent" value="112047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -381,33 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alibs_main_2.0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19096">
-          <caret line="682" column="7" lean-forward="true" selection-start-line="682" selection-start-column="7" selection-end-line="682" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#0;n#nav#0;n#div#0;n#div#0;n#div#0;n#section#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#section#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#5;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#6;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#7;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#8;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#9;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="896">
@@ -802,13 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19180">
-          <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/sliders.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -848,13 +819,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/bill.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_consult.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="389" column="37" selection-start-line="389" selection-start-column="37" selection-end-line="389" selection-end-column="37" />
+        <state relative-caret-position="390">
+          <caret line="154" column="51" lean-forward="true" selection-start-line="154" selection-start-column="51" selection-end-line="154" selection-end-column="51" />
           <folding>
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#1;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#2;n#div#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -870,6 +845,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="685" column="25" selection-start-line="685" selection-start-column="25" selection-end-line="685" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
@@ -882,22 +864,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="129" column="21" selection-start-line="129" selection-start-column="21" selection-end-line="129" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="63" selection-start-line="40" selection-start-column="63" selection-end-line="40" selection-end-column="63" />
+        <state relative-caret-position="117">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
             <element signature="n#!!block;n#Sticky#0" />
             <element signature="n#!!block;n#menuMobile#0" />
             <element signature="n#!!block;n#StickySidebar#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
         </state>
       </provider>
     </entry>

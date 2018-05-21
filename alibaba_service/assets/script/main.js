@@ -34,11 +34,11 @@ function Modal() {
 function ModalInner() {
     let modal = document.getElementById('modal');
     modal.classList.add("modal_active");
-    document.querySelector("html").style.overflow = 'hidden';
+    document.querySelector("body").style.overflow = 'hidden';
 
     this.closeModal = function() {
         modal.classList.remove('modal_active');
-        document.querySelector("html").removeAttribute("style");
+        document.querySelector("body").removeAttribute("style");
     };
 
     let btn_close = document.getElementById("btn_close");

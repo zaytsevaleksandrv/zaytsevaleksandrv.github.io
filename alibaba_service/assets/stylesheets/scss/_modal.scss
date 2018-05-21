@@ -49,11 +49,6 @@
       align-items: flex-start;
       overflow-x: scroll;
     }
-
-    @media (max-height: 890px) {
-      align-items: flex-start;
-      overflow-x: scroll;
-    }
   }
 
   &__info-msg {
