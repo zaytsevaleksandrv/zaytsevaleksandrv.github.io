@@ -38,6 +38,7 @@ function ModalInner() {
 
     this.closeModal = function() {
         modal.classList.remove('modal_active');
+        document.querySelector("html").removeAttribute("style");
     };
 
     let btn_close = document.getElementById("btn_close");
