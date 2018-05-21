@@ -2652,12 +2652,14 @@ body {
     z-index: 999;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    height: 100vh; }
     @media (max-width: 1199px) {
       .modal-wrapper {
         -webkit-box-align: start;
         -ms-flex-align: start;
-        align-items: flex-start; } }
+        align-items: flex-start;
+        overflow: scroll; } }
   .modal__info-msg {
     font-size: 14px;
     line-height: 36px;
