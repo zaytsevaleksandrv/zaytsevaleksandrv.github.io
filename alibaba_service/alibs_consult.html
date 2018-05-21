@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#3e2e25">
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#3e2e25">
+
+    <title>alibs_consult</title>
+
+    <!-- stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/stylesheets/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./assets/stylesheets/slick.css"/>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
+</head>
+<body>
+<header class="header flex">
+    <section class="container flex__sb">
+        <div class="header__work-platforms">
+            <p class="header__work-platforms-text">Работаем с платформами</p>
+            <ul class="header__list">
+                <li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на Alibaba.com" href="http://www.alibaba.com/"></a></li>
+                <li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на AliExpress" href="http://www.aliexpress.com/"></a></li>
+                <li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на Taobao.com" href="http://www.taobao.com/"></a></li>
+                <li class="header__list-inner"><a class="header__list-inner-link" title="Перейти на amazon.com" href=""></a></li>
+                <li class="header__list-inner"><a class="header__list-inner-link" title="Перейти на 1688" href=""></a></li>
+            </ul>
+        </div>
+        <div class="header__lk">
+            <a class="header__lk-link" href="">
+                <span  class="header__lk-icon"></span>
+                Личный кабинет
+            </a>
+        </div>
+    </section>
+</header>
+<main class="flex consult">
+    <div class="nav-sidebar__wrapper sidebar" id="sidebar">
+        <a href="/" class="nav__logo"></a>
+        <nav class="nav-sidebar">
+            <button class="nav-sidebar__btn">Международные перевозки</button>
+            <div class="nav-sidebar__panel">
+                <a class="nav-sidebar__panel-link" href="">Морские</a>
+                <a class="nav-sidebar__panel-link" href="">Автомобильные</a>
+                <a class="nav-sidebar__panel-link" href="">Авиационные</a>
+                <a class="nav-sidebar__panel-link" href="">Железнодорожные</a>
+            </div>
+
+            <button class="nav-sidebar__btn">Бизнес
+                консалтинг</button>
+            <div class="nav-sidebar__panel">
+                <a class="nav-sidebar__panel-link" href="">Морские</a>
+                <a class="nav-sidebar__panel-link" href="">Автомобильные</a>
+                <a class="nav-sidebar__panel-link" href="">Авиационные</a>
+                <a class="nav-sidebar__panel-link" href="">Железнодорожные</a>
+            </div>
+
+            <button class="nav-sidebar__btn">О компании</button>
+            <div class="nav-sidebar__panel">
+                <a class="nav-sidebar__panel-link" href="">Морские</a>
+                <a class="nav-sidebar__panel-link" href="">Автомобильные</a>
+                <a class="nav-sidebar__panel-link" href="">Авиационные</a>
+                <a class="nav-sidebar__panel-link" href="">Железнодорожные</a>
+            </div>
+        </nav>
+        <div class="nav-sidebar__contact">
+            <a class="nav-sidebar__contact-link" href="tel:8 800 555 52 75" title="Закажите обратный звонок">
+                <span class="nav-sidebar__contact-text-big nav-sidebar__contact-text-big_18">8 800 555 52 75</span>
+                <span class="nav-sidebar__contact-text-small">Закажите обратный звонок</span>
+            </a>
+            <a class="nav-sidebar__contact-link" href="mailto:info@alibaba-service.ru" title="Напишите нам">
+                <span class="nav-sidebar__contact-text-big">info@alibaba-service.ru</span>
+                <span class="nav-sidebar__contact-text-small">Напишите нам</span>
+            </a>
+        </div>
+    </div>
+
+    <div class="mobile__menu mobile__menu_bgc" id="myHeaderMobile">
+        <div class="menu-toggle__wrapper">
+            <div onClick="menuMobile()" class="menu-toggle__inner" id="menuMobile">
+                <div class="menu-toggle">
+                    <span class="menu-toggle__part"></span>
+                    <span class="menu-toggle__part"></span>
+                    <span class="menu-toggle__part"></span>
+                </div>
+            </div>
+        </div>
+        <div id="navigation" class="nav-toggle_close">
+            <nav>
+                <button class="accordion">Международные перевозки
+                </button>
+                <div class="panel">
+                    <a class="panel-link" href="">Морские</a>
+                    <a class="panel-link" href="">Автомобильные</a>
+                    <a class="panel-link" href="">Авиационные</a>
+                    <a class="panel-link" href="">Железнодорожные</a>
+                </div>
+
+                <button class="accordion">Бизнес консалтинг
+                </button>
+                <div class="panel">
+                    <a class="panel-link" href="">Морские</a>
+                    <a class="panel-link" href="">Автомобильные</a>
+                    <a class="panel-link" href="">Авиационные</a>
+                    <a class="panel-link" href="">Железнодорожные</a>
+                </div>
+
+                <button class="accordion">О компании
+                </button>
+                <div class="panel">
+                    <a class="panel-link" href="">Морские</a>
+                    <a class="panel-link" href="">Автомобильные</a>
+                    <a class="panel-link" href="">Авиационные</a>
+                    <a class="panel-link" href="">Железнодорожные</a>
+                </div>
+            </nav>
+        </div>
+        <a href="/" class="nav__logo nav__logo_mobile"></a>
+        <div>
+            <a href="tel:8 800 555 52 75" class="nav__phone"></a>
+            <a href="mailto:lbazlova@alibaba-service.ru" class="nav__mailto"></a>
+        </div>
+    </div>
+
+    <div class="content">
+        <section class="first-layout first-layout__consult">
+            <h1 class="h1">ВЫСТРОИМ ВАШ МЕЖДУНАРОДНЫЙ БИЗНЕС</h1>
+            <h4 class="h4">Настало время включаться в мировую экономику.<br>Мы знаем Ваши новые рынки сбыта!</h4>
+            <button href="javascript:()" onclick="ModalInner()" class="btn btn-red">Оставить заявку</button>
+        </section>
+
+        <section class="two-layout two-layout__consult">
+            <p class="paragraph paragraph_20">Наша команда разработала ряд решений по продвижению российских товаров на китайский и международные рынки с использованием всех имеющихся маркетплейсов и маркетинговых решений доступного онлайна.</p>
+         </section>
+
+        <section class="guarantee-inner">
+            <div>
+                <h3 class="guarantee-inner__h3">С ЛЕГКОСТЬЮ ПОМОЖЕМ ВАМ</h3>
+                <div>
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">Маркетинговые исследования</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Тщательно изучаем продукт или услугу Вашей компании, проводим аналитические исследования и предлагаем лучший из рынков. Им может стать Китай, Индия или даже Бразилия.</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="own_office" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/marketing_research.jpg" x="-33" y="0" width="150" height="100" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#own_office)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">ПОДБОР ЮРИСДИКЦИИ</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Опираясь на Вашу бизнес-модель, подбираем юридическую форму организации и страну с наименьшей налоговой нагрузкой.</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="warehouse_complex" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/THE_CHOICE_OF_JURISDICTION.jpg" x="-23" y="0" width="150" height="100" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#warehouse_complex)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">РЕГИСТРАЦИЯ ТОРГОВОЙ МАРКИ</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Знаем и научим, как соблюсти все нормы международного права в процессе регистрации торговой марки в чужом правовом поле. Или зарегистрируем ее за Вас.</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="staff_members" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/reg.png" x="-23" y="0" width="150" height="100" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#staff_members)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">Аудит и отчетность</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Оградим Вас от бумажной «головной» боли, потому что уже 25 лет ведем отчетность Alibaba-Service и наших постоянных клиентов согласно МСФО (IFRS).</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="legal_security" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/Audit_and_reporting.jpg" x="-45" y="-40" width="200" height="200" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#legal_security)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">HR-КОНСАЛТИНГ</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Собираем команду для Вашего удаленного представительства с учетом возможных правовых рисков. Консультируем в вопросах организации трудового права в той или иной стране.</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="outsourcing_of_foreign_economic_activity" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/hr-consulting.jpg" x="-30" y="-30" width="170" height="170" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#outsourcing_of_foreign_economic_activity)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">СТРАТЕГИЯ ПРОДАЖ</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Выходить даже на самый выгодный рынок без выверенного плана – стратегическая ошибка. Разработаем для Вас четкую политику продаж. Гарантируем прибыльный старт.</p>
+                            <div class="guarantee-inner__inner-text-block-vertical"></div>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="sales_strategy" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/sales_strategy.jpg" x="-30" y="-30" width="170" height="170" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#sales_strategy)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="#" class="guarantee-inner__inner">
+                        <div class="guarantee-inner__inner-text-block">
+                            <h5 class="guarantee-inner__inner-text-block-label">ПОТРЕБИТЕЛЬСКАЯ ЛОГИСТИКА</h5>
+                            <p class="guarantee-inner__inner-text-block-paragraph">Организуем поставку товаров Вашему потребителю без лишний логистических звений. От Вашего производителя – Вашему клиенту. Напрямую.</p>
+                        </div>
+                        <div class="guarantee-inner__octagon-wrapper">
+                            <svg class="guarantee-inner__octagon-view" preserveAspectRatio="none" viewbox="0 0 100 100" width="276px" height="276px">
+                                <defs>
+                                    <pattern id="CONSUMER_LOGISTICS" patternUnits="userSpaceOnUse" width="100" height="100">
+                                        <image xlink:href="./assets/images/alibs_web/alibs_consult/CONSUMER_LOGISTICS.jpg" x="-30" y="-30" width="170" height="170" />
+                                    </pattern>
+                                </defs>
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="url(#CONSUMER_LOGISTICS)" stroke-width="2px" stroke="#cdaf3a"></path>
+                            </svg>
+                            <svg class="guarantee-inner__octagon-hover" preserveAspectRatio="none" viewbox="0 0 100 100" width="286px" height="286px">
+                                <path d="M30,2 L70,2 L98,30 L98,70 L70,98 L30,98 L2,70 L2,30z" fill="red" stroke-width="2px" stroke="#fa0000"></path>
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="delivery">
+            <div>
+                <h3 class="delivery__h3">ЗАКАЖИТЕ ДОСТАВКУ с любой<br>
+                    международной интернет-платформы
+                </h3>
+                <p class="delivery__text">Маленький шаг для вас — большой шаг для вашего бизнеса </p>
+                <form class="delivery__form" action="">
+                    <div class="delivery__form-level">
+                        <div class="delivery__form-inner">
+                            <input class="input" type="text" placeholder="Ссылка на страницу с вашим товаром" required>
+                            <input class="input" type="text" placeholder="Количество товара" required pattern="[0-9]" title="Вводите цифры от 0 до 9. ">
+                            <input class="input" type="text" placeholder="Наименование компании" required>
+                            <input class="input" type="text" placeholder="ФИО" required>
+                        </div>
+                        <div class="delivery__form-inner">
+                            <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Комментарии к товару"></textarea>
+                            <input class="input" type="text" placeholder="Регион и город доставки" required>
+                            <input class="input" type="email" placeholder="E-mail" required>
+                        </div>
+                    </div>
+                    <div class="delivery__form-level">
+                        <div class="delivery__form-inner">
+                            <p class="delivery__form-inner-text">Нажимая на кнопку «Отправить заявку»<br>вы соглашаетесь на обработку персональных<br>данных и с <a href="">Политикой конфиденциальности</a></p>
+                        </div>
+                        <div class="delivery__form-inner">
+                            <button class="btn btn-red">Отправить заявку</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__slider">
+            <div class="footer__slider-inner">
+                <address>
+                    <h5 class="footer__slider-inner-label">МОСКВА</h5>
+                    <p class="footer__slider-inner-text">Пресненская наб., 2,<br>Москва-Сити</p>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 (499) 686 03 39">8 (499) 686 03 39</a>
+                    <a class="footer__slider-inner-link" title="Написать на почту" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+                </address>
+            </div>
+            <div class="footer__slider-inner">
+                <address>
+                    <h5 class="footer__slider-inner-label">ВЛАДИВОСТОК</h5>
+                    <p class="footer__slider-inner-text">ул. Стрельникова, 7,<br>офис 806, представитель<br>— ООО «Индотранс»</p>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 423 2 520 465">8 423 2 520 465</a>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 423 2 520 466">8 423 2 520 466</a>
+                    <a class="footer__slider-inner-link" title="Перейти на сайт" target="_blank" href="http://indotrans.ru/">www.indotrans.ru</a>
+                </address>
+            </div>
+            <div class="footer__slider-inner">
+                <address>
+                    <h5 class="footer__slider-inner-label">ПЕКИН</h5>
+                    <p class="footer__slider-inner-text">A-911 Qiancun Shangwu Bldg.,No.2 Block,<br>Anzhenxili 5 Qu, Chaoyang<br>District, Beijing 100029,<br>P.R. of China</p>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+861064430843">+86 10 644 308 43 (доб. 126)</a>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+861064435764">+86 10 644 357 64 (доб. 128)</a>
+                </address>
+            </div>
+            <div class="footer__slider-inner">
+                <address>
+                    <h5 class="footer__slider-inner-label">ШЭНЬЧЖЕНЬ</h5>
+                    <p class="footer__slider-inner-text">2407, CunJin building 3005,<br>DongMenNan Road,<br>Luohu district,<br>Shenzhen, Guandong,<br>China postcode 518000</p>
+                    <a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+86075522980652">+86 0755 2298 0652</a>
+                </address>
+            </div>
+        </div>
+        <div class="footer__copywriting-wrapper">
+            <p class="footer__copywriting-text">© Алибаба-Сервис, 2018
+                <a class="footer__copywriting-link" href="">Политика конфиденциальности</a>
+            </p>
+            <div class="footer__social">
+                <a href="https://www.facebook.com/alibaba.service/" target="_blank" class="footer__social-link" title="Facebook" href=""></a>
+                <a class="footer__social-link" title="Instagram" href="https://www.instagram.com/alibaba_service/" target="_blank"></a>
+                <a href="" target="_blank" class="footer__social-link" title="YouTube" href=""></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<div class="modal-wrapper" id="modal">
+    <div class="modal" id="modal_inner">
+        <button class="modal-btn-close" id="btn_close" title="закрыть"></button>
+        <h3>оставить заявку</h3>
+        <form class="modal__form" action="">
+            <input class="input input_border-grey" type="text" placeholder="Ссылка на страницу с вашим товаром" required>
+            <input class="input input_border-grey" type="text" placeholder="Количество товара" required>
+            <div class="modal__add-to-product-block"></div>
+            <a class="modal__add-to-product">Добавить еще товар</a>
+            <input class="input input_border-grey" type="text" placeholder="ФИО" required>
+            <input class="input input_border-grey" type="text" placeholder="Телефон" required>
+            <input class="input input_border-grey" type="text" placeholder="Email" required>
+            <input class="input input_border-grey" type="text" placeholder="Город и регион доставки" required>
+            <p class="modal__example-text">Москва, Тверская ул, 16<br>Байконур, 6-я платформа, р.7</p>
+            <textarea class="textarea textarea_border-grey" type="text" placeholder="Комментарии к товару"></textarea>
+
+            <div class="input-file-container">
+                <input class="input-file" id="my-file" type="file">
+                <div class="attach"></div>
+                <label tabindex="0" for="my-file" class="input-file-trigger">Или прикрепите файл в любом формате
+                    (инвойс, упаковочный лист)</label>
+            </div>
+            <p class="file-return"></p>
+
+            <button class="btn btn-red">Отправить заявку</button>
+
+            <p class="modal__info-msg">*Заполните необходимые поля, пожалуйста</p>
+        </form>
+    </div>
+</div>
+
+<!-- script -->
+<script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./assets/script/slick.min.js"></script>
+<script type="text/javascript" src="./assets/script/main.js"></script>
+<script type="text/javascript" src="./assets/script/sliders.js"></script>
+</body>
+</html>
