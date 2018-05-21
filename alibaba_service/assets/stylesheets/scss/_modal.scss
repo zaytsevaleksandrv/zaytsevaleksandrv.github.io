@@ -118,26 +118,29 @@
 
   &-btn-close {
     position: absolute;
-    top: 23px;
+    top: 29px;
     right: 25px;
-    width: 30px;
-    max-width: 30px;
-    min-width: 30px;
-    height: 30px;
-    max-height: 30px;
-    min-height: 30px;
+    width: 20px;
+    max-width: 20px;
+    min-width: 20px;
+    height: 20px;
+    max-height: 20px;
+    min-height: 20px;
     border: none;
     outline: none;
     cursor: pointer;
     background-color: transparent;
     transition: background-color .5s ease-in-out;
+    display: block;
+    padding: 0;
 
 
     &:before {
       content: '';
       position: absolute;
-      top: 15px;
-      right: 5px;
+      top: 9px;
+      right: 0px;
+      bottom: 0;
       width: 20px;
       height: 1px;
       background-color: $color_black;
@@ -148,8 +151,9 @@
     &:after {
       content: '';
       position: absolute;
-      top: 15px;
-      left: 5px;
+      top: 9px;
+      left: 0px;
+      bottom: 0;
       width: 20px;
       height: 1px;
       background-color: $color_black;
