@@ -35,11 +35,13 @@ function ModalInner() {
     let modal = document.getElementById('modal');
     modal.classList.add("modal_active");
     document.querySelector("body").style.overflowX = 'hidden';
+    document.querySelector("html").style.overflowX = 'hidden';
     document.querySelector("body").style.position = 'relative';
 
     this.closeModal = function() {
         modal.classList.remove('modal_active');
         document.querySelector("body").removeAttribute("style");
+        document.querySelector("html").removeAttribute("style");
     };
 
     let btn_close = document.getElementById("btn_close");
