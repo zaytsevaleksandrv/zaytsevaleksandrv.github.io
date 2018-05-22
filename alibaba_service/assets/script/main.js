@@ -137,25 +137,28 @@ for (i = 0; i < acc.length; i++) {
 
 
 //input file
+let modal = document.getElementById("modal");
 
-document.querySelector("html").classList.add('js');
+if (modal) {
+    document.querySelector("html").classList.add('js');
 
-var fileInput  = document.querySelector( ".input-file" ),
-    button     = document.querySelector( ".input-file-trigger" ),
-    the_return = document.querySelector(".file-return");
+    var fileInput  = document.querySelector( ".input-file" ),
+        button     = document.querySelector( ".input-file-trigger" ),
+        the_return = document.querySelector(".file-return");
 
-button.addEventListener( "keydown", function( event ) {
-    if ( event.keyCode == 13 || event.keyCode == 32 ) {
+    button.addEventListener( "keydown", function( event ) {
+        if ( event.keyCode == 13 || event.keyCode == 32 ) {
+            fileInput.focus();
+        }
+    });
+    button.addEventListener( "click", function( event ) {
         fileInput.focus();
-    }
-});
-button.addEventListener( "click", function( event ) {
-    fileInput.focus();
-    return false;
-});
-fileInput.addEventListener( "change", function( event ) {
-    the_return.innerHTML = this.value;
-});
+        return false;
+    });
+    fileInput.addEventListener( "change", function( event ) {
+        the_return.innerHTML = this.value;
+    });
+}
 
 // add to product
 var addBtn = $('.modal__add-to-product');
@@ -192,3 +195,19 @@ function removeItem() {
         modal.removeAttribute("style");
     }
 };
+
+//share block
+
+function shareBlock() {
+
+    const share_btn = document.getElementById('share_btn');
+
+    if (share_block.style.display === "none") {
+        share_block.style.display = "flex";
+        share_btn.classList.add('active_share');
+    } else {
+        share_block.style.display = "none";
+        share_btn.classList.remove('active_share');
+    }
+}
+
