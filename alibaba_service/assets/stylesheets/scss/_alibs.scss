@@ -167,6 +167,32 @@
       }
     }
   }
+
+  &__team {
+    background: url("../images/alibs_web/alibs_team/background_team.png") center center / cover no-repeat;
+    padding: 140px 63px 126px;
+    height: auto;
+
+    @media (max-width: 1199px) {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+
+    & > .h1 {
+      margin-bottom: 36px;
+    }
+
+    & > .h4 {
+      min-width: 385px;
+      max-width: 385px;
+      margin-bottom: 50px;
+
+      @media (max-width: 1199px) {
+        max-width: 100%;
+        min-width: 100%;
+      }
+    }
+  }
 }
 
 .two-layout {
@@ -1251,6 +1277,131 @@
         @media (max-width: 1199px) {
           text-align: center;
         }
+      }
+    }
+  }
+}
+
+.team {
+  padding: 80px 277px 30px 64px;
+
+  @media (max-width: 1199px) {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 50px;
+  }
+
+  &__wrapper {
+    margin-top: 68px;
+
+    @media (max-width: 1199px) {
+      margin-top: 30px;
+    }
+  }
+
+  &__octagon {
+    &-wrapper {
+      position: relative;
+      margin-right: 31px;
+
+      @media (max-width: 1199px) {
+        margin-right: 0;
+        margin-bottom: 15px;
+      }
+    }
+
+    &-view {
+      position: relative;
+      z-index: 1;
+      width: 200px;
+      height: 200px;
+
+      @media (max-width: 1199px) {
+        width: 170px;
+        height: 170px;
+      }
+    }
+
+    &-hover {
+      display: inline-block;
+      opacity: 0;
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      transition: opacity .3s ease-in-out;
+      width: 206px;
+      height: 206px;
+
+      @media (max-width: 1199px) {
+        width: 176px;
+        height: 176px;
+      }
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    justify-content: flex-start;
+    text-decoration: none;
+    margin-bottom: 60px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: 1199px) {
+      flex-direction: column;
+      max-width: 100%;
+      align-items: center;
+    }
+
+    &:hover &-label {
+      color: $color_red_light;
+    }
+
+    &:hover &-paragraph {
+      color: $color_gold_dark;
+    }
+
+    &:hover .team__octagon-hover {
+      opacity: 1;
+    }
+
+    &-label {
+      font-size: 22px;
+      text-align: left;
+      color: $color_black;
+      margin-bottom: 14px;
+      text-transform: uppercase;
+      margin-top: 0;
+
+      @media (max-width: 1199px) {
+        text-align: center;
+      }
+    }
+    &-paragraph {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+      color: rgba(54, 54, 54, 0.75);
+      margin-bottom: 0px;
+
+      @media (max-width: 1199px) {
+        text-align: center;
+      }
+    }
+
+    &-position {
+      font-size: 16px;
+      line-height: 22px;
+      text-align: left;
+      color: $color_gold;
+      margin-bottom: 0px;
+
+      @media (max-width: 1199px) {
+        text-align: center;
       }
     }
   }
