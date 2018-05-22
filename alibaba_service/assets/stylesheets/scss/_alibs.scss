@@ -1011,6 +1011,7 @@
       align-items: center;
       justify-content: center;
       cursor: pointer;
+      outline: none;
 
       &.active_share {
         background-color: $color_gold;

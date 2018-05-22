@@ -3598,7 +3598,8 @@ body {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  cursor: pointer; }
+  cursor: pointer;
+  outline: none; }
   .news__share-btn.active_share {
     background-color: #cdaf3a;
     color: #ffffff; }
