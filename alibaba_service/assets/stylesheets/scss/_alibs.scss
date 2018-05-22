@@ -152,6 +152,7 @@
     padding: 50px 277px 50px 64px;
     max-width: 590px;
     min-width: 590px;
+    box-sizing: border-box;
 
     @media (max-width: 1199px) {
       padding-right: 15px;
@@ -742,4 +743,147 @@
   max-height: 15px;
   margin-right: 8px;
   margin-top: 3px;
+}
+
+.now-work {
+  padding: 38px 0 63px 64px;
+  box-sizing: border-box;
+
+  @media (max-width: 1199px) {
+    padding: 0px 15px 35px;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 46px;
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__inner {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 100px;
+    margin-bottom: 64px;
+
+    &:nth-child(3), &:nth-child(6) {
+      margin-right: 0;
+    }
+
+    &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+      margin-bottom: 0;
+
+      @media (max-width: 1199px) {
+        margin-bottom: 33px;
+
+        &:nth-child(6) {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    @media (max-width: 1199px) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    &-logo {
+      width: 200px;
+      height: 81px;
+      max-width: 200px;
+      min-width: 200px;
+      max-height: 81px;
+      min-height: 81px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 19px;
+
+      @media (max-width: 1199px) {
+        margin-bottom: 10px;
+      }
+
+      &-baidu {
+        background: url('../images/alibs_web/alibs_consult/baidu.png') center center / contain no-repeat;
+        width: 200px;
+        height: 65px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 65px;
+        min-height: 65px;
+      }
+
+      &-alibaba {
+        background: url('../images/alibs_web/alibs_consult/alibaba.png') center center / contain no-repeat;
+        width: 200px;
+        height: 69px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 69px;
+        min-height: 69px;
+      }
+
+      &-aliexpress {
+        background: url('../images/alibs_web/alibs_consult/aliexpress.png') center center / contain no-repeat;
+        width: 200px;
+        height: 37px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 37px;
+        min-height: 37px;
+      }
+
+      &-1688 {
+        background: url('../images/alibs_web/alibs_consult/1688.png') center center / contain no-repeat;
+        width: 200px;
+        height: 38px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 38px;
+        min-height: 38px;
+      }
+
+      &-taobao {
+        background: url('../images/alibs_web/alibs_consult/taobao.png') center center / contain no-repeat;
+        width: 200px;
+        height: 81px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 81px;
+        min-height: 81px;
+      }
+
+      &-amazon {
+        background: url('../images/alibs_web/alibs_consult/amazon.png') center center / contain no-repeat;
+        width: 200px;
+        height: 60px;
+        max-width: 200px;
+        min-width: 200px;
+        max-height: 60px;
+        min-height: 60px;
+      }
+    }
+
+    &-label {
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 22px;
+      width: 100%;
+      text-align: center;
+      color: $color_black;
+      display: inline-block;
+    }
+
+    &:hover &-label {
+      color: $color_gold;
+      text-decoration: underline;
+      text-decoration-skip: ink;
+    }
+  }
 }
