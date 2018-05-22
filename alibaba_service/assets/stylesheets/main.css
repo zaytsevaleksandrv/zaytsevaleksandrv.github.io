@@ -2854,8 +2854,8 @@ body {
         height: auto; } }
     .first-layout__consult > .h1 {
       margin-bottom: 26px;
-      max-width: 708px;
-      min-width: 708px; }
+      max-width: 720px;
+      min-width: 720px; }
       @media (max-width: 1199px) {
         .first-layout__consult > .h1 {
           max-width: 100%;
@@ -2879,15 +2879,15 @@ body {
 .two-layout__consult {
   padding: 50px 277px 50px 64px;
   max-width: 590px;
-  min-width: 590px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  min-width: 590px; }
   @media (max-width: 1199px) {
     .two-layout__consult {
       padding-right: 15px;
       padding-left: 15px;
       max-width: 100%;
-      min-width: 100%; } }
+      min-width: 100%;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; } }
 
 .nav-sidebar__btn, .nav-sidebar__panel {
   display: none; }

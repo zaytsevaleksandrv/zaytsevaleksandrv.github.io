@@ -115,8 +115,8 @@
 
     & > .h1 {
       margin-bottom: 26px;
-      max-width: 708px;
-      min-width: 708px;
+      max-width: 720px;
+      min-width: 720px;
 
       @media (max-width: 1199px) {
         max-width: 100%;
@@ -152,13 +152,13 @@
     padding: 50px 277px 50px 64px;
     max-width: 590px;
     min-width: 590px;
-    box-sizing: border-box;
 
     @media (max-width: 1199px) {
       padding-right: 15px;
       padding-left: 15px;
       max-width: 100%;
       min-width: 100%;
+      box-sizing: border-box;
     }
   }
 }
