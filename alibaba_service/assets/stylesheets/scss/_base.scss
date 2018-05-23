@@ -213,6 +213,22 @@ body {
   }
 }
 
+.h5 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: left;
+  color: $color_black;
+  line-height: 30px;
+  margin: 0;
+
+  @media (max-width: 1199px) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
 .paragraph {
   font-weight: 400;
   text-align: left;
@@ -223,6 +239,22 @@ body {
     font-size: 20px;
     line-height: 28px;
     margin-bottom: 30px;
+
+    @media (max-width: 1199px) {
+      font-size: 16px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &_16 {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
 
     @media (max-width: 1199px) {
       font-size: 16px;
