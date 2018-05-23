@@ -17,6 +17,26 @@
     font-weight: 700;
     position: relative;
 
+    &-inner {
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      transition: 0.4s;
+      background-color: $color_white;
+      padding: 15px 20px 15px 0;
+      font-size: 16px;
+      color: $color_black;
+      font-weight: 400;
+      position: relative;
+
+      &.active_inner {
+        color: $color_gold;
+      }
+    }
+
     &.active {
       color: $color_gold;
     }
@@ -60,17 +80,65 @@
     transform: rotate(-180deg);
   }
 
-  .panel {
+  .accordion-inner:after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+    width: 13px;
+    min-width: 13px;
+    max-width: 13px;
+    height: 7px;
+    min-height: 7px;
+    max-height: 7px;
     display: block;
-    padding: 0 18px;
-    max-height: 0;
+    transition: all 0s ease;
+  }
+
+  .active_inner:after {
+    content: '';
+    position: absolute;
+    right: 22px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+    width: 13px;
+    min-width: 13px;
+    max-width: 13px;
+    height: 7px;
+    min-height: 7px;
+    max-height: 7px;
+    display: block;
+    transition: all 0s ease;
+    transform: rotate(-180deg);
+  }
+
+  .panel {
+    display: none;
+    padding: 0 0 0 18px;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+
+    &.open {
+      display: block;
+    }
+
+    &-inner {
+      display: none;
+      padding: 0 0 0 19px;
+
+      &.open {
+        display: block;
+      }
+    }
 
     &-link {
       font-size: 16px;
       color: $color_black;
-      font-weight: 700;
+      font-weight: 400;
       cursor: pointer;
       margin: 0;
       line-height: 30px;
@@ -80,6 +148,22 @@
 
       &:hover {
         color: $color_gold;
+      }
+
+      &-inner {
+        font-size: 14px;
+        color: $color_black;
+        font-weight: 400;
+        cursor: pointer;
+        margin: 0;
+        line-height: 30px;
+        text-decoration: none;
+        display: block;
+        padding: 8px 0;
+
+        &:hover {
+          color: $color_gold;
+        }
       }
     }
   }

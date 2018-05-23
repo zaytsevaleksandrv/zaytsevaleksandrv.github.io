@@ -94,10 +94,19 @@ function menuMobile() {
 
 //menu menuSidebar
 let acc_sidebar = document.getElementsByClassName("nav-sidebar__btn");
+let acc_sidebar_inner = document.getElementsByClassName("nav-sidebar__btn-inner");
 
 for (i = 0; i < acc_sidebar.length; i++) {
     acc_sidebar[i].addEventListener("click", function() {
         this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        panel.classList.toggle('open');
+    });
+}
+
+for (i = 0; i < acc_sidebar_inner.length; i++) {
+    acc_sidebar_inner[i].addEventListener("click", function() {
+        this.classList.toggle("active_inner");
         var panel = this.nextElementSibling;
         if (panel.style.maxHeight){
             panel.style.maxHeight = null;
@@ -121,17 +130,22 @@ function StickySidebar() {
 
 //accordion mobile
 var acc = document.getElementsByClassName("accordion");
+var acc_inner = document.getElementsByClassName("accordion-inner");
 var i;
 
 for (i = 0; i < acc.length; i++) {
     acc[i].addEventListener("click", function() {
         this.classList.toggle("active");
         var panel = this.nextElementSibling;
-        if (panel.style.maxHeight){
-            panel.style.maxHeight = null;
-        } else {
-            panel.style.maxHeight = panel.scrollHeight + "px";
-        }
+        panel.classList.toggle('open');
+    });
+}
+
+for (i = 0; i < acc_inner.length; i++) {
+    acc_inner[i].addEventListener("click", function() {
+        this.classList.toggle("active_inner");
+        var panel = this.nextElementSibling;
+        panel.classList.toggle('open');
     });
 }
 
@@ -211,3 +225,22 @@ function shareBlock() {
     }
 }
 
+//mask input
+$(function(){
+    $("#phone").mask("+7 (999)-999-99-99");
+});
+
+//question accordion
+
+var question_acc = document.getElementsByClassName("typical__questions-inner-header");
+for (i = 0; i < question_acc.length; i++) {
+    question_acc[i].addEventListener("click", function() {
+        this.classList.toggle("active_question");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight){
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}

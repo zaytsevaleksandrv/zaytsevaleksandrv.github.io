@@ -17,24 +17,28 @@
       <file leaf-file-name="_alibs.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="1728" column="24" selection-start-line="1728" selection-start-column="24" selection-end-line="1728" selection-end-column="24" />
+            <state relative-caret-position="476">
+              <caret line="231" column="5" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
               <folding>
                 <element signature="e#13#1254#0" />
+                <element signature="e#1335#1716#0" />
+                <element signature="e#1742#2077#0" />
+                <element signature="e#2538#2873#0" />
+                <element signature="e#2093#2458#0" />
+                <element signature="e#3273#3637#0" />
                 <element signature="e#1265#1298#0" />
+                <element signature="e#1314#3697#0" />
                 <element signature="e#1386#1870#0" />
                 <element signature="e#1885#2525#0" />
                 <element signature="e#2537#3191#0" />
                 <element signature="e#3203#3695#0" />
                 <element signature="e#3710#4194#0" />
+                <element signature="e#3711#4419#0" />
                 <element signature="e#3725#3858#0" />
                 <element signature="e#3873#4126#0" />
                 <element signature="e#4138#4417#0" />
                 <element signature="e#4947#5080#0" />
-                <element signature="e#4500#4881#0" />
-                <element signature="e#4907#5242#0" />
-                <element signature="e#5258#5623#0" />
-                <element signature="e#5645#6121#0" />
+                <element signature="e#5716#5916#0" />
                 <element signature="e#6140#10149#0" />
                 <element signature="e#10160#15156#0" />
                 <element signature="e#15166#15399#0" />
@@ -42,6 +46,7 @@
                 <element signature="e#18606#23036#0" />
                 <element signature="e#23049#25275#0" />
                 <element signature="e#25283#27442#0" />
+                <element signature="e#28399#28409#0" />
                 <element signature="e#28398#31996#0" />
                 <element signature="e#28510#28524#0" />
                 <element signature="e#28777#28791#0" />
@@ -58,11 +63,31 @@
                 <element signature="e#34122#34154#0" />
                 <element signature="e#34174#34206#0" />
                 <element signature="e#28458#28468#0" />
+                <element signature="e#34808#34818#0" />
                 <element signature="e#35276#35822#0" />
                 <element signature="e#35573#35847#0" />
                 <element signature="e#35876#36150#0" />
                 <element signature="e#36179#36453#0" />
                 <element signature="e#36482#36756#0" />
+                <element signature="e#40875#40885#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alibs_team.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alibs_team.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -71,37 +96,123 @@
       <file leaf-file-name="alibs_traffic.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_traffic.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="919">
-              <caret line="234" column="94" selection-start-line="234" selection-start-column="94" selection-end-line="234" selection-end-column="94" />
+            <state relative-caret-position="779">
+              <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
               <folding>
                 <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#2;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
+      <file leaf-file-name="alibs_typical.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alibs_typical.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            <state relative-caret-position="171">
+              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="175" selection-end-column="10" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
+      <file leaf-file-name="alibs_about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alibs_about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="725" column="28" lean-forward="true" selection-start-line="725" selection-start-column="28" selection-end-line="725" selection-end-column="28" />
+            <state relative-caret-position="779">
+              <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
+              <folding>
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alibs_consult.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alibs_consult.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#1;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#2;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#3;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#a#4;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alibs_news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alibs_news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="779">
+              <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+              <folding>
+                <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#a#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_accordion.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -109,8 +220,8 @@
       <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="222" column="12" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
+            <state relative-caret-position="-89">
+              <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -118,12 +229,16 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4816">
-              <caret line="209" column="48" selection-start-line="209" selection-start-column="48" selection-end-line="209" selection-end-column="48" />
+            <state relative-caret-position="500">
+              <caret line="145" column="43" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
               <folding>
                 <element signature="n#!!block;n#Sticky#0" />
                 <element signature="n#!!block;n#menuMobile#0" />
                 <element signature="n#!!block;n#StickySidebar#0" />
+                <element signature="e#4356#5007#0" />
+                <element signature="e#5102#6027#0" />
+                <element signature="n#!!block;n#removeItem#0" />
+                <element signature="n#!!block;n#shareBlock#0" />
               </folding>
             </state>
           </provider>
@@ -178,7 +293,6 @@
         <option value="$PROJECT_DIR$/assets/images/svg/arrow-gold-hover-10px.svg" />
         <option value="$PROJECT_DIR$/assets/images/svg/arrow-white-10px.svg" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_alibs_about.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_header.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_footer.scss" />
@@ -189,17 +303,19 @@
         <option value="$PROJECT_DIR$/assets/script/slaider.js" />
         <option value="$PROJECT_DIR$/alibs_main_2.0.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss" />
-        <option value="$PROJECT_DIR$/alibs_about.html" />
-        <option value="$PROJECT_DIR$/alibs_consult.html" />
         <option value="$PROJECT_DIR$/assets/images/svg/share-hover.svg" />
         <option value="$PROJECT_DIR$/assets/images/svg/share-facebook-hover.svg" />
         <option value="$PROJECT_DIR$/assets/images/svg/share-link-hover.svg" />
         <option value="$PROJECT_DIR$/assets/images/svg/share-twit-hover.svg" />
         <option value="$PROJECT_DIR$/assets/images/svg/share-vk-hover.svg" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
+        <option value="$PROJECT_DIR$/alibs_typical.html" />
         <option value="$PROJECT_DIR$/assets/script/main.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss" />
+        <option value="$PROJECT_DIR$/alibs_about.html" />
+        <option value="$PROJECT_DIR$/alibs_consult.html" />
         <option value="$PROJECT_DIR$/alibs_news.html" />
         <option value="$PROJECT_DIR$/alibs_team.html" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
         <option value="$PROJECT_DIR$/alibs_traffic.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss" />
       </list>
@@ -212,10 +328,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-491" />
+    <option name="y" value="-14" />
+    <option name="width" value="1291" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -255,13 +371,6 @@
               <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="alibs_web" type="462c0819:PsiDirectoryNode" />
               <item name="alibs_traffic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alibaba_service" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="alibaba_service" type="b2602c69:ProjectViewProjectNode" />
@@ -339,12 +448,12 @@
       <workItem from="1526929676884" duration="6729000" />
       <workItem from="1526936912720" duration="420000" />
       <workItem from="1526982363814" duration="19842000" />
-      <workItem from="1527056715169" duration="6723000" />
+      <workItem from="1527056715169" duration="17960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142907000" />
+    <option name="totallyTimeSpent" value="154144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -406,20 +515,24 @@
           <caret line="1293" column="14" selection-start-line="1293" selection-start-column="14" selection-end-line="1293" selection-end-column="14" />
           <folding>
             <element signature="e#13#1254#0" />
+            <element signature="e#1335#1716#0" />
+            <element signature="e#1742#2077#0" />
+            <element signature="e#2538#2873#0" />
+            <element signature="e#2093#2458#0" />
+            <element signature="e#3273#3637#0" />
             <element signature="e#1265#1298#0" />
+            <element signature="e#1314#3697#0" />
             <element signature="e#1386#1870#0" />
             <element signature="e#1885#2525#0" />
             <element signature="e#2537#3191#0" />
             <element signature="e#3203#3695#0" />
             <element signature="e#3710#4194#0" />
+            <element signature="e#3711#4419#0" />
             <element signature="e#3725#3858#0" />
             <element signature="e#3873#4126#0" />
             <element signature="e#4138#4417#0" />
             <element signature="e#4947#5080#0" />
-            <element signature="e#4500#4881#0" />
-            <element signature="e#4907#5242#0" />
-            <element signature="e#5258#5623#0" />
-            <element signature="e#5645#6121#0" />
+            <element signature="e#5716#5916#0" />
             <element signature="e#6140#10149#0" />
             <element signature="e#10160#15156#0" />
             <element signature="e#15166#15399#0" />
@@ -427,6 +540,7 @@
             <element signature="e#18606#23036#0" />
             <element signature="e#23049#25275#0" />
             <element signature="e#25283#27442#0" />
+            <element signature="e#28399#28409#0" />
             <element signature="e#28398#31996#0" />
             <element signature="e#28510#28524#0" />
             <element signature="e#28777#28791#0" />
@@ -443,11 +557,13 @@
             <element signature="e#34122#34154#0" />
             <element signature="e#34174#34206#0" />
             <element signature="e#28458#28468#0" />
+            <element signature="e#34808#34818#0" />
             <element signature="e#35276#35822#0" />
             <element signature="e#35573#35847#0" />
             <element signature="e#35876#36150#0" />
             <element signature="e#36179#36453#0" />
             <element signature="e#36482#36756#0" />
+            <element signature="e#40875#40885#0" />
           </folding>
         </state>
       </provider>
@@ -472,6 +588,10 @@
             <element signature="n#!!block;n#Sticky#0" />
             <element signature="n#!!block;n#menuMobile#0" />
             <element signature="n#!!block;n#StickySidebar#0" />
+            <element signature="e#4356#5007#0" />
+            <element signature="e#5102#6027#0" />
+            <element signature="n#!!block;n#removeItem#0" />
+            <element signature="n#!!block;n#shareBlock#0" />
           </folding>
         </state>
       </provider>
@@ -616,13 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="85" column="1" selection-start-line="3" selection-end-line="85" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -658,32 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_consult.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="205" column="20" lean-forward="true" selection-start-line="205" selection-start-column="20" selection-end-line="224" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4816">
-          <caret line="209" column="48" selection-start-line="209" selection-start-column="48" selection-end-line="209" selection-end-column="48" />
-          <folding>
-            <element signature="n#!!block;n#Sticky#0" />
-            <element signature="n#!!block;n#menuMobile#0" />
-            <element signature="n#!!block;n#StickySidebar#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_news.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="227" column="223" selection-end-line="322" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_main_2.0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2492">
@@ -713,36 +800,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_team.html">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="154" column="16" selection-start-line="154" selection-start-column="16" selection-end-line="217" selection-end-column="22" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="336">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="347" column="13" lean-forward="true" selection-end-line="386" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="222" column="12" selection-start-line="222" selection-start-column="12" selection-end-line="222" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/we-are-1.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,54 +817,181 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="-89">
+          <caret line="171" column="28" selection-start-line="171" selection-start-column="28" selection-end-line="171" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_traffic.html">
+    <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="919">
-          <caret line="234" column="94" selection-start-line="234" selection-start-column="94" selection-end-line="234" selection-end-column="94" />
+        <state relative-caret-position="500">
+          <caret line="145" column="43" selection-start-line="145" selection-start-column="43" selection-end-line="145" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!block;n#Sticky#0" />
+            <element signature="n#!!block;n#menuMobile#0" />
+            <element signature="n#!!block;n#StickySidebar#0" />
+            <element signature="e#4356#5007#0" />
+            <element signature="e#5102#6027#0" />
+            <element signature="n#!!block;n#removeItem#0" />
+            <element signature="n#!!block;n#shareBlock#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="140" column="20" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_typical.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="175" selection-end-column="10" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="175" column="14" selection-start-line="175" selection-start-column="14" selection-end-line="175" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/we-are-1.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/alibs_consult.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#1;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#2;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#3;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#a#4;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#1;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#a#0;n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_team.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+          <folding>
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_traffic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="175" column="10" selection-start-line="175" selection-start-column="10" selection-end-line="175" selection-end-column="10" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#nav#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#2;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="1728" column="24" selection-start-line="1728" selection-start-column="24" selection-end-line="1728" selection-end-column="24" />
+        <state relative-caret-position="476">
+          <caret line="231" column="5" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
           <folding>
             <element signature="e#13#1254#0" />
+            <element signature="e#1335#1716#0" />
+            <element signature="e#1742#2077#0" />
+            <element signature="e#2538#2873#0" />
+            <element signature="e#2093#2458#0" />
+            <element signature="e#3273#3637#0" />
             <element signature="e#1265#1298#0" />
+            <element signature="e#1314#3697#0" />
             <element signature="e#1386#1870#0" />
             <element signature="e#1885#2525#0" />
             <element signature="e#2537#3191#0" />
             <element signature="e#3203#3695#0" />
             <element signature="e#3710#4194#0" />
+            <element signature="e#3711#4419#0" />
             <element signature="e#3725#3858#0" />
             <element signature="e#3873#4126#0" />
             <element signature="e#4138#4417#0" />
             <element signature="e#4947#5080#0" />
-            <element signature="e#4500#4881#0" />
-            <element signature="e#4907#5242#0" />
-            <element signature="e#5258#5623#0" />
-            <element signature="e#5645#6121#0" />
+            <element signature="e#5716#5916#0" />
             <element signature="e#6140#10149#0" />
             <element signature="e#10160#15156#0" />
             <element signature="e#15166#15399#0" />
@@ -806,6 +999,7 @@
             <element signature="e#18606#23036#0" />
             <element signature="e#23049#25275#0" />
             <element signature="e#25283#27442#0" />
+            <element signature="e#28399#28409#0" />
             <element signature="e#28398#31996#0" />
             <element signature="e#28510#28524#0" />
             <element signature="e#28777#28791#0" />
@@ -822,11 +1016,13 @@
             <element signature="e#34122#34154#0" />
             <element signature="e#34174#34206#0" />
             <element signature="e#28458#28468#0" />
+            <element signature="e#34808#34818#0" />
             <element signature="e#35276#35822#0" />
             <element signature="e#35573#35847#0" />
             <element signature="e#35876#36150#0" />
             <element signature="e#36179#36453#0" />
             <element signature="e#36482#36756#0" />
+            <element signature="e#40875#40885#0" />
           </folding>
         </state>
       </provider>
