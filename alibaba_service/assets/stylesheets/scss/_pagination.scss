@@ -1,0 +1,38 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {}
+
+  &__link {
+    width: 52px;
+    min-width: 52px;
+    max-width: 52px;
+    height: 52px;
+    min-height: 52px;
+    max-height: 52px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 52px;
+    font-size: 22px;
+    font-weight: 700;
+    color: $color_black;
+    text-decoration: none;
+
+    &:hover {
+      color: $color_gold;
+    }
+
+    &_active {
+      background-color: $color_red;
+      color: $color_white;
+    }
+  }
+}
