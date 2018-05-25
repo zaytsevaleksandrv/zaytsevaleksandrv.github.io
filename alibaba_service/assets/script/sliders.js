@@ -58,3 +58,45 @@ $('.footer__slider').slick({
         },
     ]
 });
+
+
+$('.comments__slider').slick({
+    infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    arrows: true,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: false,
+                dots: true,
+            }
+        },
+    ]
+});
+
+
+$('.thank__slider').slick({
+    infinite: false,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    arrows: false,
+    dots: false,
+    responsive: [
+        {
+            breakpoint: 1199,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: false,
+                arrows: false,
+                dots: true,
+            }
+        },
+    ]
+});

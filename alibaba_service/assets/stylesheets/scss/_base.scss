@@ -337,3 +337,24 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
+
+
+.seo {
+  opacity: .5;
+  margin-top: 30px;
+
+  & .nav-sidebar__btn-inner {
+    font-weight: 700;
+
+  }
+  & .nav-sidebar__btn-inner::after {
+    filter: brightness(0);
+    opacity: .5;
+    width: 17px;
+    min-width: 17px;
+    max-width: 17px;
+    height: 9px;
+    min-height: 9px;
+    max-height: 9px;
+  }
+}
