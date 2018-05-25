@@ -1,0 +1,126 @@
+.contacts {
+  margin-left: 64px;
+
+  @media (max-width: 1199px) {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &_h3 {
+    margin-bottom: 50px;
+    margin-top: 60px;
+
+    @media (max-width: 1199px) {
+      margin-top: 100px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  &__coordinate {
+    margin-bottom: 71px;
+    display: inline-block;
+
+    @media (max-width: 1199px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__coordinate-btn {
+    border: none;
+    min-height: 52px;
+    max-height: 52px;
+    border-radius: 26px;
+    background-color: transparent;
+    padding: 0 30px;
+    line-height: 52px;
+    font-size: 16px;
+    font-weight: 700;
+    color: $color_black;
+    cursor: pointer;
+
+    @media (max-width: 1199px) {
+      display: block;
+    }
+
+    &:hover {
+      color: $color_gold;
+    }
+
+    &_active {
+      background-color: $color_gold;
+      color: $color_white;
+
+      &:hover {
+        color: $color_white;
+      }
+    }
+  }
+
+  &__address {
+    max-width: 280px;
+    min-width: 280px;
+    margin-right: 127px;
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      min-width: 100%;
+      margin-right: 0;
+
+      & .paragraph {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+    }
+
+    &-wrapper {
+      display: none;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-bottom: 49px;
+
+      @media (max-width: 1199px) {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &_active {
+        display: flex;
+      }
+    }
+  }
+
+  &__link {
+    font-size: 22px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 400;
+    display: block;
+    font-style: normal;
+    text-decoration: none;
+    color: $color_grey_dark;
+
+    &:hover {
+      color: $color_gold;
+    }
+
+    @media (max-width: 1199px) {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    &_bold {
+      font-weight: 700;
+    }
+  }
+}
