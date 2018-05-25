@@ -4879,7 +4879,8 @@ body {
     font-size: 16px;
     font-weight: 700;
     color: #363636;
-    cursor: pointer; }
+    cursor: pointer;
+    outline: none; }
     @media (max-width: 1199px) {
       .contacts__coordinate-btn {
         display: block; } }

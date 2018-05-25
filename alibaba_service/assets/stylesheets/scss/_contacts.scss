@@ -47,6 +47,7 @@
     font-weight: 700;
     color: $color_black;
     cursor: pointer;
+    outline: none;
 
     @media (max-width: 1199px) {
       display: block;
