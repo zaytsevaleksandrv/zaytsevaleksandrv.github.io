@@ -1,0 +1,139 @@
+.select-hidden {
+  display: none;
+  visibility: hidden;
+  padding-right: 10px;
+}
+.select {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  color: $color_gold;
+  width: 300px;
+  height: 52px;
+  margin-right: 30px;
+  user-select: none;
+
+  @media (max-width: 1199px) {
+    width: 100%;
+  }
+
+  &:nth-child(1) {
+    width: 315px;
+
+    @media (max-width: 1199px) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  &:nth-child(2) {
+    width: 224px;
+
+    @media (max-width: 1199px) {
+      width: 100%;
+      margin-bottom: 15px;
+    }
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.select-styled {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  padding: 14px 30px;
+  transition: all 0s ease-in;
+  border: 2px solid $color_gold;
+  border-radius: 26px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    right: 29px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+    width: 17px;
+    min-width: 17px;
+    max-width: 17px;
+    height: 9px;
+    min-height: 9px;
+    max-height: 9px;
+    display: block;
+    transition: all 0s ease;
+  }
+
+  &.select_active {
+    border-radius: 26px 26px 0 0;
+
+    &:after {
+      content: '';
+      position: absolute;
+      right: 29px;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: url('../images/svg/arrow-gold-10px.svg') center center / contain no-repeat;
+      width: 17px;
+      min-width: 17px;
+      max-width: 17px;
+      height: 9px;
+      min-height: 9px;
+      max-height: 9px;
+      display: block;
+      transition: all 0s ease;
+      transform: rotate(-180deg);
+    }
+  }
+
+  &:hover {
+  }
+  &:active, &.active {
+    background-color: transparent;
+  }
+}
+
+.select-options {
+  display: none;
+  position: absolute;
+  top: 43px;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: $color_white;
+  border: 2px solid $color_gold;
+  border-radius: 0 0 26px 26px;
+  border-top: none;
+  padding-bottom: 15px;
+
+  li {
+    margin: 0;
+    padding: 13px 0;
+    color: $color_black;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 30px;
+    transition: all 0.15s ease-in;
+    user-select: none;
+
+    &:hover {
+      color: $color_gold;
+      background: transparent;
+    }
+    &[rel="hide"] {
+      display: none;
+    }
+  }
+}

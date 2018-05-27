@@ -1,0 +1,106 @@
+.table {
+
+  &__thead {}
+
+  &__tbody {}
+
+  &__th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: $color_greyish-brown-50;
+    padding: 20px 0;
+
+    &[data-type=date] {
+      text-decoration: underline;
+      text-decoration-skip: ink;
+      cursor: pointer;
+
+      &:hover {
+        color: $color_gold;
+
+        & .table__arrow-icon {
+          background: url("../images/svg/arrow-gold-10px.svg") center center / contain no-repeat;
+        }
+      }
+    }
+  }
+
+  &__tr {}
+
+  &__td {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    color: $color_greyish-brown-two;
+    padding: 21px 0;
+  }
+
+  &__arrow-icon {
+    background: url("../images/svg/arrow-grey-10px.svg") center center / contain no-repeat;
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    margin-left: 4px;
+    position: relative;
+    top: -2px;
+  }
+
+  &__link {
+    font-weight: 700;
+    color: $color_greyish-brown-two;
+
+    &:hover {
+      color: $color_gold;
+    }
+  }
+
+  &__account {
+    font-weight: 700;
+
+    &_exposed {
+      color: $color_red_light;
+    }
+
+    &_paid {
+      color: $color_medium-green;
+    }
+
+    &_refusal {
+      color: $color_gold;
+    }
+  }
+
+  &__msg {
+    margin-right: 32px;
+    display: inline-block;
+
+    &_unread {
+      font-weight: 700;
+      margin-right: 26px;
+    }
+  }
+
+  &__number {
+    display: inline-block;
+
+    &_unread {
+      font-weight: 700;
+    }
+  }
+
+  &__circle {
+    width: 9px;
+    height: 9px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 9px;
+    position: relative;
+    top: -1px;
+
+    &_unread {
+      background-color: $color_gold;
+    }
+  }
+}
