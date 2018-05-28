@@ -103,4 +103,27 @@
       background-color: $color_gold;
     }
   }
+
+  &__sum {
+    font-size: 16px;
+    font-weight: 700;
+    color: $color_gold;
+    text-align: left;
+  }
+
+  &__operations {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+
+    &_expense {
+      color: $color_red;
+    }
+
+    &_receipt {
+      color: $color_medium-green;
+    }
+  }
+
+  &__comment {}
 }

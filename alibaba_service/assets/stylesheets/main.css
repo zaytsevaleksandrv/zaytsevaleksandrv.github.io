@@ -143,6 +143,15 @@ main {
     border: 3px solid #c40000;
     color: #ffffff; }
 
+.btn-green {
+  background-color: #31a34d;
+  border: 3px solid #31a34d;
+  color: #ffffff; }
+  .btn-green:hover {
+    background-color: #05A31B;
+    border: 3px solid #05A31B;
+    color: #ffffff; }
+
 .btn-outline {
   background-color: #ffffff;
   border: 3px solid #fa0000;
@@ -2749,6 +2758,15 @@ main {
         -webkit-box-align: start;
         -ms-flex-align: start;
         align-items: flex-start; } }
+    .modal-wrapper_active {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .modal-wrapper_active .modal {
+        height: 280px; }
   .modal__info-msg {
     font-size: 14px;
     line-height: 36px;
@@ -2857,6 +2875,13 @@ main {
       .modal__top-up-balance {
         left: 0;
         margin: 28px auto; } }
+  .modal__balance {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff; }
 
 .nav-sidebar {
   margin-bottom: 38px;
@@ -5478,6 +5503,21 @@ main {
   .table__circle_unread {
     background-color: #cdaf3a; }
 
+.table__sum {
+  font-size: 16px;
+  font-weight: 700;
+  color: #cdaf3a;
+  text-align: left; }
+
+.table__operations {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left; }
+  .table__operations_expense {
+    color: #e50202; }
+  .table__operations_receipt {
+    color: #31a34d; }
+
 .select-hidden {
   display: none;
   visibility: hidden;
@@ -5677,6 +5717,54 @@ main {
     align-items: center; }
   .top-up-balance_active {
     display: block; }
+
+.your-balance {
+  margin-top: 69px;
+  margin-left: 64px;
+  overflow: hidden;
+  max-width: 100%; }
+  @media (max-width: 1199px) {
+    .your-balance {
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  .your-balance__table {
+    width: 742px;
+    margin-bottom: 120px; }
+    @media (max-width: 1199px) {
+      .your-balance__table {
+        margin-bottom: 0; }
+        .your-balance__table-wrapper {
+          overflow: hidden;
+          overflow-x: scroll;
+          margin-bottom: 100px; } }
+  .your-balance__func-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 520px;
+    margin-top: 43px;
+    margin-bottom: 22px; }
+    @media (max-width: 1199px) {
+      .your-balance__func-element {
+        max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+    .your-balance__func-element_h3 {
+      color: #cdaf3a;
+      margin: 0; }
+      @media (max-width: 1199px) {
+        .your-balance__func-element_h3 {
+          margin-bottom: 20px;
+          font-size: 30px; } }
 
 .accordion, .panel {
   display: none; }
