@@ -1,9 +1,18 @@
 function ModalBalance() {
     let modal = document.querySelector('.top-up-balance');
     let modal_mobile = document.getElementById('modal_balance_mobile');
+    let btn = document.querySelectorAll('.sidebar__balance-replenish');
 
     modal.classList.toggle("top-up-balance_active");
     modal_mobile.classList.toggle("top-up-balance_active");
+
+    for (var i = 0; btn.length > i; i++) {
+        if ( btn[i].textContent === 'Закрыть'){
+            btn[i].textContent = 'Пополнить'
+        } else {
+            btn[i].textContent = 'Закрыть'
+        }
+    }
 }
 
 function ModalToUpBalance() {

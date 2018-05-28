@@ -250,9 +250,20 @@
     font-size: 16px;
     font-weight: 700;
     text-align: left;
-    color: $color_gold;
+    color: $color_black;
     margin-bottom: 45px;
     margin-top: 34px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $color_gold;
+    }
+
+    &_active {
+      color: $color_gold;
+    }
 
     @media (max-width: 1199px) {
       margin-bottom: 25px;
@@ -276,6 +287,17 @@
     color: $color_black;
     margin-bottom: 7px;
     margin-top: 0;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+      color: $color_gold;
+    }
+
+    &_active {
+      color: $color_gold;
+    }
   }
 
   &__balance-sum {

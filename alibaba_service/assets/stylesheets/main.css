@@ -3106,9 +3106,16 @@ main {
   font-size: 16px;
   font-weight: 700;
   text-align: left;
-  color: #cdaf3a;
+  color: #363636;
   margin-bottom: 45px;
-  margin-top: 34px; }
+  margin-top: 34px;
+  display: block;
+  text-decoration: none;
+  cursor: pointer; }
+  .sidebar__data-label:hover {
+    color: #cdaf3a; }
+  .sidebar__data-label_active {
+    color: #cdaf3a; }
   @media (max-width: 1199px) {
     .sidebar__data-label {
       margin-bottom: 25px;
@@ -3127,7 +3134,14 @@ main {
   text-align: left;
   color: #363636;
   margin-bottom: 7px;
-  margin-top: 0; }
+  margin-top: 0;
+  display: block;
+  text-decoration: none;
+  cursor: pointer; }
+  .sidebar__balance-label:hover {
+    color: #cdaf3a; }
+  .sidebar__balance-label_active {
+    color: #cdaf3a; }
 
 .sidebar__balance-sum {
   display: -webkit-box;
