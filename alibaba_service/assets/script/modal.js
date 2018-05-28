@@ -21,3 +21,19 @@ function ModalToUpBalance() {
 
     modal.addEventListener("click", this.closeModal);
 }
+
+function ModalBillPayment() {
+    let modal = document.getElementById('bill_payment');
+    let modal_inner = document.getElementById('bill_payment_inner');
+    modal.classList.add("modal-wrapper_active");
+
+    this.closeModal = function() {
+        modal.classList.remove('modal-wrapper_active');
+    };
+
+    modal_inner.onclick = function(e) {
+        e.stopPropagation();
+    };
+
+    modal.addEventListener("click", this.closeModal);
+}

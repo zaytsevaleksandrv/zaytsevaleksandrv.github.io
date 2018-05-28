@@ -5836,52 +5836,59 @@ main {
     font-weight: 700;
     text-align: left;
     color: #363636; }
-
-.b-msg {
-  margin-top: 48px;
-  max-width: 571px;
-  margin-bottom: 90px; }
-  @media (max-width: 1199px) {
-    .b-msg {
-      max-width: 100%; } }
-  .b-msg__item {
-    margin-bottom: 43px; }
+  .order__b-msg {
+    margin-top: 48px;
+    max-width: 571px;
+    margin-bottom: 90px; }
     @media (max-width: 1199px) {
-      .b-msg__item {
-        margin-bottom: 23px; } }
-    .b-msg__item_manager {
-      margin-left: 100px; }
-      @media (max-width: 1199px) {
-        .b-msg__item_manager {
-          margin-left: 0; } }
-  .b-msg__header {
-    margin-bottom: 13px; }
-  .b-msg__name {
-    color: rgba(69, 69, 69, 0.5);
-    font-size: 14px;
-    text-align: left; }
-    .b-msg__name_color {
-      color: #fa0000;
-      opacity: .75; }
-  .b-msg__time {
-    color: rgba(69, 69, 69, 0.5);
-    font-size: 14px;
-    text-align: left; }
-    .b-msg__time_color {
-      color: #fa0000;
-      opacity: .75; }
-  .b-msg__text {
-    color: #454545;
-    font-size: 18px;
-    font-weight: 700;
-    text-align: left;
-    margin: 0; }
-    .b-msg__text_color {
-      color: #fa0000; }
-  .b-msg_textarea {
-    min-height: 150px;
-    max-height: 150px;
-    margin-top: 7px; }
+      .order__b-msg {
+        max-width: 100%; } }
+  .order_btn {
+    margin-top: 30px; }
+
+.b-msg__item {
+  margin-bottom: 43px; }
+  @media (max-width: 1199px) {
+    .b-msg__item {
+      margin-bottom: 23px; } }
+  .b-msg__item_manager {
+    margin-left: 100px; }
+    @media (max-width: 1199px) {
+      .b-msg__item_manager {
+        margin-left: 0; } }
+
+.b-msg__header {
+  margin-bottom: 13px; }
+
+.b-msg__name {
+  color: rgba(69, 69, 69, 0.5);
+  font-size: 14px;
+  text-align: left; }
+  .b-msg__name_color {
+    color: #fa0000;
+    opacity: .75; }
+
+.b-msg__time {
+  color: rgba(69, 69, 69, 0.5);
+  font-size: 14px;
+  text-align: left; }
+  .b-msg__time_color {
+    color: #fa0000;
+    opacity: .75; }
+
+.b-msg__text {
+  color: #454545;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0; }
+  .b-msg__text_color {
+    color: #fa0000; }
+
+.b-msg_textarea {
+  min-height: 150px;
+  max-height: 150px;
+  margin-top: 7px; }
 
 .accordion, .panel {
   display: none; }

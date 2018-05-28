@@ -162,7 +162,7 @@
 							<span class="table__comment">Иван Сидоров</span>
 						</td>
 						<td>
-							<button class="btn btn-red">Оплатить</button>
+							<button class="btn btn-red" onclick="ModalBillPayment()">Оплатить</button>
 						</td>
 					</tr>
 					<tr class="table__tr">
@@ -248,6 +248,14 @@
 		</div>
 	</div>
 
+	<div class="modal-wrapper" id="bill_payment">
+		<div class="modal" id="bill_payment_inner">
+			<h3>Оплата счета<br><span>(заказ 687589)</span></h3>
+			<button class="btn btn-gold order_btn">Списать с баланса</button>
+			<button class="btn btn-green order_btn">Оплатить банковской картой</button>
+		</div>
+	</div>
+
 </main>
 <footer class="footer">
 	<div class="container">
@@ -298,55 +306,12 @@
 	</div>
 </footer>
 
-<div class="modal-wrapper" id="modal_top_up_balance_wrapper">
-	<div class="modal" id="modal_top_up_balance">
-		<h3>ПОПОЛНИТЬ БАЛАНС<br>НА СУММУ, ₽</h3>
-		<form class="modal__form" action="">
-			<input type="text" class="input input_border-grey" placeholder="Введите сумму">
-			<button class="btn btn-green">Оплатить банковской картой</button>
-		</form>
-	</div>
-</div>
-
-<div class="modal-wrapper" id="modal">
-	<div class="modal" id="modal_inner">
-		<button class="modal-btn-close" id="btn_close" title="закрыть"></button>
-		<h3>Сделайте новый заказ</h3>
-		<form class="modal__form" action="">
-			<input class="input input_border-grey" type="text" placeholder="Ссылка на товар" required>
-			<input class="input input_border-grey" type="text" placeholder="Количество товара" required>
-			<div class="modal__add-to-product-block"></div>
-			<a class="modal__add-to-product">Добавить еще товар</a>
-			<input class="input input_border-grey" type="text" placeholder="ФИО" required>
-			<input class="input input_border-grey" type="text" placeholder="Телефон" required>
-			<input class="input input_border-grey" type="text" placeholder="Email" required>
-			<input class="input input_border-grey" type="text" placeholder="Город и регион доставки" required>
-			<p class="modal__example-text">Москва, Тверская ул, 16<br>Байконур, 6-я платформа, р.7</p>
-			<textarea class="textarea textarea_border-grey" type="text" placeholder="Комментарии к товару"></textarea>
-
-			<div class="input-file-container">
-				<input class="input-file" id="my-file" type="file">
-				<div class="attach"></div>
-				<label tabindex="0" for="my-file" class="input-file-trigger">Или прикрепите файл в любом формате
-																			 (инвойс, упаковочный лист)</label>
-			</div>
-			<p class="file-return"></p>
-
-			<button class="btn btn-red">Отправить заявку</button>
-
-			<p class="modal__info-msg">*Заполните необходимые поля, пожалуйста</p>
-		</form>
-	</div>
-</div>
-
 <!-- script -->
 <script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" ></script>
 <script type="text/javascript" src="./assets/script/slick.min.js"></script>
 <script type="text/javascript" src="./assets/script/main.js"></script>
 <script type="text/javascript" src="./assets/script/sliders.js"></script>
 <script type="text/javascript" src="./assets/script/table.js"></script>
-<script type="text/javascript" src="./assets/script/select.js"></script>
 <script type="text/javascript" src="./assets/script/modal.js"></script>
 </body>
 </html>
