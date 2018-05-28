@@ -23,7 +23,7 @@
 	<meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#3e2e25">
 
-	<title>alibs_lk_clients_balance</title>
+	<title>alibs_lk_clients_profile</title>
 
 	<!-- stylesheet -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -59,7 +59,7 @@
 			<a href="./alibs_lk_clients.html" class="sidebar__data-label">Заказы и счета</a>
 
 			<div class="sidebar__data-item">
-				<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label sidebar__balance-label_active">Баланс</a>
+				<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label">Баланс</a>
 				<div class="sidebar__balance-sum">
 					<span class="sidebar__balance-count">650 000 ₽</span>
 					<span class="sidebar__balance-replenish" onclick="ModalBalance()">Пополнить</span>
@@ -75,7 +75,7 @@
 			</div>
 
 			<div class="sidebar__data-item">
-				<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
+				<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label sidebar__balance-label_active">Профиль</a>
 				<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
 			</div>
 			<a class="sidebar__out" href="#">Выйти из кабинета</a>
@@ -107,7 +107,7 @@
 				<a href="./alibs_lk_clients.html" class="sidebar__data-label">Заказы и счета</a>
 
 				<div class="sidebar__data-item">
-					<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label sidebar__balance-label_active">Баланс</a>
+					<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label">Баланс</a>
 					<div class="sidebar__balance-sum">
 						<span class="sidebar__balance-count">650 000 ₽</span>
 						<span class="sidebar__balance-replenish" onclick="ModalBalance()">Пополнить</span>
@@ -123,7 +123,7 @@
 				</div>
 
 				<div class="sidebar__data-item">
-					<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
+					<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label sidebar__balance-label_active">Профиль</a>
 					<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
 				</div>
 				<a class="sidebar__out" href="#">Выйти из кабинета</a>
@@ -137,62 +137,81 @@
 	</div>
 
 	<div class="content">
-		<div class="your-balance">
-			<h3 class="h3">Ваш баланс</h3>
-			<div class="your-balance__func-element">
-				<h3 class="h3 your-balance__func-element_h3"><span>650 000</span> ₽</h3>
-				<button class="btn btn-green" onclick="ModalToUpBalance()">Пополнить баланс</button>
+		<div class="profile">
+			<h3 class="h3">Ваш профиль</h3>
+			<div class="profile__data">
+				<form action="">
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="name">ФИО</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="name" placeholder="Введите ФИО" required="true">
+						</div>
+					</div>
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="phone">Телефон</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="phone" placeholder="Введите телефон" required="true">
+						</div>
+					</div>
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="email">E-mail</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="email" id="email" placeholder="Введите Email" required="true">
+						</div>
+					</div>
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="address">Адрес доставки</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="address" placeholder="Введите адрес" required="true">
+							<div class="profile__address-group"></div>
+							<a class="profile__link">Добавить еще адрес доставки</a>
+							<button class="btn btn-red profile_btn" id="save_data_profile" disabled="true">Сохранить</button>
+						</div>
+					</div>
+				</form>
 			</div>
-			<div class="your-balance__table-wrapper">
-				<table class="your-balance__table table" id="table">
-					<thead class="table__thead">
-					<tr class="table__tr">
-						<th class="table__th" data-type="date">Дата <span class="table__arrow-icon"></span></th>
-						<th class="table__th">Сумма</th>
-						<th class="table__th">Операция</th>
-						<th class="table__th">Комментарий</th>
-					</tr>
-					</thead>
-					<tbody class="table__tbody">
-					<tr class="table__tr">
-						<td class="table__td">08.02.2018</td>
-						<td>
-							<span class="table__sum">600 000 ₽</span>
-						</td>
-						<td class="table__td">
-							<span class="table__operations table__operations_expense">Расход</span>
-						</td>
-						<td>
-							<span class="table__comment">Оплата заказа 176565</span>
-						</td>
-					</tr>
-					<tr class="table__tr">
-						<td class="table__td">10.03.2018</td>
-						<td class="table__td">
-							<span class="table__sum">600 000 ₽</span>
-						</td>
-						<td class="table__td">
-							<span class="table__operations table__operations_receipt">Приход</span>
-						</td>
-						<td class="table__td">
-							<span class="table__comment">Пополнение баланса</span>
-						</td>
-					</tr>
-					<tr class="table__tr">
-						<td class="table__td">07.03.2018</td>
-						<td class="table__td">
-							<span class="table__sum">600 000 ₽</span>
-						</td>
-						<td class="table__td">
-							<span class="table__operations table__operations_expense">Расход</span>
-						</td>
-						<td class="table__td">
-							<span class="table__comment">Возврат по заказу 456786</span>
-						</td>
-					</tr>
-					</tbody>
-				</table>
+
+			<h5 class="h5">Смена пароля</h5>
+
+			<div class="profile__password">
+				<form action="">
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="old_pass">Старый пароль</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="old_pass" placeholder="Cтарый пароль" required="true">
+						</div>
+					</div>
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="new_pass">Новый пароль</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="new_pass" placeholder="Новый пароль" required="true">
+						</div>
+					</div>
+					<div class="profile__item">
+						<div class="profile__label">
+							<label for="repeat_new_pass">Повторите пароль</label>
+						</div>
+						<div class="profile__input">
+							<input class="input input_border-grey" type="text" id="repeat_new_pass" placeholder="Повторите новый" required="true">
+							<div class="profile__error-msg"></div>
+							<button class="btn btn-red profile_btn" id="save_pass_profile" disabled="true">Сохранить</button>
+						</div>
+					</div>
+				</form>
 			</div>
+
 		</div>
 	</div>
 
@@ -246,54 +265,13 @@
 	</div>
 </footer>
 
-<div class="modal-wrapper" id="modal_top_up_balance_wrapper">
-	<div class="modal" id="modal_top_up_balance">
-		<h3>ПОПОЛНИТЬ БАЛАНС<br>НА СУММУ, ₽</h3>
-		<form class="modal__form" action="">
-			<input type="text" class="input input_border-grey" placeholder="Введите сумму">
-			<button class="btn btn-green">Оплатить банковской картой</button>
-		</form>
-	</div>
-</div>
-
-<div class="modal-wrapper" id="modal">
-	<div class="modal" id="modal_inner">
-		<button class="modal-btn-close" id="btn_close" title="закрыть"></button>
-		<h3>Сделайте новый заказ</h3>
-		<form class="modal__form" action="">
-			<input class="input input_border-grey" type="text" placeholder="Ссылка на товар" required>
-			<input class="input input_border-grey" type="text" placeholder="Количество товара" required>
-			<div class="modal__add-to-product-block"></div>
-			<a class="modal__add-to-product">Добавить еще товар</a>
-			<input class="input input_border-grey" type="text" placeholder="ФИО" required>
-			<input class="input input_border-grey" type="text" placeholder="Телефон" required>
-			<input class="input input_border-grey" type="text" placeholder="Email" required>
-			<input class="input input_border-grey" type="text" placeholder="Город и регион доставки" required>
-			<p class="modal__example-text">Москва, Тверская ул, 16<br>Байконур, 6-я платформа, р.7</p>
-			<textarea class="textarea textarea_border-grey" type="text" placeholder="Комментарии к товару"></textarea>
-
-			<div class="input-file-container">
-				<input class="input-file" id="my-file" type="file">
-				<div class="attach"></div>
-				<label tabindex="0" for="my-file" class="input-file-trigger">Или прикрепите файл в любом формате
-																			 (инвойс, упаковочный лист)</label>
-			</div>
-			<p class="file-return"></p>
-
-			<button class="btn btn-red">Отправить заявку</button>
-
-			<p class="modal__info-msg">*Заполните необходимые поля, пожалуйста</p>
-		</form>
-	</div>
-</div>
-
 <!-- script -->
 <script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js" ></script>
 <script type="text/javascript" src="./assets/script/slick.min.js"></script>
 <script type="text/javascript" src="./assets/script/main.js"></script>
 <script type="text/javascript" src="./assets/script/sliders.js"></script>
-<script type="text/javascript" src="./assets/script/table.js"></script>
-<script type="text/javascript" src="./assets/script/select.js"></script>
+<script type="text/javascript" src="./assets/script/profile.js"></script>
 <script type="text/javascript" src="./assets/script/modal.js"></script>
 </body>
 </html>
