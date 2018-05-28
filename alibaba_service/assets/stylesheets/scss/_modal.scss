@@ -168,4 +168,16 @@
       }
     }
   }
+
+  &__top-up-balance {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 28px;
+
+    @media (max-width: 1199px) {
+      left: 0;
+      margin: 28px auto;
+    }
+  }
 }

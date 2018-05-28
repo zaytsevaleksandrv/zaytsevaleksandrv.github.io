@@ -2848,6 +2848,15 @@ main {
       transition: background-color .5s ease-in-out; }
     .modal-btn-close:hover::after, .modal-btn-close:hover::before {
       background-color: #cdaf3a; }
+  .modal__top-up-balance {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 28px; }
+    @media (max-width: 1199px) {
+      .modal__top-up-balance {
+        left: 0;
+        margin: 28px auto; } }
 
 .nav-sidebar {
   margin-bottom: 38px;
@@ -3059,6 +3068,78 @@ main {
 
 .sidebar__sticky {
   top: 0; }
+
+.sidebar__data-label {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #cdaf3a;
+  margin-bottom: 45px;
+  margin-top: 34px; }
+  @media (max-width: 1199px) {
+    .sidebar__data-label {
+      margin-bottom: 25px;
+      margin-top: 15px; } }
+
+.sidebar__data-item {
+  margin-bottom: 28px;
+  position: relative; }
+  @media (max-width: 1199px) {
+    .sidebar__data-item {
+      max-width: 290px; } }
+
+.sidebar__balance-label {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #363636;
+  margin-bottom: 7px;
+  margin-top: 0; }
+
+.sidebar__balance-sum {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.sidebar__balance-count {
+  font-size: 14px;
+  color: rgba(69, 69, 69, 0.5); }
+
+.sidebar__balance-replenish {
+  font-size: 14px;
+  color: rgba(69, 69, 69, 0.5);
+  text-decoration: underline;
+  cursor: pointer; }
+  .sidebar__balance-replenish:hover {
+    color: #cdaf3a; }
+
+.sidebar__balance-mail {
+  font-size: 14px;
+  color: rgba(69, 69, 69, 0.5);
+  text-decoration: none;
+  cursor: pointer; }
+  .sidebar__balance-mail:hover {
+    color: #cdaf3a; }
+
+.sidebar__out {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+  color: #363636;
+  text-decoration: none;
+  margin: 50px 0 70px;
+  display: inline-block; }
+  @media (max-width: 1199px) {
+    .sidebar__out {
+      margin: 20px 0 20px; } }
+  .sidebar__out:hover {
+    color: #cdaf3a; }
 
 .first-layout {
   height: 623px;
@@ -5526,6 +5607,76 @@ main {
       background: transparent; }
     .select-options li[rel="hide"] {
       display: none; }
+
+.top-up-balance {
+  -webkit-box-shadow: 0px 3px 9.5px 0.5px rgba(54, 54, 54, 0.3);
+  box-shadow: 0px 3px 9.5px 0.5px rgba(54, 54, 54, 0.3);
+  border-radius: 10px;
+  padding: 20px 20px 30px 20px;
+  z-index: 999;
+  background-color: #ffffff;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 240px;
+  height: 138px;
+  display: none; }
+  .top-up-balance__header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #5b5b5b;
+    margin: 0 0 14px; }
+  .top-up-balance__btn {
+    background-color: #31a34d;
+    border-radius: 50%;
+    border: none;
+    width: 42px;
+    min-width: 42px;
+    max-width: 42px;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    margin-left: -42px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1; }
+    .top-up-balance__btn:hover {
+      opacity: .8; }
+    .top-up-balance__btn-icon {
+      background: url("../images/svg/arrow-white.svg") center center/contain no-repeat;
+      width: 9px;
+      min-width: 9px;
+      max-width: 9px;
+      min-height: 17px;
+      max-height: 17px;
+      height: 17px;
+      -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      display: inline-block; }
+  .top-up-balance_input {
+    margin: 0;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    padding-left: 20px;
+    font-size: 14px; }
+  .top-up-balance__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .top-up-balance_active {
+    display: block; }
 
 .accordion, .panel {
   display: none; }
