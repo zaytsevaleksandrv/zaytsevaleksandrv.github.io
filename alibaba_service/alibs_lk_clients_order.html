@@ -23,7 +23,7 @@
 	<meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#3e2e25">
 
-	<title>alibs_lk_clients</title>
+	<title>alibs_lk_clients_order</title>
 
 	<!-- stylesheet -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -137,85 +137,113 @@
 	</div>
 
 	<div class="content">
-		<div class="your-order">
-			<h3 class="h3">ВАШИ ЗАКАЗЫ</h3>
-			<div class="your-order__func-element">
-				<div class="your-order__select">
-					<select id="created">
-						<option value="hide">Созданные, самые ранние</option>
-						<option value="exposed">Счет выставлен</option>
-						<option value="paid">Заказ оплачен</option>
-						<option value="refusal">Отказ клиента</option>
-					</select>
-
-					<select id="all_status">
-						<option value="hide">Все статусы</option>
-						<option value="exposed">Счет выставлен</option>
-						<option value="paid">Заказ оплачен</option>
-						<option value="refusal">Отказ клиента</option>
-					</select>
-				</div>
-				<button onclick="ModalInner()" class="btn btn-red"><span class="btn__add-icon"></span>Сделать заказ</button>
+		<div class="order">
+			<h3 class="h3">ЗАКАЗ 687589</h3>
+			<div class="order__func-element">
+				<a href="./alibs_lk_clients.html" class="btn btn-gold"><span class="order__btn-arrow"></span>Назад к заказам</a>
 			</div>
-			<div class="your-order__table-wrapper">
-				<table class="your-order__table table" id="table">
+			<div class="order__table-wrapper">
+				<table class="order__table table" id="table">
 					<thead class="table__thead">
 					<tr class="table__tr">
-						<th class="table__th">Номер</th>
 						<th class="table__th" data-type="date">Дата <span class="table__arrow-icon"></span></th>
 						<th class="table__th">Статус</th>
 						<th class="table__th">Менеджер</th>
-						<th class="table__th">Сообщения</th>
+						<th class="table__th"></th>
 					</tr>
 					</thead>
 					<tbody class="table__tbody">
 					<tr class="table__tr">
-						<td class="table__td">
-							<a class="table__link" href="./alibs_lk_clients_order.html">687567</a>
-						</td>
 						<td class="table__td">08.02.2018</td>
-						<td>
-							<span class="table__account table__account_exposed">Счет выставлен</span>
+						<td class="table__td">
+							<span class="table__order table__order_exposed">Счет выставлен</span>
 						</td>
-						<td class="table__td">Иван Сидоров</td>
 						<td>
-							<span class="table__msg table__msg_unread">Сообщения</span>
-							<span class="table__circle table__circle_unread"></span>
-							<span class="table__number table__number_unread">2</span>
+							<span class="table__comment">Иван Сидоров</span>
+						</td>
+						<td>
+							<button class="btn btn-red">Оплатить</button>
 						</td>
 					</tr>
 					<tr class="table__tr">
+						<td class="table__td">03.02.2018</td>
 						<td class="table__td">
-							<a class="table__link" href="./alibs_lk_clients_order.html">687563</a>
+							<span class="table__order table__order_exposed">Счет выставлен</span>
 						</td>
-						<td class="table__td">10.03.2018</td>
-						<td class="table__td">
-							<span class="table__account table__account_paid">Заказ оплачен</span>
+						<td>
+							<span class="table__comment">Иван Сидоров</span>
 						</td>
-						<td class="table__td">Иван Сидоров</td>
-						<td class="table__td">
-							<span class="table__msg">Сообщения</span>
-							<span class="table__circle"></span>
-							<span class="table__number">2</span>
-						</td>
-					</tr>
-					<tr class="table__tr">
-						<td class="table__td">
-							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
-						</td>
-						<td class="table__td">07.03.2018</td>
-						<td class="table__td">
-							<span class="table__account table__account_refusal">Отказ клиента</span>
-						</td>
-						<td class="table__td">Иван Сидоров</td>
-						<td class="table__td">
-							<span class="table__msg">Сообщения</span>
-							<span class="table__circle"></span>
-							<span class="table__number">16</span>
+						<td>
+							<button class="btn btn-red">Оплатить</button>
 						</td>
 					</tr>
 					</tbody>
 				</table>
+			</div>
+
+			<p class="order__label">История заказов</p>
+
+			<div class="order__table-wrapper">
+				<table class="order__table table" id="table_history">
+					<tbody class="table__tbody">
+					<tr class="table__tr">
+						<td class="table__td">08.02.2018</td>
+						<td>
+							<span class="table__comment">По вашему запросу подготовлен счет - 100 рублей.</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td">05.02.2018</td>
+						<td>
+							<span class="table__comment">КП принято</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td">03.02.2018</td>
+						<td>
+							<span class="table__comment">Создан запрос №687589</span>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<h5 class="h5">Личные сообщения</h5>
+
+			<div class="order__b-msg b-msg">
+				<div class="b-msg__item b-msg__item_my">
+					<div class="b-msg__header">
+						<span class="b-msg__name">Вы, </span>
+						<time class="b-msg__time" datetime="05.01.2017">5 января 2017г, 09:21</time>
+					</div>
+					<div class="b-msg__body">
+						<p class="b-msg__text">Когда ждать счет?</p>
+					</div>
+				</div>
+				<div class="b-msg__item b-msg__item_manager">
+					<div class="b-msg__header">
+						<span class="b-msg__name b-msg__name_color">Менеджер Иван Сидоров, </span>
+						<time class="b-msg__time b-msg__time_color" datetime="05.01.2017">5 января 2017г, 09:21</time>
+					</div>
+					<div class="b-msg__body">
+						<p class="b-msg__text b-msg__text_color">Добрый день. Уже выслал.</p>
+					</div>
+				</div>
+
+				<div class="b-msg__item b-msg__item_my">
+					<div class="b-msg__header">
+						<span class="b-msg__name">Вы, </span>
+						<time class="b-msg__time" datetime="05.01.2017">5 января 2017г, 09:21</time>
+					</div>
+					<div class="b-msg__body">
+						<p class="b-msg__text">Спасибо за оперативность!</p>
+					</div>
+				</div>
+
+				<form action="">
+					<textarea class="textarea textarea_border-grey b-msg_textarea" name="" id="" cols="30" rows="10"></textarea>
+					<button class="btn btn-red">Отправить</button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -269,6 +297,16 @@
 		</div>
 	</div>
 </footer>
+
+<div class="modal-wrapper" id="modal_top_up_balance_wrapper">
+	<div class="modal" id="modal_top_up_balance">
+		<h3>ПОПОЛНИТЬ БАЛАНС<br>НА СУММУ, ₽</h3>
+		<form class="modal__form" action="">
+			<input type="text" class="input input_border-grey" placeholder="Введите сумму">
+			<button class="btn btn-green">Оплатить банковской картой</button>
+		</form>
+	</div>
+</div>
 
 <div class="modal-wrapper" id="modal">
 	<div class="modal" id="modal_inner">

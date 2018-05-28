@@ -1,0 +1,73 @@
+.b-msg {
+  margin-top: 48px;
+  max-width: 571px;
+  margin-bottom: 90px;
+
+  @media (max-width: 1199px) {
+    max-width: 100%;
+  }
+
+  &__item {
+    margin-bottom: 43px;
+
+    @media (max-width: 1199px) {
+      margin-bottom: 23px;
+    }
+
+    &_my {}
+
+    &_manager {
+      margin-left: 100px;
+
+      @media (max-width: 1199px) {
+        margin-left: 0;
+      }
+    }
+  }
+
+  &__header {
+    margin-bottom: 13px;
+  }
+
+  &__name {
+    color: $color_greyish-brown-75;
+    font-size: 14px;
+    text-align: left;
+
+    &_color {
+      color: $color_red_light;
+      opacity: .75;
+    }
+  }
+
+  &__time {
+    color: $color_greyish-brown-75;
+    font-size: 14px;
+    text-align: left;
+
+    &_color {
+      color: $color_red_light;
+      opacity: .75;
+    }
+  }
+
+  &__body {}
+
+  &__text {
+    color: $color_greyish-brown-two;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+
+    &_color {
+      color: $color_red_light;
+    }
+  }
+
+  &_textarea {
+    min-height: 150px;
+    max-height: 150px;
+    margin-top: 7px;
+  }
+}
