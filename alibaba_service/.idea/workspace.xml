@@ -17,8 +17,8 @@
       <file leaf-file-name="alibs_lk_clients_profile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="118" column="67" selection-start-line="118" selection-start-column="67" selection-end-line="118" selection-end-column="67" />
+            <state relative-caret-position="114">
+              <caret line="55" column="57" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="57" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
               </folding>
@@ -74,9 +74,11 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/script/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+            <state relative-caret-position="476">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding>
+                <element signature="n#!!block;n#Modal#0" />
+                <element signature="n#!!block;n#ModalInner#0" />
                 <element signature="n#!!block;n#Sticky#0" />
                 <element signature="n#!!block;n#menuMobile#0" />
                 <element signature="n#!!block;n#removeItem#0" />
@@ -377,12 +379,12 @@
       <workItem from="1527403498396" duration="10725000" />
       <workItem from="1527494301305" duration="29108000" />
       <workItem from="1527575282391" duration="1796000" />
-      <workItem from="1527577328020" duration="3001000" />
+      <workItem from="1527577328020" duration="5390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="238454000" />
+    <option name="totallyTimeSpent" value="240843000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -740,16 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="118" column="67" selection-start-line="118" selection-start-column="67" selection-end-line="118" selection-end-column="67" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -794,11 +786,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="55" column="57" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="57" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="61" column="46" lean-forward="true" selection-start-line="61" selection-start-column="46" selection-end-line="61" selection-end-column="46" />
+        <state relative-caret-position="476">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding>
+            <element signature="n#!!block;n#Modal#0" />
+            <element signature="n#!!block;n#ModalInner#0" />
             <element signature="n#!!block;n#Sticky#0" />
             <element signature="n#!!block;n#menuMobile#0" />
             <element signature="n#!!block;n#removeItem#0" />

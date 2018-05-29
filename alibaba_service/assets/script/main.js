@@ -9,6 +9,18 @@ window.onscroll = function() {
     sidebar ? StickySidebar() : '';
 };
 
+
+$(window).scroll(function() {
+    var wsc = $(this).scrollTop() + $(window).height();
+    var dh = $(document).height();
+
+    if(wsc === dh) {
+        $('#sidebar').css("top", "-202px");
+    } else{
+        $('#sidebar').removeAttr("style");
+    }
+});
+
 //modalka
 function Modal() {
     let modal = document.getElementById('modal');
@@ -58,7 +70,7 @@ function ModalInner() {
     modal.addEventListener("click", this.closeModal);
 
     if (document.documentElement.clientHeight < 966) {
-        modal.style.overflowX = 'scroll';
+        modal.style.overflowX = 'auto';
         modal.style.alignItems = 'flex-start';
     }
 }
