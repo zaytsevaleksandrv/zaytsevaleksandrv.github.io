@@ -5859,7 +5859,8 @@ main {
   user-select: none; }
   @media (max-width: 1199px) {
     .select {
-      width: 100%; } }
+      width: 100%;
+      margin-right: 0; } }
   .select:nth-child(1) {
     width: 315px; }
     @media (max-width: 1199px) {
