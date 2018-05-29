@@ -23,7 +23,7 @@
 	<meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#3e2e25">
 
-	<title>alibs_lk_manager_order</title>
+	<title>alibs_lk_manager_order_open</title>
 
 	<!-- stylesheet -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -138,43 +138,60 @@
 
 	<div class="content">
 		<div class="order">
-			<h3 class="h3">ЗАКАЗ 687589</h3>
-			<div class="order__func-element">
-				<a href="./alibs_lk_clients.html" class="btn btn-gold"><span class="order__btn-arrow"></span>Назад к заказам</a>
+
+			<div class="orders-clients__header">
+				<h3 class="h3">ЗАКАЗ 687589</h3>
+				<div class="orders-clients__footer-inner">
+					<button class="btn btn-gold btn_disabled btn_smal"><span class="btn-download"></span>Выгрузить</button>
+					<button class="btn btn-red btn_disabled btn_smal"><span class="btn-remove"></span>Удалить</button>
+				</div>
 			</div>
-			<div class="order__table-wrapper">
-				<table class="order__table table" id="table">
+
+			<div class="order__func-element order__func-element_open">
+				<a href="./alibs_lk_clients.html" class="btn btn-gold order_btn-r"><span class="order__btn-arrow"></span>Назад к заказам</a>
+				<button class="btn btn-red">Сохранить изменения</button>
+			</div>
+			<div class="order__table-wrapper order__table-wrapper_open">
+				<table class="order__table table table_open" id="table">
 					<thead class="table__thead">
 					<tr class="table__tr">
 						<th class="table__th" data-type="date">Дата <span class="table__arrow-icon"></span></th>
 						<th class="table__th">Статус</th>
+						<th class="table__th">Тип заказа</th>
 						<th class="table__th">Менеджер</th>
-						<th class="table__th"></th>
 					</tr>
 					</thead>
 					<tbody class="table__tbody">
 					<tr class="table__tr">
 						<td class="table__td">08.02.2018</td>
 						<td class="table__td">
-							<span class="table__order table__order_exposed">Счет выставлен</span>
+							<div class="table__status">
+								<select id="status">
+									<option value="hide">Счет выставлен</option>
+									<option value="exposed">Заказ оплачен</option>
+									<option value="paid">Отказ клиента</option>
+								</select>
+							</div>
 						</td>
-						<td>
-							<span class="table__comment">Иван Сидоров</span>
-						</td>
-						<td>
-							<button class="btn btn-red" onclick="ModalBillPayment()">Оплатить</button>
-						</td>
-					</tr>
-					<tr class="table__tr">
-						<td class="table__td">03.02.2018</td>
 						<td class="table__td">
-							<span class="table__order table__order_exposed">Счет выставлен</span>
+							<div class="table__type-order">
+								<select id="type_order">
+									<option value="hide">Розничный</option>
+									<option value="exposed">Розничный</option>
+									<option value="paid">Розничный</option>
+									<option value="refusal">Розничный</option>
+								</select>
+							</div>
 						</td>
-						<td>
-							<span class="table__comment">Иван Сидоров</span>
-						</td>
-						<td>
-							<button class="btn btn-red">Оплатить</button>
+						<td class="table__td">
+							<div class="table__manager">
+								<select id="manager">
+									<option value="hide">Изменить выбранные</option>
+									<option value="exposed">Изменить менеджера</option>
+									<option value="paid">Изменить статус</option>
+									<option value="refusal">Изменить тип заказа</option>
+								</select>
+							</div>
 						</td>
 					</tr>
 					</tbody>
@@ -430,5 +447,6 @@
 <script type="text/javascript" src="./assets/script/table.js"></script>
 <script type="text/javascript" src="./assets/script/modal.js"></script>
 <script type="text/javascript" src="./assets/script/dwn-file.js"></script>
+<script type="text/javascript" src="./assets/script/select.js"></script>
 </body>
 </html>

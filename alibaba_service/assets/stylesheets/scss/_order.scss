@@ -32,6 +32,10 @@
         overflow-x: scroll;
         margin-bottom: 40px;
       }
+
+      &-wrapper_open {
+        overflow: auto;
+      }
     }
   }
 
@@ -43,10 +47,14 @@
     margin-top: 43px;
     margin-bottom: 22px;
 
+    &_open {
+      justify-content: flex-start;
+    }
     @media (max-width: 1199px) {
       max-width: 100%;
       flex-direction: column;
     }
+
   }
 
   &__label {
@@ -68,6 +76,15 @@
 
   &_btn {
     margin-top: 30px;
+
+    &-r {
+      margin-right: 30px;
+
+      @media (max-width: 1199px) {
+        margin-bottom: 20px;
+        margin-right: 0;
+      }
+    }
   }
 
   &__dwn-wrapper {

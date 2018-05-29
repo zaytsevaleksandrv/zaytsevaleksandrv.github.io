@@ -49,10 +49,13 @@
   bottom: 0;
   left: 0;
   background-color: transparent;
-  padding: 14px 30px;
+  padding: 14px 50px 14px 30px;
   transition: all 0s ease-in;
   border: 2px solid $color_gold;
   border-radius: 26px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 
   &:after {
     content: '';

@@ -28,6 +28,12 @@ main {
   cursor: pointer;
   outline: none;
 
+  &_smal {
+    min-height: 42px;
+    max-height: 42px;
+    line-height: 34px;
+  }
+
   @media (max-width: 1199px) {
     min-width: 100%;
     max-width: 100%;

@@ -261,4 +261,193 @@
       padding: 15px 0 27px;
     }
   }
+
+  &_open {
+    & .table__th {
+      padding: 20px 0 10px 0;
+    }
+    & .table__td {
+      padding: 15px 0 27px;
+    }
+  }
+
+  &__status {
+
+    & .select {
+      width: 224px !important;
+    }
+
+    & .select-styled {
+      background-color: $color_white;
+      border-color: $color_disabled;
+      color: $color_red;
+      z-index: 9999;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url("../images/svg/arrow-grey.svg") center center/contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(-90deg);
+      }
+    }
+
+    & .select-options {
+      border-color: $color_disabled;
+    }
+
+    & .select-styled.select_active {
+      border-bottom-color: transparent;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/svg/arrow-grey.svg') center center / contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__type-order {
+
+    & .select {
+      width: 187px !important;
+    }
+
+    & .select-styled {
+      background-color: $color_white;
+      border-color: $color_disabled;
+      color: $color_black;
+      z-index: 9999;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url("../images/svg/arrow-grey.svg") center center/contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(-90deg);
+      }
+    }
+
+    & .select-options {
+      border-color: $color_disabled;
+    }
+
+    & .select-styled.select_active {
+      border-bottom-color: transparent;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/svg/arrow-grey.svg') center center / contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__manager {
+
+    & .select {
+      width: 290px !important;
+    }
+
+    & .select-styled {
+      background-color: $color_white;
+      border-color: $color_disabled;
+      color: $color_disabled;
+      z-index: 9999;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url("../images/svg/arrow-grey.svg") center center/contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(-90deg);
+      }
+    }
+
+    & .select-options {
+      border-color: $color_disabled;
+    }
+
+    & .select-styled.select_active {
+      border-bottom-color: transparent;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/svg/arrow-grey.svg') center center / contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(90deg);
+      }
+    }
+  }
 }
