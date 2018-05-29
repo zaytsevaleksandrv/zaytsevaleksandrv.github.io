@@ -256,6 +256,9 @@
     display: block;
     text-decoration: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     &:hover {
       color: $color_gold;
@@ -268,6 +271,7 @@
     @media (max-width: 1199px) {
       margin-bottom: 25px;
       margin-top: 15px;
+      padding-right: 30px;
     }
   }
 
@@ -339,7 +343,7 @@
     text-align: left;
     color: $color_black;
     text-decoration: none;
-    margin: 50px 0 70px;
+    margin: 7px 0 70px;
     display: inline-block;
 
     @media (max-width: 1199px) {

@@ -3155,7 +3155,16 @@ main {
   margin-top: 34px;
   display: block;
   text-decoration: none;
-  cursor: pointer; }
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
   .sidebar__data-label:hover {
     color: #cdaf3a; }
   .sidebar__data-label_active {
@@ -3163,7 +3172,8 @@ main {
   @media (max-width: 1199px) {
     .sidebar__data-label {
       margin-bottom: 25px;
-      margin-top: 15px; } }
+      margin-top: 15px;
+      padding-right: 30px; } }
 
 .sidebar__data-item {
   margin-bottom: 28px;
@@ -3224,7 +3234,7 @@ main {
   text-align: left;
   color: #363636;
   text-decoration: none;
-  margin: 50px 0 70px;
+  margin: 7px 0 70px;
   display: inline-block; }
   @media (max-width: 1199px) {
     .sidebar__out {
