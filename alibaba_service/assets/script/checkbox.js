@@ -2,7 +2,7 @@ let main = document.querySelector('#table .table__th [type="checkbox"]'),
     all = document.querySelectorAll('#table .table__td [type="checkbox"]'),
     tr = document.querySelectorAll('.table__tr'),
     btn = document.querySelectorAll('.btn'),
-    select = document.querySelectorAll('.select-styled')[3],
+    select = document.querySelectorAll('.select-styled')[3] || document.querySelectorAll('.select-styled')[2],
     footer = document.querySelector('.orders-clients__footer');
 
 for (let i = 0; i < all.length; i++) {

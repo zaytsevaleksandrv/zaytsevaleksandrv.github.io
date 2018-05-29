@@ -5534,6 +5534,15 @@ main {
     color: #454545; }
     .table__link:hover {
       color: #cdaf3a; }
+    .table__link_mail {
+      font-weight: 400;
+      text-decoration: none; }
+    .table__link_edit {
+      font-weight: 400;
+      color: rgba(69, 69, 69, 0.5);
+      font-size: 14px; }
+      .table__link_edit:hover {
+        color: #e50202; }
   .table__account {
     font-weight: 700; }
     .table__account_exposed {
@@ -5601,6 +5610,9 @@ main {
   .table__checkbox:checked + label span {
     background-color: #cdaf3a;
     padding: 3px; }
+  .table__balance {
+    font-weight: 700;
+    color: #cdaf3a; }
 
 .select-hidden {
   display: none;
@@ -6336,6 +6348,132 @@ main {
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg); }
+
+.manager-client {
+  margin-top: 69px;
+  margin-left: 64px;
+  max-width: 100%; }
+  @media (max-width: 1199px) {
+    .manager-client {
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  .manager-client__table {
+    width: 860px;
+    margin-bottom: 22px;
+    margin-left: -64px; }
+    .manager-client__table-wrapper {
+      width: 860px; }
+    @media (max-width: 1199px) {
+      .manager-client__table {
+        margin-bottom: 20px;
+        margin-left: 0; }
+        .manager-client__table-wrapper {
+          width: 100%;
+          overflow: hidden;
+          overflow-x: scroll;
+          margin-bottom: 100px; } }
+  .manager-client__func-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 910px;
+    margin-top: 43px;
+    margin-bottom: 22px; }
+    @media (max-width: 1199px) {
+      .manager-client__func-element {
+        max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+  .manager-client__select {
+    display: inline-block; }
+    @media (max-width: 1199px) {
+      .manager-client__select {
+        width: 100%; } }
+  .manager-client__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 868px; }
+    @media (max-width: 1199px) {
+      .manager-client__header {
+        max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+  .manager-client__btn {
+    background-color: #ebebeb;
+    border-radius: 50%;
+    border: none;
+    width: 42px;
+    min-width: 42px;
+    max-width: 42px;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    margin-left: -40px;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    z-index: 1; }
+    .manager-client__btn:hover {
+      background-color: #b19334; }
+    .manager-client__btn-icon {
+      background: url("../images/svg/search.svg") center center/contain no-repeat;
+      width: 17px;
+      min-width: 17px;
+      max-width: 17px;
+      min-height: 17px;
+      max-height: 17px;
+      height: 17px;
+      display: inline-block; }
+  .manager-client__input {
+    margin: 0;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 14px;
+    min-width: 200px;
+    max-width: 200px; }
+    @media (max-width: 1199px) {
+      .manager-client__input {
+        max-width: 100%;
+        min-width: 100%; } }
+    .manager-client__input:focus ~ .orders-clients__btn {
+      background-color: #cdaf3a; }
+      .manager-client__input:focus ~ .orders-clients__btn:hover {
+        background-color: #b19334; }
+  .manager-client__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
 
 .accordion, .panel {
   display: none; }

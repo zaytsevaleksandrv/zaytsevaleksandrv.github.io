@@ -75,6 +75,21 @@
     &:hover {
       color: $color_gold;
     }
+
+    &_mail {
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    &_edit {
+      font-weight: 400;
+      color: $color_greyish-brown-75;
+      font-size: 14px;
+
+      &:hover {
+        color: $color_red;
+      }
+    }
   }
 
   &__account {
@@ -180,5 +195,10 @@
   &__checkbox:checked + label span {
     background-color: $color_gold;
     padding: 3px;
+  }
+
+  &__balance {
+    font-weight: 700;
+    color: $color_gold;
   }
 }
