@@ -242,7 +242,9 @@ function shareBlock() {
 
 //mask input
 $(function(){
-    $("#phone").mask("+7 (999)-999-99-99");
+    if (document.getElementById('phone')) {
+        $("#phone").mask("+7 (999)-999-99-99");
+    }
 });
 
 //question accordion

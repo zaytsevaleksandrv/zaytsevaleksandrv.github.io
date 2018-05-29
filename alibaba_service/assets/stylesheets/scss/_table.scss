@@ -1,4 +1,5 @@
 .table {
+  border-collapse: collapse;
 
   &__thead {}
 
@@ -24,9 +25,22 @@
         }
       }
     }
+
+    &_padding {
+      padding-left: 64px;
+
+      @media (max-width: 1199px) {
+        padding-left: 0;
+      }
+    }
   }
 
-  &__tr {}
+  &__tr {
+    
+    &_active {
+      background-color: $color_disabled;
+    }
+  }
 
   &__td {
     font-size: 16px;
@@ -34,6 +48,14 @@
     text-align: left;
     color: $color_greyish-brown-two;
     padding: 21px 0;
+
+    &_padding {
+      padding-left: 64px;
+
+      @media (max-width: 1199px) {
+        padding-left: 0;
+      }
+    }
   }
 
   &__arrow-icon {
@@ -149,7 +171,7 @@
     vertical-align:middle;
     background-color: $color_white;
     cursor:pointer;
-    border: 1px solid $color_black;
+    border: 1px solid rgba(54, 54, 54, .3);
     border-radius: 3px;
     box-sizing: border-box;
     box-shadow: inset 0px 0px 1.1px 3px $color_white;

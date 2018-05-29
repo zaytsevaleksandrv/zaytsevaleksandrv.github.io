@@ -14,103 +14,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="alibs_lk_clients_profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="55" column="57" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="57" />
-              <folding>
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_top-up-balance.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_top-up-balance.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="723">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="alibs_lk_manager.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alibs_lk_clients_balance.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alibs_lk_clients_balance.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alibs_lk_clients_order.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alibs_lk_clients_order.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+            <state relative-caret-position="527">
+              <caret line="329" column="64" selection-start-line="329" selection-start-column="55" selection-end-line="329" selection-end-column="64" />
               <folding>
-                <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#table#0;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alibs_lk_clients.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alibs_lk_clients.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/script/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
-              <folding>
-                <element signature="n#!!block;n#Modal#0" />
-                <element signature="n#!!block;n#ModalInner#0" />
-                <element signature="n#!!block;n#Sticky#0" />
-                <element signature="n#!!block;n#menuMobile#0" />
-                <element signature="n#!!block;n#removeItem#0" />
-                <element signature="n#!!block;n#shareBlock#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_alibs.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="245" column="11" selection-start-line="245" selection-start-column="11" selection-end-line="245" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modal.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/script/modal.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-313">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -118,8 +29,62 @@
       <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="12" />
+            <state relative-caret-position="420">
+              <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_table.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_orders-clients.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="728">
+              <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_select.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_variables.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/select.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkbox.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/script/checkbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -199,7 +164,6 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_yout-order.scss" />
         <option value="$PROJECT_DIR$/assets/images/svg/arrow-grey-10px.svg" />
         <option value="$PROJECT_DIR$/assets/script/select.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_select.scss" />
         <option value="$PROJECT_DIR$/assets/images/svg/arrow-white.svg" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_your-order.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_your-balance.scss" />
@@ -212,19 +176,20 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/script/profile.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_profile.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/main.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_table.scss" />
-        <option value="$PROJECT_DIR$/assets/script/checkbox.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
         <option value="$PROJECT_DIR$/alibs_lk_clients_profile.html" />
-        <option value="$PROJECT_DIR$/alibs_lk_manager.html" />
         <option value="$PROJECT_DIR$/alibs_lk_clients_balance.html" />
         <option value="$PROJECT_DIR$/alibs_lk_clients_order.html" />
         <option value="$PROJECT_DIR$/alibs_lk_clients.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_top-up-balance.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss" />
         <option value="$PROJECT_DIR$/assets/script/main.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_select.scss" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_table.scss" />
+        <option value="$PROJECT_DIR$/alibs_lk_manager.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss" />
+        <option value="$PROJECT_DIR$/assets/script/checkbox.js" />
       </list>
     </option>
   </component>
@@ -235,8 +200,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="970" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -379,12 +345,12 @@
       <workItem from="1527403498396" duration="10725000" />
       <workItem from="1527494301305" duration="29108000" />
       <workItem from="1527575282391" duration="1796000" />
-      <workItem from="1527577328020" duration="8180000" />
+      <workItem from="1527577328020" duration="19205000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243633000" />
+    <option name="totallyTimeSpent" value="254658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -440,34 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="148" column="47" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_pagination.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -510,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_latest-news.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="53" column="3" selection-start-line="50" selection-start-column="6" selection-end-line="53" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -549,13 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="746">
           <caret line="127" column="14" selection-start-line="127" selection-start-column="14" selection-end-line="127" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_blog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="136" column="14" selection-start-line="136" selection-start-column="14" selection-end-line="136" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -605,20 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
           <caret line="197" column="50" selection-end-line="438" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -686,75 +596,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4312">
-          <caret line="154" column="52" selection-start-line="154" selection-start-column="52" selection-end-line="154" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/checkbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="135" column="1" lean-forward="true" selection-start-line="135" selection-start-column="1" selection-end-line="135" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_balance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,20 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_top-up-balance.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="723">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -796,10 +627,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_balance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="131" column="15" selection-start-line="131" selection-start-column="15" selection-end-line="131" selection-end-column="15" />
+        <state relative-caret-position="644">
+          <caret line="245" column="47" selection-start-line="245" selection-start-column="47" selection-end-line="245" selection-end-column="47" />
           <folding>
             <element signature="n#!!block;n#Modal#0" />
             <element signature="n#!!block;n#ModalInner#0" />
@@ -808,6 +669,98 @@
             <element signature="n#!!block;n#removeItem#0" />
             <element signature="n#!!block;n#shareBlock#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="56" column="7" selection-start-line="56" selection-start-column="7" selection-end-line="56" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="413" column="17" lean-forward="true" selection-start-line="400" selection-start-column="12" selection-end-line="413" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_latest-news.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2021">
+          <caret line="53" column="3" selection-start-line="50" selection-start-column="6" selection-end-line="53" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_top-up-balance.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/unload.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/export.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/delete.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/combine.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="137" column="4" lean-forward="true" selection-start-line="137" selection-start-column="4" selection-end-line="137" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="329" column="64" selection-start-line="329" selection-start-column="55" selection-end-line="329" selection-end-column="64" />
+          <folding>
+            <element signature="n#table#0;n#div#1;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/script/checkbox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="66" column="13" lean-forward="true" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
         </state>
       </provider>
     </entry>

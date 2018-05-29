@@ -138,7 +138,13 @@
 
 	<div class="content">
 		<div class="orders-clients">
-			<h3 class="h3">ЗАКАЗЫ клиентов</h3>
+			<div class="orders-clients__header">
+				<h3 class="h3">ЗАКАЗЫ клиентов</h3>
+				<form class="orders-clients__form" action="">
+					<input type="text" class="orders-clients__input input input_border-grey" placeholder="Поиск ID / E-mail">
+					<button class="orders-clients__btn"><span class="orders-clients__btn-icon"></span></button>
+				</form>
+			</div>
 			<div class="orders-clients__func-element">
 				<div class="orders-clients__select">
 					<select id="created">
@@ -167,7 +173,7 @@
 				<table class="orders-clients__table table" id="table">
 					<thead class="table__thead">
 					<tr class="table__tr">
-						<th class="table__th">
+						<th class="table__th table__th_padding">
 							<input id="all" type="checkbox" class="table__checkbox">
 							<label for="all"><span></span></label>
 						</th>
@@ -180,7 +186,7 @@
 					</thead>
 					<tbody class="table__tbody">
 					<tr class="table__tr">
-						<td class="table__td">
+						<td class="table__td table__td_padding">
 							<input id="687567" type="checkbox" class="table__checkbox">
 							<label for="687567"><span></span></label>
 						</td>
@@ -199,7 +205,7 @@
 						</td>
 					</tr>
 					<tr class="table__tr">
-						<td class="table__td">
+						<td class="table__td table__td_padding">
 							<input id="687563" type="checkbox" class="table__checkbox">
 							<label for="687563"><span></span></label>
 						</td>
@@ -218,7 +224,7 @@
 						</td>
 					</tr>
 					<tr class="table__tr">
-						<td class="table__td">
+						<td class="table__td table__td_padding">
 							<input id="687512" type="checkbox" class="table__checkbox">
 							<label for="687512"><span></span></label>
 						</td>
@@ -236,8 +242,98 @@
 							<span class="table__number">16</span>
 						</td>
 					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="682312" type="checkbox" class="table__checkbox">
+							<label for="682312"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__account table__account_refusal">Отказ клиента</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+						<td class="table__td">
+							<span class="table__msg">Сообщения</span>
+							<span class="table__circle"></span>
+							<span class="table__number">16</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="623512" type="checkbox" class="table__checkbox">
+							<label for="623512"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__account table__account_refusal">Отказ клиента</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+						<td class="table__td">
+							<span class="table__msg">Сообщения</span>
+							<span class="table__circle"></span>
+							<span class="table__number">16</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="687523" type="checkbox" class="table__checkbox">
+							<label for="687523"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__account table__account_refusal">Отказ клиента</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+						<td class="table__td">
+							<span class="table__msg">Сообщения</span>
+							<span class="table__circle"></span>
+							<span class="table__number">16</span>
+						</td>
+					</tr>
 					</tbody>
 				</table>
+
+				<ul class="orders-clients__pagination pagination">
+					<li class="pagination__item">
+						<a  class="pagination__link pagination__link_active" href="#">1</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">2</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">3</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">4</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="orders-clients__footer">
+				<select id="edited">
+					<option value="hide">Изменить выбранные</option>
+					<option value="exposed">Изменить менеджера</option>
+					<option value="paid">Изменить статус</option>
+					<option value="refusal">Изменить тип заказа</option>
+				</select>
+				<div class="orders-clients__footer-item">
+					<div class="orders-clients__footer-inner">
+						<button class="btn btn-gold btn_disabled"><span class="btn-join"></span>Объединить</button>
+						<button class="btn btn-gold btn_disabled"><span class="btn-download"></span>Выгрузить</button>
+					</div>
+					<div class="orders-clients__footer-inner">
+						<button class="btn btn-red btn_disabled"><span class="btn-remove"></span>Удалить</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

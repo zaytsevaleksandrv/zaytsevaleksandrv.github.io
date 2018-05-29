@@ -1,7 +1,6 @@
 .orders-clients {
   margin-top: 69px;
   margin-left: 64px;
-  overflow: hidden;
   max-width: 100%;
 
   @media (max-width: 1199px) {
@@ -11,12 +10,19 @@
   }
 
   &__table {
-    width: 992px;
-    margin-bottom: 120px;
+    width: 990px;
+    margin-bottom: 22px;
+    margin-left: -64px;
+
+    &-wrapper {
+      width: 990px;
+    }
 
     @media (max-width: 1199px) {
-      margin-bottom: 0;
+      margin-bottom: 20px;
+      margin-left: 0;
       &-wrapper {
+        width: 100%;
         overflow: hidden;
         overflow-x: scroll;
         margin-bottom: 100px;
@@ -43,6 +49,214 @@
 
     @media (max-width: 1199px) {
       width: 100%;
+    }
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 868px;
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  &__btn {
+    background-color: $color_disabled;
+    border-radius: 50%;
+    border: none;
+    width: 42px;
+    min-width: 42px;
+    max-width: 42px;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    margin-left: -40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+
+    &:hover {
+      background-color: $color_gold_dark;
+    }
+
+    &-icon {
+      background: url("../images/svg/search.svg") center center / contain no-repeat;
+      width: 17px;
+      min-width: 17px;
+      max-width: 17px;
+      min-height: 17px;
+      max-height: 17px;
+      height: 17px;
+      display: inline-block;
+    }
+  }
+
+  &__input {
+    margin: 0;
+    min-height: 42px;
+    max-height: 42px;
+    height: 42px;
+    line-height: 42px;
+    padding-left: 20px;
+    font-size: 14px;
+    min-width: 200px;
+    max-width: 200px;
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      min-width: 100%;
+    }
+
+    &:focus {
+      & ~ .orders-clients__btn {
+        background-color: $color_gold;
+
+        &:hover {
+          background-color: $color_gold_dark;
+        }
+      }
+    }
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+  }
+
+  &__footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 870px;
+    margin-top: 30px;
+    margin-bottom: 90px;
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      margin: auto;
+      z-index: 99999;
+      display: block;
+    }
+
+
+    &_active {
+      &:after {
+        display: none;
+      }
+    }
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &-inner {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-bottom: 30px;
+
+      @media (max-width: 1199px) {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20px;
+      }
+
+      & .btn {
+        margin-right: 30px;
+
+        @media (max-width: 1199px) {
+          margin-right: 0;
+          margin-bottom: 30px;
+        }
+
+        &:last-child {
+          margin-right: 0;
+
+          @media (max-width: 1199px) {
+            margin-bottom: 0px;
+          }
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &-item {
+      @media (max-width: 1199px) {
+        width: 100%;
+      }
+    }
+
+    & .select-styled {
+      background-color: $color_disabled;
+      border-color: $color_disabled;
+      color: $color_white;
+      z-index: 9999;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url("../images/svg/arrow-white.svg") center center/contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(-90deg);
+      }
+    }
+
+    & .select-options {
+      top: 28px;
+      padding-top: 34px;
+    }
+
+    & .select-styled.select_active {
+      border-radius: 26px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        right: 29px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        background: url('../images/svg/arrow-white.svg') center center / contain no-repeat;
+        width: 9px;
+        min-width: 9px;
+        max-width: 9px;
+        height: 17px;
+        min-height: 17px;
+        max-height: 17px;
+        display: block;
+        transition: all 0s ease;
+        transform: rotate(90deg);
+      }
     }
   }
 }
