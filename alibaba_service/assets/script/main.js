@@ -9,18 +9,6 @@ window.onscroll = function() {
     sidebar ? StickySidebar() : '';
 };
 
-
-$(window).scroll(function() {
-    var wsc = $(this).scrollTop() + $(window).height() ;
-    var dh = $(document).height();
-
-    if(wsc > (dh - 195)) {
-        $('#sidebar').css("top", "-202px");
-    } else{
-        $('#sidebar').removeAttr("style");
-    }
-});
-
 //modalka
 function Modal() {
     let modal = document.getElementById('modal');
@@ -138,11 +126,21 @@ function StickySidebar() {
     var sidebar = document.getElementById("sidebar"),
         sticky = sidebar.offsetTop;
 
+    var wsc = $(this).scrollTop() + $(window).height() ;
+    var dh = $(document).height();
+
+    if (wsc === dh) {
+        $('#sidebar').css("top", "-202px");
+    } else{
+        $('#sidebar').removeAttr("style");
+    }
+
     if (window.pageYOffset > sticky) {
         sidebar.classList.add("sidebar__sticky");
     } else {
         sidebar.classList.remove("sidebar__sticky");
     }
+
 }
 
 //accordion mobile
