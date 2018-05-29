@@ -23,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_table.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_table.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="211" column="33" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="33" />
+            <state relative-caret-position="443">
+              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alibs_lk_manager_request.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alibs_lk_manager_request.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="644">
@@ -194,8 +194,8 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_manager_client.scss" />
         <option value="$PROJECT_DIR$/assets/script/checkbox.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_order-site.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_table.scss" />
         <option value="$PROJECT_DIR$/alibs_lk_manager_request.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_table.scss" />
       </list>
     </option>
   </component>
@@ -350,12 +350,12 @@
       <workItem from="1527403498396" duration="10725000" />
       <workItem from="1527494301305" duration="29108000" />
       <workItem from="1527575282391" duration="1796000" />
-      <workItem from="1527577328020" duration="22626000" />
+      <workItem from="1527577328020" duration="22704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="258079000" />
+    <option name="totallyTimeSpent" value="258157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -755,17 +755,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="211" column="33" selection-start-line="211" selection-start-column="33" selection-end-line="211" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="260" column="80" selection-start-line="260" selection-start-column="80" selection-end-line="260" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_table.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>

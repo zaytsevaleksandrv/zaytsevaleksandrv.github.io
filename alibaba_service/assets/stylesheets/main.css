@@ -5508,7 +5508,8 @@ main {
       min-width: 13%; }
       @media (max-width: 1199px) {
         .table__th_padding {
-          padding-left: 0; } }
+          padding-left: 0;
+          min-width: 5%; } }
   .table__tr_active {
     background-color: #ebebeb; }
   .table__td {
@@ -5522,7 +5523,8 @@ main {
       min-width: 13%; }
       @media (max-width: 1199px) {
         .table__td_padding {
-          padding-left: 0; } }
+          padding-left: 0;
+          min-width: 5%; } }
   .table__arrow-icon {
     background: url("../images/svg/arrow-grey-10px.svg") center center/contain no-repeat;
     display: inline-block;
