@@ -135,6 +135,15 @@ main {
   margin-left: -3px;
 }
 
+.btn-dwn {
+  background: url('../images/svg/download.svg') center center / contain no-repeat;
+  width: 18px;
+  height: 19px;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: -3px;
+}
+
 .btn_disabled {
   background-color: $color_disabled;
   border-color: $color_disabled;

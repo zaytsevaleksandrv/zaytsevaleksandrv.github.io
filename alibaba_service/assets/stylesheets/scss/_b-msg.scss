@@ -63,4 +63,45 @@
     max-height: 150px;
     margin-top: 7px;
   }
+
+  &__kp {
+    background: url('../images/svg/KP.svg') center center / contain no-repeat;
+    width: 13px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+  }
+  &__rub {
+    background: url('../images/svg/bill.svg') center center / contain no-repeat;
+    width: 11px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px;
+  }
+
+  &__link {
+    color: rgba(54, 54, 54, 0.75);
+    font-size: 16px;
+    font-weight: 400;
+
+    &:hover {
+      color: $color_gold;
+    }
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+  }
+
+  &__func-elem {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 48px;
+
+    @media (max-width: 1199px) {
+      padding-left: 0;
+    }
+  }
 }

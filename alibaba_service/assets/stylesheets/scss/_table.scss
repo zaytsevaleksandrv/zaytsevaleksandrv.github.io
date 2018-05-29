@@ -94,6 +94,34 @@
         color: $color_red;
       }
     }
+
+    &_on-goods {
+      color: $color_gold;
+      font-weight: 400;
+      max-width: 230px;
+      min-width: 230px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: inline-block;
+      white-space: nowrap;
+
+      &:hover {
+        color: $color_red;
+      }
+    }
+  }
+
+  &__name {
+    display: inline-block;
+    min-width: 225px;
+    max-width: 225px;
+  }
+
+  &__count {
+    font-weight: 700;
+    display: inline-block;
+    max-width: 160px;
+    min-width: 160px;
   }
 
   &__account {
@@ -166,7 +194,14 @@
     }
   }
 
-  &__comment {}
+  &__comment {
+
+    &_goods {
+      min-width: 352px;
+      max-width: 352px;
+      display: inline-block;
+    }
+  }
 
   &__order {
     font-size: 16px;
@@ -212,5 +247,18 @@
 
   &__not-assigned {
     color: rgba(69, 69, 69, 0.3);
+  }
+
+
+  &_order {
+    margin-bottom: 0 !important;
+
+    & .table__th {
+      padding: 10px 0;
+    }
+
+    & .table__td {
+      padding: 15px 0 27px;
+    }
   }
 }

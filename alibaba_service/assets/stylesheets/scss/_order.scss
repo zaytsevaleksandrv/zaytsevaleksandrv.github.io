@@ -1,7 +1,6 @@
 .order {
   margin-top: 69px;
   margin-left: 64px;
-  overflow: hidden;
   max-width: 100%;
 
   @media (max-width: 1199px) {
@@ -69,5 +68,17 @@
 
   &_btn {
     margin-top: 30px;
+  }
+
+  &__dwn-wrapper {
+    max-width: 220px;
+    min-width: 220px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+    @media (max-width: 1199px) {
+      min-width: 100%;
+      max-width: 100%;
+    }
   }
 }
