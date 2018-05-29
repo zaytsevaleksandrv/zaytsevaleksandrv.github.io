@@ -92,6 +92,10 @@
   &__inner {
     display: flex;
     align-items: center;
+
+    @media (max-width: 1199px) {
+      margin-bottom: 25px;
+    }
   }
 
   &__func-elem {
