@@ -28,6 +28,7 @@
 
     &_padding {
       padding-left: 64px;
+      min-width: 13%;
 
       @media (max-width: 1199px) {
         padding-left: 0;
@@ -51,6 +52,7 @@
 
     &_padding {
       padding-left: 64px;
+      min-width: 13%;
 
       @media (max-width: 1199px) {
         padding-left: 0;
@@ -200,5 +202,13 @@
   &__balance {
     font-weight: 700;
     color: $color_gold;
+  }
+
+  &__type-order {
+    font-weight: 700;
+  }
+
+  &__not-assigned {
+    color: rgba(69, 69, 69, 0.3);
   }
 }

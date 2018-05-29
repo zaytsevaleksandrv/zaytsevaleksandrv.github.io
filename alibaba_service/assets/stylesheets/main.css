@@ -5504,7 +5504,8 @@ main {
         .table__th[data-type=date]:hover .table__arrow-icon {
           background: url("../images/svg/arrow-gold-10px.svg") center center/contain no-repeat; }
     .table__th_padding {
-      padding-left: 64px; }
+      padding-left: 64px;
+      min-width: 13%; }
       @media (max-width: 1199px) {
         .table__th_padding {
           padding-left: 0; } }
@@ -5517,7 +5518,8 @@ main {
     color: #454545;
     padding: 21px 0; }
     .table__td_padding {
-      padding-left: 64px; }
+      padding-left: 64px;
+      min-width: 13%; }
       @media (max-width: 1199px) {
         .table__td_padding {
           padding-left: 0; } }
@@ -5613,6 +5615,10 @@ main {
   .table__balance {
     font-weight: 700;
     color: #cdaf3a; }
+  .table__type-order {
+    font-weight: 700; }
+  .table__not-assigned {
+    color: rgba(69, 69, 69, 0.3); }
 
 .select-hidden {
   display: none;

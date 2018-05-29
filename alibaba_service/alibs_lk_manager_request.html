@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192"  href="./assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="./assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#3e2e25">
+	<meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#3e2e25">
+
+	<title>alibs_lk_manager_request</title>
+
+	<!-- stylesheet -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+	<link rel="stylesheet" href="./assets/stylesheets/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./assets/stylesheets/slick.css"/>
+	<link rel="stylesheet" href="./assets/stylesheets/main.css">
+</head>
+<body>
+<header class="header flex">
+	<section class="container flex__sb">
+		<div class="header__work-platforms">
+			<p class="header__work-platforms-text">Работаем с платформами</p>
+			<ul class="header__list">
+				<li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на Alibaba.com" href="http://www.alibaba.com/"></a></li>
+				<li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на AliExpress" href="http://www.aliexpress.com/"></a></li>
+				<li class="header__list-inner"><a class="header__list-inner-link" target="_blank" title="Перейти на Taobao.com" href="http://www.taobao.com/"></a></li>
+				<li class="header__list-inner"><a class="header__list-inner-link" title="Перейти на amazon.com" href=""></a></li>
+				<li class="header__list-inner"><a class="header__list-inner-link" title="Перейти на 1688" href=""></a></li>
+			</ul>
+		</div>
+		<div class="header__lk">
+			<a class="header__lk-link" href="">
+				<span  class="header__lk-icon"></span>
+				Личный кабинет
+			</a>
+		</div>
+	</section>
+</header>
+<main class="flex">
+	<div class="nav-sidebar__wrapper sidebar" id="sidebar">
+		<a href="/" class="nav__logo"></a>
+		<div class="sidebar__data">
+			<a href="./alibs_lk_clients.html" class="sidebar__data-label sidebar__data-label_active">Заказы и счета</a>
+
+			<div class="sidebar__data-item">
+				<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label">Баланс</a>
+				<div class="sidebar__balance-sum">
+					<span class="sidebar__balance-count">650 000 ₽</span>
+					<span class="sidebar__balance-replenish" onclick="ModalBalance()">Пополнить</span>
+				</div>
+
+				<div class="modal__top-up-balance top-up-balance" id="modal_balance">
+					<p class="top-up-balance__header">Пополнить баланс<br>на сумму, ₽</p>
+					<form class="top-up-balance__form" action="">
+						<input type="text" class="input_green top-up-balance_input input input_border-grey" placeholder="Введите сумму">
+						<button class="top-up-balance__btn"><span class="top-up-balance__btn-icon"></span></button>
+					</form>
+				</div>
+			</div>
+
+			<div class="sidebar__data-item">
+				<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
+				<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+			</div>
+			<a class="sidebar__out" href="#">Выйти из кабинета</a>
+		</div>
+		<div class="nav-sidebar__contact">
+			<a class="nav-sidebar__contact-link" href="tel:8 800 555 52 75" title="Закажите обратный звонок">
+				<span class="nav-sidebar__contact-text-big nav-sidebar__contact-text-big_18">8 800 555 52 75</span>
+				<span class="nav-sidebar__contact-text-small">Закажите обратный звонок</span>
+			</a>
+			<a class="nav-sidebar__contact-link" href="mailto:info@alibaba-service.ru" title="Напишите нам">
+				<span class="nav-sidebar__contact-text-big">info@alibaba-service.ru</span>
+				<span class="nav-sidebar__contact-text-small">Напишите нам</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="mobile__menu mobile__menu_bgc" id="myHeaderMobile">
+		<div class="menu-toggle__wrapper">
+			<div onClick="menuMobile()" class="menu-toggle__inner" id="menuMobile">
+				<div class="menu-toggle">
+					<span class="menu-toggle__part"></span>
+					<span class="menu-toggle__part"></span>
+					<span class="menu-toggle__part"></span>
+				</div>
+			</div>
+		</div>
+		<div id="navigation" class="nav-toggle_close">
+			<div class="sidebar__data">
+				<a href="./alibs_lk_clients.html" class="sidebar__data-label sidebar__data-label_active">Заказы и счета</a>
+
+				<div class="sidebar__data-item">
+					<a href="./alibs_lk_clients_balance.html" class="sidebar__balance-label">Баланс</a>
+					<div class="sidebar__balance-sum">
+						<span class="sidebar__balance-count">650 000 ₽</span>
+						<span class="sidebar__balance-replenish" onclick="ModalBalance()">Пополнить</span>
+					</div>
+
+					<div class="modal__top-up-balance top-up-balance" id="modal_balance_mobile">
+						<p class="top-up-balance__header">Пополнить баланс<br>на сумму, ₽</p>
+						<form class="top-up-balance__form" action="">
+							<input type="text" class="input_green top-up-balance_input input input_border-grey" placeholder="Введите сумму">
+							<button class="top-up-balance__btn"><span class="top-up-balance__btn-icon"></span></button>
+						</form>
+					</div>
+				</div>
+
+				<div class="sidebar__data-item">
+					<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
+					<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+				</div>
+				<a class="sidebar__out" href="#">Выйти из кабинета</a>
+			</div>
+		</div>
+		<a href="/" class="nav__logo nav__logo_mobile"></a>
+		<div>
+			<a href="tel:8 800 555 52 75" class="nav__phone"></a>
+			<a href="mailto:lbazlova@alibaba-service.ru" class="nav__mailto"></a>
+		</div>
+	</div>
+
+	<div class="content">
+		<div class="orders-clients">
+			<h3 class="h3">Заявки с сайта</h3>
+			<div class="orders-clients__func-element">
+				<div class="orders-clients__select">
+					<select id="created">
+						<option value="hide">Все типы заявок</option>
+						<option value="exposed">Счет выставлен</option>
+						<option value="paid">Заказ оплачен</option>
+						<option value="refusal">Отказ клиента</option>
+					</select>
+
+					<select id="all_manager">
+						<option value="hide">Все менеджеры</option>
+						<option value="exposed">Счет выставлен</option>
+						<option value="paid">Заказ оплачен</option>
+						<option value="refusal">Отказ клиента</option>
+					</select>
+				</div>
+			</div>
+			<div class="manager-client__table-wrapper">
+				<table class="manager-client__table table" id="table">
+					<thead class="table__thead">
+					<tr class="table__tr">
+						<th class="table__th table__th_padding">
+							<input id="all" type="checkbox" class="table__checkbox">
+							<label for="all"><span></span></label>
+						</th>
+						<th class="table__th">Номер</th>
+						<th class="table__th" data-type="date">Дата <span class="table__arrow-icon"></span></th>
+						<th class="table__th">Тип заявки</th>
+						<th class="table__th">Менеджер</th>
+					</tr>
+					</thead>
+					<tbody class="table__tbody">
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="687567" type="checkbox" class="table__checkbox">
+							<label for="687567"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687567</a>
+						</td>
+						<td class="table__td">08.02.2018</td>
+						<td>
+							<span class="table__type-order">Расчет заказа</span>
+						</td>
+						<td class="table__td">
+							<span class="table__not-assigned">Не назначен</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="687563" type="checkbox" class="table__checkbox">
+							<label for="687563"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687563</a>
+						</td>
+						<td class="table__td">10.03.2018</td>
+						<td class="table__td">
+							<span class="table__type-order">Расчет заказа</span>
+						</td>
+						<td class="table__td">
+							<span class="table__not-assigned">Не назначен</span>
+						</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="687512" type="checkbox" class="table__checkbox">
+							<label for="687512"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__type-order">Консультация</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="682312" type="checkbox" class="table__checkbox">
+							<label for="682312"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__type-order">Консультация</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="623512" type="checkbox" class="table__checkbox">
+							<label for="623512"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__type-order">Консультация</span>
+						</td>
+						<td class="table__td">Иван Сидоров</td>
+					</tr>
+					<tr class="table__tr">
+						<td class="table__td table__td_padding">
+							<input id="687523" type="checkbox" class="table__checkbox">
+							<label for="687523"><span></span></label>
+						</td>
+						<td class="table__td">
+							<a class="table__link" href="./alibs_lk_clients_order.html">687512</a>
+						</td>
+						<td class="table__td">07.03.2018</td>
+						<td class="table__td">
+							<span class="table__type-order">Расчет заказа</span>
+						</td>
+						<td class="table__td">
+							<span class="table__not-assigned">Не назначен</span>
+						</td>
+					</tr>
+					</tbody>
+				</table>
+
+				<ul class="orders-clients__pagination pagination">
+					<li class="pagination__item">
+						<a  class="pagination__link pagination__link_active" href="#">1</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">2</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">3</a>
+					</li>
+					<li class="pagination__item">
+						<a  class="pagination__link" href="#">4</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="orders-clients__footer">
+				<select id="edited">
+					<option value="hide">Изменить выбранные</option>
+					<option value="exposed">Изменить менеджера</option>
+					<option value="paid">Изменить статус</option>
+					<option value="refusal">Изменить тип заказа</option>
+				</select>
+				<div class="orders-clients__footer-item">
+					<div class="orders-clients__footer-inner">
+						<button class="btn btn-red btn_disabled"><span class="btn-remove"></span>Удалить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</main>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__slider">
+			<div class="footer__slider-inner">
+				<address>
+					<h5 class="footer__slider-inner-label">МОСКВА</h5>
+					<p class="footer__slider-inner-text">Пресненская наб., 2,<br>Москва-Сити</p>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 (499) 686 03 39">8 (499) 686 03 39</a>
+					<a class="footer__slider-inner-link" title="Написать на почту" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+				</address>
+			</div>
+			<div class="footer__slider-inner">
+				<address>
+					<h5 class="footer__slider-inner-label">ВЛАДИВОСТОК</h5>
+					<p class="footer__slider-inner-text">ул. Стрельникова, 7,<br>офис 806, представитель<br>— ООО «Индотранс»</p>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 423 2 520 465">8 423 2 520 465</a>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:8 423 2 520 466">8 423 2 520 466</a>
+					<a class="footer__slider-inner-link" title="Перейти на сайт" target="_blank" href="http://indotrans.ru/">www.indotrans.ru</a>
+				</address>
+			</div>
+			<div class="footer__slider-inner">
+				<address>
+					<h5 class="footer__slider-inner-label">ПЕКИН</h5>
+					<p class="footer__slider-inner-text">A-911 Qiancun Shangwu Bldg.,No.2 Block,<br>Anzhenxili 5 Qu, Chaoyang<br>District, Beijing 100029,<br>P.R. of China</p>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+861064430843">+86 10 644 308 43 (доб. 126)</a>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+861064435764">+86 10 644 357 64 (доб. 128)</a>
+				</address>
+			</div>
+			<div class="footer__slider-inner">
+				<address>
+					<h5 class="footer__slider-inner-label">ШЭНЬЧЖЕНЬ</h5>
+					<p class="footer__slider-inner-text">2407, CunJin building 3005,<br>DongMenNan Road,<br>Luohu district,<br>Shenzhen, Guandong,<br>China postcode 518000</p>
+					<a class="footer__slider-inner-link" title="Позвонить в офис" href="tel:+86075522980652">+86 0755 2298 0652</a>
+				</address>
+			</div>
+		</div>
+		<div class="footer__copywriting-wrapper">
+			<p class="footer__copywriting-text">© Алибаба-Сервис, 2018
+				<a class="footer__copywriting-link" href="">Политика конфиденциальности</a>
+			</p>
+			<div class="footer__social">
+				<a href="https://www.facebook.com/alibaba.service/" target="_blank" class="footer__social-link" title="Facebook" href=""></a>
+				<a class="footer__social-link" title="Instagram" href="https://www.instagram.com/alibaba_service/" target="_blank"></a>
+				<a href="" target="_blank" class="footer__social-link" title="YouTube" href=""></a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<!-- script -->
+<script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="./assets/script/slick.min.js"></script>
+<script type="text/javascript" src="./assets/script/main.js"></script>
+<script type="text/javascript" src="./assets/script/sliders.js"></script>
+<script type="text/javascript" src="./assets/script/table.js"></script>
+<script type="text/javascript" src="./assets/script/select.js"></script>
+<script type="text/javascript" src="./assets/script/modal.js"></script>
+<script type="text/javascript" src="./assets/script/checkbox.js"></script>
+</body>
+</html>
