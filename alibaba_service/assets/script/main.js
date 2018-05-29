@@ -11,10 +11,10 @@ window.onscroll = function() {
 
 
 $(window).scroll(function() {
-    var wsc = $(this).scrollTop() + $(window).height();
+    var wsc = $(this).scrollTop() + $(window).height() ;
     var dh = $(document).height();
 
-    if(wsc === dh) {
+    if(wsc > (dh - 195)) {
         $('#sidebar').css("top", "-202px");
     } else{
         $('#sidebar').removeAttr("style");
