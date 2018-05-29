@@ -1,0 +1,48 @@
+.orders-clients {
+  margin-top: 69px;
+  margin-left: 64px;
+  overflow: hidden;
+  max-width: 100%;
+
+  @media (max-width: 1199px) {
+    margin-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  &__table {
+    width: 992px;
+    margin-bottom: 120px;
+
+    @media (max-width: 1199px) {
+      margin-bottom: 0;
+      &-wrapper {
+        overflow: hidden;
+        overflow-x: scroll;
+        margin-bottom: 100px;
+      }
+    }
+  }
+
+  &__func-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 910px;
+    margin-top: 43px;
+    margin-bottom: 22px;
+
+    @media (max-width: 1199px) {
+      max-width: 100%;
+      flex-direction: column;
+    }
+  }
+
+  &__select {
+    display: inline-block;
+
+    @media (max-width: 1199px) {
+      width: 100%;
+    }
+  }
+}

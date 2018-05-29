@@ -196,6 +196,10 @@ main {
   .input_border-grey {
     border-color: #ebebeb; }
 
+.input_green:focus {
+  opacity: 1;
+  border: solid 2px #31a34d; }
+
 .textarea {
   min-height: 124px;
   max-height: 124px;
@@ -5547,6 +5551,28 @@ main {
   .table__order_exposed {
     color: #e50202; }
 
+.table__checkbox {
+  display: none; }
+
+.table__checkbox + label span {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: 1px solid #363636;
+  border-radius: 3px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 0px 1.1px 3px #ffffff;
+  box-shadow: inset 0px 0px 1.1px 3px #ffffff; }
+
+.table__checkbox:checked + label span {
+  background-color: #cdaf3a;
+  padding: 3px; }
+
 .select-hidden {
   display: none;
   visibility: hidden;
@@ -6027,6 +6053,52 @@ main {
     line-height: 52px; }
   .profile__group {
     position: relative; }
+
+.orders-clients {
+  margin-top: 69px;
+  margin-left: 64px;
+  overflow: hidden;
+  max-width: 100%; }
+  @media (max-width: 1199px) {
+    .orders-clients {
+      margin-left: 0;
+      padding-left: 15px;
+      padding-right: 15px; } }
+  .orders-clients__table {
+    width: 992px;
+    margin-bottom: 120px; }
+    @media (max-width: 1199px) {
+      .orders-clients__table {
+        margin-bottom: 0; }
+        .orders-clients__table-wrapper {
+          overflow: hidden;
+          overflow-x: scroll;
+          margin-bottom: 100px; } }
+  .orders-clients__func-element {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 910px;
+    margin-top: 43px;
+    margin-bottom: 22px; }
+    @media (max-width: 1199px) {
+      .orders-clients__func-element {
+        max-width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column; } }
+  .orders-clients__select {
+    display: inline-block; }
+    @media (max-width: 1199px) {
+      .orders-clients__select {
+        width: 100%; } }
 
 .accordion, .panel {
   display: none; }

@@ -133,6 +133,13 @@ main {
   }
 }
 
+.input_green {
+  &:focus {
+    opacity: 1;
+    border: solid 2px $color_medium-green;
+  }
+}
+
 .textarea {
   min-height: 124px;
   max-height: 124px;

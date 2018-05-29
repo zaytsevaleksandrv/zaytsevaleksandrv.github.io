@@ -136,4 +136,27 @@
       color: $color_red;
     }
   }
+
+  &__checkbox {
+    display:none;
+  }
+
+  &__checkbox + label span {
+    display:inline-block;
+    width:17px;
+    height:17px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background-color: $color_white;
+    cursor:pointer;
+    border: 1px solid $color_black;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: inset 0px 0px 1.1px 3px $color_white;
+  }
+
+  &__checkbox:checked + label span {
+    background-color: $color_gold;
+    padding: 3px;
+  }
 }

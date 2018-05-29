@@ -56,6 +56,11 @@ function ModalInner() {
     };
 
     modal.addEventListener("click", this.closeModal);
+
+    if (document.documentElement.clientHeight < 966) {
+        modal.style.overflowX = 'scroll';
+        modal.style.alignItems = 'flex-start';
+    }
 }
 
 //плавающий header
