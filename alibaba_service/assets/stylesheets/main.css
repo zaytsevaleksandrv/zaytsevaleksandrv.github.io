@@ -6069,7 +6069,11 @@ main {
   padding-right: 48px; }
   @media (max-width: 1199px) {
     .b-msg__func-elem {
-      padding-left: 0; } }
+      padding-left: 0;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
 
 .profile {
   margin-top: 69px;
