@@ -79,19 +79,23 @@
 
 			<div class="sidebar__data-item">
 				<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
-				<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+				<span class="sidebar__balance-login">info@alibaba-service.ru</span>
 			</div>
 			<a class="sidebar__out" href="#">Выйти из кабинета</a>
 		</div>
 		<div class="nav-sidebar__contact">
-			<a class="nav-sidebar__contact-link" href="tel:8 800 555 52 75" title="Закажите обратный звонок">
-				<span class="nav-sidebar__contact-text-big nav-sidebar__contact-text-big_18">8 800 555 52 75</span>
-				<span class="nav-sidebar__contact-text-small">Закажите обратный звонок</span>
-			</a>
-			<a class="nav-sidebar__contact-link" href="mailto:info@alibaba-service.ru" title="Напишите нам">
-				<span class="nav-sidebar__contact-text-big">info@alibaba-service.ru</span>
-				<span class="nav-sidebar__contact-text-small">Напишите нам</span>
-			</a>
+			<div class="nav-sidebar__contact-link">
+				<a href="tel:8 800 555 52 75" title="Закажите обратный звонок">
+					<span class="nav-sidebar__contact-text-big nav-sidebar__contact-text-big_18">8 800 555 52 75</span>
+				</a>
+				<span class="nav-sidebar__contact-text-small" onclick="ModalReturnCall()">Закажите обратный звонок</span>
+			</div>
+			<div class="nav-sidebar__contact-link">
+				<a href="mailto:info@alibaba-service.ru" title="Напишите нам">
+					<span class="nav-sidebar__contact-text-big">info@alibaba-service.ru</span>
+				</a>
+				<span class="nav-sidebar__contact-text-small" onclick="ModalWrite()">Напишите нам</span>
+			</div>
 		</div>
 	</div>
 
@@ -129,7 +133,7 @@
 
 				<div class="sidebar__data-item">
 					<a href="alibs_lk_clients_profile.html" class="sidebar__balance-label">Профиль</a>
-					<a class="sidebar__balance-mail" href="mailto:info@alibaba-service.ru">info@alibaba-service.ru</a>
+					<span class="sidebar__balance-login">info@alibaba-service.ru</span>
 				</div>
 				<a class="sidebar__out" href="#">Выйти из кабинета</a>
 			</div>
@@ -381,7 +385,38 @@
 		</div>
 	</div>
 </footer>
+<div class="business-strategy__modal-wrapper" id="modal_call">
+	<div class="business-strategy__modal" id="modal_call_inner">
+		<button class="business-strategy__modal-btn-close" id="btn_call_close" title="закрыть"></button>
+		<h3>Закажите<br>обратный звонок</h3>
+		<p class="business-strategy__modal-text">Оставьте свои контакты.<br>Менеджер свяжется с вами в ближайшее время для определения даты встречи.</p>
+		<form class="business-strategy__form" action="">
+			<input class="input input_border-grey" type="text" placeholder="Имя" required>
+			<input class="input input_border-grey" type="phone" placeholder="Телефон" required>
 
+			<div class="delivery__form-inner">
+				<button class="btn btn-red">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="business-strategy__modal-wrapper" id="modal_write">
+	<div class="business-strategy__modal" id="modal_write_inner">
+		<button class="business-strategy__modal-btn-close" id="btn_write_close" title="закрыть"></button>
+		<h3>Напишите нам</h3>
+		<p class="business-strategy__modal-text">Оставьте свои контакты.<br>Менеджер свяжется с вами в ближайшее время для определения даты встречи.</p>
+		<form class="business-strategy__form" action="">
+			<input class="input input_border-grey" type="text" placeholder="Имя" required>
+			<input class="input input_border-grey" type="email" placeholder="Почта" required>
+			<textarea class="textarea textarea_border-grey" name="" id="" cols="30" rows="10" placeholder="Комментарий" required></textarea>
+
+			<div class="delivery__form-inner">
+				<button class="btn btn-red">Отправить</button>
+			</div>
+		</form>
+	</div>
+</div>
 
 <!-- script -->
 <script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>

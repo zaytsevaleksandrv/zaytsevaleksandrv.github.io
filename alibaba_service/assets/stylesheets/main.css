@@ -409,6 +409,18 @@ main {
   justify-content: flex-start;
   position: relative;
   margin-bottom: 25px; }
+  .input-file-container:hover .attach {
+    background: url("../images/svg/attach-hover.svg") center center/contain no-repeat;
+    width: 15px;
+    height: 15px;
+    max-width: 15px;
+    min-width: 15px;
+    min-height: 15px;
+    max-height: 15px;
+    margin-right: 8px;
+    margin-top: 3px; }
+  .input-file-container:hover .input-file-trigger {
+    color: #cdaf3a; }
 
 .js .input-file-trigger {
   display: inline-block;
@@ -1188,7 +1200,7 @@ main {
       justify-content: center;
       background-color: rgba(37, 37, 37, 0.6);
       top: 0;
-      z-index: 999;
+      z-index: 9999;
       left: 0;
       right: 0;
       bottom: 0; }
@@ -2963,8 +2975,8 @@ main {
     text-decoration: none;
     display: inline-block;
     margin-bottom: 25px; }
-    .nav-sidebar__contact-link:hover .nav-sidebar__contact-text-big, .nav-sidebar__contact-link:hover .nav-sidebar__contact-text-small {
-      color: #cdaf3a; }
+    .nav-sidebar__contact-link > a {
+      text-decoration: none; }
   .nav-sidebar__contact-text-big {
     font-size: 16px;
     letter-spacing: .5px;
@@ -2973,6 +2985,8 @@ main {
     color: #fa0000;
     font-weight: 700;
     margin-bottom: 3px; }
+    .nav-sidebar__contact-text-big:hover {
+      color: #cdaf3a; }
     .nav-sidebar__contact-text-big_18 {
       font-size: 18px; }
   .nav-sidebar__contact-text-small {
@@ -2981,7 +2995,10 @@ main {
     text-align: left;
     color: rgba(54, 54, 54, 0.75);
     display: block;
-    text-decoration: underline; }
+    text-decoration: underline;
+    cursor: pointer; }
+    .nav-sidebar__contact-text-small:hover {
+      color: #cdaf3a; }
 
 .nav-sidebar__btn, .nav-sidebar__panel {
   display: none; }
@@ -3227,6 +3244,12 @@ main {
   cursor: pointer; }
   .sidebar__balance-mail:hover {
     color: #cdaf3a; }
+
+.sidebar__balance-login {
+  font-size: 14px;
+  color: rgba(69, 69, 69, 0.5);
+  text-decoration: none;
+  display: block; }
 
 .sidebar__out {
   font-size: 16px;
@@ -6249,6 +6272,18 @@ main {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center; }
+  .b-msg__inner:hover .b-msg__kp {
+    background: url("../images/svg/KP-hover.svg") center center/contain no-repeat;
+    width: 13px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px; }
+  .b-msg__inner:hover .b-msg__rub {
+    background: url("../images/svg/bill-hover.svg") center center/contain no-repeat;
+    width: 11px;
+    height: 16px;
+    display: inline-block;
+    margin-right: 8px; }
   @media (max-width: 1199px) {
     .b-msg__inner {
       margin-bottom: 25px; } }

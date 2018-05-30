@@ -383,6 +383,24 @@ main {
   justify-content: flex-start;
   position: relative;
   margin-bottom: 25px;
+
+  &:hover {
+    & .attach {
+      background: url('../images/svg/attach-hover.svg') center center / contain no-repeat;
+      width: 15px;
+      height: 15px;
+      max-width: 15px;
+      min-width: 15px;
+      min-height: 15px;
+      max-height: 15px;
+      margin-right: 8px;
+      margin-top: 3px;
+    }
+
+    & .input-file-trigger {
+      color: $color_gold;
+    }
+  }
 }
 .js .input-file-trigger {
   display: inline-block;

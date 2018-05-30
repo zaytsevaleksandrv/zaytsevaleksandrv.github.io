@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="alibs_lk_manager.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-21">
-              <caret line="293" column="86" selection-start-line="293" selection-start-column="86" selection-end-line="293" selection-end-column="86" />
+            <state relative-caret-position="574">
+              <caret line="426" column="19" selection-start-line="426" selection-start-column="19" selection-end-line="426" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -26,8 +26,8 @@
       <file leaf-file-name="alibs_lk_manager_clients.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager_clients.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="286" column="86" selection-start-line="286" selection-start-column="86" selection-end-line="286" selection-end-column="86" />
+            <state relative-caret-position="779">
+              <caret line="418" column="6" selection-start-line="418" selection-start-column="6" selection-end-line="418" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -35,8 +35,8 @@
       <file leaf-file-name="alibs_lk_manager_order.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+            <state relative-caret-position="779">
+              <caret line="464" column="6" selection-start-line="464" selection-start-column="6" selection-end-line="464" selection-end-column="6" />
               <folding>
                 <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -48,26 +48,43 @@
       <file leaf-file-name="alibs_lk_manager_order_open.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order_open.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+            <state relative-caret-position="779">
+              <caret line="481" column="6" selection-start-line="481" selection-start-column="6" selection-end-line="481" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alibs_lk_manager_request.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="alibs_lk_manager_request.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="110" column="111" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
+            <state relative-caret-position="779">
+              <caret line="388" column="6" selection-start-line="388" selection-start-column="6" selection-end-line="388" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_select.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+      <file leaf-file-name="modal.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/modal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="947">
+              <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/script/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!block;n#Modal#0" />
+                <element signature="n#!!block;n#ModalInner#0" />
+                <element signature="n#!!block;n#Sticky#0" />
+                <element signature="n#!!block;n#menuMobile#0" />
+                <element signature="n#!!block;n#removeItem#0" />
+                <element signature="n#!!block;n#shareBlock#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,12 +102,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>gratitude</find>
-      <find>98px</find>
-      <find>nav</find>
-      <find>__octagon</find>
-      <find>__mailto</find>
-      <find>panel</find>
       <find>octagon</find>
       <find>business-strategy</find>
       <find>__form</find>
@@ -99,7 +110,6 @@
       <find>-left</find>
       <find>guarantee</find>
       <find>menu</find>
-      <find>bu</find>
       <find>modal</find>
       <find>toggle</find>
       <find>octa</find>
@@ -115,20 +125,26 @@
       <find>comment</find>
       <find>btn</find>
       <find>sidebar</find>
+      <find>at</find>
+      <find>attach</find>
+      <find>sidebar</find>
+      <find>зака</find>
+      <find>консульта</find>
+      <find>nav-</find>
+      <find>bu</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
     <dirStrings>
-      <dir>D:\zaytsevaleksandrv\zaytsevaleksandrv.github.io\alibaba_service\assets\stylesheets\scss</dir>
       <dir>D:\zaytsevaleksandrv\zaytsevaleksandrv.github.io\alibaba_service\assets</dir>
       <dir>D:\zaytsevaleksandrv\zaytsevaleksandrv.github.io\alibaba_service\assets\script</dir>
+      <dir>D:\zaytsevaleksandrv\zaytsevaleksandrv.github.io\alibaba_service\assets\stylesheets\scss</dir>
     </dirStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_contacts.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_faq.scss" />
-        <option value="$PROJECT_DIR$/assets/script/sliders.js" />
-        <option value="$PROJECT_DIR$/alibs_faq.html" />
         <option value="$PROJECT_DIR$/alibs_typical.html" />
         <option value="$PROJECT_DIR$/alibs_traffic.html" />
         <option value="$PROJECT_DIR$/alibs_team.html" />
@@ -148,14 +164,9 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_modal.scss" />
         <option value="$PROJECT_DIR$/assets/script/table_history.js" />
         <option value="$PROJECT_DIR$/assets/script/table.js" />
-        <option value="$PROJECT_DIR$/assets/script/modal.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/script/profile.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_profile.scss" />
-        <option value="$PROJECT_DIR$/alibs_lk_clients_profile.html" />
-        <option value="$PROJECT_DIR$/alibs_lk_clients_balance.html" />
-        <option value="$PROJECT_DIR$/alibs_lk_clients_order.html" />
-        <option value="$PROJECT_DIR$/alibs_lk_clients.html" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_top-up-balance.scss" />
         <option value="$PROJECT_DIR$/assets/script/main.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss" />
@@ -164,18 +175,27 @@
         <option value="$PROJECT_DIR$/assets/script/checkbox.js" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_order-site.scss" />
         <option value="$PROJECT_DIR$/assets/script/dwn-file.js" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_b-msg.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
         <option value="$PROJECT_DIR$/assets/images/svg/arrow-grey.svg" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_table.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_order.scss" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_select.scss" />
+        <option value="$PROJECT_DIR$/assets/images/svg/KP-hover.svg" />
+        <option value="$PROJECT_DIR$/assets/images/svg/bill-hover.svg" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_b-msg.scss" />
+        <option value="$PROJECT_DIR$/assets/images/svg/attach-hover.svg" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_base.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss" />
-        <option value="$PROJECT_DIR$/alibs_lk_manager_order_open.html" />
+        <option value="$PROJECT_DIR$/assets/script/modal.js" />
+        <option value="$PROJECT_DIR$/alibs_lk_clients.html" />
+        <option value="$PROJECT_DIR$/alibs_lk_clients_balance.html" />
+        <option value="$PROJECT_DIR$/alibs_lk_clients_profile.html" />
+        <option value="$PROJECT_DIR$/alibs_lk_clients_order.html" />
         <option value="$PROJECT_DIR$/alibs_lk_manager.html" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_main.scss" />
         <option value="$PROJECT_DIR$/alibs_lk_manager_clients.html" />
         <option value="$PROJECT_DIR$/alibs_lk_manager_order.html" />
+        <option value="$PROJECT_DIR$/alibs_lk_manager_order_open.html" />
         <option value="$PROJECT_DIR$/alibs_lk_manager_request.html" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_select.scss" />
       </list>
     </option>
   </component>
@@ -195,6 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,7 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -330,18 +350,19 @@
       <workItem from="1527403498396" duration="10725000" />
       <workItem from="1527494301305" duration="29108000" />
       <workItem from="1527575282391" duration="1796000" />
-      <workItem from="1527577328020" duration="30798000" />
+      <workItem from="1527577328020" duration="31158000" />
+      <workItem from="1527689452918" duration="2914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266251000" />
+    <option name="totallyTimeSpent" value="269525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4928609" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28344792" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32884398" />
@@ -363,19 +384,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29666844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32884398" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -391,6 +412,27 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order_open.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3136">
+          <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3080">
+          <caret line="110" column="111" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_news.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2263">
@@ -455,34 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="55" column="57" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="57" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_order.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_balance.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="70" column="62" selection-start-line="70" selection-start-column="62" selection-end-line="70" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/alibs_blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -504,23 +518,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/unload.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/export.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="8" column="62" lean-forward="true" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -538,13 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_order-site.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_order-site.scss" />
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_manager_client.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -573,47 +568,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/download.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/delete.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/combine.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/attach.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/add.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3815">
           <caret line="396" column="22" selection-start-line="396" selection-start-column="22" selection-end-line="396" selection-end-column="22" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/modal.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/bill.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_b-msg.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/images/svg/arrow-grey.svg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -636,29 +596,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_clients.html">
+    <entry file="file://$PROJECT_DIR$/assets/script/dwn-file.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="182" column="55" selection-start-line="182" selection-start-column="55" selection-end-line="182" selection-end-column="75" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="476">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/KP-hover.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="3808" column="26" lean-forward="true" selection-start-line="3808" selection-start-column="26" selection-end-line="3808" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/attach-hover.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/images/svg/bill-hover.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_b-msg.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="113" column="26" lean-forward="true" selection-start-line="113" selection-start-column="26" selection-end-line="113" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_base.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="247">
+          <caret line="402" column="3" lean-forward="true" selection-start-line="402" selection-start-column="3" selection-end-line="402" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_main_2.0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="675" column="14" lean-forward="true" selection-start-line="660" selection-start-column="8" selection-end-line="675" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="188" column="7" lean-forward="true" selection-start-line="171" selection-start-column="4" selection-end-line="188" selection-end-column="7" />
+        <state relative-caret-position="84">
+          <caret line="12" selection-start-line="12" selection-end-line="29" selection-end-column="1" />
           <folding>
             <element signature="n#!!block;n#Modal#0" />
             <element signature="n#!!block;n#ModalInner#0" />
@@ -670,45 +669,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/script/dwn-file.js">
+    <entry file="file://$PROJECT_DIR$/assets/script/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        <state relative-caret-position="947">
+          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="307" column="6" selection-start-line="307" selection-start-column="6" selection-end-line="307" selection-end-column="6" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_balance.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="293" column="6" selection-start-line="293" selection-start-column="6" selection-end-line="293" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="335" column="6" selection-start-line="335" selection-start-column="6" selection-end-line="335" selection-end-column="6" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alibs_lk_clients_order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="343" column="6" selection-start-line="343" selection-start-column="6" selection-end-line="343" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_alibs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="273" column="19" selection-start-line="273" selection-start-column="19" selection-end-line="273" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order_open.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="112" column="56" selection-start-line="112" selection-start-column="56" selection-end-line="112" selection-end-column="56" />
+        <state relative-caret-position="504">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alibs_lk_manager.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-21">
-          <caret line="293" column="86" selection-start-line="293" selection-start-column="86" selection-end-line="293" selection-end-column="86" />
+        <state relative-caret-position="779">
+          <caret line="430" column="6" selection-start-line="430" selection-start-column="6" selection-end-line="430" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="426" column="19" selection-start-line="426" selection-start-column="19" selection-end-line="426" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alibs_lk_manager_clients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="286" column="86" selection-start-line="286" selection-start-column="86" selection-end-line="286" selection-end-column="86" />
+        <state relative-caret-position="779">
+          <caret line="418" column="6" selection-start-line="418" selection-start-column="6" selection-end-line="418" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="148" column="43" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+        <state relative-caret-position="779">
+          <caret line="464" column="6" selection-start-line="464" selection-start-column="6" selection-end-line="464" selection-end-column="6" />
           <folding>
             <element signature="n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#4;n#div#0;n#div#2;n#main#0;n#body#0;n#html#0;n#!!top" />
@@ -716,17 +755,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
+    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_order_open.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="110" column="111" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
+        <state relative-caret-position="779">
+          <caret line="481" column="6" selection-start-line="481" selection-start-column="6" selection-end-line="481" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_select.scss">
+    <entry file="file://$PROJECT_DIR$/alibs_lk_manager_request.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="779">
+          <caret line="388" column="6" selection-start-line="388" selection-start-column="6" selection-end-line="388" selection-end-column="6" />
         </state>
       </provider>
     </entry>

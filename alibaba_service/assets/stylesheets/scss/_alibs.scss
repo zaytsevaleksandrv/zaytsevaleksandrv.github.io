@@ -36,10 +36,8 @@
       display: inline-block;
       margin-bottom: 25px;
 
-      &:hover {
-        .nav-sidebar__contact-text-big, .nav-sidebar__contact-text-small {
-          color: $color_gold;
-        }
+      & > a {
+        text-decoration: none;
       }
     }
 
@@ -54,6 +52,10 @@
         font-weight: 700;
         margin-bottom: 3px;
 
+        &:hover {
+          color: $color_gold;
+        }
+
         &_18 {
           font-size: 18px;
         }
@@ -65,6 +67,11 @@
         color: rgba(54, 54, 54, 0.75);
         display: block;
         text-decoration: underline;
+        cursor: pointer;
+
+        &:hover {
+          color: $color_gold;
+        }
       }
     }
   }
@@ -335,6 +342,13 @@
     &:hover {
       color: $color_gold;
     }
+  }
+
+  &__balance-login {
+    font-size: 14px;
+    color: $color_greyish-brown-75;
+    text-decoration: none;
+    display: block;
   }
 
   &__out {
