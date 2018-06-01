@@ -694,7 +694,7 @@ main {
         line-height: 22px;
         color: rgba(255, 255, 255, 0.2);
         font-weight: 300;
-        font-style: normal; }
+        font-family: 'Open Sans', sans-serif; }
       .footer__slider-inner-link {
         font-size: 16px;
         margin: 0;
@@ -1061,7 +1061,8 @@ main {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center;
-        text-align: center; }
+        text-align: center;
+        text-decoration: none; }
         .nav__menu-list-inner-label:hover {
           color: #cdaf3a; }
       .nav__menu-list-inner:hover .nav__dropdown-menu-list {
@@ -1076,7 +1077,7 @@ main {
     padding: 22px 26px;
     list-style-type: none;
     text-align: center;
-    bottom: -167px;
+    top: 100%;
     display: none; }
     .nav__dropdown-menu-list:before {
       content: '';
@@ -3002,6 +3003,27 @@ main {
 
 .nav-sidebar__btn, .nav-sidebar__panel {
   display: none; }
+
+.nav-sidebar__btn-link {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+  background-color: #ffffff;
+  padding: 13px 20px 13px 0;
+  font-size: 16px;
+  color: #363636;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 0px;
+  text-decoration: none; }
+  .nav-sidebar__btn-link:hover {
+    color: #cdaf3a; }
 
 .nav-sidebar__btn {
   display: block;
@@ -6830,6 +6852,25 @@ main {
     color: #363636;
     font-weight: 700;
     position: relative; }
+    .accordion-link {
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      -webkit-transition: 0.4s;
+      -o-transition: 0.4s;
+      transition: 0.4s;
+      background-color: #ffffff;
+      padding: 15px 20px 15px 0;
+      font-size: 16px;
+      color: #363636;
+      font-weight: 700;
+      position: relative;
+      text-decoration: none; }
+      .accordion-link:hover {
+        color: #cdaf3a; }
     .accordion-inner {
       display: block;
       cursor: pointer;

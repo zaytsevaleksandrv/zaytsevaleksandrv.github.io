@@ -81,6 +81,28 @@
   display: none;
 }
 
+.nav-sidebar__btn-link {
+  display: block;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  background-color: $color_white;
+  padding: 13px 20px 13px 0;
+  font-size: 16px;
+  color: $color_black;
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 0px;
+  text-decoration: none;
+
+  &:hover {
+    color: $color_gold;
+  }
+}
+
 .nav-sidebar__btn {
   display: block;
   cursor: pointer;

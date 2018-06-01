@@ -267,6 +267,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
+        text-decoration: none;
 
         &:hover {
           color: $color_gold;
@@ -291,7 +292,7 @@
     padding: 22px 26px;
     list-style-type: none;
     text-align: center;
-    bottom: -167px;
+    top: 100%;
     display: none;
 
     &:before {

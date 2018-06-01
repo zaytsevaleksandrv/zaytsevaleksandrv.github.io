@@ -17,6 +17,28 @@
     font-weight: 700;
     position: relative;
 
+
+    &-link {
+      display: block;
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      transition: 0.4s;
+      background-color: $color_white;
+      padding: 15px 20px 15px 0;
+      font-size: 16px;
+      color: $color_black;
+      font-weight: 700;
+      position: relative;
+      text-decoration: none;
+
+      &:hover {
+        color: $color_gold;
+      }
+    }
+
     &-inner {
       display: block;
       cursor: pointer;
