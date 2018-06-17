@@ -32,7 +32,7 @@ function Modal() {
 //modal inner
 
 function ModalInner() {
-    let modal = document.getElementById('modal');
+    let modal = document.querySelector('.modal-wrapper');
     modal.classList.add("modal_active");
     document.querySelector("body").style.overflow = 'hidden';
     document.querySelector("html").style.overflow = 'hidden';
@@ -204,8 +204,8 @@ addBtn.click(function addItem (){
             '<a href="javascript://" class ="modal__remove-input" onclick="$(this).parent().remove(); removeItem()" title="Удалить поле">Удалить товар</a></div>');
     }
 
-    let modal_inner = document.getElementById("modal_inner");
-    let modal = document.getElementById("modal");
+    let modal_inner = document.querySelector(".modal");
+    let modal = document.querySelector(".modal-wrapper");
     if (modal_inner.offsetHeight > 920) {
         modal.style.overflowY = "scroll";
         modal.style.alignItems = "flex-start";
@@ -215,13 +215,13 @@ addBtn.click(function addItem (){
 });
 
 function removeItem() {
-    let modal_inner = document.getElementById("modal_inner");
-    let modal = document.getElementById("modal");
+    let modal_inner = document.querySelector(".modal");
+    let modal = document.querySelector(".modal-wrapper");
     if (modal_inner.offsetHeight > 920) {
         modal.style.overflowY = "scroll";
         modal.style.alignItems = "flex-start";
     } else {
-        modal.removeAttribute("style");
+        // modal.removeAttribute("style");
     }
 };
 

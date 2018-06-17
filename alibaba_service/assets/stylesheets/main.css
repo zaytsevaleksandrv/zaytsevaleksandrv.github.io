@@ -5801,7 +5801,7 @@ main {
     background-color: #ffffff;
     border-color: #ebebeb;
     color: #e50202;
-    z-index: 9999; }
+    z-index: 10; }
     .table__status .select-styled:after {
       content: '';
       position: absolute;
@@ -5854,7 +5854,7 @@ main {
     background-color: #ffffff;
     border-color: #ebebeb;
     color: #363636;
-    z-index: 9999; }
+    z-index: 10; }
     .table__type-order .select-styled:after {
       content: '';
       position: absolute;
@@ -5907,7 +5907,7 @@ main {
     background-color: #ffffff;
     border-color: #ebebeb;
     color: #ebebeb;
-    z-index: 9999; }
+    z-index: 10; }
     .table__manager .select-styled:after {
       content: '';
       position: absolute;
@@ -6239,7 +6239,8 @@ main {
         width: 860px; } }
     @media (max-width: 1199px) {
       .order__table {
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        width: 992px; }
         .order__table-wrapper {
           overflow: hidden;
           overflow-x: scroll;

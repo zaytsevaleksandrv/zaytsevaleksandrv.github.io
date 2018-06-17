@@ -281,7 +281,7 @@
       background-color: $color_white;
       border-color: $color_disabled;
       color: $color_red;
-      z-index: 9999;
+      z-index: 10;
 
       &:after {
         content: '';
@@ -341,7 +341,7 @@
       background-color: $color_white;
       border-color: $color_disabled;
       color: $color_black;
-      z-index: 9999;
+      z-index: 10;
 
       &:after {
         content: '';
@@ -401,7 +401,7 @@
       background-color: $color_white;
       border-color: $color_disabled;
       color: $color_disabled;
-      z-index: 9999;
+      z-index: 10;
 
       &:after {
         content: '';
