@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="select.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="select.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/script/select.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="308">
+              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -28,6 +28,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
               <caret line="149" column="48" selection-start-line="149" selection-start-column="48" selection-end-line="149" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -128,7 +146,6 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_accordion.scss" />
         <option value="$PROJECT_DIR$/alibs_blog.html" />
         <option value="$PROJECT_DIR$/alibs_lk_manager.html" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_main.scss" />
         <option value="$PROJECT_DIR$/assets/script/pass.js" />
         <option value="$PROJECT_DIR$/assets/script/modalApplication.js" />
         <option value="$PROJECT_DIR$/alibs_main_2.0.html" />
@@ -136,9 +153,10 @@
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_orders-clients.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_order.scss" />
         <option value="$PROJECT_DIR$/assets/stylesheets/scss/_your-order.scss" />
-        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_header.scss" />
         <option value="$PROJECT_DIR$/alibs_lk_clients.html" />
         <option value="$PROJECT_DIR$/assets/script/select.js" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_main.scss" />
+        <option value="$PROJECT_DIR$/assets/stylesheets/scss/_header.scss" />
       </list>
     </option>
   </component>
@@ -301,12 +319,12 @@
       <workItem from="1527866184649" duration="2122000" />
       <workItem from="1528956490686" duration="623000" />
       <workItem from="1529245928067" duration="2911000" />
-      <workItem from="1529249048562" duration="9442000" />
+      <workItem from="1529249048562" duration="9982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287007000" />
+    <option name="totallyTimeSpent" value="287547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -630,20 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="2142" column="3" lean-forward="true" selection-start-line="2142" selection-start-column="3" selection-end-line="2142" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/pass.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -705,8 +709,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/script/select.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/stylesheets/scss/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>

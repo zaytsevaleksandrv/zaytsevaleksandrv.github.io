@@ -492,7 +492,7 @@ main {
   background-color: #3e2e25;
   text-align: center;
   position: relative;
-  z-index: 99999; }
+  z-index: 999; }
   .header__work-platforms {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -894,7 +894,7 @@ main {
     border-bottom: 2px solid transparent;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    z-index: 999; }
+    z-index: 998; }
     @media (max-width: 1199px) {
       .expert__top {
         display: none; } }
