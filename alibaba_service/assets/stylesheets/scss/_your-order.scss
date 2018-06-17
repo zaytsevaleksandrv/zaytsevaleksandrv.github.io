@@ -14,12 +14,23 @@
     width: 992px;
     margin-bottom: 120px;
 
+    @media (max-width: 1400px) {
+      width: 860px;
+    }
+
+    @media (max-width: 1400px) {
+      &-wrapper {
+        width: 860px;
+      }
+    }
+
     @media (max-width: 1199px) {
       margin-bottom: 0;
       &-wrapper {
         overflow: hidden;
         overflow-x: scroll;
         margin-bottom: 100px;
+        width: 100%;
       }
     }
   }

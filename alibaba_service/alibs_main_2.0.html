@@ -45,10 +45,38 @@
                 </ul>
             </div>
             <div class="header__lk">
-                <a class="header__lk-link" href="">
+                <a class="header__lk-link" onclick="ModalPass()" >
                     <span  class="header__lk-icon"></span>
                     Личный кабинет
                 </a>
+                <div class="business-strategy__modal-wrapper" id="modal_pass">
+                    <div class="business-strategy__modal" id="modal_pass_inner">
+                        <button class="business-strategy__modal-btn-close" id="btn_pass_close" title="закрыть"></button>
+                        <h3>Вход</h3>
+                        <p class="business-strategy__modal-text"></p>
+                        <form class="business-strategy__form" action="">
+                            <input class="input input_border-grey" type="email" placeholder="Email" required>
+                            <input class="input input_border-grey" type="password" placeholder="Пароль" required>
+                            <span class="modal__add-to-product" onclick="ModalPassRecovery()">Восстановление пароля</span>
+                            <div class="delivery__form-inner">
+                                <button class="btn btn-red">Вход</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="business-strategy__modal-wrapper" id="modal_pass_recovery">
+                    <div class="business-strategy__modal" id="modal_pass_recovery_inner">
+                        <button class="business-strategy__modal-btn-close" id="btn_pass_recovery_close" title="закрыть"></button>
+                        <h3>Восстановление пароля</h3>
+                        <p class="business-strategy__modal-text"></p>
+                        <form class="business-strategy__form" action="">
+                            <input class="input input_border-grey" type="email" placeholder="Email" required>
+                            <div class="delivery__form-inner">
+                                <button class="btn btn-red">Восстановить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </header>
@@ -63,28 +91,32 @@
                                 <li class="nav__menu-list-inner">
                                     <ul class="nav__dropdown-menu-list">
                                         <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Морские</a>
+                                            <div class="nav__submenu">
+                                                <ul class="nav__dropdown-menu-list">
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Морские</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Автомобильные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Авиационные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Экспресс</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Сборные грузы</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Контейнеры</a></li>
+                                                </ul>
+                                            </div>
+                                            <a class="nav__dropdown-menu-list-inner-link" href="">Доставка из Китая</a>
                                         </li>
                                         <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Автомобильные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Авиационные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a>
-                                        </li>
-                                        <li class="nav__dropdown-menu-list-inner">
-                                            <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a>
+                                            <div class="nav__submenu">
+                                                <ul class="nav__dropdown-menu-list">
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Морские</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Автомобильные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Авиационные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Железнодорожные</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Экспресс</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Сборные грузы</a></li>
+                                                    <li class="nav__dropdown-menu-list-inner"> <a class="nav__dropdown-menu-list-inner-link" href="">Контейнеры</a></li>
+                                                </ul>
+                                            </div>
+                                            <a class="nav__dropdown-menu-list-inner-link" href="">Доставка из Европы</a>
                                         </li>
                                     </ul>
                                     <p class="nav__menu-list-inner-label">Международные перевозки</p>
@@ -152,10 +184,27 @@
                             <button class="accordion">Международные перевозки
                             </button>
                             <div class="panel">
-                                <a class="panel-link" href="">Морские</a>
-                                <a class="panel-link" href="">Автомобильные</a>
-                                <a class="panel-link" href="">Авиационные</a>
-                                <a class="panel-link" href="">Железнодорожные</a>
+                                <button class="accordion-inner">Доставка из Китая</button>
+                                <div class="panel-inner">
+                                    <a class="panel-link-inner" href="">Морские</a>
+                                    <a class="panel-link-inner" href="">Автомобильные</a>
+                                    <a class="panel-link-inner" href="">Авиационные</a>
+                                    <a class="panel-link-inner" href="">Железнодорожные</a>
+                                    <a class="panel-link-inner" href="">Экспресс</a>
+                                    <a class="panel-link-inner" href="">Сборные грузы</a>
+                                    <a class="panel-link-inner" href="">Контейнерные</a>
+                                </div>
+
+                                <button class="accordion-inner">Доставка из Европы</button>
+                                <div class="panel-inner">
+                                    <a class="panel-link-inner" href="">Морские</a>
+                                    <a class="panel-link-inner" href="">Автомобильные</a>
+                                    <a class="panel-link-inner" href="">Авиационные</a>
+                                    <a class="panel-link-inner" href="">Железнодорожные</a>
+                                    <a class="panel-link-inner" href="">Экспресс</a>
+                                    <a class="panel-link-inner" href="">Сборные грузы</a>
+                                    <a class="panel-link-inner" href="">Контейнерные</a>
+                                </div>
                             </div>
 
                             <button class="accordion">Бизнес консалтинг
@@ -197,7 +246,7 @@
                 </h4>
                 <form action="" class="expert__form">
                     <input class="expert__form-input" type="text" placeholder="Ссылка на страницу с товаром" required>
-                    <button class="expert__form-btn">Рассчитать</button>
+                    <span class="expert__form-btn" onclick="ModalApplication()">Рассчитать</span>
                 </form>
             </div>
         </section>
@@ -706,12 +755,45 @@ China postcode 518000</pre>
                 </form>
             </div>
         </div>
+
+        <div class="modal-wrapper" id="modal_application">
+            <div class="modal" id="modal_application_inner">
+                <button class="modal-btn-close" id="btn_application_close" title="закрыть"></button>
+                <h3>оставить заявку</h3>
+                <form class="modal__form" action="">
+                    <input class="input input_border-grey" type="text" placeholder="Ссылка на товар" required>
+                    <input class="input input_border-grey" type="text" placeholder="Количество товара" required>
+                    <div class="modal__add-to-product-block"></div>
+                    <a class="modal__add-to-product">Добавить еще товар</a>
+                    <input class="input input_border-grey" type="text" placeholder="ФИО" required>
+                    <input class="input input_border-grey" type="text" placeholder="Телефон" required>
+                    <input class="input input_border-grey" type="text" placeholder="Email" required>
+                    <input class="input input_border-grey" type="text" placeholder="Город и регион доставки" required>
+                    <p class="modal__example-text">Москва, Тверская ул, 16<br>Байконур, 6-я платформа, р.7</p>
+                    <textarea class="textarea textarea_border-grey" type="text" placeholder="Комментарии к товару"></textarea>
+
+                    <div class="input-file-container">
+                        <input class="input-file" id="my-file" type="file">
+                        <div class="attach"></div>
+                        <label tabindex="0" for="my-file" class="input-file-trigger">Или прикрепите файл в любом формате
+                                                                                     (инвойс, упаковочный лист)</label>
+                    </div>
+                    <p class="file-return"></p>
+
+                    <button class="btn btn-red">Отправить заявку</button>
+
+                    <p class="modal__info-msg">*Заполните необходимые поля, пожалуйста</p>
+                </form>
+            </div>
+        </div>
     </main>
 
     <!-- script -->
     <script type="text/javascript" src="./assets/script/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="./assets/script/slick.min.js"></script>
     <script type="text/javascript" src="./assets/script/main.js"></script>
+    <script type="text/javascript" src="./assets/script/pass.js"></script>
+    <script type="text/javascript" src="./assets/script/modalApplication.js"></script>
     <script type="text/javascript" src="./assets/script/sliders.js"></script>
 </body>
 </html>

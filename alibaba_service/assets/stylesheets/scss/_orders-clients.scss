@@ -14,8 +14,16 @@
     margin-bottom: 22px;
     margin-left: -64px;
 
+    @media (max-width: 1400px) {
+      width: 860px;
+    }
+
     &-wrapper {
       width: 990px;
+
+      @media (max-width: 1400px) {
+        width: 860px;
+      }
     }
 
     @media (max-width: 1199px) {

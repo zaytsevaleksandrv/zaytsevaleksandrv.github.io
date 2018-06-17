@@ -289,11 +289,12 @@
     background-color: $color_white;
     border: 2px solid $color_gold_light;
     margin: 0;
-    padding: 22px 26px;
+    padding: 22px 0;
     list-style-type: none;
     text-align: center;
     top: 100%;
     display: none;
+    min-width: 225px;
 
     &:before {
       content: '';
@@ -330,6 +331,11 @@
     }
 
     &-inner {
+      position: relative;
+
+      &:hover > .nav__submenu {
+        display: block;
+      }
 
       &-link {
         font-size: 16px;
@@ -339,6 +345,7 @@
         margin: 0;
         line-height: 30px;
         text-decoration: none;
+        padding: 0 26px;
 
         &:hover {
           color: $color_gold;
@@ -2103,5 +2110,35 @@
   .header_open {
     display: flex;
     background-color: $color_white;
+  }
+}
+
+
+.nav__submenu {
+  display: none;
+  position: absolute;
+  right: -229px;
+  top: -10px;
+
+  &:hover ~ .nav__dropdown-menu-list-inner-link {
+    color: $color_gold;
+  }
+
+  .nav__dropdown-menu-list {
+    position: relative;
+  }
+
+  .nav__dropdown-menu-list:before {
+    transform: rotate(-90deg);
+    top: 19px;
+    right: unset;
+    left: -15px
+  }
+
+  .nav__dropdown-menu-list:after {
+    transform: rotate(-90deg);
+    top: 19px;
+    right: unset;
+    left: -11px
   }
 }
