@@ -2694,7 +2694,7 @@ main {
     border-bottom: 2px solid transparent;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    z-index: 999; }
+    z-index: 998; }
     .mobile__menu_bgc {
       background-color: #ffffff;
       padding-bottom: 17px; }
