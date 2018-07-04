@@ -1410,6 +1410,11 @@
     padding: 50px 0 77px;
   }
 
+  & .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+
   & > .container {
     display: flex;
     align-items: center;
@@ -1539,6 +1544,103 @@
       }
     }
   }
+}
+
+.video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: -44%;
+  margin: auto;
+}
+
+.wrapper {
+  position: relative;
+  transition: opacity .3s ease-in-out;
+  width: 220px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video__item {
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
+}
+
+.video__wrapper {
+  -webkit-clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+  width: 210px;
+  height: 210px;
+  background-color: rgb(205, 175, 58);
+  display: inline-block;
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: 5px;
+  right: 0;
+}
+
+.video__wrapper_hover {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(250, 0, 0);
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.employee {
+  display: flex !important;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.employee__label {
+  font-size: 22px;
+  text-align: center;
+  color: #363636;
+  margin-bottom: 13px;
+  text-transform: uppercase;
+  margin-top: 37px;
+  transition: color .3s ease-in-out;
+}
+
+.employee__paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(54, 54, 54, 0.75);
+  margin: 0;
+  transition: color .3s ease-in-out;
+}
+
+.employee:hover .video__wrapper_hover {
+  opacity: 1;
+}
+
+.employee:hover .employee__label {
+  color: #fa0000;
+}
+
+.employee:hover .employee__paragraph {
+  color: #b19334;
 }
 
 .licenses {
