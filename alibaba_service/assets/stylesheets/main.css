@@ -2324,7 +2324,8 @@ main {
   flex-direction: column;
   cursor: pointer;
   max-width: 300px;
-  overflow: hidden; }
+  overflow: hidden;
+  outline: none; }
 
 .employee__label {
   font-size: 22px;
