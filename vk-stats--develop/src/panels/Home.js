@@ -8,7 +8,7 @@ import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
 import Div from '@vkontakte/vkui/dist/components/Div/Div';
 import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
 
-const Home = ({ id, go, fetchedUser }) => (
+const Home = ({ id, go, fetchedUser, fetchedToken }) => (
 	<Panel id={id}>
 		<PanelHeader>Статистика Вконтакте</PanelHeader>
 		{fetchedUser &&
@@ -19,6 +19,7 @@ const Home = ({ id, go, fetchedUser }) => (
 			>
 				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
 			</Cell>
+			{console.log(fetchedToken)}
 		</Group>}
 
 		<Group title="Navigation Example">
