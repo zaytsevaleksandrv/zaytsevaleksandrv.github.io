@@ -1,0 +1,17 @@
+.link {
+  color: var(--link-color);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &_theme {
+    &_blue {
+      font-size: 16px;
+      line-height: 20px;
+      font-weight: 400;
+      color: var(--link-theme-blue-color);
+    }
+  }
+}

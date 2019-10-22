@@ -1,0 +1,57 @@
+.btn {
+  border: none;
+  font-family: 'Circe';
+
+  &-primary {
+    background-color: var(--btn-primary-bg-color);
+    color: var(--btn-primary-color);
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--btn-primary-bg-color-hover);
+    }
+
+    &.disabled {
+      background-color: var(--btn-primary-bg-color-disabled);
+      pointer-events: none;
+      user-select: none;
+    }
+  }
+
+  &-outline {
+    font-family: 'Circe';
+    background-color: transparent;
+    color: var(--btn-outline-color);
+    border: 2px solid var(--border-btn-outline-color);
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 18px 55px;
+
+    &:hover {
+      background-color: var(--btn-primary-bg-color-hover);
+      border: 2px solid var(--btn-primary-bg-color-hover);
+      color: var(--btn-primary-color);
+    }
+  }
+
+  &_search {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 30px;
+    min-height: 70px;
+    max-height: 70px;
+    padding-left: 66px;
+    padding-right: 66px;
+    text-transform: uppercase;
+
+    @media (min-width: 0) and (max-width: 768px) {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }
+}

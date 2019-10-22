@@ -1,0 +1,43 @@
+:root {
+  --field-bg-color: #fff;
+
+  --font-h-color: #fff;
+  --font-h5-color: #949AA4;
+  --font-h-theme-blue-color: #0760BA;
+  --font-p1-color: #fff;
+  --font-p1-place-color: #233547;
+  --font-p1-theme-blue-color: #0760BA;
+  --font-p2-color: #233547;
+  --font-p2-color-hover: #0760BA;
+  --font-p1-theme-disabled-color: #949AA4;
+
+  --link-color: #fff;
+  --link-theme-blue-color: #0760BA;
+
+  --btn-primary-bg-color: #0760BA;
+  --btn-primary-bg-color-disabled: #c9cacc;
+  --btn-primary-bg-color-hover: #338DE8;
+  --btn-primary-color: #fff;
+  --btn-outline-color: #0760BA;
+  --border-btn-outline-color: #0760BA;
+
+  --list-bg-color: #fff;
+  --list-bg-color-hover: #EDF4FA;
+  --list-border-top-color: #CDDFF1;
+
+  --place-header-bg-color: #fff;
+  --summary-bg-color: #fff;
+  --aside-bg-color: #fff;
+  --body-bg-color: #E5E5E5;
+  --card-bg-color: #fff;
+  --card-image-bg-color: #c9cacc;
+  --card-operating-mode: #0760BA;
+
+  --color-hover-after: #fff;
+  --bg-color-hover-after: #23354782;
+  --bg-color-popup: #23354782;
+  --bg-color-popup-article: #fff;
+  --bg-color-zoom: #23354782;
+  --color-placeholder: #949AA4;
+  --bg-color-empty: #949aa470;
+}

@@ -1,19 +1,23 @@
-import 'core-js/features/map';
-import 'core-js/features/set';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import connect from '@vkontakte/vk-connect';
-import App from './App';
-import './styles/style.css';
-// import registerServiceWorker from './sw';
+import React from "react";
+import { render } from "react-dom";
+import { Router, Route, browserHistory } from "react-router";
+import { syncHistoryWithStore } from "react-router-redux";
+import { Provider } from "react-redux";
+import configureStore from "./redux/stores/configureStore";
+import Main from "./containers/Main";
 
-// Init VK  Mini App
-connect.send('VKWebAppInit');
+import "./styles/main.css";
 
-// Если вы хотите, чтобы ваше веб-приложение работало в оффлайне и загружалось быстрее,
-// расскомментируйте строку с registerServiceWorker();
-// Но не забывайте, что на данный момент у технологии есть достаточно подводных камней
-// Подробнее про сервис воркеры можно почитать тут — https://vk.cc/8MHpmT
-// registerServiceWorker();
+const store = configureStore();
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const history = syncHistoryWithStore(browserHistory, store);
+
+render(
+  <Provider store={store}>
+    <Router history={history}>
+      <Route path="/" component={Main} />
+      {/*<Route path="/place/:id" exact component={Place} />*/}
+    </Router>
+  </Provider>,
+  document.getElementById("root")
+);

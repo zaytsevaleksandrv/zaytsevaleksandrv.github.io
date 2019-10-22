@@ -1,0 +1,68 @@
+@mixin range($maxw, $minw, $maxh, $minh) {
+  max-width: $maxw;
+  min-width: $minw;
+  min-height: $maxh;
+  max-height: $minh;
+}
+
+.is {
+  &-travel {
+    @include range(62px, 62px, 60px, 60px);
+  }
+
+  &-arrow {
+    @include range(27px, 27px, 14px, 14px);
+    display: none;
+
+    @media (min-width: 0) and (max-width: 768px) {
+      display: inline-block;
+    }
+  }
+
+  &-star {
+    @include range(15px, 15px, 15px, 15px);
+  }
+
+  &-yandex-map {
+    @include range(31px, 31px, 50px, 50px);
+
+    &_small {
+      @include range(25px, 25px, 35px, 35px);
+    }
+  }
+
+  &-google-map {
+    @include range(51px, 51px, 51px, 51px);
+
+    &_small {
+      @include range(35px, 35px, 35px, 35px);
+    }
+  }
+
+  &-two-gis-map {
+    @include range(108px, 108px, 45px, 45px);
+
+    &_small {
+      @include range(85px, 85px, 35px, 35px);
+    }
+  }
+
+  &-loader {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    @include range(50px, 50px, inherit, inherit);
+
+    &_card {
+      position: static;
+      display: block;
+      @include range(150px, 150px, inherit, inherit);
+    }
+  }
+
+  &-close {
+    @include range(20px, 20px, 20px, 20px);
+  }
+}

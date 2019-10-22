@@ -1,6 +1,17 @@
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const LodashModuleReplacementPlugin = require("lodash-webpack-plugin");
 const postcssCustomProperties = require("postcss-custom-properties");
+const BundleAnalyzerPlugin = require("webpack-bundle-analyzer")
+  .BundleAnalyzerPlugin;
 
 module.exports = {
+  entry: "./src/index.js",
+  output: {
+    path: path.resolve(__dirname, ".", "dist"),
+    filename: "index-bundle.js",
+    publicPath: "/"
+  },
   module: {
     rules: [
       {
@@ -47,5 +58,23 @@ module.exports = {
         ]
       }
     ]
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+    }),
+    new LodashModuleReplacementPlugin(),
+    new BundleAnalyzerPlugin()
+  ],
+  devServer: {
+    contentBase: "./public",
+    hot: true,
+    historyApiFallback: true,
+    headers: {
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+      "Access-Control-Allow-Headers":
+        "X-Requested-With, content-type, Authorization",
+      "Access-Control-Allow-Origin": "*"
+    }
   }
 };

@@ -1,0 +1,303 @@
+@import "variables.css";
+@import "link.css";
+@import "button.css";
+@import "icon.css";
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--body-bg-color);
+}
+
+.footer {
+  @media (min-width: 0) and (max-width: 375px) {
+    flex-direction: column;
+    align-items: flex-start !important;
+
+    & > p:first-child {
+      margin-bottom: 5px !important;
+    }
+  }
+}
+
+@mixin font($size, $weight, $lh) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $lh;
+}
+
+@mixin empty($max_width, $min_width, $max_height, $min_height, $border_width) {
+  &:empty {
+    max-width: $max_width;
+    min-width: $min_width;
+    max-height: $max_height;
+    min-height: $min_height;
+    background-color: var(--bg-color-empty);
+    border-radius: $border_width;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-image: linear-gradient(
+        to left,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0.35),
+        rgba(255, 255, 255, 0)
+      );
+      width: 100%;
+      height: 100%;
+      display: block;
+      animation: 2s loading ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes loading {
+  from {
+    transform: translateX(-600px);
+  }
+
+  to {
+    transform: translateX(600px);
+  }
+}
+
+h1 {
+  @include font(90px, 900, 92px);
+  color: var(--font-h-color);
+  word-wrap: break-word;
+  display: inline-block;
+
+  @media (min-width: 0) and (max-width: 1024px) {
+    @include font(48px, 900, 50px);
+  }
+}
+
+.h1 {
+  &_theme {
+    &_blue {
+      color: var(--font-h-theme-blue-color);
+    }
+  }
+
+  &_loading {
+    display: inline-block;
+    @include empty(40%, 40%, 92px, 92px, 2px);
+
+    @media (min-width: 0) and (max-width: 1024px) {
+      @include empty(80%, 80%, 50px, 50px, 2px);
+    }
+  }
+}
+
+h2 {
+  @include font(50px, 900, 60px);
+  color: var(--font-h-theme-blue-color);
+  word-wrap: break-word;
+  display: inline-block;
+
+  @media (min-width: 0) and (max-width: 1024px) {
+    @include font(28px, 900, 30px);
+  }
+}
+
+.h2 {
+  &_loading {
+    display: inline-block;
+    @include empty(40%, 40%, 60px, 60px, 2px);
+
+    @media (min-width: 0) and (max-width: 1024px) {
+      @include empty(80%, 80%, 30px, 30px, 2px);
+    }
+  }
+}
+
+h3 {
+  @include font(28px, 400, 36px);
+  color: var(--font-h-color);
+  word-wrap: break-word;
+
+  @media (min-width: 0) and (max-width: 1024px) {
+    @include font(20px, 400, 30px);
+  }
+}
+
+h4 {
+  @include font(24px, 900, 30px);
+  color: var(--font-h-theme-blue-color);
+  word-wrap: break-word;
+}
+
+h5 {
+  @include font(16px, 400, 20px);
+  color: var(--font-h5-color);
+}
+
+.p1 {
+  @include font(18px, 900, 20px);
+  color: var(--font-p1-color);
+  word-wrap: break-word;
+
+  &_light {
+    font-weight: 400;
+  }
+
+  &_place {
+    @include font(20px, 400, 30px);
+    color: var(--font-p1-place-color);
+    word-wrap: break-word;
+  }
+
+  &_theme {
+    &_blue {
+      color: var(--font-p1-theme-blue-color);
+    }
+
+    &_disabled {
+      color: var(--font-p1-theme-disabled-color);
+    }
+  }
+
+  &_loading {
+    @include empty(100%, 100%, 30px, 30px, 2px);
+  }
+}
+
+.p2 {
+  @include font(16px, 400, 20px);
+  color: var(--font-p2-color);
+}
+
+.image_loading {
+  @include empty(362px, 362px, 221px, 221px, 2px);
+
+  @media (min-width: 0) and (max-width: 1024px) {
+    @include empty(300px, 300px, 221px, 221px, 2px);
+  }
+}
+
+.opacity {
+  &_5 {
+    opacity: 0.5;
+  }
+}
+
+.lh {
+  &_15 {
+    line-height: 15px;
+  }
+}
+
+.indent {
+  &_reset {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__bottom {
+    &_4 {
+      margin-bottom: 4px;
+    }
+
+    &_12 {
+      margin-bottom: 12px;
+    }
+
+    &_15 {
+      margin-bottom: 15px;
+    }
+
+    &_20 {
+      margin-bottom: 20px;
+    }
+
+    &_21 {
+      margin-bottom: 21px;
+    }
+
+    &_29 {
+      margin-bottom: 29px;
+    }
+
+    &_30 {
+      margin-bottom: 30px;
+    }
+
+    &_34 {
+      margin-bottom: 34px;
+    }
+
+    &_40 {
+      margin-bottom: 40px;
+    }
+
+    &_76 {
+      margin-bottom: 76px;
+    }
+
+    &_m {
+      &_20 {
+        @media (min-width: 0) and (max-width: 1024px) {
+          margin-bottom: 20px;
+        }
+      }
+      &_35 {
+        @media (min-width: 0) and (max-width: 1024px) {
+          margin-bottom: 35px;
+        }
+      }
+    }
+  }
+
+  &__left {
+    &_10 {
+      margin-left: 10px;
+    }
+  }
+
+  &__right {
+    &_10 {
+      margin-right: 10px;
+    }
+
+    &_15 {
+      margin-right: 15px;
+    }
+
+    &_30 {
+      margin-right: 30px;
+    }
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.ai_c {
+  align-items: center;
+}
+
+.jc_fs {
+  justify-content: flex-start;
+}
+
+.jc_c {
+  justify-content: center;
+}
+
+.cursor {
+  &_pointer {
+    cursor: pointer;
+  }
+}
