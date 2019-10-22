@@ -2,12 +2,12 @@
   --field-bg-color: #fff;
 
   --font-h-color: #fff;
-  --font-h5-color: #949AA4;
+  --font-h5-color: #2a5885;
   --font-h-theme-blue-color: #0760BA;
   --font-p1-color: #fff;
   --font-p1-place-color: #233547;
   --font-p1-theme-blue-color: #0760BA;
-  --font-p2-color: #233547;
+  --font-p2-color: #656565;
   --font-p2-color-hover: #0760BA;
   --font-p1-theme-disabled-color: #949AA4;
 
@@ -28,7 +28,7 @@
   --place-header-bg-color: #fff;
   --summary-bg-color: #fff;
   --aside-bg-color: #fff;
-  --body-bg-color: #E5E5E5;
+  --body-bg-color: #fafbfc;
   --card-bg-color: #fff;
   --card-image-bg-color: #c9cacc;
   --card-operating-mode: #0760BA;
@@ -40,4 +40,6 @@
   --bg-color-zoom: #23354782;
   --color-placeholder: #949AA4;
   --bg-color-empty: #949aa470;
+
+  --bg-color-item: #fff;
 }

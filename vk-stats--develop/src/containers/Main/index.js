@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Presenter from "./Presenter";
-import { getUserInfo, getAuthToken, getGroups } from "../../redux/actions";
+import { getUserInfo, getAuthToken, getGroups, getGroup } from "../../redux/actions";
 
 const mapStateToProps = state => ({
   state,
@@ -16,6 +16,7 @@ const mapDispatchToProps = dispatch => ({
   getUserInfo: () => dispatch(getUserInfo()),
   getAuthToken: () => dispatch(getAuthToken()),
   getGroups: (id, token) => dispatch(getGroups(id, token)),
+  getGroup: (id, token) => dispatch(getGroup(id, token)),
 
 });
 

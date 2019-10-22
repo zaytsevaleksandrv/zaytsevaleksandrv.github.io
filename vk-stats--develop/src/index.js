@@ -5,6 +5,7 @@ import { syncHistoryWithStore } from "react-router-redux";
 import { Provider } from "react-redux";
 import configureStore from "./redux/stores/configureStore";
 import Main from "./containers/Main";
+import Card from "./containers/Card";
 
 import "./styles/main.css";
 
@@ -16,7 +17,7 @@ render(
   <Provider store={store}>
     <Router history={history}>
       <Route path="/" component={Main} />
-      {/*<Route path="/place/:id" exact component={Place} />*/}
+      <Route path="/card/:id" exact component={Card} />
     </Router>
   </Provider>,
   document.getElementById("root")

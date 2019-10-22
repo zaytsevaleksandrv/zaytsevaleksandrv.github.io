@@ -1,0 +1,22 @@
+.item {
+  background-color: var(--bg-color-item);
+  padding: 10px;
+  box-shadow: 0 0 1px #e3e4e8;
+  transition: background-color .2s ease;
+  display: grid;
+  grid-template-columns: 50px 240px repeat(7, 0.142fr);
+  grid-column-gap: 10px;
+  align-items: center;
+  box-sizing: border-box;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #fafbfc;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+}

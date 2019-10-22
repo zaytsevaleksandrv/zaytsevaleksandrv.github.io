@@ -131,7 +131,7 @@ h4 {
 }
 
 h5 {
-  @include font(16px, 400, 20px);
+  @include font(13px, 700, 15px);
   color: var(--font-h5-color);
 }
 
@@ -166,7 +166,7 @@ h5 {
 }
 
 .p2 {
-  @include font(16px, 400, 20px);
+  @include font(13px, 400, 15px);
   color: var(--font-p2-color);
 }
 
@@ -196,9 +196,19 @@ h5 {
     padding: 0;
   }
 
+  &__top {
+    &_10 {
+      margin-top: 10px;
+    }
+  }
+
   &__bottom {
     &_4 {
       margin-bottom: 4px;
+    }
+
+    &_6 {
+      margin-bottom: 6px;
     }
 
     &_12 {
@@ -254,6 +264,9 @@ h5 {
   &__left {
     &_10 {
       margin-left: 10px;
+    }
+    &_3 {
+      margin-left: 3px;
     }
   }
 
