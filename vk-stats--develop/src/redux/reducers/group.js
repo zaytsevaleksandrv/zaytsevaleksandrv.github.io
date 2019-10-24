@@ -1,5 +1,7 @@
 const initialState = {
   loadingGroup: true,
+  loadingGroupMembers: true,
+  startLoadingGroupMembers: false,
   members: []
 };
 
@@ -16,6 +18,19 @@ const group = (state = initialState, action) => {
         ...action.payload.response[0],
         members: action.members,
         loadingGroup: false
+      };
+    case "GET_GROUP_MEMBERS_REQ":
+      return {
+        ...state,
+        loadingGroupMembers: true,
+        startLoadingGroupMembers: true
+      };
+    case "GET_GROUP_MEMBERS_RES":
+      return {
+        ...state,
+        members: action.payload,
+        loadingGroupMembers: false,
+        startLoadingGroupMembers: false
       };
     case "GROUP_RESET_RES":
       return {

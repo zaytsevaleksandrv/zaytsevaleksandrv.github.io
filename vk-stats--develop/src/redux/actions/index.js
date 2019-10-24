@@ -1,5 +1,5 @@
 import { getUserInfo } from "./userActions";
 import { getAuthToken } from "./tokenActions";
-import { getGroups, getGroup, groupReset } from "./groupsActions";
+import { getGroups, getGroup, getGroupMembers, groupReset } from "./groupsActions";
 
-export { getUserInfo, getAuthToken, getGroups, getGroup, groupReset };
+export { getUserInfo, getAuthToken, getGroups, getGroup, getGroupMembers, groupReset };

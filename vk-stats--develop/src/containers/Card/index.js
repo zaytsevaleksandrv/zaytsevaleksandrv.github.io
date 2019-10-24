@@ -1,17 +1,22 @@
 import React from "react";
 import { connect } from "react-redux";
 import Presenter from "./Presenter";
-import { groupReset } from "../../redux/actions";
+import { getGroupMembers, groupReset } from "../../redux/actions";
 
 const mapStateToProps = state => ({
   state,
   loadingGroup: state.groups.loadingGroup,
-  group: state.group
+  loadingGroupMembers: state.group.loadingGroupMembers,
+  startLoadingGroupMembers: state.group.startLoadingGroupMembers,
+  group: state.group,
+  token: state.token
 });
 
 const mapDispatchToProps = dispatch => ({
   dispatch,
-  groupReset: () => dispatch(groupReset())
+  groupReset: () => dispatch(groupReset()),
+  getGroupMembers: (id, members_count, token) =>
+    dispatch(getGroupMembers(id, members_count, token))
 });
 
 const Card = connect(
