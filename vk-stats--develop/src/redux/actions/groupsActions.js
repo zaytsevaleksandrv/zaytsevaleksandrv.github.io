@@ -38,9 +38,11 @@ export const getGroup = (id, token) => async dispatch => {
     } + offset'}).items; offset = offset + 1000;}; return members;`;
 
     const executePromise = await connect.sendPromise("VKWebAppCallAPIMethod", {
-      method: "execute",
+      method: "execute.getMembers",
       params: {
-        code: code,
+        group_id: group_id,
+        offset: 0,
+        total_count: members_count,
         access_token: token,
         v: "5.102"
       }
@@ -85,9 +87,7 @@ export const getGroup = (id, token) => async dispatch => {
       }
     });
 
-    const res = await getMembers(id, req.response[0].members_count);
-
-    dispatch({ type: "GET_GROUP_RES", payload: req, members: res });
+    dispatch({ type: "GET_GROUP_RES", payload: req, members: await getMembers(id, req.response[0].members_count) });
     return req;
   } catch (error) {
     dispatch({ type: "GET_GROUP_FAIL", payload: error.message });
