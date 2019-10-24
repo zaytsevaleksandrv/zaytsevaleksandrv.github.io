@@ -28,15 +28,7 @@ export const getGroup = (id, token) => async dispatch => {
   dispatch({ type: "GET_GROUP_REQ" });
 
   let membersGroups = [];
-  async function getMembers(group_id, members_count) {
-    const code = `var members = API.groups.getMembers({"group_id": ${group_id}, "v": "5.27", "sort": "id_asc", "count": "1000", "offset": '${
-      membersGroups.length
-    }'}).items; var offset = 1000; while (offset < 25000 && (offset + ${
-      membersGroups.length
-    }) < ${members_count}) { members = members + "," + API.groups.getMembers({"group_id": ${group_id}, "v": "5.27", "sort": "id_asc", "count": "1000", "offset": '${
-      membersGroups.length
-    } + offset'}).items; offset = offset + 1000;}; return members;`;
-
+  async function getMembers(group_id, members_count, req) {
     const executePromise = await connect.sendPromise("VKWebAppCallAPIMethod", {
       method: "execute.getMembers",
       params: {
@@ -56,7 +48,7 @@ export const getGroup = (id, token) => async dispatch => {
 
       if (members_count > membersGroups.length) {
         setTimeout(function() {
-          getMembers(group_id, members_count);
+          getMembers(group_id, members_count, req);
         }, 333);
       } else {
         console.log(
@@ -65,13 +57,15 @@ export const getGroup = (id, token) => async dispatch => {
             " элементов."
         );
 
-        return membersGroups;
+        return dispatch({
+          type: "GET_GROUP_RES",
+          payload: req,
+          members: membersGroups
+        });
       }
     } else {
       console.log(executePromise.error_msg);
     }
-
-    return membersGroups;
   }
 
   try {
@@ -87,7 +81,8 @@ export const getGroup = (id, token) => async dispatch => {
       }
     });
 
-    dispatch({ type: "GET_GROUP_RES", payload: req, members: await getMembers(id, req.response[0].members_count) });
+    await getMembers(id, req.response[0].members_count, req);
+
     return req;
   } catch (error) {
     dispatch({ type: "GET_GROUP_FAIL", payload: error.message });
