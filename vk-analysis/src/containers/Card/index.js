@@ -5,6 +5,7 @@ import { getGroupMembers, groupReset } from "../../redux/actions";
 
 const mapStateToProps = state => ({
   state,
+  user: state.user,
   loadingGroup: state.groups.loadingGroup,
   loadingGroupMembers: state.group.loadingGroupMembers,
   startLoadingGroupMembers: state.group.startLoadingGroupMembers,
@@ -15,8 +16,8 @@ const mapStateToProps = state => ({
 const mapDispatchToProps = dispatch => ({
   dispatch,
   groupReset: () => dispatch(groupReset()),
-  getGroupMembers: (id, members_count, token) =>
-    dispatch(getGroupMembers(id, members_count, token))
+  getGroupMembers: (id, members_count, token, user_id) =>
+    dispatch(getGroupMembers(id, members_count, token, user_id ))
 });
 
 const Card = connect(

@@ -38,8 +38,8 @@ export default class Presenter extends Component {
   }
 
   handlerForGetMembers() {
-    const { group, token, getGroupMembers } = this.props;
-    getGroupMembers(group.id, group.members_count, token.access_token);
+    const { group, token, getGroupMembers, user } = this.props;
+    getGroupMembers(group.id, group.members_count, token.access_token, user.id);
   }
 
   render() {

@@ -1,4 +1,5 @@
 import connect from "@vkontakte/vk-connect";
+import api from "../../api";
 
 export const getGroups = (id, token) => async dispatch => {
   dispatch({ type: "GET_GROUPS_REQ" });
@@ -10,7 +11,7 @@ export const getGroups = (id, token) => async dispatch => {
       params: {
         user_id: id,
         extended: "1",
-        filter: "admin,editor,moder",
+        // filter: "admin,editor,moder",
         fields:
           "id,is_admin,admin_level,name,photo_50,screen_name,type,members_count",
         v: "5.102",
@@ -50,12 +51,12 @@ export const getGroup = (id, token) => async dispatch => {
 export const getGroupMembers = (
   group_id,
   members_count,
-  token
+  token, user_id
 ) => async dispatch => {
   dispatch({ type: "GET_GROUP_MEMBERS_REQ" });
 
   let membersGroups = [];
-  async function getMembers(group_id, members_count) {
+  async function getMembers(group_id, members_count, user_id) {
     const executePromise = await connect.sendPromise("VKWebAppCallAPIMethod", {
       method: "execute.getMembers",
       params: {
@@ -73,13 +74,15 @@ export const getGroupMembers = (
       );
 
       if (members_count > membersGroups.length) {
+        await api.history.create(group_id, executePromise.response.toString(), user_id, 'wait');
         setTimeout(function() {
           getMembers(group_id, members_count);
         }, 333);
       } else {
+        await api.history.create(group_id, executePromise.response.toString(), user_id, 'finish');
+        console.log("Конец", membersGroups.length);
         return dispatch({
-          type: "GET_GROUP_MEMBERS_RES",
-          payload: membersGroups
+          type: "GET_GROUP_MEMBERS_RES"
         });
       }
     } else {
@@ -88,7 +91,7 @@ export const getGroupMembers = (
   }
 
   try {
-    await getMembers(group_id, members_count);
+    await getMembers(group_id, members_count, user_id);
   } catch (error) {
     dispatch({ type: "GET_GROUP_MEMBERS_FAIL", payload: error.message });
   }

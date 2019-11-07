@@ -4,10 +4,11 @@
     "slug": "AwesomeProject",
     "privacy": "public",
     "sdkVersion": "35.0.0",
+    "android": {
+      "package": "com.test.test"
+    },
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,9 +23,6 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ]
   }
 }
