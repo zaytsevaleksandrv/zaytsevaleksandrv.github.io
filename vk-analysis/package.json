@@ -30,7 +30,7 @@
     "@vkontakte/vk-connect": "^1.6.5",
     "@vkontakte/vkui": "^2.32.3",
     "autoprefixer": "^9.6.1",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "bem-cn": "^3.0.1",
